@@ -1,0 +1,8 @@
+# We ignore SourceMod, our batch script
+# and DocParse binary
+sourcemod
+update.sh
+docparse
+
+# Also we ignore temp files
+tmp
