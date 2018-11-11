@@ -7,5 +7,9 @@
   "shop/players.inc":   "https://raw.githubusercontent.com/FD-Forks/Shop-Core/master/addons/sourcemod/scripting/include/shop/players.inc",
   "shop/register.inc":  "https://raw.githubusercontent.com/FD-Forks/Shop-Core/master/addons/sourcemod/scripting/include/shop/register.inc",
 
-  "vip_core.inc":       "https://raw.githubusercontent.com/R1KO/VIP-Core/master/addons/sourcemod/scripting/include/vip_core.inc"
+  "vip_core.inc":       "https://raw.githubusercontent.com/R1KO/VIP-Core/master/addons/sourcemod/scripting/include/vip_core.inc",
+
+  "ripext.inc":         "https://raw.githubusercontent.com/ErikMinekus/sm-ripext/master/pawn/scripting/include/ripext.inc",
+  "ripext/http.inc":    "https://raw.githubusercontent.com/ErikMinekus/sm-ripext/master/pawn/scripting/include/ripext/http.inc",
+  "ripext/json.inc":    "https://raw.githubusercontent.com/ErikMinekus/sm-ripext/master/pawn/scripting/include/ripext/json.inc"
 }
