@@ -1,0 +1,11 @@
+{
+  "shop.inc":           "https://raw.githubusercontent.com/FD-Forks/Shop-Core/master/addons/sourcemod/scripting/include/shop.inc",
+  "shop/admin.inc":     "https://raw.githubusercontent.com/FD-Forks/Shop-Core/master/addons/sourcemod/scripting/include/shop/admin.inc",
+  "shop/db.inc":        "https://raw.githubusercontent.com/FD-Forks/Shop-Core/master/addons/sourcemod/scripting/include/shop/db.inc",
+  "shop/functions.inc": "https://raw.githubusercontent.com/FD-Forks/Shop-Core/master/addons/sourcemod/scripting/include/shop/functions.inc",
+  "shop/items.inc":     "https://raw.githubusercontent.com/FD-Forks/Shop-Core/master/addons/sourcemod/scripting/include/shop/items.inc",
+  "shop/players.inc":   "https://raw.githubusercontent.com/FD-Forks/Shop-Core/master/addons/sourcemod/scripting/include/shop/players.inc",
+  "shop/register.inc":  "https://raw.githubusercontent.com/FD-Forks/Shop-Core/master/addons/sourcemod/scripting/include/shop/register.inc",
+
+  "vip_core.inc":       "https://raw.githubusercontent.com/R1KO/VIP-Core/master/addons/sourcemod/scripting/include/vip_core.inc"
+}
