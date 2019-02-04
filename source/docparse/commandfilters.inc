@@ -70,8 +70,8 @@
     },
     {
       "name": "AddMultiTargetFilter",
-      "docStart": 5682,
-      "docEnd": 6014,
+      "docStart": 5746,
+      "docEnd": 6078,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -99,8 +99,8 @@
     },
     {
       "name": "RemoveMultiTargetFilter",
-      "docStart": 6173,
-      "docEnd": 6358,
+      "docStart": 6237,
+      "docEnd": 6422,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -120,13 +120,20 @@
   "methodmaps": [],
   "enums": [],
   "constants": [],
-  "typesets": [],
-  "typedefs": [
+  "typesets": [
     {
       "name": "MultiTargetFilter",
       "docStart": 5353,
       "docEnd": 5595,
-      "type": "function bool(const char[] pattern, Handle clients)"
+      "types": [
+        {
+          "type": "function bool(const char[] pattern, Handle clients)"
+        },
+        {
+          "type": "function bool(const char[] pattern, ArrayList clients)"
+        }
+      ]
     }
-  ]
+  ],
+  "typedefs": []
 }
