@@ -2,8 +2,8 @@
   "functions": [
     {
       "name": "CompileRegex",
-      "docStart": 8261,
-      "docEnd": 8840,
+      "docStart": 8262,
+      "docEnd": 8841,
       "kind": "native",
       "returnType": "Regex",
       "arguments": [
@@ -36,8 +36,8 @@
     },
     {
       "name": "MatchRegex",
-      "docStart": 8982,
-      "docEnd": 9374,
+      "docStart": 8983,
+      "docEnd": 9375,
       "kind": "native",
       "returnType": "int",
       "arguments": [
@@ -60,8 +60,8 @@
     },
     {
       "name": "GetRegexSubString",
-      "docStart": 9470,
-      "docEnd": 10091,
+      "docStart": 9471,
+      "docEnd": 10092,
       "kind": "native",
       "returnType": "bool",
       "arguments": [
@@ -89,8 +89,8 @@
     },
     {
       "name": "SimpleRegexMatch",
-      "docStart": 10180,
-      "docEnd": 10786,
+      "docStart": 10181,
+      "docEnd": 10787,
       "kind": "stock",
       "returnType": "int",
       "arguments": [
