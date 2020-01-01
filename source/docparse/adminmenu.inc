@@ -2,8 +2,8 @@
   "functions": [
     {
       "name": "OnAdminMenuCreated",
-      "docStart": 2301,
-      "docEnd": 2478,
+      "docStart": 2319,
+      "docEnd": 2501,
       "kind": "forward",
       "returnType": "void",
       "arguments": [
@@ -16,8 +16,8 @@
     },
     {
       "name": "OnAdminMenuReady",
-      "docStart": 2532,
-      "docEnd": 2662,
+      "docStart": 2555,
+      "docEnd": 2690,
       "kind": "forward",
       "returnType": "void",
       "arguments": [
@@ -30,16 +30,16 @@
     },
     {
       "name": "GetAdminTopMenu",
-      "docStart": 2714,
-      "docEnd": 2872,
+      "docStart": 2742,
+      "docEnd": 2926,
       "kind": "native",
       "returnType": "TopMenu",
       "arguments": []
     },
     {
       "name": "AddTargetsToMenu",
-      "docStart": 2911,
-      "docEnd": 3324,
+      "docStart": 2965,
+      "docEnd": 3398,
       "kind": "native",
       "returnType": "int",
       "arguments": [
@@ -67,8 +67,8 @@
     },
     {
       "name": "AddTargetsToMenu2",
-      "docStart": 3461,
-      "docEnd": 3820,
+      "docStart": 3538,
+      "docEnd": 3920,
       "kind": "native",
       "returnType": "int",
       "arguments": [
@@ -91,8 +91,8 @@
     },
     {
       "name": "RedisplayAdminMenu",
-      "docStart": 3898,
-      "docEnd": 4139,
+      "docStart": 3998,
+      "docEnd": 4260,
       "kind": "stock",
       "returnType": "bool",
       "arguments": [

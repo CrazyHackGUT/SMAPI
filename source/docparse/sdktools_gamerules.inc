@@ -2,8 +2,8 @@
   "functions": [
     {
       "name": "GameRules_GetProp",
-      "docStart": 2556,
-      "docEnd": 3023,
+      "docStart": 2543,
+      "docEnd": 3080,
       "kind": "native",
       "returnType": "int",
       "arguments": [
@@ -26,8 +26,8 @@
     },
     {
       "name": "GameRules_SetProp",
-      "docStart": 3104,
-      "docEnd": 3597,
+      "docStart": 3161,
+      "docEnd": 3723,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -60,8 +60,8 @@
     },
     {
       "name": "GameRules_GetPropFloat",
-      "docStart": 3714,
-      "docEnd": 3982,
+      "docStart": 3840,
+      "docEnd": 4140,
       "kind": "native",
       "returnType": "float",
       "arguments": [
@@ -79,8 +79,8 @@
     },
     {
       "name": "GameRules_SetPropFloat",
-      "docStart": 4058,
-      "docEnd": 4352,
+      "docStart": 4216,
+      "docEnd": 4540,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -108,8 +108,8 @@
     },
     {
       "name": "GameRules_GetPropEnt",
-      "docStart": 4464,
-      "docEnd": 4824,
+      "docStart": 4652,
+      "docEnd": 5075,
       "kind": "native",
       "returnType": "int",
       "arguments": [
@@ -127,8 +127,8 @@
     },
     {
       "name": "GameRules_SetPropEnt",
-      "docStart": 4896,
-      "docEnd": 5215,
+      "docStart": 5147,
+      "docEnd": 5496,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -156,8 +156,8 @@
     },
     {
       "name": "GameRules_GetPropVector",
-      "docStart": 5323,
-      "docEnd": 5612,
+      "docStart": 5604,
+      "docEnd": 5923,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -180,8 +180,8 @@
     },
     {
       "name": "GameRules_SetPropVector",
-      "docStart": 5702,
-      "docEnd": 6016,
+      "docStart": 6013,
+      "docEnd": 6360,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -209,8 +209,8 @@
     },
     {
       "name": "GameRules_GetPropString",
-      "docStart": 6136,
-      "docEnd": 6410,
+      "docStart": 6480,
+      "docEnd": 6793,
       "kind": "native",
       "returnType": "int",
       "arguments": [
@@ -233,8 +233,8 @@
     },
     {
       "name": "GameRules_SetPropString",
-      "docStart": 6497,
-      "docEnd": 6751,
+      "docStart": 6880,
+      "docEnd": 7168,
       "kind": "native",
       "returnType": "int",
       "arguments": [
@@ -257,8 +257,8 @@
     },
     {
       "name": "GameRules_GetRoundState",
-      "docStart": 6856,
-      "docEnd": 6978,
+      "docStart": 7273,
+      "docEnd": 7416,
       "kind": "stock",
       "returnType": "RoundState",
       "arguments": []
@@ -271,58 +271,58 @@
       "entries": [
         {
           "name": "RoundState_Init",
-          "docStart": 1683,
-          "docEnd": 1719
+          "docStart": 1681,
+          "docEnd": 1717
         },
         {
           "name": "RoundState_Pregame",
-          "docStart": 1744,
-          "docEnd": 1912
+          "docStart": 1741,
+          "docEnd": 1909
         },
         {
           "name": "RoundState_StartGame",
-          "docStart": 1940,
-          "docEnd": 1999
+          "docStart": 1936,
+          "docEnd": 1995
         },
         {
           "name": "RoundState_Preround",
-          "docStart": 2029,
-          "docEnd": 2073
+          "docStart": 2024,
+          "docEnd": 2068
         },
         {
           "name": "RoundState_RoundRunning",
-          "docStart": 2102,
-          "docEnd": 2133
+          "docStart": 2096,
+          "docEnd": 2127
         },
         {
           "name": "RoundState_TeamWin",
-          "docStart": 2166,
-          "docEnd": 2193
+          "docStart": 2159,
+          "docEnd": 2186
         },
         {
           "name": "RoundState_Restart",
-          "docStart": 2221,
-          "docEnd": 2277
+          "docStart": 2213,
+          "docEnd": 2269
         },
         {
           "name": "RoundState_Stalemate",
-          "docStart": 2305,
-          "docEnd": 2338
+          "docStart": 2296,
+          "docEnd": 2329
         },
         {
           "name": "RoundState_GameOver",
-          "docStart": 2368,
-          "docEnd": 2410
+          "docStart": 2358,
+          "docEnd": 2400
         },
         {
           "name": "RoundState_Bonus",
-          "docStart": 2439,
-          "docEnd": 2478
+          "docStart": 2428,
+          "docEnd": 2467
         },
         {
           "name": "RoundState_BetweenRounds",
-          "docStart": 2504,
-          "docEnd": 2520
+          "docStart": 2492,
+          "docEnd": 2508
         }
       ]
     }

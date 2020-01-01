@@ -2,8 +2,8 @@
   "functions": [
     {
       "name": "SetVariantBool",
-      "docStart": 1626,
-      "docEnd": 1715,
+      "docStart": 1624,
+      "docEnd": 1722,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -16,8 +16,8 @@
     },
     {
       "name": "SetVariantString",
-      "docStart": 1755,
-      "docEnd": 1841,
+      "docStart": 1762,
+      "docEnd": 1857,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -30,8 +30,8 @@
     },
     {
       "name": "SetVariantInt",
-      "docStart": 1891,
-      "docEnd": 1984,
+      "docStart": 1907,
+      "docEnd": 2009,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -44,8 +44,8 @@
     },
     {
       "name": "SetVariantFloat",
-      "docStart": 2022,
-      "docEnd": 2121,
+      "docStart": 2047,
+      "docEnd": 2155,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -58,8 +58,8 @@
     },
     {
       "name": "SetVariantVector3D",
-      "docStart": 2163,
-      "docEnd": 2252,
+      "docStart": 2197,
+      "docEnd": 2295,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -72,8 +72,8 @@
     },
     {
       "name": "SetVariantPosVector3D",
-      "docStart": 2306,
-      "docEnd": 2413,
+      "docStart": 2349,
+      "docEnd": 2465,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -86,8 +86,8 @@
     },
     {
       "name": "SetVariantColor",
-      "docStart": 2470,
-      "docEnd": 2556,
+      "docStart": 2522,
+      "docEnd": 2615,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -100,8 +100,8 @@
     },
     {
       "name": "SetVariantEntity",
-      "docStart": 2607,
-      "docEnd": 2729,
+      "docStart": 2666,
+      "docEnd": 2808,
       "kind": "native",
       "returnType": "void",
       "arguments": [

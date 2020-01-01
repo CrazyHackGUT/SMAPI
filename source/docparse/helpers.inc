@@ -24,8 +24,8 @@
     },
     {
       "name": "FindPluginByFile",
-      "docStart": 2070,
-      "docEnd": 2257,
+      "docStart": 2147,
+      "docEnd": 2348,
       "kind": "stock",
       "returnType": "Handle",
       "arguments": [
@@ -60,8 +60,8 @@
     },
     {
       "name": "FindTarget",
-      "docStart": 3707,
-      "docEnd": 4092,
+      "docStart": 3877,
+      "docEnd": 4299,
       "kind": "stock",
       "returnType": "int",
       "arguments": [

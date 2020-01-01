@@ -2,8 +2,8 @@
   "functions": [
     {
       "name": "CloseHandle",
-      "docStart": 1772,
-      "docEnd": 2152,
+      "docStart": 1770,
+      "docEnd": 2160,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -16,8 +16,8 @@
     },
     {
       "name": "CloneHandle",
-      "docStart": 2195,
-      "docEnd": 3214,
+      "docStart": 2203,
+      "docEnd": 3280,
       "kind": "native",
       "returnType": "Handle",
       "arguments": [
@@ -50,8 +50,8 @@
   "enums": [
     {
       "name": "Handle",
-      "docStart": 1640,
-      "docEnd": 1674,
+      "docStart": 1639,
+      "docEnd": 1673,
       "entries": [
         {
           "name": "INVALID_HANDLE"

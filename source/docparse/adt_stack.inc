@@ -2,8 +2,8 @@
   "functions": [
     {
       "name": "CreateStack",
-      "docStart": 4876,
-      "docEnd": 5578,
+      "docStart": 4859,
+      "docEnd": 5606,
       "kind": "native",
       "returnType": "ArrayStack",
       "arguments": [
@@ -16,8 +16,8 @@
     },
     {
       "name": "PushStackCell",
-      "docStart": 5631,
-      "docEnd": 5909,
+      "docStart": 5659,
+      "docEnd": 5960,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -35,8 +35,8 @@
     },
     {
       "name": "PushStackString",
-      "docStart": 5966,
-      "docEnd": 6185,
+      "docStart": 6017,
+      "docEnd": 6259,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -54,8 +54,8 @@
     },
     {
       "name": "PushStackArray",
-      "docStart": 6253,
-      "docEnd": 6781,
+      "docStart": 6327,
+      "docEnd": 6917,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -78,8 +78,8 @@
     },
     {
       "name": "PopStackCell",
-      "docStart": 6861,
-      "docEnd": 7248,
+      "docStart": 6997,
+      "docEnd": 7445,
       "kind": "native",
       "returnType": "bool",
       "arguments": [
@@ -107,8 +107,8 @@
     },
     {
       "name": "PopStackString",
-      "docStart": 7337,
-      "docEnd": 7604,
+      "docStart": 7534,
+      "docEnd": 7837,
       "kind": "native",
       "returnType": "bool",
       "arguments": [
@@ -136,8 +136,8 @@
     },
     {
       "name": "PopStackArray",
-      "docStart": 7697,
-      "docEnd": 8050,
+      "docStart": 7930,
+      "docEnd": 8339,
       "kind": "native",
       "returnType": "bool",
       "arguments": [
@@ -160,8 +160,8 @@
     },
     {
       "name": "IsStackEmpty",
-      "docStart": 8123,
-      "docEnd": 8280,
+      "docStart": 8412,
+      "docEnd": 8596,
       "kind": "native",
       "returnType": "bool",
       "arguments": [
@@ -174,8 +174,8 @@
     },
     {
       "name": "PopStack",
-      "docStart": 8325,
-      "docEnd": 8516,
+      "docStart": 8641,
+      "docEnd": 8859,
       "kind": "stock",
       "returnType": "bool",
       "arguments": [
@@ -188,8 +188,8 @@
     },
     {
       "name": "GetStackBlockSize",
-      "docStart": 8611,
-      "docEnd": 8783,
+      "docStart": 8954,
+      "docEnd": 9152,
       "kind": "native",
       "returnType": "int",
       "arguments": [
@@ -265,7 +265,7 @@
         {
           "name": "Pop",
           "docStart": 3480,
-          "docEnd": 3830,
+          "docEnd": 3813,
           "returnType": "any",
           "arguments": [
             {
@@ -282,8 +282,8 @@
         },
         {
           "name": "PopString",
-          "docStart": 3892,
-          "docEnd": 4205,
+          "docStart": 3875,
+          "docEnd": 4188,
           "returnType": "void",
           "arguments": [
             {
@@ -305,8 +305,8 @@
         },
         {
           "name": "PopArray",
-          "docStart": 4290,
-          "docEnd": 4584,
+          "docStart": 4273,
+          "docEnd": 4567,
           "returnType": "void",
           "arguments": [
             {
@@ -325,16 +325,16 @@
       "properties": [
         {
           "name": "Empty",
-          "docStart": 4647,
-          "docEnd": 4702,
+          "docStart": 4630,
+          "docEnd": 4685,
           "type": "bool",
           "getter": true,
           "setter": false
         },
         {
           "name": "BlockSize",
-          "docStart": 4760,
-          "docEnd": 4813,
+          "docStart": 4743,
+          "docEnd": 4796,
           "type": "int",
           "getter": true,
           "setter": false

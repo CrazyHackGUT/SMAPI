@@ -2,8 +2,8 @@
   "functions": [
     {
       "name": "OnPluginStart",
-      "docStart": 3990,
-      "docEnd": 4298,
+      "docStart": 4128,
+      "docEnd": 4433,
       "kind": "forward",
       "returnType": "void",
       "arguments": []
@@ -37,8 +37,8 @@
     },
     {
       "name": "AskPluginLoad2",
-      "docStart": 4678,
-      "docEnd": 5788,
+      "docStart": 4813,
+      "docEnd": 5953,
       "kind": "forward",
       "returnType": "APLRes",
       "arguments": [
@@ -66,16 +66,16 @@
     },
     {
       "name": "OnPluginEnd",
-      "docStart": 5877,
-      "docEnd": 6125,
+      "docStart": 6042,
+      "docEnd": 6287,
       "kind": "forward",
       "returnType": "void",
       "arguments": []
     },
     {
       "name": "OnPluginPauseChange",
-      "docStart": 6158,
-      "docEnd": 6297,
+      "docStart": 6320,
+      "docEnd": 6465,
       "kind": "forward",
       "returnType": "void",
       "arguments": [
@@ -88,40 +88,40 @@
     },
     {
       "name": "OnGameFrame",
-      "docStart": 6348,
-      "docEnd": 6488,
+      "docStart": 6516,
+      "docEnd": 6656,
       "kind": "forward",
       "returnType": "void",
       "arguments": []
     },
     {
       "name": "OnMapStart",
-      "docStart": 6521,
-      "docEnd": 6686,
+      "docStart": 6689,
+      "docEnd": 6860,
       "kind": "forward",
       "returnType": "void",
       "arguments": []
     },
     {
       "name": "OnMapEnd",
-      "docStart": 6718,
-      "docEnd": 6762,
+      "docStart": 6892,
+      "docEnd": 6936,
       "kind": "forward",
       "returnType": "void",
       "arguments": []
     },
     {
       "name": "OnConfigsExecuted",
-      "docStart": 6792,
-      "docEnd": 7134,
+      "docStart": 6966,
+      "docEnd": 7310,
       "kind": "forward",
       "returnType": "void",
       "arguments": []
     },
     {
       "name": "OnAutoConfigsBuffered",
-      "docStart": 7173,
-      "docEnd": 7744,
+      "docStart": 7349,
+      "docEnd": 7914,
       "kind": "forward",
       "returnType": "void",
       "arguments": []
@@ -134,32 +134,32 @@
     },
     {
       "name": "OnAllPluginsLoaded",
-      "docStart": 7929,
-      "docEnd": 8111,
+      "docStart": 8108,
+      "docEnd": 8288,
       "kind": "forward",
       "returnType": "void",
       "arguments": []
     },
     {
       "name": "GetMyHandle",
-      "docStart": 8151,
-      "docEnd": 8249,
+      "docStart": 8328,
+      "docEnd": 8436,
       "kind": "native",
       "returnType": "Handle",
       "arguments": []
     },
     {
       "name": "GetPluginIterator",
-      "docStart": 8283,
-      "docEnd": 8478,
+      "docStart": 8470,
+      "docEnd": 8700,
       "kind": "native",
       "returnType": "Handle",
       "arguments": []
     },
     {
       "name": "MorePlugins",
-      "docStart": 8518,
-      "docEnd": 8733,
+      "docStart": 8740,
+      "docEnd": 8983,
       "kind": "native",
       "returnType": "bool",
       "arguments": [
@@ -172,8 +172,8 @@
     },
     {
       "name": "ReadPlugin",
-      "docStart": 8776,
-      "docEnd": 9033,
+      "docStart": 9026,
+      "docEnd": 9327,
       "kind": "native",
       "returnType": "Handle",
       "arguments": [
@@ -186,8 +186,8 @@
     },
     {
       "name": "GetPluginStatus",
-      "docStart": 9077,
-      "docEnd": 9268,
+      "docStart": 9371,
+      "docEnd": 9589,
       "kind": "native",
       "returnType": "PluginStatus",
       "arguments": [
@@ -200,8 +200,8 @@
     },
     {
       "name": "GetPluginFilename",
-      "docStart": 9325,
-      "docEnd": 9620,
+      "docStart": 9646,
+      "docEnd": 9967,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -224,8 +224,8 @@
     },
     {
       "name": "IsPluginDebugging",
-      "docStart": 9701,
-      "docEnd": 9931,
+      "docStart": 10048,
+      "docEnd": 10305,
       "kind": "native",
       "returnType": "bool",
       "arguments": [
@@ -238,8 +238,8 @@
     },
     {
       "name": "GetPluginInfo",
-      "docStart": 9982,
-      "docEnd": 10349,
+      "docStart": 10356,
+      "docEnd": 10766,
       "kind": "native",
       "returnType": "bool",
       "arguments": [
@@ -267,8 +267,8 @@
     },
     {
       "name": "FindPluginByNumber",
-      "docStart": 10443,
-      "docEnd": 10926,
+      "docStart": 10860,
+      "docEnd": 11368,
       "kind": "native",
       "returnType": "Handle",
       "arguments": [
@@ -281,8 +281,8 @@
     },
     {
       "name": "SetFailState",
-      "docStart": 10980,
-      "docEnd": 11683,
+      "docStart": 11422,
+      "docEnd": 12145,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -300,8 +300,8 @@
     },
     {
       "name": "ThrowError",
-      "docStart": 11744,
-      "docEnd": 11974,
+      "docStart": 12206,
+      "docEnd": 12464,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -319,8 +319,8 @@
     },
     {
       "name": "LogStackTrace",
-      "docStart": 12030,
-      "docEnd": 12276,
+      "docStart": 12520,
+      "docEnd": 12795,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -338,8 +338,8 @@
     },
     {
       "name": "GetTime",
-      "docStart": 12335,
-      "docEnd": 12531,
+      "docStart": 12854,
+      "docEnd": 13064,
       "kind": "native",
       "returnType": "int",
       "arguments": [
@@ -352,8 +352,8 @@
     },
     {
       "name": "FormatTime",
-      "docStart": 12579,
-      "docEnd": 13304,
+      "docStart": 13112,
+      "docEnd": 13868,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -381,8 +381,8 @@
     },
     {
       "name": "LoadGameConfigFile",
-      "docStart": 13398,
-      "docEnd": 13671,
+      "docStart": 13962,
+      "docEnd": 14269,
       "kind": "native",
       "returnType": "GameData",
       "arguments": [
@@ -395,8 +395,8 @@
     },
     {
       "name": "GameConfGetOffset",
-      "docStart": 13731,
-      "docEnd": 13909,
+      "docStart": 14329,
+      "docEnd": 14535,
       "kind": "native",
       "returnType": "int",
       "arguments": [
@@ -414,8 +414,8 @@
     },
     {
       "name": "GameConfGetKeyValue",
-      "docStart": 13973,
-      "docEnd": 14288,
+      "docStart": 14599,
+      "docEnd": 14953,
       "kind": "native",
       "returnType": "bool",
       "arguments": [
@@ -443,8 +443,8 @@
     },
     {
       "name": "GameConfGetAddress",
-      "docStart": 14382,
-      "docEnd": 14708,
+      "docStart": 15047,
+      "docEnd": 15373,
       "kind": "native",
       "returnType": "Address",
       "arguments": [
@@ -462,16 +462,16 @@
     },
     {
       "name": "GetSysTickCount",
-      "docStart": 14784,
-      "docEnd": 15006,
+      "docStart": 15449,
+      "docEnd": 15680,
       "kind": "native",
       "returnType": "int",
       "arguments": []
     },
     {
       "name": "AutoExecConfig",
-      "docStart": 15041,
-      "docEnd": 15667,
+      "docStart": 15715,
+      "docEnd": 16404,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -494,8 +494,8 @@
     },
     {
       "name": "RegPluginLibrary",
-      "docStart": 15777,
-      "docEnd": 15905,
+      "docStart": 16514,
+      "docEnd": 16648,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -508,8 +508,8 @@
     },
     {
       "name": "LibraryExists",
-      "docStart": 15959,
-      "docEnd": 16333,
+      "docStart": 16702,
+      "docEnd": 17090,
       "kind": "native",
       "returnType": "bool",
       "arguments": [
@@ -522,8 +522,8 @@
     },
     {
       "name": "GetExtensionFileStatus",
-      "docStart": 16384,
-      "docEnd": 16843,
+      "docStart": 17141,
+      "docEnd": 17670,
       "kind": "native",
       "returnType": "int",
       "arguments": [
@@ -546,8 +546,8 @@
     },
     {
       "name": "OnLibraryAdded",
-      "docStart": 16936,
-      "docEnd": 17159,
+      "docStart": 17763,
+      "docEnd": 17991,
       "kind": "forward",
       "returnType": "void",
       "arguments": [
@@ -560,8 +560,8 @@
     },
     {
       "name": "OnLibraryRemoved",
-      "docStart": 17212,
-      "docEnd": 17445,
+      "docStart": 18044,
+      "docEnd": 18282,
       "kind": "forward",
       "returnType": "void",
       "arguments": [
@@ -574,8 +574,8 @@
     },
     {
       "name": "ReadMapList",
-      "docStart": 17805,
-      "docEnd": 20618,
+      "docStart": 18654,
+      "docEnd": 21817,
       "kind": "native",
       "returnType": "Handle",
       "arguments": [
@@ -603,8 +603,8 @@
     },
     {
       "name": "SetMapListCompatBind",
-      "docStart": 20793,
-      "docEnd": 21164,
+      "docStart": 22038,
+      "docEnd": 22421,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -622,8 +622,8 @@
     },
     {
       "name": "OnClientFloodCheck",
-      "docStart": 21241,
-      "docEnd": 21636,
+      "docStart": 22498,
+      "docEnd": 22907,
       "kind": "forward",
       "returnType": "bool",
       "arguments": [
@@ -636,8 +636,8 @@
     },
     {
       "name": "OnClientFloodResult",
-      "docStart": 21686,
-      "docEnd": 22163,
+      "docStart": 22957,
+      "docEnd": 23442,
       "kind": "forward",
       "returnType": "void",
       "arguments": [
@@ -655,16 +655,16 @@
     },
     {
       "name": "CanTestFeatures",
-      "docStart": 23009,
-      "docEnd": 23324,
+      "docStart": 24285,
+      "docEnd": 24600,
       "kind": "stock",
       "returnType": "bool",
       "arguments": []
     },
     {
       "name": "GetFeatureStatus",
-      "docStart": 23411,
-      "docEnd": 23613,
+      "docStart": 24687,
+      "docEnd": 24889,
       "kind": "native",
       "returnType": "FeatureStatus",
       "arguments": [
@@ -682,8 +682,8 @@
     },
     {
       "name": "RequireFeature",
-      "docStart": 23694,
-      "docEnd": 24032,
+      "docStart": 24970,
+      "docEnd": 25308,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -711,8 +711,8 @@
     },
     {
       "name": "LoadFromAddress",
-      "docStart": 24451,
-      "docEnd": 24687,
+      "docStart": 25727,
+      "docEnd": 25963,
       "kind": "native",
       "returnType": "int",
       "arguments": [
@@ -730,8 +730,8 @@
     },
     {
       "name": "StoreToAddress",
-      "docStart": 24751,
-      "docEnd": 24978,
+      "docStart": 26027,
+      "docEnd": 26254,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -759,8 +759,8 @@
       "methods": [
         {
           "name": "GameData",
-          "docStart": 2823,
-          "docEnd": 3079,
+          "docStart": 2853,
+          "docEnd": 3144,
           "returnType": "GameData",
           "arguments": [
             {
@@ -772,8 +772,8 @@
         },
         {
           "name": "GetOffset",
-          "docStart": 3129,
-          "docEnd": 3263,
+          "docStart": 3194,
+          "docEnd": 3348,
           "returnType": "int",
           "arguments": [
             {
@@ -785,8 +785,8 @@
         },
         {
           "name": "GetKeyValue",
-          "docStart": 3317,
-          "docEnd": 3587,
+          "docStart": 3402,
+          "docEnd": 3706,
           "returnType": "bool",
           "arguments": [
             {
@@ -808,8 +808,8 @@
         },
         {
           "name": "GetAddress",
-          "docStart": 3671,
-          "docEnd": 3927,
+          "docStart": 3790,
+          "docEnd": 4065,
           "returnType": "Address",
           "arguments": [
             {
@@ -827,29 +827,29 @@
       "methods": [
         {
           "name": "FrameIterator",
-          "docStart": 25090,
-          "docEnd": 25199,
+          "docStart": 26365,
+          "docEnd": 26487,
           "returnType": "FrameIterator",
           "arguments": []
         },
         {
           "name": "Next",
-          "docStart": 25239,
-          "docEnd": 25409,
+          "docStart": 26525,
+          "docEnd": 26722,
           "returnType": "bool",
           "arguments": []
         },
         {
           "name": "Reset",
-          "docStart": 25444,
-          "docEnd": 25498,
+          "docStart": 26756,
+          "docEnd": 26810,
           "returnType": "void",
           "arguments": []
         },
         {
           "name": "GetFunctionName",
-          "docStart": 25653,
-          "docEnd": 25798,
+          "docStart": 26962,
+          "docEnd": 27107,
           "returnType": "void",
           "arguments": [
             {
@@ -866,8 +866,8 @@
         },
         {
           "name": "GetFilePath",
-          "docStart": 25869,
-          "docEnd": 26015,
+          "docStart": 27177,
+          "docEnd": 27323,
           "returnType": "void",
           "arguments": [
             {
@@ -886,9 +886,9 @@
       "properties": [
         {
           "name": "LineNumber",
-          "docStart": 25534,
-          "docEnd": 25590,
-          "type": "bool",
+          "docStart": 26845,
+          "docEnd": 26901,
+          "type": "int",
           "getter": true,
           "setter": false
         }
@@ -901,64 +901,64 @@
       "entries": [
         {
           "name": "APLRes_Success",
-          "docStart": 2606,
-          "docEnd": 2632
+          "docStart": 2627,
+          "docEnd": 2653
         },
         {
           "name": "APLRes_Failure",
-          "docStart": 2653,
-          "docEnd": 2710
+          "docStart": 2680,
+          "docEnd": 2737
         },
         {
           "name": "APLRes_SilentFailure",
-          "docStart": 2734,
-          "docEnd": 2782
+          "docStart": 2764,
+          "docEnd": 2812
         }
       ]
     },
     {
       "name": "FeatureType",
-      "docStart": 22228,
-      "docEnd": 22255,
+      "docStart": 23507,
+      "docEnd": 23534,
       "entries": [
         {
           "name": "FeatureType_Native",
-          "docStart": 22279,
-          "docEnd": 22317
+          "docStart": 23558,
+          "docEnd": 23596
         },
         {
           "name": "FeatureType_Capability",
-          "docStart": 22345,
-          "docEnd": 22693
+          "docStart": 23623,
+          "docEnd": 23971
         }
       ]
     },
     {
       "name": "FeatureStatus",
-      "docStart": 22726,
-      "docEnd": 22756,
+      "docStart": 24004,
+      "docEnd": 24034,
       "entries": [
         {
           "name": "FeatureStatus_Available",
-          "docStart": 22782,
-          "docEnd": 22826
+          "docStart": 24060,
+          "docEnd": 24104
         },
         {
           "name": "FeatureStatus_Unavailable",
-          "docStart": 22859,
-          "docEnd": 22899
+          "docStart": 24136,
+          "docEnd": 24176
         },
         {
           "name": "FeatureStatus_Unknown",
-          "docStart": 22934,
-          "docEnd": 22977
+          "docStart": 24210,
+          "docEnd": 24253
         }
       ]
     },
     {
       "name": "NumberType",
-      "docStart": 24160,
-      "docEnd": 24240,
+      "docStart": 25436,
+      "docEnd": 25516,
       "entries": [
         {
           "name": "NumberType_Int8"
@@ -976,8 +976,8 @@
       "entries": [
         {
           "name": "Address_Null",
-          "docStart": 24387,
-          "docEnd": 24443
+          "docStart": 25663,
+          "docEnd": 25719
         }
       ]
     }

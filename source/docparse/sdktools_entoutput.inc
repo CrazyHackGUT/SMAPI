@@ -2,8 +2,8 @@
   "functions": [
     {
       "name": "HookEntityOutput",
-      "docStart": 2328,
-      "docEnd": 2575,
+      "docStart": 2384,
+      "docEnd": 2655,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -26,8 +26,8 @@
     },
     {
       "name": "UnhookEntityOutput",
-      "docStart": 2678,
-      "docEnd": 2969,
+      "docStart": 2758,
+      "docEnd": 3083,
       "kind": "native",
       "returnType": "bool",
       "arguments": [
@@ -50,8 +50,8 @@
     },
     {
       "name": "HookSingleEntityOutput",
-      "docStart": 3074,
-      "docEnd": 3428,
+      "docStart": 3188,
+      "docEnd": 3575,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -79,8 +79,8 @@
     },
     {
       "name": "UnhookSingleEntityOutput",
-      "docStart": 3542,
-      "docEnd": 3883,
+      "docStart": 3689,
+      "docEnd": 4065,
       "kind": "native",
       "returnType": "bool",
       "arguments": [
@@ -103,8 +103,8 @@
     },
     {
       "name": "FireEntityOutput",
-      "docStart": 3982,
-      "docEnd": 4420,
+      "docStart": 4164,
+      "docEnd": 4638,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -137,8 +137,8 @@
   "typesets": [
     {
       "name": "EntityOutput",
-      "docStart": 1663,
-      "docEnd": 2135,
+      "docStart": 1661,
+      "docEnd": 2191,
       "types": [
         {
           "type": "function void(const char[] output, int caller, int activator, float delay)"

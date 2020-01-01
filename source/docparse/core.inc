@@ -2,8 +2,8 @@
   "functions": [
     {
       "name": "IsNullVector",
-      "docStart": 4732,
-      "docEnd": 4890,
+      "docStart": 4872,
+      "docEnd": 5030,
       "kind": "native",
       "returnType": "bool",
       "arguments": [
@@ -16,8 +16,8 @@
     },
     {
       "name": "IsNullString",
-      "docStart": 4941,
-      "docEnd": 5099,
+      "docStart": 5081,
+      "docEnd": 5239,
       "kind": "native",
       "returnType": "bool",
       "arguments": [
@@ -36,8 +36,8 @@
     },
     {
       "name": "MarkNativeAsOptional",
-      "docStart": 5333,
-      "docEnd": 5562,
+      "docStart": 5473,
+      "docEnd": 5709,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -59,35 +59,35 @@
   "enums": [
     {
       "name": "Action",
-      "docStart": 1910,
-      "docEnd": 1967,
+      "docStart": 1913,
+      "docEnd": 1970,
       "entries": [
         {
           "name": "Plugin_Continue",
-          "docStart": 2007,
-          "docEnd": 2048
+          "docStart": 2013,
+          "docEnd": 2054
         },
         {
           "name": "Plugin_Changed",
-          "docStart": 2072,
-          "docEnd": 2134
+          "docStart": 2081,
+          "docEnd": 2143
         },
         {
           "name": "Plugin_Handled",
-          "docStart": 2158,
-          "docEnd": 2210
+          "docStart": 2170,
+          "docEnd": 2222
         },
         {
           "name": "Plugin_Stop",
-          "docStart": 2231,
-          "docEnd": 2294
+          "docStart": 2249,
+          "docEnd": 2312
         }
       ]
     },
     {
       "name": "Identity",
-      "docStart": 2302,
-      "docEnd": 2340,
+      "docStart": 2320,
+      "docEnd": 2358,
       "entries": [
         {
           "name": "Identity_Core"
@@ -102,85 +102,85 @@
     },
     {
       "name": "PluginStatus",
-      "docStart": 2582,
-      "docEnd": 2616,
+      "docStart": 2600,
+      "docEnd": 2634,
       "entries": [
         {
           "name": "Plugin_Running",
-          "docStart": 2660,
-          "docEnd": 2741
+          "docStart": 2683,
+          "docEnd": 2764
         },
         {
           "name": "Plugin_Paused",
-          "docStart": 2761,
-          "docEnd": 2796
+          "docStart": 2791,
+          "docEnd": 2826
         },
         {
           "name": "Plugin_Error",
-          "docStart": 2815,
-          "docEnd": 2907
+          "docStart": 2853,
+          "docEnd": 2945
         },
         {
           "name": "Plugin_Loaded",
-          "docStart": 2927,
-          "docEnd": 2981
+          "docStart": 2972,
+          "docEnd": 3026
         },
         {
           "name": "Plugin_Failed",
-          "docStart": 3001,
-          "docEnd": 3035
+          "docStart": 3053,
+          "docEnd": 3087
         },
         {
           "name": "Plugin_Created",
-          "docStart": 3056,
-          "docEnd": 3101
+          "docStart": 3114,
+          "docEnd": 3159
         },
         {
           "name": "Plugin_Uncompiled",
-          "docStart": 3124,
-          "docEnd": 3169
+          "docStart": 3186,
+          "docEnd": 3231
         },
         {
           "name": "Plugin_BadLoad",
-          "docStart": 3190,
-          "docEnd": 3219
+          "docStart": 3258,
+          "docEnd": 3287
         },
         {
           "name": "Plugin_Evicted",
-          "docStart": 3239,
-          "docEnd": 3282
+          "docStart": 3314,
+          "docEnd": 3357
         }
       ]
     },
     {
       "name": "PluginInfo",
-      "docStart": 3290,
-      "docEnd": 3724,
+      "docStart": 3365,
+      "docEnd": 3799,
       "entries": [
         {
           "name": "PlInfo_Name",
-          "docStart": 3762,
-          "docEnd": 3781
+          "docStart": 3846,
+          "docEnd": 3865
         },
         {
           "name": "PlInfo_Author",
-          "docStart": 3801,
-          "docEnd": 3822
+          "docStart": 3892,
+          "docEnd": 3913
         },
         {
           "name": "PlInfo_Description",
-          "docStart": 3846,
-          "docEnd": 3872
+          "docStart": 3940,
+          "docEnd": 3966
         },
         {
           "name": "PlInfo_Version",
-          "docStart": 3893,
-          "docEnd": 3915
+          "docStart": 3993,
+          "docEnd": 4015
         },
         {
           "name": "PlInfo_URL",
-          "docStart": 3933,
-          "docEnd": 3951
+          "docStart": 4042,
+          "docEnd": 4060
         }
       ]
     }

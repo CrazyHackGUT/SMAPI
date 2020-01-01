@@ -2,8 +2,8 @@
   "functions": [
     {
       "name": "OnClientConnect",
-      "docStart": 3007,
-      "docEnd": 3794,
+      "docStart": 3029,
+      "docEnd": 3841,
       "kind": "forward",
       "returnType": "bool",
       "arguments": [
@@ -26,8 +26,8 @@
     },
     {
       "name": "OnClientConnected",
-      "docStart": 3871,
-      "docEnd": 4014,
+      "docStart": 3918,
+      "docEnd": 4067,
       "kind": "forward",
       "returnType": "void",
       "arguments": [
@@ -40,8 +40,8 @@
     },
     {
       "name": "OnClientPutInServer",
-      "docStart": 4063,
-      "docEnd": 4556,
+      "docStart": 4116,
+      "docEnd": 4615,
       "kind": "forward",
       "returnType": "void",
       "arguments": [
@@ -54,8 +54,8 @@
     },
     {
       "name": "OnClientDisconnect",
-      "docStart": 4607,
-      "docEnd": 4711,
+      "docStart": 4666,
+      "docEnd": 4776,
       "kind": "forward",
       "returnType": "void",
       "arguments": [
@@ -68,8 +68,8 @@
     },
     {
       "name": "OnClientDisconnect_Post",
-      "docStart": 4761,
-      "docEnd": 4864,
+      "docStart": 4826,
+      "docEnd": 4935,
       "kind": "forward",
       "returnType": "void",
       "arguments": [
@@ -82,8 +82,8 @@
     },
     {
       "name": "OnClientCommand",
-      "docStart": 4919,
-      "docEnd": 5309,
+      "docStart": 4990,
+      "docEnd": 5419,
       "kind": "forward",
       "returnType": "Action",
       "arguments": [
@@ -101,8 +101,8 @@
     },
     {
       "name": "OnClientCommandKeyValues",
-      "docStart": 5368,
-      "docEnd": 5764,
+      "docStart": 5478,
+      "docEnd": 5947,
       "kind": "forward",
       "returnType": "Action",
       "arguments": [
@@ -120,8 +120,8 @@
     },
     {
       "name": "OnClientCommandKeyValues_Post",
-      "docStart": 5836,
-      "docEnd": 6091,
+      "docStart": 6019,
+      "docEnd": 6321,
       "kind": "forward",
       "returnType": "void",
       "arguments": [
@@ -139,8 +139,8 @@
     },
     {
       "name": "OnClientSettingsChanged",
-      "docStart": 6166,
-      "docEnd": 6266,
+      "docStart": 6396,
+      "docEnd": 6502,
       "kind": "forward",
       "returnType": "void",
       "arguments": [
@@ -153,8 +153,8 @@
     },
     {
       "name": "OnClientAuthorized",
-      "docStart": 6321,
-      "docEnd": 6693,
+      "docStart": 6557,
+      "docEnd": 6942,
       "kind": "forward",
       "returnType": "void",
       "arguments": [
@@ -172,8 +172,8 @@
     },
     {
       "name": "OnClientPreAdminCheck",
-      "docStart": 6762,
-      "docEnd": 7371,
+      "docStart": 7011,
+      "docEnd": 7636,
       "kind": "forward",
       "returnType": "Action",
       "arguments": [
@@ -186,8 +186,8 @@
     },
     {
       "name": "OnClientPostAdminFilter",
-      "docStart": 7426,
-      "docEnd": 7930,
+      "docStart": 7691,
+      "docEnd": 8201,
       "kind": "forward",
       "returnType": "void",
       "arguments": [
@@ -200,8 +200,8 @@
     },
     {
       "name": "OnClientPostAdminCheck",
-      "docStart": 7985,
-      "docEnd": 8277,
+      "docStart": 8256,
+      "docEnd": 8554,
       "kind": "forward",
       "returnType": "void",
       "arguments": [
@@ -220,16 +220,16 @@
     },
     {
       "name": "GetMaxHumanPlayers",
-      "docStart": 8939,
-      "docEnd": 9579,
+      "docStart": 9284,
+      "docEnd": 9934,
       "kind": "native",
       "returnType": "int",
       "arguments": []
     },
     {
       "name": "GetClientCount",
-      "docStart": 9617,
-      "docEnd": 9788,
+      "docStart": 9972,
+      "docEnd": 10156,
       "kind": "native",
       "returnType": "int",
       "arguments": [
@@ -242,8 +242,8 @@
     },
     {
       "name": "GetClientName",
-      "docStart": 9842,
-      "docEnd": 10169,
+      "docStart": 10210,
+      "docEnd": 10577,
       "kind": "native",
       "returnType": "bool",
       "arguments": [
@@ -266,8 +266,8 @@
     },
     {
       "name": "GetClientIP",
-      "docStart": 10238,
-      "docEnd": 10654,
+      "docStart": 10646,
+      "docEnd": 11109,
       "kind": "native",
       "returnType": "bool",
       "arguments": [
@@ -322,8 +322,8 @@
     },
     {
       "name": "GetClientAuthId",
-      "docStart": 11422,
-      "docEnd": 12020,
+      "docStart": 11994,
+      "docEnd": 12668,
       "kind": "native",
       "returnType": "bool",
       "arguments": [
@@ -356,8 +356,8 @@
     },
     {
       "name": "GetSteamAccountID",
-      "docStart": 12132,
-      "docEnd": 12692,
+      "docStart": 12780,
+      "docEnd": 13399,
       "kind": "native",
       "returnType": "int",
       "arguments": [
@@ -375,8 +375,8 @@
     },
     {
       "name": "GetClientUserId",
-      "docStart": 12759,
-      "docEnd": 13021,
+      "docStart": 13466,
+      "docEnd": 13754,
       "kind": "native",
       "returnType": "int",
       "arguments": [
@@ -389,8 +389,8 @@
     },
     {
       "name": "IsClientConnected",
-      "docStart": 13066,
-      "docEnd": 13232,
+      "docStart": 13799,
+      "docEnd": 13981,
       "kind": "native",
       "returnType": "bool",
       "arguments": [
@@ -403,8 +403,8 @@
     },
     {
       "name": "IsClientInGame",
-      "docStart": 13280,
-      "docEnd": 13522,
+      "docStart": 14029,
+      "docEnd": 14298,
       "kind": "native",
       "returnType": "bool",
       "arguments": [
@@ -417,8 +417,8 @@
     },
     {
       "name": "IsClientInKickQueue",
-      "docStart": 13567,
-      "docEnd": 13862,
+      "docStart": 14343,
+      "docEnd": 14665,
       "kind": "native",
       "returnType": "bool",
       "arguments": [
@@ -443,8 +443,8 @@
     },
     {
       "name": "IsClientAuthorized",
-      "docStart": 14150,
-      "docEnd": 14322,
+      "docStart": 14960,
+      "docEnd": 15148,
       "kind": "native",
       "returnType": "bool",
       "arguments": [
@@ -457,8 +457,8 @@
     },
     {
       "name": "IsFakeClient",
-      "docStart": 14371,
-      "docEnd": 14531,
+      "docStart": 15197,
+      "docEnd": 15373,
       "kind": "native",
       "returnType": "bool",
       "arguments": [
@@ -471,8 +471,8 @@
     },
     {
       "name": "IsClientSourceTV",
-      "docStart": 14574,
-      "docEnd": 14740,
+      "docStart": 15416,
+      "docEnd": 15598,
       "kind": "native",
       "returnType": "bool",
       "arguments": [
@@ -485,8 +485,8 @@
     },
     {
       "name": "IsClientReplay",
-      "docStart": 14787,
-      "docEnd": 14949,
+      "docStart": 15645,
+      "docEnd": 15823,
       "kind": "native",
       "returnType": "bool",
       "arguments": [
@@ -499,8 +499,8 @@
     },
     {
       "name": "IsClientObserver",
-      "docStart": 14994,
-      "docEnd": 15160,
+      "docStart": 15868,
+      "docEnd": 16050,
       "kind": "native",
       "returnType": "bool",
       "arguments": [
@@ -513,8 +513,8 @@
     },
     {
       "name": "IsPlayerAlive",
-      "docStart": 15207,
-      "docEnd": 15512,
+      "docStart": 16097,
+      "docEnd": 16429,
       "kind": "native",
       "returnType": "bool",
       "arguments": [
@@ -527,8 +527,8 @@
     },
     {
       "name": "GetClientInfo",
-      "docStart": 15556,
-      "docEnd": 15892,
+      "docStart": 16473,
+      "docEnd": 16855,
       "kind": "native",
       "returnType": "bool",
       "arguments": [
@@ -556,8 +556,8 @@
     },
     {
       "name": "GetClientTeam",
-      "docStart": 15980,
-      "docEnd": 16198,
+      "docStart": 16943,
+      "docEnd": 17188,
       "kind": "native",
       "returnType": "int",
       "arguments": [
@@ -570,8 +570,8 @@
     },
     {
       "name": "SetUserAdmin",
-      "docStart": 16242,
-      "docEnd": 16537,
+      "docStart": 17232,
+      "docEnd": 17560,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -594,8 +594,8 @@
     },
     {
       "name": "GetUserAdmin",
-      "docStart": 16609,
-      "docEnd": 16818,
+      "docStart": 17632,
+      "docEnd": 17868,
       "kind": "native",
       "returnType": "AdminId",
       "arguments": [
@@ -608,8 +608,8 @@
     },
     {
       "name": "AddUserFlags",
-      "docStart": 16864,
-      "docEnd": 17129,
+      "docStart": 17914,
+      "docEnd": 18204,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -627,8 +627,8 @@
     },
     {
       "name": "RemoveUserFlags",
-      "docStart": 17187,
-      "docEnd": 17434,
+      "docStart": 18262,
+      "docEnd": 18534,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -646,8 +646,8 @@
     },
     {
       "name": "SetUserFlagBits",
-      "docStart": 17495,
-      "docEnd": 17756,
+      "docStart": 18595,
+      "docEnd": 18868,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -665,8 +665,8 @@
     },
     {
       "name": "GetUserFlagBits",
-      "docStart": 17813,
-      "docEnd": 18036,
+      "docStart": 18925,
+      "docEnd": 19175,
       "kind": "native",
       "returnType": "int",
       "arguments": [
@@ -679,8 +679,8 @@
     },
     {
       "name": "CanUserTarget",
-      "docStart": 18081,
-      "docEnd": 18403,
+      "docStart": 19220,
+      "docEnd": 19575,
       "kind": "native",
       "returnType": "bool",
       "arguments": [
@@ -698,8 +698,8 @@
     },
     {
       "name": "RunAdminCacheChecks",
-      "docStart": 18459,
-      "docEnd": 18833,
+      "docStart": 19631,
+      "docEnd": 20032,
       "kind": "native",
       "returnType": "bool",
       "arguments": [
@@ -712,8 +712,8 @@
     },
     {
       "name": "NotifyPostAdminCheck",
-      "docStart": 18883,
-      "docEnd": 19207,
+      "docStart": 20082,
+      "docEnd": 20423,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -726,8 +726,8 @@
     },
     {
       "name": "CreateFakeClient",
-      "docStart": 19258,
-      "docEnd": 19382,
+      "docStart": 20474,
+      "docEnd": 20615,
       "kind": "native",
       "returnType": "int",
       "arguments": [
@@ -740,8 +740,8 @@
     },
     {
       "name": "SetFakeClientConVar",
-      "docStart": 19435,
-      "docEnd": 19682,
+      "docStart": 20668,
+      "docEnd": 20961,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -764,8 +764,8 @@
     },
     {
       "name": "GetClientHealth",
-      "docStart": 19771,
-      "docEnd": 19955,
+      "docStart": 21050,
+      "docEnd": 21261,
       "kind": "native",
       "returnType": "int",
       "arguments": [
@@ -778,8 +778,8 @@
     },
     {
       "name": "GetClientModel",
-      "docStart": 20000,
-      "docEnd": 20298,
+      "docStart": 21306,
+      "docEnd": 21633,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -802,8 +802,8 @@
     },
     {
       "name": "GetClientWeapon",
-      "docStart": 20369,
-      "docEnd": 20669,
+      "docStart": 21704,
+      "docEnd": 22033,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -826,8 +826,8 @@
     },
     {
       "name": "GetClientMaxs",
-      "docStart": 20742,
-      "docEnd": 20974,
+      "docStart": 22106,
+      "docEnd": 22363,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -845,8 +845,8 @@
     },
     {
       "name": "GetClientMins",
-      "docStart": 21032,
-      "docEnd": 21264,
+      "docStart": 22421,
+      "docEnd": 22678,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -864,8 +864,8 @@
     },
     {
       "name": "GetClientAbsAngles",
-      "docStart": 21322,
-      "docEnd": 21559,
+      "docStart": 22736,
+      "docEnd": 22998,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -883,8 +883,8 @@
     },
     {
       "name": "GetClientAbsOrigin",
-      "docStart": 21622,
-      "docEnd": 21857,
+      "docStart": 23061,
+      "docEnd": 23321,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -902,8 +902,8 @@
     },
     {
       "name": "GetClientArmor",
-      "docStart": 21920,
-      "docEnd": 22102,
+      "docStart": 23384,
+      "docEnd": 23593,
       "kind": "native",
       "returnType": "int",
       "arguments": [
@@ -916,8 +916,8 @@
     },
     {
       "name": "GetClientDeaths",
-      "docStart": 22146,
-      "docEnd": 22334,
+      "docStart": 23637,
+      "docEnd": 23852,
       "kind": "native",
       "returnType": "int",
       "arguments": [
@@ -930,8 +930,8 @@
     },
     {
       "name": "GetClientFrags",
-      "docStart": 22379,
-      "docEnd": 22565,
+      "docStart": 23897,
+      "docEnd": 24110,
       "kind": "native",
       "returnType": "int",
       "arguments": [
@@ -944,8 +944,8 @@
     },
     {
       "name": "GetClientDataRate",
-      "docStart": 22609,
-      "docEnd": 22810,
+      "docStart": 24154,
+      "docEnd": 24382,
       "kind": "native",
       "returnType": "int",
       "arguments": [
@@ -958,8 +958,8 @@
     },
     {
       "name": "IsClientTimingOut",
-      "docStart": 22857,
-      "docEnd": 23078,
+      "docStart": 24429,
+      "docEnd": 24677,
       "kind": "native",
       "returnType": "bool",
       "arguments": [
@@ -972,8 +972,8 @@
     },
     {
       "name": "GetClientTime",
-      "docStart": 23126,
-      "docEnd": 23332,
+      "docStart": 24725,
+      "docEnd": 24958,
       "kind": "native",
       "returnType": "float",
       "arguments": [
@@ -986,8 +986,8 @@
     },
     {
       "name": "GetClientLatency",
-      "docStart": 23377,
-      "docEnd": 23703,
+      "docStart": 25003,
+      "docEnd": 25363,
       "kind": "native",
       "returnType": "float",
       "arguments": [
@@ -1005,8 +1005,8 @@
     },
     {
       "name": "GetClientAvgLatency",
-      "docStart": 23765,
-      "docEnd": 24055,
+      "docStart": 25425,
+      "docEnd": 25749,
       "kind": "native",
       "returnType": "float",
       "arguments": [
@@ -1024,8 +1024,8 @@
     },
     {
       "name": "GetClientAvgLoss",
-      "docStart": 24120,
-      "docEnd": 24449,
+      "docStart": 25814,
+      "docEnd": 26177,
       "kind": "native",
       "returnType": "float",
       "arguments": [
@@ -1043,8 +1043,8 @@
     },
     {
       "name": "GetClientAvgChoke",
-      "docStart": 24511,
-      "docEnd": 24841,
+      "docStart": 26239,
+      "docEnd": 26603,
       "kind": "native",
       "returnType": "float",
       "arguments": [
@@ -1062,8 +1062,8 @@
     },
     {
       "name": "GetClientAvgData",
-      "docStart": 24904,
-      "docEnd": 25145,
+      "docStart": 26666,
+      "docEnd": 26941,
       "kind": "native",
       "returnType": "float",
       "arguments": [
@@ -1081,8 +1081,8 @@
     },
     {
       "name": "GetClientAvgPackets",
-      "docStart": 25207,
-      "docEnd": 25472,
+      "docStart": 27003,
+      "docEnd": 27302,
       "kind": "native",
       "returnType": "float",
       "arguments": [
@@ -1100,8 +1100,8 @@
     },
     {
       "name": "GetClientOfUserId",
-      "docStart": 25537,
-      "docEnd": 25711,
+      "docStart": 27367,
+      "docEnd": 27568,
       "kind": "native",
       "returnType": "int",
       "arguments": [
@@ -1114,8 +1114,8 @@
     },
     {
       "name": "KickClient",
-      "docStart": 25758,
-      "docEnd": 26603,
+      "docStart": 27615,
+      "docEnd": 28491,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -1138,8 +1138,8 @@
     },
     {
       "name": "KickClientEx",
-      "docStart": 26677,
-      "docEnd": 27241,
+      "docStart": 28565,
+      "docEnd": 29160,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -1162,8 +1162,8 @@
     },
     {
       "name": "ChangeClientTeam",
-      "docStart": 27317,
-      "docEnd": 27615,
+      "docStart": 29236,
+      "docEnd": 29574,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -1181,8 +1181,8 @@
     },
     {
       "name": "GetClientSerial",
-      "docStart": 27672,
-      "docEnd": 27855,
+      "docStart": 29631,
+      "docEnd": 29844,
       "kind": "native",
       "returnType": "int",
       "arguments": [
@@ -1195,8 +1195,8 @@
     },
     {
       "name": "GetClientFromSerial",
-      "docStart": 27900,
-      "docEnd": 28051,
+      "docStart": 29889,
+      "docEnd": 30056,
       "kind": "native",
       "returnType": "int",
       "arguments": [
@@ -1217,45 +1217,45 @@
       "entries": [
         {
           "name": "NetFlow_Outgoing",
-          "docStart": 1719,
-          "docEnd": 1743
+          "docStart": 1721,
+          "docEnd": 1745
         },
         {
           "name": "NetFlow_Incoming",
-          "docStart": 1765,
-          "docEnd": 1789
+          "docStart": 1772,
+          "docEnd": 1796
         },
         {
           "name": "NetFlow_Both",
-          "docStart": 1808,
-          "docEnd": 1842
+          "docStart": 1823,
+          "docEnd": 1857
         }
       ]
     },
     {
       "name": "AuthIdType",
-      "docStart": 1850,
-      "docEnd": 2144,
+      "docStart": 1865,
+      "docEnd": 2159,
       "entries": [
         {
           "name": "AuthId_Engine",
-          "docStart": 2190,
-          "docEnd": 2255
+          "docStart": 2205,
+          "docEnd": 2270
         },
         {
           "name": "AuthId_Steam2",
-          "docStart": 2261,
-          "docEnd": 2340
+          "docStart": 2276,
+          "docEnd": 2355
         },
         {
           "name": "AuthId_Steam3",
-          "docStart": 2446,
-          "docEnd": 2496
+          "docStart": 2461,
+          "docEnd": 2511
         },
         {
           "name": "AuthId_SteamID64",
-          "docStart": 2522,
-          "docEnd": 2586
+          "docStart": 2537,
+          "docEnd": 2601
         }
       ]
     }

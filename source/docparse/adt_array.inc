@@ -3,7 +3,7 @@
     {
       "name": "ByteCountToCells",
       "docStart": 1659,
-      "docEnd": 1903,
+      "docEnd": 1920,
       "kind": "stock",
       "returnType": "int",
       "arguments": [
@@ -16,8 +16,8 @@
     },
     {
       "name": "CreateArray",
-      "docStart": 9199,
-      "docEnd": 9930,
+      "docStart": 9788,
+      "docEnd": 10583,
       "kind": "native",
       "returnType": "ArrayList",
       "arguments": [
@@ -35,8 +35,8 @@
     },
     {
       "name": "ClearArray",
-      "docStart": 9999,
-      "docEnd": 10147,
+      "docStart": 10652,
+      "docEnd": 10817,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -49,8 +49,8 @@
     },
     {
       "name": "CloneArray",
-      "docStart": 10190,
-      "docEnd": 10559,
+      "docStart": 10860,
+      "docEnd": 11256,
       "kind": "native",
       "returnType": "Handle",
       "arguments": [
@@ -63,8 +63,8 @@
     },
     {
       "name": "ResizeArray",
-      "docStart": 10604,
-      "docEnd": 10933,
+      "docStart": 11301,
+      "docEnd": 11652,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -82,8 +82,8 @@
     },
     {
       "name": "GetArraySize",
-      "docStart": 10990,
-      "docEnd": 11141,
+      "docStart": 11709,
+      "docEnd": 11887,
       "kind": "native",
       "returnType": "int",
       "arguments": [
@@ -96,8 +96,8 @@
     },
     {
       "name": "PushArrayCell",
-      "docStart": 11185,
-      "docEnd": 11501,
+      "docStart": 11931,
+      "docEnd": 12280,
       "kind": "native",
       "returnType": "int",
       "arguments": [
@@ -115,8 +115,8 @@
     },
     {
       "name": "PushArrayString",
-      "docStart": 11557,
-      "docEnd": 11805,
+      "docStart": 12336,
+      "docEnd": 12617,
       "kind": "native",
       "returnType": "int",
       "arguments": [
@@ -134,8 +134,8 @@
     },
     {
       "name": "PushArrayArray",
-      "docStart": 11872,
-      "docEnd": 12423,
+      "docStart": 12684,
+      "docEnd": 13307,
       "kind": "native",
       "returnType": "int",
       "arguments": [
@@ -158,8 +158,8 @@
     },
     {
       "name": "GetArrayCell",
-      "docStart": 12502,
-      "docEnd": 12885,
+      "docStart": 13386,
+      "docEnd": 13830,
       "kind": "native",
       "returnType": "any",
       "arguments": [
@@ -187,8 +187,8 @@
     },
     {
       "name": "GetArrayString",
-      "docStart": 12972,
-      "docEnd": 13279,
+      "docStart": 13917,
+      "docEnd": 14266,
       "kind": "native",
       "returnType": "int",
       "arguments": [
@@ -216,8 +216,8 @@
     },
     {
       "name": "GetArrayArray",
-      "docStart": 13366,
-      "docEnd": 13759,
+      "docStart": 14353,
+      "docEnd": 14808,
       "kind": "native",
       "returnType": "int",
       "arguments": [
@@ -245,8 +245,8 @@
     },
     {
       "name": "SetArrayCell",
-      "docStart": 13842,
-      "docEnd": 14227,
+      "docStart": 14891,
+      "docEnd": 15333,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -279,8 +279,8 @@
     },
     {
       "name": "SetArrayString",
-      "docStart": 14326,
-      "docEnd": 14578,
+      "docStart": 15432,
+      "docEnd": 15723,
       "kind": "native",
       "returnType": "int",
       "arguments": [
@@ -303,8 +303,8 @@
     },
     {
       "name": "SetArrayArray",
-      "docStart": 14655,
-      "docEnd": 15026,
+      "docStart": 15800,
+      "docEnd": 16233,
       "kind": "native",
       "returnType": "int",
       "arguments": [
@@ -332,8 +332,8 @@
     },
     {
       "name": "ShiftArrayUp",
-      "docStart": 15115,
-      "docEnd": 15472,
+      "docStart": 16322,
+      "docEnd": 16702,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -351,8 +351,8 @@
     },
     {
       "name": "RemoveFromArray",
-      "docStart": 15528,
-      "docEnd": 15910,
+      "docStart": 16758,
+      "docEnd": 17163,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -370,8 +370,8 @@
     },
     {
       "name": "SwapArrayItems",
-      "docStart": 15969,
-      "docEnd": 16160,
+      "docStart": 17222,
+      "docEnd": 17442,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -394,8 +394,8 @@
     },
     {
       "name": "FindStringInArray",
-      "docStart": 16231,
-      "docEnd": 16518,
+      "docStart": 17513,
+      "docEnd": 17834,
       "kind": "native",
       "returnType": "int",
       "arguments": [
@@ -413,8 +413,8 @@
     },
     {
       "name": "FindValueInArray",
-      "docStart": 16586,
-      "docEnd": 16942,
+      "docStart": 17902,
+      "docEnd": 18298,
       "kind": "native",
       "returnType": "int",
       "arguments": [
@@ -437,8 +437,8 @@
     },
     {
       "name": "GetArrayBlockSize",
-      "docStart": 17013,
-      "docEnd": 17185,
+      "docStart": 18369,
+      "docEnd": 18567,
       "kind": "native",
       "returnType": "int",
       "arguments": [
@@ -456,8 +456,8 @@
       "methods": [
         {
           "name": "ArrayList",
-          "docStart": 2035,
-          "docEnd": 2833,
+          "docStart": 2063,
+          "docEnd": 2861,
           "returnType": "ArrayList",
           "arguments": [
             {
@@ -474,22 +474,22 @@
         },
         {
           "name": "Clear",
-          "docStart": 2899,
-          "docEnd": 2965,
+          "docStart": 2927,
+          "docEnd": 2993,
           "returnType": "void",
           "arguments": []
         },
         {
           "name": "Clone",
-          "docStart": 3000,
-          "docEnd": 3325,
+          "docStart": 3028,
+          "docEnd": 3353,
           "returnType": "ArrayList",
           "arguments": []
         },
         {
           "name": "Resize",
-          "docStart": 3365,
-          "docEnd": 3613,
+          "docStart": 3393,
+          "docEnd": 3641,
           "returnType": "void",
           "arguments": [
             {
@@ -501,8 +501,8 @@
         },
         {
           "name": "Push",
-          "docStart": 3660,
-          "docEnd": 3972,
+          "docStart": 3688,
+          "docEnd": 3995,
           "returnType": "int",
           "arguments": [
             {
@@ -514,8 +514,8 @@
         },
         {
           "name": "PushString",
-          "docStart": 4014,
-          "docEnd": 4187,
+          "docStart": 4037,
+          "docEnd": 4210,
           "returnType": "int",
           "arguments": [
             {
@@ -527,8 +527,8 @@
         },
         {
           "name": "PushArray",
-          "docStart": 4244,
-          "docEnd": 4768,
+          "docStart": 4267,
+          "docEnd": 4791,
           "returnType": "int",
           "arguments": [
             {
@@ -545,8 +545,8 @@
         },
         {
           "name": "Get",
-          "docStart": 4837,
-          "docEnd": 5205,
+          "docStart": 4860,
+          "docEnd": 5228,
           "returnType": "any",
           "arguments": [
             {
@@ -568,8 +568,8 @@
         },
         {
           "name": "GetString",
-          "docStart": 5278,
-          "docEnd": 5566,
+          "docStart": 5301,
+          "docEnd": 5589,
           "returnType": "int",
           "arguments": [
             {
@@ -591,8 +591,8 @@
         },
         {
           "name": "GetArray",
-          "docStart": 5643,
-          "docEnd": 6038,
+          "docStart": 5666,
+          "docEnd": 6061,
           "returnType": "int",
           "arguments": [
             {
@@ -614,8 +614,8 @@
         },
         {
           "name": "Set",
-          "docStart": 6111,
-          "docEnd": 6495,
+          "docStart": 6134,
+          "docEnd": 6518,
           "returnType": "void",
           "arguments": [
             {
@@ -642,8 +642,8 @@
         },
         {
           "name": "SetString",
-          "docStart": 6580,
-          "docEnd": 6809,
+          "docStart": 6603,
+          "docEnd": 6832,
           "returnType": "void",
           "arguments": [
             {
@@ -660,8 +660,8 @@
         },
         {
           "name": "SetArray",
-          "docStart": 6877,
-          "docEnd": 7250,
+          "docStart": 6900,
+          "docEnd": 7273,
           "returnType": "void",
           "arguments": [
             {
@@ -683,8 +683,8 @@
         },
         {
           "name": "ShiftUp",
-          "docStart": 7330,
-          "docEnd": 7648,
+          "docStart": 7353,
+          "docEnd": 7671,
           "returnType": "void",
           "arguments": [
             {
@@ -696,8 +696,8 @@
         },
         {
           "name": "Erase",
-          "docStart": 7694,
-          "docEnd": 8037,
+          "docStart": 7717,
+          "docEnd": 8060,
           "returnType": "void",
           "arguments": [
             {
@@ -709,8 +709,8 @@
         },
         {
           "name": "SwapAt",
-          "docStart": 8081,
-          "docEnd": 8238,
+          "docStart": 8104,
+          "docEnd": 8261,
           "returnType": "void",
           "arguments": [
             {
@@ -727,8 +727,8 @@
         },
         {
           "name": "FindString",
-          "docStart": 8296,
-          "docEnd": 8532,
+          "docStart": 8319,
+          "docEnd": 8555,
           "returnType": "int",
           "arguments": [
             {
@@ -740,8 +740,8 @@
         },
         {
           "name": "FindValue",
-          "docStart": 8588,
-          "docEnd": 8932,
+          "docStart": 8611,
+          "docEnd": 8952,
           "returnType": "int",
           "arguments": [
             {
@@ -755,21 +755,57 @@
               "decl": "int block"
             }
           ]
+        },
+        {
+          "name": "Sort",
+          "docStart": 9011,
+          "docEnd": 9210,
+          "returnType": "void",
+          "arguments": [
+            {
+              "type": "SortOrder",
+              "name": "order",
+              "decl": "SortOrder order"
+            },
+            {
+              "type": "SortType",
+              "name": "type",
+              "decl": "SortType type"
+            }
+          ]
+        },
+        {
+          "name": "SortCustom",
+          "docStart": 9274,
+          "docEnd": 9486,
+          "returnType": "void",
+          "arguments": [
+            {
+              "type": "SortFuncADTArray",
+              "name": "sortfunc",
+              "decl": "SortFuncADTArray sortfunc"
+            },
+            {
+              "type": "Handle",
+              "name": "hndl",
+              "decl": "Handle hndl"
+            }
+          ]
         }
       ],
       "properties": [
         {
           "name": "Length",
-          "docStart": 8991,
-          "docEnd": 9025,
+          "docStart": 9580,
+          "docEnd": 9614,
           "type": "int",
           "getter": true,
           "setter": false
         },
         {
           "name": "BlockSize",
-          "docStart": 9083,
-          "docEnd": 9136,
+          "docStart": 9672,
+          "docEnd": 9725,
           "type": "int",
           "getter": true,
           "setter": false

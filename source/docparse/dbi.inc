@@ -2,8 +2,8 @@
   "functions": [
     {
       "name": "SQL_Connect",
-      "docStart": 18439,
-      "docEnd": 18826,
+      "docStart": 18604,
+      "docEnd": 19033,
       "kind": "native",
       "returnType": "Database",
       "arguments": [
@@ -31,8 +31,8 @@
     },
     {
       "name": "SQL_DefConnect",
-      "docStart": 18929,
-      "docEnd": 19323,
+      "docStart": 19136,
+      "docEnd": 19583,
       "kind": "stock",
       "returnType": "Database",
       "arguments": [
@@ -55,8 +55,8 @@
     },
     {
       "name": "SQL_ConnectCustom",
-      "docStart": 19478,
-      "docEnd": 20521,
+      "docStart": 19738,
+      "docEnd": 20848,
       "kind": "native",
       "returnType": "Database",
       "arguments": [
@@ -84,8 +84,8 @@
     },
     {
       "name": "SQLite_UseDatabase",
-      "docStart": 20664,
-      "docEnd": 21412,
+      "docStart": 20985,
+      "docEnd": 21771,
       "kind": "stock",
       "returnType": "Database",
       "arguments": [
@@ -165,8 +165,8 @@
     },
     {
       "name": "SQL_CheckConfig",
-      "docStart": 22179,
-      "docEnd": 22346,
+      "docStart": 22527,
+      "docEnd": 22711,
       "kind": "native",
       "returnType": "bool",
       "arguments": [
@@ -179,10 +179,10 @@
     },
     {
       "name": "SQL_GetDriver",
-      "docStart": 22399,
-      "docEnd": 22740,
+      "docStart": 22764,
+      "docEnd": 23138,
       "kind": "native",
-      "returnType": "Handle",
+      "returnType": "DBDriver",
       "arguments": [
         {
           "type": "const char[]",
@@ -193,10 +193,10 @@
     },
     {
       "name": "SQL_ReadDriver",
-      "docStart": 22796,
-      "docEnd": 23043,
+      "docStart": 23196,
+      "docEnd": 23464,
       "kind": "native",
-      "returnType": "Handle",
+      "returnType": "DBDriver",
       "arguments": [
         {
           "type": "Handle",
@@ -217,8 +217,8 @@
     },
     {
       "name": "SQL_GetDriverIdent",
-      "docStart": 23132,
-      "docEnd": 23460,
+      "docStart": 23555,
+      "docEnd": 23909,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -241,8 +241,8 @@
     },
     {
       "name": "SQL_GetDriverProduct",
-      "docStart": 23541,
-      "docEnd": 23856,
+      "docStart": 23990,
+      "docEnd": 24330,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -265,8 +265,8 @@
     },
     {
       "name": "SQL_SetCharset",
-      "docStart": 23941,
-      "docEnd": 24296,
+      "docStart": 24415,
+      "docEnd": 24770,
       "kind": "native",
       "returnType": "bool",
       "arguments": [
@@ -284,8 +284,8 @@
     },
     {
       "name": "SQL_GetAffectedRows",
-      "docStart": 24368,
-      "docEnd": 24601,
+      "docStart": 24842,
+      "docEnd": 25103,
       "kind": "native",
       "returnType": "int",
       "arguments": [
@@ -298,8 +298,8 @@
     },
     {
       "name": "SQL_GetInsertId",
-      "docStart": 24651,
-      "docEnd": 24866,
+      "docStart": 25153,
+      "docEnd": 25396,
       "kind": "native",
       "returnType": "int",
       "arguments": [
@@ -312,8 +312,8 @@
     },
     {
       "name": "SQL_GetError",
-      "docStart": 24912,
-      "docEnd": 25237,
+      "docStart": 25442,
+      "docEnd": 25804,
       "kind": "native",
       "returnType": "bool",
       "arguments": [
@@ -336,8 +336,8 @@
     },
     {
       "name": "SQL_EscapeString",
-      "docStart": 25310,
-      "docEnd": 26405,
+      "docStart": 25877,
+      "docEnd": 27032,
       "kind": "native",
       "returnType": "bool",
       "arguments": [
@@ -370,8 +370,8 @@
     },
     {
       "name": "SQL_FormatQuery",
-      "docStart": 26564,
-      "docEnd": 27028,
+      "docStart": 27191,
+      "docEnd": 27692,
       "kind": "native",
       "returnType": "int",
       "arguments": [
@@ -436,8 +436,8 @@
     },
     {
       "name": "SQL_FastQuery",
-      "docStart": 27501,
-      "docEnd": 27953,
+      "docStart": 28181,
+      "docEnd": 28719,
       "kind": "native",
       "returnType": "bool",
       "arguments": [
@@ -460,8 +460,8 @@
     },
     {
       "name": "SQL_Query",
-      "docStart": 28034,
-      "docEnd": 28546,
+      "docStart": 28800,
+      "docEnd": 29398,
       "kind": "native",
       "returnType": "DBResultSet",
       "arguments": [
@@ -484,8 +484,8 @@
     },
     {
       "name": "SQL_PrepareQuery",
-      "docStart": 28630,
-      "docEnd": 29329,
+      "docStart": 29482,
+      "docEnd": 30237,
       "kind": "native",
       "returnType": "DBStatement",
       "arguments": [
@@ -513,8 +513,8 @@
     },
     {
       "name": "SQL_FetchMoreResults",
-      "docStart": 29437,
-      "docEnd": 29889,
+      "docStart": 30345,
+      "docEnd": 30824,
       "kind": "native",
       "returnType": "bool",
       "arguments": [
@@ -527,8 +527,8 @@
     },
     {
       "name": "SQL_HasResultSet",
-      "docStart": 29942,
-      "docEnd": 30268,
+      "docStart": 30877,
+      "docEnd": 31230,
       "kind": "native",
       "returnType": "bool",
       "arguments": [
@@ -541,8 +541,8 @@
     },
     {
       "name": "SQL_GetRowCount",
-      "docStart": 30317,
-      "docEnd": 30530,
+      "docStart": 31279,
+      "docEnd": 31519,
       "kind": "native",
       "returnType": "int",
       "arguments": [
@@ -555,8 +555,8 @@
     },
     {
       "name": "SQL_GetFieldCount",
-      "docStart": 30577,
-      "docEnd": 30794,
+      "docStart": 31566,
+      "docEnd": 31810,
       "kind": "native",
       "returnType": "int",
       "arguments": [
@@ -569,8 +569,8 @@
     },
     {
       "name": "SQL_FieldNumToName",
-      "docStart": 30843,
-      "docEnd": 31181,
+      "docStart": 31859,
+      "docEnd": 32246,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -598,8 +598,8 @@
     },
     {
       "name": "SQL_FieldNameToNum",
-      "docStart": 31271,
-      "docEnd": 31589,
+      "docStart": 32336,
+      "docEnd": 32694,
       "kind": "native",
       "returnType": "bool",
       "arguments": [
@@ -622,8 +622,8 @@
     },
     {
       "name": "SQL_FetchRow",
-      "docStart": 31671,
-      "docEnd": 32074,
+      "docStart": 32776,
+      "docEnd": 33206,
       "kind": "native",
       "returnType": "bool",
       "arguments": [
@@ -636,8 +636,8 @@
     },
     {
       "name": "SQL_MoreRows",
-      "docStart": 32119,
-      "docEnd": 32315,
+      "docStart": 33251,
+      "docEnd": 33474,
       "kind": "native",
       "returnType": "bool",
       "arguments": [
@@ -650,8 +650,8 @@
     },
     {
       "name": "SQL_Rewind",
-      "docStart": 32360,
-      "docEnd": 32584,
+      "docStart": 33519,
+      "docEnd": 33770,
       "kind": "native",
       "returnType": "bool",
       "arguments": [
@@ -664,8 +664,8 @@
     },
     {
       "name": "SQL_FetchString",
-      "docStart": 32627,
-      "docEnd": 33314,
+      "docStart": 33813,
+      "docEnd": 34580,
       "kind": "native",
       "returnType": "int",
       "arguments": [
@@ -698,8 +698,8 @@
     },
     {
       "name": "SQL_FetchFloat",
-      "docStart": 33432,
-      "docEnd": 34016,
+      "docStart": 34698,
+      "docEnd": 35353,
       "kind": "native",
       "returnType": "float",
       "arguments": [
@@ -722,8 +722,8 @@
     },
     {
       "name": "SQL_FetchInt",
-      "docStart": 34105,
-      "docEnd": 34693,
+      "docStart": 35442,
+      "docEnd": 36101,
       "kind": "native",
       "returnType": "int",
       "arguments": [
@@ -746,8 +746,8 @@
     },
     {
       "name": "SQL_IsFieldNull",
-      "docStart": 34778,
-      "docEnd": 35170,
+      "docStart": 36186,
+      "docEnd": 36627,
       "kind": "native",
       "returnType": "bool",
       "arguments": [
@@ -765,8 +765,8 @@
     },
     {
       "name": "SQL_FetchSize",
-      "docStart": 35229,
-      "docEnd": 35722,
+      "docStart": 36686,
+      "docEnd": 37228,
       "kind": "native",
       "returnType": "int",
       "arguments": [
@@ -784,8 +784,8 @@
     },
     {
       "name": "SQL_BindParamInt",
-      "docStart": 35778,
-      "docEnd": 36195,
+      "docStart": 37284,
+      "docEnd": 37765,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -813,8 +813,8 @@
     },
     {
       "name": "SQL_BindParamFloat",
-      "docStart": 36289,
-      "docEnd": 36616,
+      "docStart": 37859,
+      "docEnd": 38228,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -837,8 +837,8 @@
     },
     {
       "name": "SQL_BindParamString",
-      "docStart": 36695,
-      "docEnd": 37241,
+      "docStart": 38307,
+      "docEnd": 38950,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -866,8 +866,8 @@
     },
     {
       "name": "SQL_Execute",
-      "docStart": 37339,
-      "docEnd": 37577,
+      "docStart": 39048,
+      "docEnd": 39310,
       "kind": "native",
       "returnType": "bool",
       "arguments": [
@@ -880,8 +880,8 @@
     },
     {
       "name": "SQL_LockDatabase",
-      "docStart": 37625,
-      "docEnd": 38288,
+      "docStart": 39358,
+      "docEnd": 40036,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -894,8 +894,8 @@
     },
     {
       "name": "SQL_UnlockDatabase",
-      "docStart": 38340,
-      "docEnd": 38492,
+      "docStart": 40088,
+      "docEnd": 40255,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -908,8 +908,8 @@
     },
     {
       "name": "SQL_IsSameConnection",
-      "docStart": 39115,
-      "docEnd": 39422,
+      "docStart": 40944,
+      "docEnd": 41300,
       "kind": "native",
       "returnType": "bool",
       "arguments": [
@@ -927,8 +927,8 @@
     },
     {
       "name": "SQL_TConnect",
-      "docStart": 39489,
-      "docEnd": 40045,
+      "docStart": 41367,
+      "docEnd": 41957,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -951,8 +951,8 @@
     },
     {
       "name": "SQL_TQuery",
-      "docStart": 40140,
-      "docEnd": 40911,
+      "docStart": 42052,
+      "docEnd": 42878,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -985,16 +985,16 @@
     },
     {
       "name": "SQL_CreateTransaction",
-      "docStart": 41043,
-      "docEnd": 41264,
+      "docStart": 43010,
+      "docEnd": 43231,
       "kind": "native",
       "returnType": "Transaction",
       "arguments": []
     },
     {
       "name": "SQL_AddQuery",
-      "docStart": 41313,
-      "docEnd": 41653,
+      "docStart": 43280,
+      "docEnd": 43627,
       "kind": "native",
       "returnType": "int",
       "arguments": [
@@ -1017,8 +1017,8 @@
     },
     {
       "name": "SQL_ExecuteTransaction",
-      "docStart": 41732,
-      "docEnd": 42320,
+      "docStart": 43706,
+      "docEnd": 44294,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -1058,13 +1058,13 @@
   "methodmaps": [
     {
       "name": "DBDriver",
-      "docStart": 2360,
-      "docEnd": 2470,
+      "docStart": 2409,
+      "docEnd": 2519,
       "methods": [
         {
           "name": "Find",
-          "docStart": 2505,
-          "docEnd": 2810,
+          "docStart": 2554,
+          "docEnd": 2859,
           "returnType": "DBDriver",
           "arguments": [
             {
@@ -1076,8 +1076,8 @@
         },
         {
           "name": "GetIdentifier",
-          "docStart": 2877,
-          "docEnd": 3077,
+          "docStart": 2926,
+          "docEnd": 3126,
           "returnType": "void",
           "arguments": [
             {
@@ -1094,8 +1094,8 @@
         },
         {
           "name": "GetProduct",
-          "docStart": 3147,
-          "docEnd": 3333,
+          "docStart": 3196,
+          "docEnd": 3382,
           "returnType": "void",
           "arguments": [
             {
@@ -1115,20 +1115,20 @@
     },
     {
       "name": "DBResultSet",
-      "docStart": 3405,
-      "docEnd": 3468,
+      "docStart": 3454,
+      "docEnd": 3517,
       "methods": [
         {
           "name": "FetchMoreResults",
-          "docStart": 3506,
-          "docEnd": 3893,
+          "docStart": 3555,
+          "docEnd": 3942,
           "returnType": "bool",
           "arguments": []
         },
         {
           "name": "FieldNumToName",
-          "docStart": 4810,
-          "docEnd": 5085,
+          "docStart": 4859,
+          "docEnd": 5134,
           "returnType": "void",
           "arguments": [
             {
@@ -1150,8 +1150,8 @@
         },
         {
           "name": "FieldNameToNum",
-          "docStart": 5166,
-          "docEnd": 5435,
+          "docStart": 5215,
+          "docEnd": 5484,
           "returnType": "bool",
           "arguments": [
             {
@@ -1168,22 +1168,22 @@
         },
         {
           "name": "FetchRow",
-          "docStart": 5508,
-          "docEnd": 5825,
+          "docStart": 5557,
+          "docEnd": 5874,
           "returnType": "bool",
           "arguments": []
         },
         {
           "name": "Rewind",
-          "docStart": 6034,
-          "docEnd": 6196,
+          "docStart": 6083,
+          "docEnd": 6245,
           "returnType": "bool",
           "arguments": []
         },
         {
           "name": "FetchString",
-          "docStart": 6232,
-          "docEnd": 6895,
+          "docStart": 6281,
+          "docEnd": 6944,
           "returnType": "int",
           "arguments": [
             {
@@ -1210,8 +1210,8 @@
         },
         {
           "name": "FetchFloat",
-          "docStart": 7033,
-          "docEnd": 7584,
+          "docStart": 7053,
+          "docEnd": 7604,
           "returnType": "float",
           "arguments": [
             {
@@ -1228,8 +1228,8 @@
         },
         {
           "name": "FetchInt",
-          "docStart": 7664,
-          "docEnd": 8219,
+          "docStart": 7684,
+          "docEnd": 8239,
           "returnType": "int",
           "arguments": [
             {
@@ -1246,8 +1246,8 @@
         },
         {
           "name": "IsFieldNull",
-          "docStart": 8295,
-          "docEnd": 8631,
+          "docStart": 8315,
+          "docEnd": 8651,
           "returnType": "bool",
           "arguments": [
             {
@@ -1259,8 +1259,8 @@
         },
         {
           "name": "FetchSize",
-          "docStart": 8681,
-          "docEnd": 9120,
+          "docStart": 8701,
+          "docEnd": 9140,
           "returnType": "int",
           "arguments": [
             {
@@ -1274,48 +1274,48 @@
       "properties": [
         {
           "name": "HasResults",
-          "docStart": 3939,
-          "docEnd": 4104,
+          "docStart": 3988,
+          "docEnd": 4153,
           "type": "bool",
           "getter": true,
           "setter": false
         },
         {
           "name": "RowCount",
-          "docStart": 4166,
-          "docEnd": 4350,
+          "docStart": 4215,
+          "docEnd": 4399,
           "type": "int",
           "getter": true,
           "setter": false
         },
         {
           "name": "FieldCount",
-          "docStart": 4409,
-          "docEnd": 4466,
+          "docStart": 4458,
+          "docEnd": 4515,
           "type": "int",
           "getter": true,
           "setter": false
         },
         {
           "name": "AffectedRows",
-          "docStart": 4527,
-          "docEnd": 4617,
+          "docStart": 4576,
+          "docEnd": 4666,
           "type": "int",
           "getter": true,
           "setter": false
         },
         {
           "name": "InsertId",
-          "docStart": 4680,
-          "docEnd": 4751,
+          "docStart": 4729,
+          "docEnd": 4800,
           "type": "int",
           "getter": true,
           "setter": false
         },
         {
           "name": "MoreRows",
-          "docStart": 5863,
-          "docEnd": 5974,
+          "docStart": 5912,
+          "docEnd": 6023,
           "type": "bool",
           "getter": true,
           "setter": false
@@ -1324,20 +1324,20 @@
     },
     {
       "name": "Transaction",
-      "docStart": 10834,
-      "docEnd": 10938,
+      "docStart": 10863,
+      "docEnd": 10967,
       "methods": [
         {
           "name": "Transaction",
-          "docStart": 10976,
-          "docEnd": 11004,
+          "docStart": 11005,
+          "docEnd": 11033,
           "returnType": "Transaction",
           "arguments": []
         },
         {
           "name": "AddQuery",
-          "docStart": 11040,
-          "docEnd": 11273,
+          "docStart": 11069,
+          "docEnd": 11302,
           "returnType": "int",
           "arguments": [
             {
@@ -1357,13 +1357,13 @@
     },
     {
       "name": "DBStatement",
-      "docStart": 11343,
-      "docEnd": 11524,
+      "docStart": 11372,
+      "docEnd": 11553,
       "methods": [
         {
           "name": "BindInt",
-          "docStart": 11562,
-          "docEnd": 11932,
+          "docStart": 11591,
+          "docEnd": 11961,
           "returnType": "void",
           "arguments": [
             {
@@ -1385,8 +1385,8 @@
         },
         {
           "name": "BindFloat",
-          "docStart": 12008,
-          "docEnd": 12264,
+          "docStart": 12037,
+          "docEnd": 12293,
           "returnType": "void",
           "arguments": [
             {
@@ -1403,8 +1403,8 @@
         },
         {
           "name": "BindString",
-          "docStart": 12325,
-          "docEnd": 12859,
+          "docStart": 12354,
+          "docEnd": 12888,
           "returnType": "void",
           "arguments": [
             {
@@ -1429,13 +1429,13 @@
     },
     {
       "name": "Database",
-      "docStart": 14001,
-      "docEnd": 14136,
+      "docStart": 14140,
+      "docEnd": 14275,
       "methods": [
         {
           "name": "Connect",
-          "docStart": 14171,
-          "docEnd": 14460,
+          "docStart": 14310,
+          "docEnd": 14593,
           "returnType": "void",
           "arguments": [
             {
@@ -1457,8 +1457,8 @@
         },
         {
           "name": "SetCharset",
-          "docStart": 14685,
-          "docEnd": 14986,
+          "docStart": 14818,
+          "docEnd": 15119,
           "returnType": "bool",
           "arguments": [
             {
@@ -1470,8 +1470,8 @@
         },
         {
           "name": "Escape",
-          "docStart": 15046,
-          "docEnd": 16108,
+          "docStart": 15179,
+          "docEnd": 16235,
           "returnType": "bool",
           "arguments": [
             {
@@ -1498,8 +1498,8 @@
         },
         {
           "name": "Format",
-          "docStart": 16209,
-          "docEnd": 16630,
+          "docStart": 16336,
+          "docEnd": 16790,
           "returnType": "int",
           "arguments": [
             {
@@ -1526,8 +1526,8 @@
         },
         {
           "name": "IsSameConnection",
-          "docStart": 16729,
-          "docEnd": 16802,
+          "docStart": 16889,
+          "docEnd": 16962,
           "returnType": "bool",
           "arguments": [
             {
@@ -1539,8 +1539,8 @@
         },
         {
           "name": "Query",
-          "docStart": 16862,
-          "docEnd": 17452,
+          "docStart": 17022,
+          "docEnd": 17612,
           "returnType": "void",
           "arguments": [
             {
@@ -1567,8 +1567,8 @@
         },
         {
           "name": "Execute",
-          "docStart": 17633,
-          "docEnd": 18131,
+          "docStart": 17793,
+          "docEnd": 18296,
           "returnType": "void",
           "arguments": [
             {
@@ -1602,8 +1602,8 @@
       "properties": [
         {
           "name": "Driver",
-          "docStart": 14572,
-          "docEnd": 14623,
+          "docStart": 14705,
+          "docEnd": 14756,
           "type": "DBDriver",
           "getter": true,
           "setter": false
@@ -1619,67 +1619,67 @@
       "entries": [
         {
           "name": "DBVal_Error",
-          "docStart": 1741,
-          "docEnd": 1780
+          "docStart": 1747,
+          "docEnd": 1786
         },
         {
           "name": "DBVal_TypeMismatch",
-          "docStart": 1807,
-          "docEnd": 1860
+          "docStart": 1813,
+          "docEnd": 1866
         },
         {
           "name": "DBVal_Null",
-          "docStart": 1881,
-          "docEnd": 1913
+          "docStart": 1893,
+          "docEnd": 1925
         },
         {
           "name": "DBVal_Data",
-          "docStart": 1934,
-          "docEnd": 1956
+          "docStart": 1952,
+          "docEnd": 1974
         }
       ]
     },
     {
       "name": "DBBindType",
-      "docStart": 1964,
-      "docEnd": 2001,
+      "docStart": 1982,
+      "docEnd": 2019,
       "entries": [
         {
           "name": "DBBind_Int",
-          "docStart": 2042,
-          "docEnd": 2066
+          "docStart": 2066,
+          "docEnd": 2090
         },
         {
           "name": "DBBind_Float",
-          "docStart": 2088,
-          "docEnd": 2109
+          "docStart": 2117,
+          "docEnd": 2138
         },
         {
           "name": "DBBind_String",
-          "docStart": 2132,
-          "docEnd": 2154
+          "docStart": 2165,
+          "docEnd": 2187
         }
       ]
     },
     {
       "name": "DBPriority",
-      "docStart": 2162,
-      "docEnd": 2200,
+      "docStart": 2195,
+      "docEnd": 2233,
       "entries": [
         {
           "name": "DBPrio_High",
-          "docStart": 2241,
-          "docEnd": 2263
+          "docStart": 2280,
+          "docEnd": 2302
         },
         {
           "name": "DBPrio_Normal",
-          "docStart": 2286,
-          "docEnd": 2310
+          "docStart": 2329,
+          "docEnd": 2353
         },
         {
           "name": "DBPrio_Low",
-          "docStart": 2331,
-          "docEnd": 2352
+          "docStart": 2380,
+          "docEnd": 2401
         }
       ]
     }
@@ -1691,13 +1691,13 @@
       "types": [
         {
           "type": "function void(Database db, any data, int numQueries, Handle[] results, any[] queryData)",
-          "docStart": 9197,
-          "docEnd": 9632
+          "docStart": 9217,
+          "docEnd": 9652
         },
         {
           "type": "function void(Database db, any data, int numQueries, DBResultSet[] results, any[] queryData)",
-          "docStart": 9730,
-          "docEnd": 10164
+          "docStart": 9750,
+          "docEnd": 10184
         }
       ]
     }
@@ -1705,26 +1705,26 @@
   "typedefs": [
     {
       "name": "SQLTxnFailure",
-      "docStart": 10269,
-      "docEnd": 10698,
+      "docStart": 10289,
+      "docEnd": 10727,
       "type": "function void(Database db, any data, int numQueries, const char[] error, int failIndex, any[] queryData)"
     },
     {
       "name": "SQLConnectCallback",
-      "docStart": 12942,
-      "docEnd": 13334,
+      "docStart": 12971,
+      "docEnd": 13418,
       "type": "function void(Database db, const char[] error, any data)"
     },
     {
       "name": "SQLQueryCallback",
-      "docStart": 13427,
-      "docEnd": 13889,
+      "docStart": 13511,
+      "docEnd": 14028,
       "type": "function void(Database db, DBResultSet results, const char[] error, any data)"
     },
     {
       "name": "SQLTCallback",
-      "docStart": 38546,
-      "docEnd": 39014,
+      "docStart": 40309,
+      "docEnd": 40843,
       "type": "function void(Handle owner, Handle hndl, const char[] error, any data)"
     }
   ]

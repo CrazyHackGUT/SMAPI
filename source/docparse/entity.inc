@@ -2,24 +2,24 @@
   "functions": [
     {
       "name": "GetMaxEntities",
-      "docStart": 3550,
-      "docEnd": 3814,
+      "docStart": 3855,
+      "docEnd": 4129,
       "kind": "native",
       "returnType": "int",
       "arguments": []
     },
     {
       "name": "GetEntityCount",
-      "docStart": 3848,
-      "docEnd": 4132,
+      "docStart": 4163,
+      "docEnd": 4457,
       "kind": "native",
       "returnType": "int",
       "arguments": []
     },
     {
       "name": "IsValidEntity",
-      "docStart": 4166,
-      "docEnd": 4390,
+      "docStart": 4491,
+      "docEnd": 4731,
       "kind": "native",
       "returnType": "bool",
       "arguments": [
@@ -32,8 +32,8 @@
     },
     {
       "name": "IsValidEdict",
-      "docStart": 4434,
-      "docEnd": 4584,
+      "docStart": 4775,
+      "docEnd": 4941,
       "kind": "native",
       "returnType": "bool",
       "arguments": [
@@ -46,8 +46,8 @@
     },
     {
       "name": "IsEntNetworkable",
-      "docStart": 4626,
-      "docEnd": 4819,
+      "docStart": 4983,
+      "docEnd": 5192,
       "kind": "native",
       "returnType": "bool",
       "arguments": [
@@ -60,16 +60,16 @@
     },
     {
       "name": "CreateEdict",
-      "docStart": 4866,
-      "docEnd": 4987,
+      "docStart": 5239,
+      "docEnd": 5370,
       "kind": "native",
       "returnType": "int",
       "arguments": []
     },
     {
       "name": "RemoveEdict",
-      "docStart": 5018,
-      "docEnd": 5141,
+      "docStart": 5401,
+      "docEnd": 5541,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -82,8 +82,8 @@
     },
     {
       "name": "RemoveEntity",
-      "docStart": 5182,
-      "docEnd": 5304,
+      "docStart": 5582,
+      "docEnd": 5721,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -96,8 +96,8 @@
     },
     {
       "name": "GetEdictFlags",
-      "docStart": 5347,
-      "docEnd": 5538,
+      "docStart": 5764,
+      "docEnd": 5982,
       "kind": "native",
       "returnType": "int",
       "arguments": [
@@ -110,8 +110,8 @@
     },
     {
       "name": "SetEdictFlags",
-      "docStart": 5580,
-      "docEnd": 5773,
+      "docStart": 6024,
+      "docEnd": 6240,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -129,8 +129,8 @@
     },
     {
       "name": "GetEdictClassname",
-      "docStart": 5827,
-      "docEnd": 6084,
+      "docStart": 6294,
+      "docEnd": 6575,
       "kind": "native",
       "returnType": "bool",
       "arguments": [
@@ -153,8 +153,8 @@
     },
     {
       "name": "GetEntityNetClass",
-      "docStart": 6162,
-      "docEnd": 6571,
+      "docStart": 6653,
+      "docEnd": 7097,
       "kind": "native",
       "returnType": "bool",
       "arguments": [
@@ -177,8 +177,8 @@
     },
     {
       "name": "ChangeEdictState",
-      "docStart": 7686,
-      "docEnd": 8098,
+      "docStart": 8212,
+      "docEnd": 8663,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -196,8 +196,8 @@
     },
     {
       "name": "GetEntData",
-      "docStart": 8160,
-      "docEnd": 8523,
+      "docStart": 8725,
+      "docEnd": 9128,
       "kind": "native",
       "returnType": "int",
       "arguments": [
@@ -220,8 +220,8 @@
     },
     {
       "name": "SetEntData",
-      "docStart": 8587,
-      "docEnd": 8998,
+      "docStart": 9192,
+      "docEnd": 9641,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -254,8 +254,8 @@
     },
     {
       "name": "GetEntDataFloat",
-      "docStart": 9098,
-      "docEnd": 9386,
+      "docStart": 9741,
+      "docEnd": 10062,
       "kind": "native",
       "returnType": "float",
       "arguments": [
@@ -273,8 +273,8 @@
     },
     {
       "name": "SetEntDataFloat",
-      "docStart": 9445,
-      "docEnd": 9780,
+      "docStart": 10121,
+      "docEnd": 10487,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -346,8 +346,8 @@
     },
     {
       "name": "GetEntDataEnt2",
-      "docStart": 11262,
-      "docEnd": 11847,
+      "docStart": 12143,
+      "docEnd": 12777,
       "kind": "native",
       "returnType": "int",
       "arguments": [
@@ -365,8 +365,8 @@
     },
     {
       "name": "SetEntDataEnt2",
-      "docStart": 11903,
-      "docEnd": 12471,
+      "docStart": 12833,
+      "docEnd": 13432,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -394,8 +394,8 @@
     },
     {
       "name": "GetEntDataVector",
-      "docStart": 12563,
-      "docEnd": 12966,
+      "docStart": 13524,
+      "docEnd": 13964,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -418,8 +418,8 @@
     },
     {
       "name": "SetEntDataVector",
-      "docStart": 13039,
-      "docEnd": 13490,
+      "docStart": 14037,
+      "docEnd": 14527,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -447,8 +447,8 @@
     },
     {
       "name": "GetEntDataString",
-      "docStart": 13593,
-      "docEnd": 13978,
+      "docStart": 14630,
+      "docEnd": 15061,
       "kind": "native",
       "returnType": "int",
       "arguments": [
@@ -476,8 +476,8 @@
     },
     {
       "name": "SetEntDataString",
-      "docStart": 14063,
-      "docEnd": 14495,
+      "docStart": 15146,
+      "docEnd": 15626,
       "kind": "native",
       "returnType": "int",
       "arguments": [
@@ -527,8 +527,8 @@
     },
     {
       "name": "FindSendPropInfo",
-      "docStart": 15405,
-      "docEnd": 16174,
+      "docStart": 16671,
+      "docEnd": 17572,
       "kind": "native",
       "returnType": "int",
       "arguments": [
@@ -588,8 +588,8 @@
     },
     {
       "name": "FindDataMapInfo",
-      "docStart": 17090,
-      "docEnd": 17684,
+      "docStart": 18663,
+      "docEnd": 19340,
       "kind": "native",
       "returnType": "int",
       "arguments": [
@@ -622,8 +622,8 @@
     },
     {
       "name": "GetEntSendPropOffs",
-      "docStart": 17869,
-      "docEnd": 18211,
+      "docStart": 19525,
+      "docEnd": 19930,
       "kind": "stock",
       "returnType": "int",
       "arguments": [
@@ -646,8 +646,8 @@
     },
     {
       "name": "HasEntProp",
-      "docStart": 18534,
-      "docEnd": 18793,
+      "docStart": 20243,
+      "docEnd": 20543,
       "kind": "stock",
       "returnType": "bool",
       "arguments": [
@@ -670,8 +670,8 @@
     },
     {
       "name": "GetEntProp",
-      "docStart": 19143,
-      "docEnd": 19830,
+      "docStart": 20899,
+      "docEnd": 21671,
       "kind": "native",
       "returnType": "int",
       "arguments": [
@@ -704,8 +704,8 @@
     },
     {
       "name": "SetEntProp",
-      "docStart": 19931,
-      "docEnd": 20606,
+      "docStart": 21772,
+      "docEnd": 22528,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -743,8 +743,8 @@
     },
     {
       "name": "GetEntPropFloat",
-      "docStart": 20719,
-      "docEnd": 21225,
+      "docStart": 22641,
+      "docEnd": 23193,
       "kind": "native",
       "returnType": "float",
       "arguments": [
@@ -772,8 +772,8 @@
     },
     {
       "name": "SetEntPropFloat",
-      "docStart": 21321,
-      "docEnd": 21802,
+      "docStart": 23289,
+      "docEnd": 23812,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -806,8 +806,8 @@
     },
     {
       "name": "GetEntPropEnt",
-      "docStart": 21910,
-      "docEnd": 22507,
+      "docStart": 23920,
+      "docEnd": 24595,
       "kind": "native",
       "returnType": "int",
       "arguments": [
@@ -835,8 +835,8 @@
     },
     {
       "name": "SetEntPropEnt",
-      "docStart": 22599,
-      "docEnd": 23104,
+      "docStart": 24687,
+      "docEnd": 25234,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -869,8 +869,8 @@
     },
     {
       "name": "GetEntPropVector",
-      "docStart": 23208,
-      "docEnd": 23778,
+      "docStart": 25338,
+      "docEnd": 25968,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -903,8 +903,8 @@
     },
     {
       "name": "SetEntPropVector",
-      "docStart": 23888,
-      "docEnd": 24434,
+      "docStart": 26078,
+      "docEnd": 26684,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -937,8 +937,8 @@
     },
     {
       "name": "GetEntPropString",
-      "docStart": 24550,
-      "docEnd": 25028,
+      "docStart": 26800,
+      "docEnd": 27336,
       "kind": "native",
       "returnType": "int",
       "arguments": [
@@ -976,8 +976,8 @@
     },
     {
       "name": "SetEntPropString",
-      "docStart": 25150,
-      "docEnd": 25557,
+      "docStart": 27458,
+      "docEnd": 27917,
       "kind": "native",
       "returnType": "int",
       "arguments": [
@@ -1010,8 +1010,8 @@
     },
     {
       "name": "GetEntPropArraySize",
-      "docStart": 25673,
-      "docEnd": 25996,
+      "docStart": 28033,
+      "docEnd": 28397,
       "kind": "native",
       "returnType": "int",
       "arguments": [
@@ -1034,8 +1034,8 @@
     },
     {
       "name": "GetEntDataArray",
-      "docStart": 26079,
-      "docEnd": 26436,
+      "docStart": 28480,
+      "docEnd": 28873,
       "kind": "stock",
       "returnType": "void",
       "arguments": [
@@ -1068,8 +1068,8 @@
     },
     {
       "name": "SetEntDataArray",
-      "docStart": 26641,
-      "docEnd": 27083,
+      "docStart": 29090,
+      "docEnd": 29570,
       "kind": "stock",
       "returnType": "void",
       "arguments": [
@@ -1107,8 +1107,8 @@
     },
     {
       "name": "GetEntityAddress",
-      "docStart": 27338,
-      "docEnd": 27493,
+      "docStart": 29829,
+      "docEnd": 30011,
       "kind": "native",
       "returnType": "Address",
       "arguments": [
@@ -1121,8 +1121,8 @@
     },
     {
       "name": "GetEntityClassname",
-      "docStart": 27543,
-      "docEnd": 27902,
+      "docStart": 30061,
+      "docEnd": 30443,
       "kind": "stock",
       "returnType": "bool",
       "arguments": [
@@ -1153,13 +1153,13 @@
       "entries": [
         {
           "name": "Prop_Send",
-          "docStart": 1714,
-          "docEnd": 1749
+          "docStart": 1715,
+          "docEnd": 1750
         },
         {
           "name": "Prop_Data",
-          "docStart": 1767,
-          "docEnd": 1818
+          "docStart": 1769,
+          "docEnd": 1820
         }
       ]
     },
@@ -1168,41 +1168,41 @@
       "entries": [
         {
           "name": "PropField_Unsupported",
-          "docStart": 2711,
-          "docEnd": 2743
+          "docStart": 2874,
+          "docEnd": 2906
         },
         {
           "name": "PropField_Integer",
-          "docStart": 2767,
-          "docEnd": 2809
+          "docStart": 2937,
+          "docEnd": 2979
         },
         {
           "name": "PropField_Float",
-          "docStart": 2831,
-          "docEnd": 2873
+          "docStart": 3010,
+          "docEnd": 3052
         },
         {
           "name": "PropField_Entity",
-          "docStart": 2896,
-          "docEnd": 2954
+          "docStart": 3083,
+          "docEnd": 3141
         },
         {
           "name": "PropField_Vector",
-          "docStart": 2977,
-          "docEnd": 3019
+          "docStart": 3172,
+          "docEnd": 3214
         },
         {
           "name": "PropField_String",
-          "docStart": 3042,
-          "docEnd": 3084
+          "docStart": 3245,
+          "docEnd": 3287
         },
         {
           "name": "PropField_String_T"
         },
         {
           "name": "PropField_Variant",
-          "docStart": 3109,
-          "docEnd": 3352
+          "docStart": 3318,
+          "docEnd": 3623
         }
       ]
     }

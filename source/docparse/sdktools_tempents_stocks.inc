@@ -2,8 +2,8 @@
   "functions": [
     {
       "name": "TE_SetupSparks",
-      "docStart": 3433,
-      "docEnd": 3644,
+      "docStart": 3555,
+      "docEnd": 3786,
       "kind": "stock",
       "returnType": "void",
       "arguments": [
@@ -31,8 +31,8 @@
     },
     {
       "name": "TE_SetupSmoke",
-      "docStart": 3939,
-      "docEnd": 4147,
+      "docStart": 4081,
+      "docEnd": 4312,
       "kind": "stock",
       "returnType": "void",
       "arguments": [
@@ -60,8 +60,8 @@
     },
     {
       "name": "TE_SetupDust",
-      "docStart": 4418,
-      "docEnd": 4614,
+      "docStart": 4583,
+      "docEnd": 4808,
       "kind": "stock",
       "returnType": "void",
       "arguments": [
@@ -89,8 +89,8 @@
     },
     {
       "name": "TE_SetupMuzzleFlash",
-      "docStart": 4888,
-      "docEnd": 5146,
+      "docStart": 5082,
+      "docEnd": 5367,
       "kind": "stock",
       "returnType": "void",
       "arguments": [
@@ -118,8 +118,8 @@
     },
     {
       "name": "TE_SetupMetalSparks",
-      "docStart": 5429,
-      "docEnd": 5571,
+      "docStart": 5650,
+      "docEnd": 5808,
       "kind": "stock",
       "returnType": "void",
       "arguments": [
@@ -137,8 +137,8 @@
     },
     {
       "name": "TE_SetupEnergySplash",
-      "docStart": 5751,
-      "docEnd": 5947,
+      "docStart": 5988,
+      "docEnd": 6203,
       "kind": "stock",
       "returnType": "void",
       "arguments": [
@@ -161,8 +161,8 @@
     },
     {
       "name": "TE_SetupArmorRicochet",
-      "docStart": 6187,
-      "docEnd": 6336,
+      "docStart": 6443,
+      "docEnd": 6608,
       "kind": "stock",
       "returnType": "void",
       "arguments": [
@@ -180,8 +180,8 @@
     },
     {
       "name": "TE_SetupGlowSprite",
-      "docStart": 6520,
-      "docEnd": 6772,
+      "docStart": 6792,
+      "docEnd": 7074,
       "kind": "stock",
       "returnType": "void",
       "arguments": [
@@ -214,8 +214,8 @@
     },
     {
       "name": "TE_SetupExplosion",
-      "docStart": 7100,
-      "docEnd": 7514,
+      "docStart": 7402,
+      "docEnd": 7860,
       "kind": "stock",
       "returnType": "void",
       "arguments": [
@@ -268,8 +268,8 @@
     },
     {
       "name": "TE_SetupBloodSprite",
-      "docStart": 8097,
-      "docEnd": 8391,
+      "docStart": 8443,
+      "docEnd": 8779,
       "kind": "stock",
       "returnType": "void",
       "arguments": [
@@ -307,8 +307,8 @@
     },
     {
       "name": "TE_SetupBeamRingPoint",
-      "docStart": 8889,
-      "docEnd": 9481,
+      "docStart": 9277,
+      "docEnd": 9921,
       "kind": "stock",
       "returnType": "void",
       "arguments": [
@@ -381,8 +381,8 @@
     },
     {
       "name": "TE_SetupBeamPoints",
-      "docStart": 10452,
-      "docEnd": 11066,
+      "docStart": 10892,
+      "docEnd": 11564,
       "kind": "stock",
       "returnType": "void",
       "arguments": [
@@ -455,8 +455,8 @@
     },
     {
       "name": "TE_SetupBeamLaser",
-      "docStart": 11958,
-      "docEnd": 12612,
+      "docStart": 12456,
+      "docEnd": 13158,
       "kind": "stock",
       "returnType": "void",
       "arguments": [
@@ -529,8 +529,8 @@
     },
     {
       "name": "TE_SetupBeamRing",
-      "docStart": 13510,
-      "docEnd": 14086,
+      "docStart": 14056,
+      "docEnd": 14680,
       "kind": "stock",
       "returnType": "void",
       "arguments": [
@@ -598,8 +598,8 @@
     },
     {
       "name": "TE_SetupBeamFollow",
-      "docStart": 14977,
-      "docEnd": 15392,
+      "docStart": 15571,
+      "docEnd": 16020,
       "kind": "stock",
       "returnType": "void",
       "arguments": [

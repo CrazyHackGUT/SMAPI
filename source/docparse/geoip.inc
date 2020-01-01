@@ -2,8 +2,8 @@
   "functions": [
     {
       "name": "GeoipCode2",
-      "docStart": 1745,
-      "docEnd": 2004,
+      "docStart": 1744,
+      "docEnd": 2028,
       "kind": "native",
       "returnType": "bool",
       "arguments": [
@@ -21,8 +21,8 @@
     },
     {
       "name": "GeoipCode3",
-      "docStart": 2065,
-      "docEnd": 2328,
+      "docStart": 2089,
+      "docEnd": 2377,
       "kind": "native",
       "returnType": "bool",
       "arguments": [
@@ -40,8 +40,8 @@
     },
     {
       "name": "GeoipCountry",
-      "docStart": 2389,
-      "docEnd": 2712,
+      "docStart": 2438,
+      "docEnd": 2789,
       "kind": "native",
       "returnType": "bool",
       "arguments": [

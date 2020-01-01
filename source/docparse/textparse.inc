@@ -2,16 +2,16 @@
   "functions": [
     {
       "name": "SMC_CreateParser",
-      "docStart": 7267,
-      "docEnd": 7409,
+      "docStart": 7458,
+      "docEnd": 7611,
       "kind": "native",
       "returnType": "SMCParser",
       "arguments": []
     },
     {
       "name": "SMC_ParseFile",
-      "docStart": 7451,
-      "docEnd": 7843,
+      "docStart": 7653,
+      "docEnd": 8096,
       "kind": "native",
       "returnType": "SMCError",
       "arguments": [
@@ -39,8 +39,8 @@
     },
     {
       "name": "SMC_GetErrorString",
-      "docStart": 7935,
-      "docEnd": 8339,
+      "docStart": 8188,
+      "docEnd": 8623,
       "kind": "native",
       "returnType": "bool",
       "arguments": [
@@ -63,8 +63,8 @@
     },
     {
       "name": "SMC_SetParseStart",
-      "docStart": 8420,
-      "docEnd": 8613,
+      "docStart": 8704,
+      "docEnd": 8923,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -82,8 +82,8 @@
     },
     {
       "name": "SMC_SetParseEnd",
-      "docStart": 8682,
-      "docEnd": 8862,
+      "docStart": 8992,
+      "docEnd": 9198,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -101,8 +101,8 @@
     },
     {
       "name": "SMC_SetReaders",
-      "docStart": 8927,
-      "docEnd": 9173,
+      "docStart": 9263,
+      "docEnd": 9544,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -130,8 +130,8 @@
     },
     {
       "name": "SMC_SetRawLine",
-      "docStart": 9273,
-      "docEnd": 9418,
+      "docStart": 9644,
+      "docEnd": 9804,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -151,20 +151,20 @@
   "methodmaps": [
     {
       "name": "SMCParser",
-      "docStart": 5205,
-      "docEnd": 5522,
+      "docStart": 5364,
+      "docEnd": 5681,
       "methods": [
         {
           "name": "SMCParser",
-          "docStart": 5558,
-          "docEnd": 5597,
+          "docStart": 5717,
+          "docEnd": 5756,
           "returnType": "SMCParser",
           "arguments": []
         },
         {
           "name": "ParseFile",
-          "docStart": 5631,
-          "docEnd": 5922,
+          "docStart": 5790,
+          "docEnd": 6097,
           "returnType": "SMCError",
           "arguments": [
             {
@@ -186,8 +186,8 @@
         },
         {
           "name": "GetErrorString",
-          "docStart": 6877,
-          "docEnd": 7178,
+          "docStart": 7052,
+          "docEnd": 7369,
           "returnType": "void",
           "arguments": [
             {
@@ -211,48 +211,48 @@
       "properties": [
         {
           "name": "OnStart",
-          "docStart": 6011,
-          "docEnd": 6068,
+          "docStart": 6186,
+          "docEnd": 6243,
           "type": "SMC_ParseStart",
           "getter": false,
           "setter": true
         },
         {
           "name": "OnEnd",
-          "docStart": 6156,
-          "docEnd": 6211,
+          "docStart": 6331,
+          "docEnd": 6386,
           "type": "SMC_ParseEnd",
           "getter": false,
           "setter": true
         },
         {
           "name": "OnEnterSection",
-          "docStart": 6293,
-          "docEnd": 6350,
+          "docStart": 6468,
+          "docEnd": 6525,
           "type": "SMC_NewSection",
           "getter": false,
           "setter": true
         },
         {
           "name": "OnLeaveSection",
-          "docStart": 6445,
-          "docEnd": 6502,
+          "docStart": 6620,
+          "docEnd": 6677,
           "type": "SMC_EndSection",
           "getter": false,
           "setter": true
         },
         {
           "name": "OnKeyValue",
-          "docStart": 6597,
-          "docEnd": 6652,
+          "docStart": 6772,
+          "docEnd": 6827,
           "type": "SMC_KeyValue",
           "getter": false,
           "setter": true
         },
         {
           "name": "OnRawLine",
-          "docStart": 6739,
-          "docEnd": 6793,
+          "docStart": 6914,
+          "docEnd": 6968,
           "type": "SMC_RawLine",
           "getter": false,
           "setter": true
@@ -268,85 +268,85 @@
       "entries": [
         {
           "name": "SMCParse_Continue",
-          "docStart": 2053,
-          "docEnd": 2077
+          "docStart": 2060,
+          "docEnd": 2084
         },
         {
           "name": "SMCParse_Halt",
-          "docStart": 2098,
-          "docEnd": 2123
+          "docStart": 2115,
+          "docEnd": 2140
         },
         {
           "name": "SMCParse_HaltFail",
-          "docStart": 2146,
-          "docEnd": 2185
+          "docStart": 2171,
+          "docEnd": 2210
         }
       ]
     },
     {
       "name": "SMCError",
-      "docStart": 2193,
-      "docEnd": 2224,
+      "docStart": 2218,
+      "docEnd": 2249,
       "entries": [
         {
           "name": "SMCError_Okay",
-          "docStart": 2266,
-          "docEnd": 2282
+          "docStart": 2298,
+          "docEnd": 2314
         },
         {
           "name": "SMCError_StreamOpen",
-          "docStart": 2307,
-          "docEnd": 2336
+          "docStart": 2345,
+          "docEnd": 2374
         },
         {
           "name": "SMCError_StreamError",
-          "docStart": 2362,
-          "docEnd": 2396
+          "docStart": 2405,
+          "docEnd": 2439
         },
         {
           "name": "SMCError_Custom",
-          "docStart": 2418,
-          "docEnd": 2457
+          "docStart": 2470,
+          "docEnd": 2509
         },
         {
           "name": "SMCError_InvalidSection1",
-          "docStart": 2486,
-          "docEnd": 2553
+          "docStart": 2540,
+          "docEnd": 2607
         },
         {
           "name": "SMCError_InvalidSection2",
-          "docStart": 2582,
-          "docEnd": 2631
+          "docStart": 2638,
+          "docEnd": 2687
         },
         {
           "name": "SMCError_InvalidSection3",
-          "docStart": 2660,
-          "docEnd": 2726
+          "docStart": 2718,
+          "docEnd": 2784
         },
         {
           "name": "SMCError_InvalidSection4",
-          "docStart": 2755,
-          "docEnd": 2805
+          "docStart": 2815,
+          "docEnd": 2865
         },
         {
           "name": "SMCError_InvalidSection5",
-          "docStart": 2834,
-          "docEnd": 2884
+          "docStart": 2896,
+          "docEnd": 2946
         },
         {
           "name": "SMCError_InvalidTokens",
-          "docStart": 2912,
-          "docEnd": 2974
+          "docStart": 2977,
+          "docEnd": 3039
         },
         {
           "name": "SMCError_TokenOverflow",
-          "docStart": 3002,
-          "docEnd": 3037
+          "docStart": 3070,
+          "docEnd": 3105
         },
         {
           "name": "SMCError_InvalidProperty1",
-          "docStart": 3067,
-          "docEnd": 3121
+          "docStart": 3136,
+          "docEnd": 3190
         }
       ]
     }
@@ -356,38 +356,38 @@
   "typedefs": [
     {
       "name": "SMC_ParseStart",
-      "docStart": 3129,
-      "docEnd": 3212,
+      "docStart": 3198,
+      "docEnd": 3293,
       "type": "function void(SMCParser smc)"
     },
     {
       "name": "SMC_NewSection",
-      "docStart": 3273,
-      "docEnd": 3630,
+      "docStart": 3354,
+      "docEnd": 3721,
       "type": "function SMCResult(SMCParser smc, const char[] name, bool opt_quotes)"
     },
     {
       "name": "SMC_KeyValue",
-      "docStart": 3732,
-      "docEnd": 4189,
+      "docStart": 3823,
+      "docEnd": 4290,
       "type": "function SMCResult(SMCParser smc, const char[] key, const char[] value, bool key_quotes, bool value_quotes)"
     },
     {
       "name": "SMC_EndSection",
-      "docStart": 4327,
-      "docEnd": 4484,
+      "docStart": 4428,
+      "docEnd": 4595,
       "type": "function SMCResult(SMCParser smc)"
     },
     {
       "name": "SMC_ParseEnd",
-      "docStart": 4550,
-      "docEnd": 4742,
+      "docStart": 4661,
+      "docEnd": 4883,
       "type": "function void(SMCParser smc, bool halted, bool failed)"
     },
     {
       "name": "SMC_RawLine",
-      "docStart": 4827,
-      "docEnd": 5111,
+      "docStart": 4968,
+      "docEnd": 5270,
       "type": "function SMCResult(SMCParser smc, const char[] line, int lineno)"
     }
   ]

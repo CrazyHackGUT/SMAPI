@@ -2,8 +2,8 @@
   "functions": [
     {
       "name": "CreateTopMenu",
-      "docStart": 9625,
-      "docEnd": 9792,
+      "docStart": 9690,
+      "docEnd": 9870,
       "kind": "native",
       "returnType": "TopMenu",
       "arguments": [
@@ -16,8 +16,8 @@
     },
     {
       "name": "LoadTopMenuConfig",
-      "docStart": 9859,
-      "docEnd": 10996,
+      "docStart": 9929,
+      "docEnd": 11138,
       "kind": "native",
       "returnType": "bool",
       "arguments": [
@@ -45,8 +45,8 @@
     },
     {
       "name": "AddToTopMenu",
-      "docStart": 11096,
-      "docEnd": 11748,
+      "docStart": 11238,
+      "docEnd": 11989,
       "kind": "native",
       "returnType": "TopMenuObject",
       "arguments": [
@@ -94,8 +94,8 @@
     },
     {
       "name": "GetTopMenuInfoString",
-      "docStart": 12047,
-      "docEnd": 12431,
+      "docStart": 12278,
+      "docEnd": 12711,
       "kind": "native",
       "returnType": "int",
       "arguments": [
@@ -123,8 +123,8 @@
     },
     {
       "name": "GetTopMenuObjName",
-      "docStart": 12537,
-      "docEnd": 12921,
+      "docStart": 12817,
+      "docEnd": 13250,
       "kind": "native",
       "returnType": "int",
       "arguments": [
@@ -152,8 +152,8 @@
     },
     {
       "name": "RemoveFromTopMenu",
-      "docStart": 13024,
-      "docEnd": 13349,
+      "docStart": 13353,
+      "docEnd": 13696,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -171,8 +171,8 @@
     },
     {
       "name": "DisplayTopMenu",
-      "docStart": 13423,
-      "docEnd": 13702,
+      "docStart": 13770,
+      "docEnd": 14080,
       "kind": "native",
       "returnType": "bool",
       "arguments": [
@@ -195,8 +195,8 @@
     },
     {
       "name": "DisplayTopMenuCategory",
-      "docStart": 13789,
-      "docEnd": 14070,
+      "docStart": 14167,
+      "docEnd": 14480,
       "kind": "native",
       "returnType": "bool",
       "arguments": [
@@ -219,8 +219,8 @@
     },
     {
       "name": "FindTopMenuCategory",
-      "docStart": 14163,
-      "docEnd": 14432,
+      "docStart": 14573,
+      "docEnd": 14885,
       "kind": "native",
       "returnType": "TopMenuObject",
       "arguments": [
@@ -238,8 +238,8 @@
     },
     {
       "name": "SetTopMenuTitleCaching",
-      "docStart": 14514,
-      "docEnd": 15007,
+      "docStart": 14967,
+      "docEnd": 15460,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -265,13 +265,13 @@
   "methodmaps": [
     {
       "name": "TopMenu",
-      "docStart": 4227,
-      "docEnd": 4388,
+      "docStart": 4303,
+      "docEnd": 4464,
       "methods": [
         {
           "name": "TopMenu",
-          "docStart": 4422,
-          "docEnd": 4562,
+          "docStart": 4498,
+          "docEnd": 4638,
           "returnType": "TopMenu",
           "arguments": [
             {
@@ -283,8 +283,8 @@
         },
         {
           "name": "FromHandle",
-          "docStart": 4616,
-          "docEnd": 4775,
+          "docStart": 4692,
+          "docEnd": 4851,
           "returnType": "TopMenu",
           "arguments": [
             {
@@ -296,8 +296,8 @@
         },
         {
           "name": "LoadConfig",
-          "docStart": 4838,
-          "docEnd": 5985,
+          "docStart": 4914,
+          "docEnd": 6055,
           "returnType": "bool",
           "arguments": [
             {
@@ -319,8 +319,8 @@
         },
         {
           "name": "AddCategory",
-          "docStart": 6071,
-          "docEnd": 6464,
+          "docStart": 6141,
+          "docEnd": 6534,
           "returnType": "TopMenuObject",
           "arguments": [
             {
@@ -352,8 +352,8 @@
         },
         {
           "name": "AddItem",
-          "docStart": 6712,
-          "docEnd": 7184,
+          "docStart": 6782,
+          "docEnd": 7254,
           "returnType": "TopMenuObject",
           "arguments": [
             {
@@ -390,8 +390,8 @@
         },
         {
           "name": "GetInfoString",
-          "docStart": 7442,
-          "docEnd": 7733,
+          "docStart": 7512,
+          "docEnd": 7803,
           "returnType": "int",
           "arguments": [
             {
@@ -413,8 +413,8 @@
         },
         {
           "name": "GetObjName",
-          "docStart": 7825,
-          "docEnd": 8115,
+          "docStart": 7895,
+          "docEnd": 8185,
           "returnType": "int",
           "arguments": [
             {
@@ -436,8 +436,8 @@
         },
         {
           "name": "Remove",
-          "docStart": 8204,
-          "docEnd": 8454,
+          "docStart": 8274,
+          "docEnd": 8521,
           "returnType": "void",
           "arguments": [
             {
@@ -449,8 +449,8 @@
         },
         {
           "name": "Display",
-          "docStart": 8510,
-          "docEnd": 8700,
+          "docStart": 8577,
+          "docEnd": 8767,
           "returnType": "bool",
           "arguments": [
             {
@@ -467,8 +467,8 @@
         },
         {
           "name": "DisplayCategory",
-          "docStart": 8773,
-          "docEnd": 8966,
+          "docStart": 8840,
+          "docEnd": 9033,
           "returnType": "bool",
           "arguments": [
             {
@@ -485,8 +485,8 @@
         },
         {
           "name": "FindCategory",
-          "docStart": 9045,
-          "docEnd": 9260,
+          "docStart": 9112,
+          "docEnd": 9326,
           "returnType": "TopMenuObject",
           "arguments": [
             {
@@ -500,8 +500,8 @@
       "properties": [
         {
           "name": "CacheTitles",
-          "docStart": 9329,
-          "docEnd": 9549,
+          "docStart": 9394,
+          "docEnd": 9614,
           "type": "bool",
           "getter": false,
           "setter": true
@@ -512,79 +512,79 @@
   "enums": [
     {
       "name": "TopMenuAction",
-      "docStart": 1678,
-      "docEnd": 1733,
+      "docStart": 1676,
+      "docEnd": 1731,
       "entries": [
         {
           "name": "TopMenuAction_DisplayOption",
-          "docStart": 1759,
-          "docEnd": 1951
+          "docStart": 1757,
+          "docEnd": 1949
         },
         {
           "name": "TopMenuAction_DisplayTitle",
-          "docStart": 1992,
-          "docEnd": 2310
+          "docStart": 1989,
+          "docEnd": 2306
         },
         {
           "name": "TopMenuAction_SelectOption",
-          "docStart": 2350,
-          "docEnd": 2521
+          "docStart": 2345,
+          "docEnd": 2516
         },
         {
           "name": "TopMenuAction_DrawOption",
-          "docStart": 2560,
-          "docEnd": 2848
+          "docStart": 2555,
+          "docEnd": 2876
         },
         {
           "name": "TopMenuAction_RemoveObject",
-          "docStart": 2888,
-          "docEnd": 3067
+          "docStart": 2914,
+          "docEnd": 3093
         }
       ]
     },
     {
       "name": "TopMenuObjectType",
-      "docStart": 3110,
-      "docEnd": 3145,
+      "docStart": 3135,
+      "docEnd": 3170,
       "entries": [
         {
           "name": "TopMenuObject_Category",
-          "docStart": 3205,
-          "docEnd": 3252
+          "docStart": 3236,
+          "docEnd": 3283
         },
         {
           "name": "TopMenuObject_Item",
-          "docStart": 3281,
-          "docEnd": 3307
+          "docStart": 3322,
+          "docEnd": 3348
         }
       ]
     },
     {
       "name": "TopMenuPosition",
-      "docStart": 3315,
-      "docEnd": 3368,
+      "docStart": 3356,
+      "docEnd": 3409,
       "entries": [
         {
           "name": "TopMenuPosition_Start",
-          "docStart": 3425,
-          "docEnd": 3455
+          "docStart": 3473,
+          "docEnd": 3503
         },
         {
           "name": "TopMenuPosition_LastRoot",
-          "docStart": 3489,
-          "docEnd": 3527
+          "docStart": 3542,
+          "docEnd": 3580
         },
         {
           "name": "TopMenuPosition_LastCategory",
-          "docStart": 3564,
-          "docEnd": 3608
+          "docStart": 3619,
+          "docEnd": 3663
         }
       ]
     },
     {
       "name": "TopMenuObject",
-      "docStart": 3616,
-      "docEnd": 3667,
+      "docStart": 3671,
+      "docEnd": 3722,
       "entries": [
         {
           "name": "INVALID_TOPMENUOBJECT"
@@ -597,8 +597,8 @@
   "typedefs": [
     {
       "name": "TopMenuHandler",
-      "docStart": 3727,
-      "docEnd": 4054,
+      "docStart": 3781,
+      "docEnd": 4131,
       "type": "function void(TopMenu topmenu, TopMenuAction action, TopMenuObject topobj_id, int param, char[] buffer, int maxlength)"
     }
   ]

@@ -2,8 +2,8 @@
   "functions": [
     {
       "name": "GetUserMessageType",
-      "docStart": 2200,
-      "docEnd": 2330,
+      "docStart": 2218,
+      "docEnd": 2358,
       "kind": "native",
       "returnType": "UserMessageType",
       "arguments": []
@@ -22,8 +22,8 @@
     },
     {
       "name": "UserMessageToBfWrite",
-      "docStart": 2530,
-      "docEnd": 2604,
+      "docStart": 2568,
+      "docEnd": 2642,
       "kind": "stock",
       "returnType": "BfWrite",
       "arguments": [
@@ -36,8 +36,8 @@
     },
     {
       "name": "UserMessageToBfRead",
-      "docStart": 2753,
-      "docEnd": 2829,
+      "docStart": 2801,
+      "docEnd": 2877,
       "kind": "stock",
       "returnType": "BfRead",
       "arguments": [
@@ -50,8 +50,8 @@
     },
     {
       "name": "GetUserMessageId",
-      "docStart": 2975,
-      "docEnd": 3176,
+      "docStart": 3034,
+      "docEnd": 3253,
       "kind": "native",
       "returnType": "UserMsg",
       "arguments": [
@@ -64,8 +64,8 @@
     },
     {
       "name": "GetUserMessageName",
-      "docStart": 3232,
-      "docEnd": 3498,
+      "docStart": 3309,
+      "docEnd": 3602,
       "kind": "native",
       "returnType": "bool",
       "arguments": [
@@ -88,8 +88,8 @@
     },
     {
       "name": "StartMessage",
-      "docStart": 3578,
-      "docEnd": 4194,
+      "docStart": 3682,
+      "docEnd": 4374,
       "kind": "native",
       "returnType": "Handle",
       "arguments": [
@@ -117,8 +117,8 @@
     },
     {
       "name": "StartMessageEx",
-      "docStart": 4299,
-      "docEnd": 4913,
+      "docStart": 4479,
+      "docEnd": 5172,
       "kind": "native",
       "returnType": "Handle",
       "arguments": [
@@ -146,16 +146,16 @@
     },
     {
       "name": "EndMessage",
-      "docStart": 5011,
-      "docEnd": 5081,
+      "docStart": 5270,
+      "docEnd": 5340,
       "kind": "native",
       "returnType": "void",
       "arguments": []
     },
     {
       "name": "HookUserMessage",
-      "docStart": 6816,
-      "docEnd": 7209,
+      "docStart": 7234,
+      "docEnd": 7693,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -183,8 +183,8 @@
     },
     {
       "name": "UnhookUserMessage",
-      "docStart": 7330,
-      "docEnd": 7572,
+      "docStart": 7814,
+      "docEnd": 8083,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -207,8 +207,8 @@
     },
     {
       "name": "StartMessageAll",
-      "docStart": 7660,
-      "docEnd": 7980,
+      "docStart": 8171,
+      "docEnd": 8532,
       "kind": "stock",
       "returnType": "Handle",
       "arguments": [
@@ -226,8 +226,8 @@
     },
     {
       "name": "StartMessageOne",
-      "docStart": 8275,
-      "docEnd": 8625,
+      "docStart": 8833,
+      "docEnd": 9230,
       "kind": "stock",
       "returnType": "Handle",
       "arguments": [
@@ -253,8 +253,8 @@
   "enums": [
     {
       "name": "UserMsg",
-      "docStart": 1647,
-      "docEnd": 1682,
+      "docStart": 1645,
+      "docEnd": 1680,
       "entries": [
         {
           "name": "INVALID_MESSAGE_ID"
@@ -263,8 +263,8 @@
     },
     {
       "name": "UserMessageType",
-      "docStart": 1734,
-      "docEnd": 1784,
+      "docStart": 1731,
+      "docEnd": 1781,
       "entries": [
         {
           "name": "UM_BitBuf"
@@ -279,18 +279,18 @@
   "typesets": [
     {
       "name": "MsgHook",
-      "docStart": 5112,
-      "docEnd": 5162,
+      "docStart": 5371,
+      "docEnd": 5421,
       "types": [
         {
           "type": "function Action(UserMsg msg_id, BfRead msg, const int[] players, int playersNum, bool reliable, bool init)",
-          "docStart": 5185,
-          "docEnd": 5773
+          "docStart": 5444,
+          "docEnd": 6105
         },
         {
           "type": "function Action(UserMsg msg_id, Protobuf msg, const int[] players, int playersNum, bool reliable, bool init)",
-          "docStart": 5887,
-          "docEnd": 6471
+          "docStart": 6219,
+          "docEnd": 6876
         }
       ]
     }
@@ -298,8 +298,8 @@
   "typedefs": [
     {
       "name": "MsgPostHook",
-      "docStart": 6592,
-      "docEnd": 6746,
+      "docStart": 6997,
+      "docEnd": 7164,
       "type": "function void(UserMsg msg_id, bool sent)"
     }
   ]

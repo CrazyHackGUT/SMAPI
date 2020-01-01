@@ -2,8 +2,8 @@
   "functions": [
     {
       "name": "LoadTranslations",
-      "docStart": 1707,
-      "docEnd": 1870,
+      "docStart": 1709,
+      "docEnd": 1880,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -16,8 +16,8 @@
     },
     {
       "name": "SetGlobalTransTarget",
-      "docStart": 1924,
-      "docEnd": 2245,
+      "docStart": 1934,
+      "docEnd": 2262,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -30,8 +30,8 @@
     },
     {
       "name": "GetClientLanguage",
-      "docStart": 2296,
-      "docEnd": 2493,
+      "docStart": 2313,
+      "docEnd": 2540,
       "kind": "native",
       "returnType": "int",
       "arguments": [
@@ -44,24 +44,24 @@
     },
     {
       "name": "GetServerLanguage",
-      "docStart": 2540,
-      "docEnd": 2636,
+      "docStart": 2587,
+      "docEnd": 2694,
       "kind": "native",
       "returnType": "int",
       "arguments": []
     },
     {
       "name": "GetLanguageCount",
-      "docStart": 2673,
-      "docEnd": 2775,
+      "docStart": 2731,
+      "docEnd": 2844,
       "kind": "native",
       "returnType": "int",
       "arguments": []
     },
     {
       "name": "GetLanguageInfo",
-      "docStart": 2811,
-      "docEnd": 3177,
+      "docStart": 2880,
+      "docEnd": 3291,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -94,8 +94,8 @@
     },
     {
       "name": "SetClientLanguage",
-      "docStart": 3287,
-      "docEnd": 3469,
+      "docStart": 3401,
+      "docEnd": 3607,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -113,8 +113,8 @@
     },
     {
       "name": "GetLanguageByCode",
-      "docStart": 3531,
-      "docEnd": 3704,
+      "docStart": 3669,
+      "docEnd": 3861,
       "kind": "native",
       "returnType": "int",
       "arguments": [
@@ -127,8 +127,8 @@
     },
     {
       "name": "GetLanguageByName",
-      "docStart": 3758,
-      "docEnd": 3925,
+      "docStart": 3915,
+      "docEnd": 4101,
       "kind": "native",
       "returnType": "int",
       "arguments": [
@@ -141,8 +141,8 @@
     },
     {
       "name": "TranslationPhraseExists",
-      "docStart": 3979,
-      "docEnd": 4155,
+      "docStart": 4155,
+      "docEnd": 4349,
       "kind": "native",
       "returnType": "bool",
       "arguments": [
@@ -155,8 +155,8 @@
     },
     {
       "name": "IsTranslatedForLanguage",
-      "docStart": 4218,
-      "docEnd": 4413,
+      "docStart": 4412,
+      "docEnd": 4630,
       "kind": "native",
       "returnType": "bool",
       "arguments": [

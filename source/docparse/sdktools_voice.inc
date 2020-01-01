@@ -2,8 +2,8 @@
   "functions": [
     {
       "name": "SetClientListeningFlags",
-      "docStart": 2369,
-      "docEnd": 2487,
+      "docStart": 2421,
+      "docEnd": 2552,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -21,8 +21,8 @@
     },
     {
       "name": "GetClientListeningFlags",
-      "docStart": 2552,
-      "docEnd": 2687,
+      "docStart": 2617,
+      "docEnd": 2769,
       "kind": "native",
       "returnType": "int",
       "arguments": [
@@ -74,8 +74,8 @@
     },
     {
       "name": "SetListenOverride",
-      "docStart": 3462,
-      "docEnd": 3750,
+      "docStart": 3699,
+      "docEnd": 4010,
       "kind": "native",
       "returnType": "bool",
       "arguments": [
@@ -98,8 +98,8 @@
     },
     {
       "name": "GetListenOverride",
-      "docStart": 3839,
-      "docEnd": 4043,
+      "docStart": 4099,
+      "docEnd": 4322,
       "kind": "native",
       "returnType": "ListenOverride",
       "arguments": [
@@ -117,8 +117,8 @@
     },
     {
       "name": "IsClientMuted",
-      "docStart": 4117,
-      "docEnd": 4311,
+      "docStart": 4396,
+      "docEnd": 4613,
       "kind": "native",
       "returnType": "bool",
       "arguments": [
@@ -142,18 +142,18 @@
       "entries": [
         {
           "name": "Listen_Default",
-          "docStart": 2263,
-          "docEnd": 2294
+          "docStart": 2302,
+          "docEnd": 2333
         },
         {
           "name": "Listen_No",
-          "docStart": 2310,
-          "docEnd": 2328
+          "docStart": 2356,
+          "docEnd": 2374
         },
         {
           "name": "Listen_Yes",
-          "docStart": 2345,
-          "docEnd": 2361
+          "docStart": 2397,
+          "docEnd": 2413
         }
       ]
     }

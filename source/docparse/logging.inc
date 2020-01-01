@@ -2,8 +2,8 @@
   "functions": [
     {
       "name": "LogMessage",
-      "docStart": 1647,
-      "docEnd": 1851,
+      "docStart": 1645,
+      "docEnd": 1862,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -21,8 +21,8 @@
     },
     {
       "name": "LogToFile",
-      "docStart": 1910,
-      "docEnd": 2219,
+      "docStart": 1921,
+      "docEnd": 2261,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -45,8 +45,8 @@
     },
     {
       "name": "LogToFileEx",
-      "docStart": 2296,
-      "docEnd": 2540,
+      "docStart": 2338,
+      "docEnd": 2614,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -69,8 +69,8 @@
     },
     {
       "name": "LogAction",
-      "docStart": 2619,
-      "docEnd": 3041,
+      "docStart": 2693,
+      "docEnd": 3154,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -98,8 +98,8 @@
     },
     {
       "name": "LogError",
-      "docStart": 3124,
-      "docEnd": 3260,
+      "docStart": 3237,
+      "docEnd": 3387,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -117,8 +117,8 @@
     },
     {
       "name": "OnLogAction",
-      "docStart": 3317,
-      "docEnd": 4036,
+      "docStart": 3444,
+      "docEnd": 4263,
       "kind": "forward",
       "returnType": "Action",
       "arguments": [
@@ -151,8 +151,8 @@
     },
     {
       "name": "AddGameLogHook",
-      "docStart": 4768,
-      "docEnd": 4839,
+      "docStart": 5021,
+      "docEnd": 5099,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -165,8 +165,8 @@
     },
     {
       "name": "RemoveGameLogHook",
-      "docStart": 4890,
-      "docEnd": 4964,
+      "docStart": 5150,
+      "docEnd": 5231,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -185,8 +185,8 @@
   "typedefs": [
     {
       "name": "GameLogHook",
-      "docStart": 4187,
-      "docEnd": 4701,
+      "docStart": 4413,
+      "docEnd": 4954,
       "type": "function Action(const char[] message)"
     }
   ]

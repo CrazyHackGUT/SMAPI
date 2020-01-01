@@ -2,8 +2,8 @@
   "functions": [
     {
       "name": "StartPrepSDKCall",
-      "docStart": 3986,
-      "docEnd": 4095,
+      "docStart": 4142,
+      "docEnd": 4258,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -16,8 +16,8 @@
     },
     {
       "name": "PrepSDKCall_SetVirtual",
-      "docStart": 4148,
-      "docEnd": 4262,
+      "docStart": 4311,
+      "docEnd": 4430,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -30,8 +30,8 @@
     },
     {
       "name": "PrepSDKCall_SetSignature",
-      "docStart": 4316,
-      "docEnd": 4776,
+      "docStart": 4484,
+      "docEnd": 5003,
       "kind": "native",
       "returnType": "bool",
       "arguments": [
@@ -54,8 +54,8 @@
     },
     {
       "name": "PrepSDKCall_SetAddress",
-      "docStart": 4870,
-      "docEnd": 5032,
+      "docStart": 5097,
+      "docEnd": 5276,
       "kind": "native",
       "returnType": "bool",
       "arguments": [
@@ -68,8 +68,8 @@
     },
     {
       "name": "PrepSDKCall_SetFromConf",
-      "docStart": 5087,
-      "docEnd": 5482,
+      "docStart": 5331,
+      "docEnd": 5753,
       "kind": "native",
       "returnType": "bool",
       "arguments": [
@@ -92,8 +92,8 @@
     },
     {
       "name": "PrepSDKCall_SetReturnInfo",
-      "docStart": 5586,
-      "docEnd": 6025,
+      "docStart": 5857,
+      "docEnd": 6317,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -121,8 +121,8 @@
     },
     {
       "name": "PrepSDKCall_AddParameter",
-      "docStart": 6135,
-      "docEnd": 6468,
+      "docStart": 6427,
+      "docEnd": 6782,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -150,16 +150,16 @@
     },
     {
       "name": "EndPrepSDKCall",
-      "docStart": 6577,
-      "docEnd": 6739,
+      "docStart": 6891,
+      "docEnd": 7063,
       "kind": "native",
       "returnType": "Handle",
       "arguments": []
     },
     {
       "name": "SDKCall",
-      "docStart": 6776,
-      "docEnd": 7793,
+      "docStart": 7100,
+      "docEnd": 8151,
       "kind": "native",
       "returnType": "any",
       "arguments": [
@@ -177,8 +177,8 @@
     },
     {
       "name": "GetPlayerResourceEntity",
-      "docStart": 7840,
-      "docEnd": 7980,
+      "docStart": 8198,
+      "docEnd": 8348,
       "kind": "native",
       "returnType": "int",
       "arguments": []
@@ -191,33 +191,33 @@
       "entries": [
         {
           "name": "SDKCall_Static",
-          "docStart": 2168,
-          "docEnd": 2187
+          "docStart": 2173,
+          "docEnd": 2192
         },
         {
           "name": "SDKCall_Entity",
-          "docStart": 2207,
-          "docEnd": 2231
+          "docStart": 2219,
+          "docEnd": 2243
         },
         {
           "name": "SDKCall_Player",
-          "docStart": 2251,
-          "docEnd": 2275
+          "docStart": 2270,
+          "docEnd": 2294
         },
         {
           "name": "SDKCall_GameRules",
-          "docStart": 2297,
-          "docEnd": 2320
+          "docStart": 2321,
+          "docEnd": 2344
         },
         {
           "name": "SDKCall_EntityList",
-          "docStart": 2343,
-          "docEnd": 2373
+          "docStart": 2371,
+          "docEnd": 2401
         },
         {
           "name": "SDKCall_Raw",
-          "docStart": 2391,
-          "docEnd": 2439
+          "docStart": 2428,
+          "docEnd": 2476
         }
       ]
     },
@@ -226,13 +226,13 @@
       "entries": [
         {
           "name": "SDKLibrary_Server",
-          "docStart": 2488,
-          "docEnd": 2521
+          "docStart": 2529,
+          "docEnd": 2562
         },
         {
           "name": "SDKLibrary_Engine",
-          "docStart": 2543,
-          "docEnd": 2573
+          "docStart": 2589,
+          "docEnd": 2619
         }
       ]
     },
@@ -241,18 +241,18 @@
       "entries": [
         {
           "name": "SDKConf_Virtual",
-          "docStart": 2630,
-          "docEnd": 2683
+          "docStart": 2679,
+          "docEnd": 2732
         },
         {
           "name": "SDKConf_Signature",
-          "docStart": 2709,
-          "docEnd": 2761
+          "docStart": 2759,
+          "docEnd": 2811
         },
         {
           "name": "SDKConf_Address",
-          "docStart": 2785,
-          "docEnd": 2835
+          "docStart": 2838,
+          "docEnd": 2888
         }
       ]
     },
@@ -261,48 +261,48 @@
       "entries": [
         {
           "name": "SDKType_CBaseEntity",
-          "docStart": 2882,
-          "docEnd": 2921
+          "docStart": 2938,
+          "docEnd": 2977
         },
         {
           "name": "SDKType_CBasePlayer",
-          "docStart": 2945,
-          "docEnd": 2984
+          "docStart": 3004,
+          "docEnd": 3043
         },
         {
           "name": "SDKType_Vector",
-          "docStart": 3005,
-          "docEnd": 3046
+          "docStart": 3070,
+          "docEnd": 3111
         },
         {
           "name": "SDKType_QAngle",
-          "docStart": 3067,
-          "docEnd": 3109
+          "docStart": 3138,
+          "docEnd": 3180
         },
         {
           "name": "SDKType_PlainOldData",
-          "docStart": 3134,
-          "docEnd": 3176
+          "docStart": 3207,
+          "docEnd": 3249
         },
         {
           "name": "SDKType_Float",
-          "docStart": 3196,
-          "docEnd": 3215
+          "docStart": 3276,
+          "docEnd": 3295
         },
         {
           "name": "SDKType_Edict",
-          "docStart": 3235,
-          "docEnd": 3270
+          "docStart": 3322,
+          "docEnd": 3357
         },
         {
           "name": "SDKType_String",
-          "docStart": 3291,
-          "docEnd": 3341
+          "docStart": 3384,
+          "docEnd": 3434
         },
         {
           "name": "SDKType_Bool",
-          "docStart": 3360,
-          "docEnd": 3381
+          "docStart": 3461,
+          "docEnd": 3482
         }
       ]
     },
@@ -311,23 +311,23 @@
       "entries": [
         {
           "name": "SDKPass_Pointer",
-          "docStart": 3431,
-          "docEnd": 3456
+          "docStart": 3538,
+          "docEnd": 3563
         },
         {
           "name": "SDKPass_Plain",
-          "docStart": 3476,
-          "docEnd": 3502
+          "docStart": 3590,
+          "docEnd": 3616
         },
         {
           "name": "SDKPass_ByValue",
-          "docStart": 3523,
-          "docEnd": 3554
+          "docStart": 3643,
+          "docEnd": 3674
         },
         {
           "name": "SDKPass_ByRef",
-          "docStart": 3574,
-          "docEnd": 3609
+          "docStart": 3701,
+          "docEnd": 3736
         }
       ]
     }

@@ -2,8 +2,8 @@
   "functions": [
     {
       "name": "NominateMap",
-      "docStart": 2257,
-      "docEnd": 2634,
+      "docStart": 2284,
+      "docEnd": 2720,
       "kind": "native",
       "returnType": "NominateResult",
       "arguments": [
@@ -26,8 +26,8 @@
     },
     {
       "name": "RemoveNominationByMap",
-      "docStart": 2715,
-      "docEnd": 2918,
+      "docStart": 2801,
+      "docEnd": 3024,
       "kind": "native",
       "returnType": "bool",
       "arguments": [
@@ -40,8 +40,8 @@
     },
     {
       "name": "RemoveNominationByOwner",
-      "docStart": 2976,
-      "docEnd": 3197,
+      "docStart": 3082,
+      "docEnd": 3321,
       "kind": "native",
       "returnType": "bool",
       "arguments": [
@@ -54,8 +54,8 @@
     },
     {
       "name": "GetExcludeMapList",
-      "docStart": 3250,
-      "docEnd": 3371,
+      "docStart": 3374,
+      "docEnd": 3502,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -68,8 +68,8 @@
     },
     {
       "name": "GetNominatedMapList",
-      "docStart": 3424,
-      "docEnd": 3640,
+      "docStart": 3555,
+      "docEnd": 3778,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -87,16 +87,16 @@
     },
     {
       "name": "CanMapChooserStartVote",
-      "docStart": 3727,
-      "docEnd": 3874,
+      "docStart": 3865,
+      "docEnd": 4023,
       "kind": "native",
       "returnType": "bool",
       "arguments": []
     },
     {
       "name": "InitiateMapChooserVote",
-      "docStart": 3917,
-      "docEnd": 4278,
+      "docStart": 4066,
+      "docEnd": 4437,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -114,24 +114,24 @@
     },
     {
       "name": "HasEndOfMapVoteFinished",
-      "docStart": 4362,
-      "docEnd": 4481,
+      "docStart": 4521,
+      "docEnd": 4651,
       "kind": "native",
       "returnType": "bool",
       "arguments": []
     },
     {
       "name": "EndOfMapVoteEnabled",
-      "docStart": 4525,
-      "docEnd": 4644,
+      "docStart": 4695,
+      "docEnd": 4825,
       "kind": "native",
       "returnType": "bool",
       "arguments": []
     },
     {
       "name": "OnNominationRemoved",
-      "docStart": 4684,
-      "docEnd": 4822,
+      "docStart": 4865,
+      "docEnd": 5003,
       "kind": "forward",
       "returnType": "void",
       "arguments": [
@@ -149,8 +149,8 @@
     },
     {
       "name": "OnMapVoteStarted",
-      "docStart": 4890,
-      "docEnd": 4944,
+      "docStart": 5071,
+      "docEnd": 5125,
       "kind": "forward",
       "returnType": "void",
       "arguments": []
@@ -169,28 +169,28 @@
       "entries": [
         {
           "name": "Nominate_Added",
-          "docStart": 1690,
-          "docEnd": 1735
+          "docStart": 1694,
+          "docEnd": 1739
         },
         {
           "name": "Nominate_Replaced",
-          "docStart": 1758,
-          "docEnd": 1807
+          "docStart": 1766,
+          "docEnd": 1815
         },
         {
           "name": "Nominate_AlreadyInVote",
-          "docStart": 1834,
-          "docEnd": 1878
+          "docStart": 1842,
+          "docEnd": 1886
         },
         {
           "name": "Nominate_InvalidMap",
-          "docStart": 1902,
-          "docEnd": 1945
+          "docStart": 1913,
+          "docEnd": 1956
         },
         {
           "name": "Nominate_VoteFull",
-          "docStart": 1968,
-          "docEnd": 2021
+          "docStart": 1983,
+          "docEnd": 2036
         }
       ]
     },
@@ -199,18 +199,18 @@
       "entries": [
         {
           "name": "MapChange_Instant",
-          "docStart": 2069,
-          "docEnd": 2129
+          "docStart": 2088,
+          "docEnd": 2148
         },
         {
           "name": "MapChange_RoundEnd",
-          "docStart": 2153,
-          "docEnd": 2194
+          "docStart": 2175,
+          "docEnd": 2216
         },
         {
           "name": "MapChange_MapEnd",
-          "docStart": 2216,
-          "docEnd": 2249
+          "docStart": 2243,
+          "docEnd": 2276
         }
       ]
     }

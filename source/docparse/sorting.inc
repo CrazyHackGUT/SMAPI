@@ -2,8 +2,8 @@
   "functions": [
     {
       "name": "SortIntegers",
-      "docStart": 1964,
-      "docEnd": 2145,
+      "docStart": 1970,
+      "docEnd": 2166,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -26,8 +26,8 @@
     },
     {
       "name": "SortFloats",
-      "docStart": 2239,
-      "docEnd": 2445,
+      "docStart": 2260,
+      "docEnd": 2481,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -50,8 +50,8 @@
     },
     {
       "name": "SortStrings",
-      "docStart": 2539,
-      "docEnd": 2718,
+      "docStart": 2575,
+      "docEnd": 2769,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -74,8 +74,8 @@
     },
     {
       "name": "SortCustom1D",
-      "docStart": 3401,
-      "docEnd": 3675,
+      "docStart": 3519,
+      "docEnd": 3812,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -103,8 +103,8 @@
     },
     {
       "name": "SortCustom2D",
-      "docStart": 4473,
-      "docEnd": 4796,
+      "docStart": 4677,
+      "docEnd": 5019,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -132,8 +132,8 @@
     },
     {
       "name": "SortADTArray",
-      "docStart": 4907,
-      "docEnd": 5140,
+      "docStart": 5130,
+      "docEnd": 5382,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -156,8 +156,8 @@
     },
     {
       "name": "SortADTArrayCustom",
-      "docStart": 5860,
-      "docEnd": 6108,
+      "docStart": 6171,
+      "docEnd": 6436,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -183,30 +183,30 @@
   "enums": [
     {
       "name": "SortOrder",
-      "docStart": 1643,
-      "docEnd": 1680,
+      "docStart": 1641,
+      "docEnd": 1678,
       "entries": [
         {
           "name": "Sort_Ascending",
-          "docStart": 1723,
-          "docEnd": 1746
+          "docStart": 1724,
+          "docEnd": 1747
         },
         {
           "name": "Sort_Descending",
-          "docStart": 1770,
-          "docEnd": 1794
+          "docStart": 1774,
+          "docEnd": 1798
         },
         {
           "name": "Sort_Random",
-          "docStart": 1815,
-          "docEnd": 1835
+          "docStart": 1825,
+          "docEnd": 1845
         }
       ]
     },
     {
       "name": "SortType",
-      "docStart": 1843,
-      "docEnd": 1886,
+      "docStart": 1853,
+      "docEnd": 1896,
       "entries": [
         {
           "name": "Sort_Integer"
@@ -224,8 +224,8 @@
   "typesets": [
     {
       "name": "SortFunc2D",
-      "docStart": 3784,
-      "docEnd": 4285,
+      "docStart": 3921,
+      "docEnd": 4489,
       "types": [
         {
           "type": "function int(int[] elem1, int[] elem2, const int[][] array, Handle hndl)"
@@ -239,14 +239,14 @@
   "typedefs": [
     {
       "name": "SortFunc1D",
-      "docStart": 2814,
-      "docEnd": 3306,
+      "docStart": 2865,
+      "docEnd": 3424,
       "type": "function int(int elem1, int elem2, const int[] array, Handle hndl)"
     },
     {
       "name": "SortFuncADTArray",
-      "docStart": 5217,
-      "docEnd": 5762,
+      "docStart": 5459,
+      "docEnd": 6073,
       "type": "function int(int index1, int index2, Handle array, Handle hndl)"
     }
   ]

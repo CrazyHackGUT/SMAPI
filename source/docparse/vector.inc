@@ -2,8 +2,8 @@
   "functions": [
     {
       "name": "GetVectorLength",
-      "docStart": 1638,
-      "docEnd": 1827,
+      "docStart": 1637,
+      "docEnd": 1849,
       "kind": "native",
       "returnType": "float",
       "arguments": [
@@ -21,8 +21,8 @@
     },
     {
       "name": "GetVectorDistance",
-      "docStart": 1902,
-      "docEnd": 2132,
+      "docStart": 1924,
+      "docEnd": 2187,
       "kind": "native",
       "returnType": "float",
       "arguments": [
@@ -45,8 +45,8 @@
     },
     {
       "name": "GetVectorDotProduct",
-      "docStart": 2231,
-      "docEnd": 2399,
+      "docStart": 2286,
+      "docEnd": 2481,
       "kind": "native",
       "returnType": "float",
       "arguments": [
@@ -64,8 +64,8 @@
     },
     {
       "name": "GetVectorCrossProduct",
-      "docStart": 2480,
-      "docEnd": 2697,
+      "docStart": 2562,
+      "docEnd": 2801,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -88,8 +88,8 @@
     },
     {
       "name": "NormalizeVector",
-      "docStart": 2796,
-      "docEnd": 2976,
+      "docStart": 2900,
+      "docEnd": 3107,
       "kind": "native",
       "returnType": "float",
       "arguments": [
@@ -107,8 +107,8 @@
     },
     {
       "name": "GetAngleVectors",
-      "docStart": 3048,
-      "docEnd": 3291,
+      "docStart": 3179,
+      "docEnd": 3455,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -136,8 +136,8 @@
     },
     {
       "name": "GetVectorAngles",
-      "docStart": 3390,
-      "docEnd": 3492,
+      "docStart": 3554,
+      "docEnd": 3672,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -155,8 +155,8 @@
     },
     {
       "name": "GetVectorVectors",
-      "docStart": 3562,
-      "docEnd": 3745,
+      "docStart": 3742,
+      "docEnd": 3951,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -179,8 +179,8 @@
     },
     {
       "name": "AddVectors",
-      "docStart": 3829,
-      "docEnd": 4025,
+      "docStart": 4035,
+      "docEnd": 4252,
       "kind": "stock",
       "returnType": "void",
       "arguments": [
@@ -203,8 +203,8 @@
     },
     {
       "name": "SubtractVectors",
-      "docStart": 4216,
-      "docEnd": 4457,
+      "docStart": 4443,
+      "docEnd": 4705,
       "kind": "stock",
       "returnType": "void",
       "arguments": [
@@ -227,8 +227,8 @@
     },
     {
       "name": "ScaleVector",
-      "docStart": 4653,
-      "docEnd": 4741,
+      "docStart": 4901,
+      "docEnd": 5005,
       "kind": "stock",
       "returnType": "void",
       "arguments": [
@@ -246,8 +246,8 @@
     },
     {
       "name": "NegateVector",
-      "docStart": 4859,
-      "docEnd": 4919,
+      "docStart": 5123,
+      "docEnd": 5192,
       "kind": "stock",
       "returnType": "void",
       "arguments": [
@@ -260,8 +260,8 @@
     },
     {
       "name": "MakeVectorFromPoints",
-      "docStart": 5028,
-      "docEnd": 5237,
+      "docStart": 5301,
+      "docEnd": 5535,
       "kind": "stock",
       "returnType": "void",
       "arguments": [

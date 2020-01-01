@@ -2,8 +2,8 @@
   "functions": [
     {
       "name": "FindTeamByName",
-      "docStart": 1657,
-      "docEnd": 2078,
+      "docStart": 1656,
+      "docEnd": 2129,
       "kind": "stock",
       "returnType": "int",
       "arguments": [

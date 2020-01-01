@@ -2,8 +2,8 @@
   "functions": [
     {
       "name": "FindStringTable",
-      "docStart": 1820,
-      "docEnd": 1998,
+      "docStart": 1824,
+      "docEnd": 2019,
       "kind": "native",
       "returnType": "int",
       "arguments": [
@@ -16,16 +16,16 @@
     },
     {
       "name": "GetNumStringTables",
-      "docStart": 2050,
-      "docEnd": 2185,
+      "docStart": 2071,
+      "docEnd": 2216,
       "kind": "native",
       "returnType": "int",
       "arguments": []
     },
     {
       "name": "GetStringTableNumStrings",
-      "docStart": 2223,
-      "docEnd": 2455,
+      "docStart": 2254,
+      "docEnd": 2511,
       "kind": "native",
       "returnType": "int",
       "arguments": [
@@ -38,8 +38,8 @@
     },
     {
       "name": "GetStringTableMaxStrings",
-      "docStart": 2511,
-      "docEnd": 2742,
+      "docStart": 2567,
+      "docEnd": 2823,
       "kind": "native",
       "returnType": "int",
       "arguments": [
@@ -52,8 +52,8 @@
     },
     {
       "name": "GetStringTableName",
-      "docStart": 2798,
-      "docEnd": 3123,
+      "docStart": 2879,
+      "docEnd": 3239,
       "kind": "native",
       "returnType": "int",
       "arguments": [
@@ -76,8 +76,8 @@
     },
     {
       "name": "FindStringIndex",
-      "docStart": 3201,
-      "docEnd": 3464,
+      "docStart": 3317,
+      "docEnd": 3614,
       "kind": "native",
       "returnType": "int",
       "arguments": [
@@ -95,8 +95,8 @@
     },
     {
       "name": "ReadStringTable",
-      "docStart": 3529,
-      "docEnd": 3914,
+      "docStart": 3679,
+      "docEnd": 4103,
       "kind": "native",
       "returnType": "int",
       "arguments": [
@@ -124,8 +124,8 @@
     },
     {
       "name": "GetStringTableDataLength",
-      "docStart": 4003,
-      "docEnd": 4309,
+      "docStart": 4192,
+      "docEnd": 4526,
       "kind": "native",
       "returnType": "int",
       "arguments": [
@@ -143,8 +143,8 @@
     },
     {
       "name": "GetStringTableData",
-      "docStart": 4380,
-      "docEnd": 4820,
+      "docStart": 4597,
+      "docEnd": 5072,
       "kind": "native",
       "returnType": "int",
       "arguments": [
@@ -172,8 +172,8 @@
     },
     {
       "name": "SetStringTableData",
-      "docStart": 4917,
-      "docEnd": 5340,
+      "docStart": 5169,
+      "docEnd": 5630,
       "kind": "native",
       "returnType": "int",
       "arguments": [
@@ -201,8 +201,8 @@
     },
     {
       "name": "AddToStringTable",
-      "docStart": 5440,
-      "docEnd": 5838,
+      "docStart": 5730,
+      "docEnd": 6183,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -230,8 +230,8 @@
     },
     {
       "name": "LockStringTables",
-      "docStart": 5946,
-      "docEnd": 6202,
+      "docStart": 6291,
+      "docEnd": 6580,
       "kind": "native",
       "returnType": "bool",
       "arguments": [
@@ -244,8 +244,8 @@
     },
     {
       "name": "AddFileToDownloadsTable",
-      "docStart": 6248,
-      "docEnd": 6466,
+      "docStart": 6626,
+      "docEnd": 6848,
       "kind": "stock",
       "returnType": "void",
       "arguments": [

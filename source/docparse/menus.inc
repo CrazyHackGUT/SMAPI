@@ -2,8 +2,8 @@
   "functions": [
     {
       "name": "CreateMenu",
-      "docStart": 18244,
-      "docEnd": 18636,
+      "docStart": 18722,
+      "docEnd": 19174,
       "kind": "native",
       "returnType": "Menu",
       "arguments": [
@@ -21,8 +21,8 @@
     },
     {
       "name": "DisplayMenu",
-      "docStart": 18727,
-      "docEnd": 19003,
+      "docStart": 19265,
+      "docEnd": 19577,
       "kind": "native",
       "returnType": "bool",
       "arguments": [
@@ -45,8 +45,8 @@
     },
     {
       "name": "DisplayMenuAtItem",
-      "docStart": 19068,
-      "docEnd": 19431,
+      "docStart": 19642,
+      "docEnd": 20043,
       "kind": "native",
       "returnType": "bool",
       "arguments": [
@@ -74,8 +74,8 @@
     },
     {
       "name": "AddMenuItem",
-      "docStart": 19518,
-      "docEnd": 19942,
+      "docStart": 20130,
+      "docEnd": 20608,
       "kind": "native",
       "returnType": "bool",
       "arguments": [
@@ -103,8 +103,8 @@
     },
     {
       "name": "InsertMenuItem",
-      "docStart": 20078,
-      "docEnd": 20644,
+      "docStart": 20741,
+      "docEnd": 21364,
       "kind": "native",
       "returnType": "bool",
       "arguments": [
@@ -137,8 +137,8 @@
     },
     {
       "name": "RemoveMenuItem",
-      "docStart": 20800,
-      "docEnd": 21027,
+      "docStart": 21517,
+      "docEnd": 21772,
       "kind": "native",
       "returnType": "bool",
       "arguments": [
@@ -156,8 +156,8 @@
     },
     {
       "name": "RemoveAllMenuItems",
-      "docStart": 21087,
-      "docEnd": 21214,
+      "docStart": 21832,
+      "docEnd": 21975,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -170,8 +170,8 @@
     },
     {
       "name": "GetMenuItem",
-      "docStart": 21264,
-      "docEnd": 21752,
+      "docStart": 22025,
+      "docEnd": 22558,
       "kind": "native",
       "returnType": "bool",
       "arguments": [
@@ -214,16 +214,16 @@
     },
     {
       "name": "GetMenuSelectionPosition",
-      "docStart": 21945,
-      "docEnd": 22372,
+      "docStart": 22740,
+      "docEnd": 23228,
       "kind": "native",
       "returnType": "int",
       "arguments": []
     },
     {
       "name": "GetMenuItemCount",
-      "docStart": 22416,
-      "docEnd": 22579,
+      "docStart": 23272,
+      "docEnd": 23460,
       "kind": "native",
       "returnType": "int",
       "arguments": [
@@ -236,8 +236,8 @@
     },
     {
       "name": "SetMenuPagination",
-      "docStart": 22626,
-      "docEnd": 23077,
+      "docStart": 23507,
+      "docEnd": 23996,
       "kind": "native",
       "returnType": "bool",
       "arguments": [
@@ -255,8 +255,8 @@
     },
     {
       "name": "GetMenuPagination",
-      "docStart": 23144,
-      "docEnd": 23303,
+      "docStart": 24063,
+      "docEnd": 24247,
       "kind": "native",
       "returnType": "int",
       "arguments": [
@@ -269,8 +269,8 @@
     },
     {
       "name": "GetMenuStyle",
-      "docStart": 23351,
-      "docEnd": 23569,
+      "docStart": 24295,
+      "docEnd": 24537,
       "kind": "native",
       "returnType": "Handle",
       "arguments": [
@@ -283,8 +283,8 @@
     },
     {
       "name": "SetMenuTitle",
-      "docStart": 23615,
-      "docEnd": 23829,
+      "docStart": 24583,
+      "docEnd": 24827,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -307,8 +307,8 @@
     },
     {
       "name": "GetMenuTitle",
-      "docStart": 23900,
-      "docEnd": 24152,
+      "docStart": 24898,
+      "docEnd": 25182,
       "kind": "native",
       "returnType": "int",
       "arguments": [
@@ -331,8 +331,8 @@
     },
     {
       "name": "CreatePanelFromMenu",
-      "docStart": 24225,
-      "docEnd": 24445,
+      "docStart": 25255,
+      "docEnd": 25500,
       "kind": "native",
       "returnType": "Panel",
       "arguments": [
@@ -345,8 +345,8 @@
     },
     {
       "name": "GetMenuExitButton",
-      "docStart": 24497,
-      "docEnd": 24742,
+      "docStart": 25552,
+      "docEnd": 25821,
       "kind": "native",
       "returnType": "bool",
       "arguments": [
@@ -359,8 +359,8 @@
     },
     {
       "name": "SetMenuExitButton",
-      "docStart": 24791,
-      "docEnd": 25413,
+      "docStart": 25870,
+      "docEnd": 26517,
       "kind": "native",
       "returnType": "bool",
       "arguments": [
@@ -378,8 +378,8 @@
     },
     {
       "name": "GetMenuExitBackButton",
-      "docStart": 25475,
-      "docEnd": 25889,
+      "docStart": 26579,
+      "docEnd": 27013,
       "kind": "native",
       "returnType": "bool",
       "arguments": [
@@ -392,8 +392,8 @@
     },
     {
       "name": "SetMenuExitBackButton",
-      "docStart": 25942,
-      "docEnd": 26341,
+      "docStart": 27066,
+      "docEnd": 27484,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -411,8 +411,8 @@
     },
     {
       "name": "SetMenuNoVoteButton",
-      "docStart": 26407,
-      "docEnd": 26720,
+      "docStart": 27550,
+      "docEnd": 27892,
       "kind": "native",
       "returnType": "bool",
       "arguments": [
@@ -430,8 +430,8 @@
     },
     {
       "name": "CancelMenu",
-      "docStart": 26784,
-      "docEnd": 27218,
+      "docStart": 27956,
+      "docEnd": 28406,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -444,8 +444,8 @@
     },
     {
       "name": "GetMenuOptionFlags",
-      "docStart": 27260,
-      "docEnd": 27418,
+      "docStart": 28448,
+      "docEnd": 28631,
       "kind": "native",
       "returnType": "int",
       "arguments": [
@@ -458,8 +458,8 @@
     },
     {
       "name": "SetMenuOptionFlags",
-      "docStart": 27467,
-      "docEnd": 27840,
+      "docStart": 28680,
+      "docEnd": 29074,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -477,8 +477,8 @@
     },
     {
       "name": "IsVoteInProgress",
-      "docStart": 27901,
-      "docEnd": 28067,
+      "docStart": 29135,
+      "docEnd": 29316,
       "kind": "native",
       "returnType": "bool",
       "arguments": [
@@ -491,16 +491,16 @@
     },
     {
       "name": "CancelVote",
-      "docStart": 28130,
-      "docEnd": 28218,
+      "docStart": 29379,
+      "docEnd": 29477,
       "kind": "native",
       "returnType": "void",
       "arguments": []
     },
     {
       "name": "VoteMenu",
-      "docStart": 28249,
-      "docEnd": 28990,
+      "docStart": 29508,
+      "docEnd": 30304,
       "kind": "native",
       "returnType": "bool",
       "arguments": [
@@ -533,8 +533,8 @@
     },
     {
       "name": "VoteMenuToAll",
-      "docStart": 29084,
-      "docEnd": 29441,
+      "docStart": 30398,
+      "docEnd": 30806,
       "kind": "stock",
       "returnType": "bool",
       "arguments": [
@@ -557,8 +557,8 @@
     },
     {
       "name": "SetVoteResultCallback",
-      "docStart": 30598,
-      "docEnd": 30840,
+      "docStart": 31990,
+      "docEnd": 32251,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -576,16 +576,16 @@
     },
     {
       "name": "CheckVoteDelay",
-      "docStart": 30915,
-      "docEnd": 31160,
+      "docStart": 32326,
+      "docEnd": 32580,
       "kind": "native",
       "returnType": "int",
       "arguments": []
     },
     {
       "name": "IsClientInVotePool",
-      "docStart": 31194,
-      "docEnd": 31547,
+      "docStart": 32614,
+      "docEnd": 32989,
       "kind": "native",
       "returnType": "bool",
       "arguments": [
@@ -598,8 +598,8 @@
     },
     {
       "name": "RedrawClientVoteMenu",
-      "docStart": 31596,
-      "docEnd": 31989,
+      "docStart": 33038,
+      "docEnd": 33487,
       "kind": "native",
       "returnType": "bool",
       "arguments": [
@@ -617,8 +617,8 @@
     },
     {
       "name": "GetMenuStyleHandle",
-      "docStart": 32059,
-      "docEnd": 32208,
+      "docStart": 33557,
+      "docEnd": 33722,
       "kind": "native",
       "returnType": "Handle",
       "arguments": [
@@ -631,8 +631,8 @@
     },
     {
       "name": "CreatePanel",
-      "docStart": 32264,
-      "docEnd": 32625,
+      "docStart": 33778,
+      "docEnd": 34165,
       "kind": "native",
       "returnType": "Panel",
       "arguments": [
@@ -645,8 +645,8 @@
     },
     {
       "name": "CreateMenuEx",
-      "docStart": 32686,
-      "docEnd": 33243,
+      "docStart": 34226,
+      "docEnd": 34865,
       "kind": "native",
       "returnType": "Menu",
       "arguments": [
@@ -669,8 +669,8 @@
     },
     {
       "name": "GetClientMenu",
-      "docStart": 33366,
-      "docEnd": 33621,
+      "docStart": 34988,
+      "docEnd": 35276,
       "kind": "native",
       "returnType": "MenuSource",
       "arguments": [
@@ -688,8 +688,8 @@
     },
     {
       "name": "CancelClientMenu",
-      "docStart": 33691,
-      "docEnd": 34067,
+      "docStart": 35346,
+      "docEnd": 35762,
       "kind": "native",
       "returnType": "bool",
       "arguments": [
@@ -712,8 +712,8 @@
     },
     {
       "name": "GetMaxPageItems",
-      "docStart": 34167,
-      "docEnd": 34401,
+      "docStart": 35862,
+      "docEnd": 36123,
       "kind": "native",
       "returnType": "int",
       "arguments": [
@@ -726,8 +726,8 @@
     },
     {
       "name": "GetPanelStyle",
-      "docStart": 34464,
-      "docEnd": 34645,
+      "docStart": 36186,
+      "docEnd": 36394,
       "kind": "native",
       "returnType": "Handle",
       "arguments": [
@@ -740,8 +740,8 @@
     },
     {
       "name": "SetPanelTitle",
-      "docStart": 34693,
-      "docEnd": 34925,
+      "docStart": 36442,
+      "docEnd": 36700,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -764,8 +764,8 @@
     },
     {
       "name": "DrawPanelItem",
-      "docStart": 35014,
-      "docEnd": 35469,
+      "docStart": 36789,
+      "docEnd": 37315,
       "kind": "native",
       "returnType": "int",
       "arguments": [
@@ -788,8 +788,8 @@
     },
     {
       "name": "DrawPanelText",
-      "docStart": 35561,
-      "docEnd": 35906,
+      "docStart": 37407,
+      "docEnd": 37801,
       "kind": "native",
       "returnType": "bool",
       "arguments": [
@@ -807,8 +807,8 @@
     },
     {
       "name": "CanPanelDrawFlags",
-      "docStart": 35971,
-      "docEnd": 36239,
+      "docStart": 37866,
+      "docEnd": 38167,
       "kind": "native",
       "returnType": "bool",
       "arguments": [
@@ -826,8 +826,8 @@
     },
     {
       "name": "SetPanelKeys",
-      "docStart": 36300,
-      "docEnd": 36691,
+      "docStart": 38228,
+      "docEnd": 38671,
       "kind": "native",
       "returnType": "bool",
       "arguments": [
@@ -845,8 +845,8 @@
     },
     {
       "name": "SendPanelToClient",
-      "docStart": 36746,
-      "docEnd": 37415,
+      "docStart": 38726,
+      "docEnd": 39439,
       "kind": "native",
       "returnType": "bool",
       "arguments": [
@@ -874,8 +874,8 @@
     },
     {
       "name": "GetPanelTextRemaining",
-      "docStart": 37508,
-      "docEnd": 37948,
+      "docStart": 39532,
+      "docEnd": 40011,
       "kind": "native",
       "returnType": "int",
       "arguments": [
@@ -888,8 +888,8 @@
     },
     {
       "name": "GetPanelCurrentKey",
-      "docStart": 38001,
-      "docEnd": 38178,
+      "docStart": 40064,
+      "docEnd": 40268,
       "kind": "native",
       "returnType": "int",
       "arguments": [
@@ -902,8 +902,8 @@
     },
     {
       "name": "SetPanelCurrentKey",
-      "docStart": 38228,
-      "docEnd": 38525,
+      "docStart": 40318,
+      "docEnd": 40666,
       "kind": "native",
       "returnType": "bool",
       "arguments": [
@@ -921,8 +921,8 @@
     },
     {
       "name": "RedrawMenuItem",
-      "docStart": 38585,
-      "docEnd": 38776,
+      "docStart": 40726,
+      "docEnd": 40933,
       "kind": "native",
       "returnType": "int",
       "arguments": [
@@ -935,8 +935,8 @@
     },
     {
       "name": "InternalShowMenu",
-      "docStart": 38827,
-      "docEnd": 39656,
+      "docStart": 40984,
+      "docEnd": 41876,
       "kind": "native",
       "returnType": "bool",
       "arguments": [
@@ -969,8 +969,8 @@
     },
     {
       "name": "GetMenuVoteInfo",
-      "docStart": 39782,
-      "docEnd": 40037,
+      "docStart": 42002,
+      "docEnd": 42267,
       "kind": "stock",
       "returnType": "void",
       "arguments": [
@@ -993,8 +993,8 @@
     },
     {
       "name": "IsNewVoteAllowed",
-      "docStart": 40186,
-      "docEnd": 40509,
+      "docStart": 42416,
+      "docEnd": 42762,
       "kind": "stock",
       "returnType": "bool",
       "arguments": []
@@ -1003,13 +1003,13 @@
   "methodmaps": [
     {
       "name": "Panel",
-      "docStart": 6907,
-      "docEnd": 7039,
+      "docStart": 7391,
+      "docEnd": 7523,
       "methods": [
         {
           "name": "Panel",
-          "docStart": 7071,
-          "docEnd": 7180,
+          "docStart": 7555,
+          "docEnd": 7669,
           "returnType": "Panel",
           "arguments": [
             {
@@ -1021,8 +1021,8 @@
         },
         {
           "name": "SetTitle",
-          "docStart": 7230,
-          "docEnd": 7395,
+          "docStart": 7719,
+          "docEnd": 7884,
           "returnType": "void",
           "arguments": [
             {
@@ -1039,8 +1039,8 @@
         },
         {
           "name": "DrawItem",
-          "docStart": 7474,
-          "docEnd": 7912,
+          "docStart": 7963,
+          "docEnd": 8400,
           "returnType": "int",
           "arguments": [
             {
@@ -1057,8 +1057,8 @@
         },
         {
           "name": "DrawText",
-          "docStart": 7994,
-          "docEnd": 8212,
+          "docStart": 8482,
+          "docEnd": 8700,
           "returnType": "bool",
           "arguments": [
             {
@@ -1070,8 +1070,8 @@
         },
         {
           "name": "CanDrawFlags",
-          "docStart": 8267,
-          "docEnd": 8476,
+          "docStart": 8755,
+          "docEnd": 8964,
           "returnType": "bool",
           "arguments": [
             {
@@ -1083,8 +1083,8 @@
         },
         {
           "name": "SetKeys",
-          "docStart": 8527,
-          "docEnd": 8923,
+          "docStart": 9015,
+          "docEnd": 9409,
           "returnType": "bool",
           "arguments": [
             {
@@ -1096,8 +1096,8 @@
         },
         {
           "name": "Send",
-          "docStart": 8968,
-          "docEnd": 9584,
+          "docStart": 9454,
+          "docEnd": 10069,
           "returnType": "bool",
           "arguments": [
             {
@@ -1121,24 +1121,24 @@
       "properties": [
         {
           "name": "TextRemaining",
-          "docStart": 9659,
-          "docEnd": 9903,
+          "docStart": 10144,
+          "docEnd": 10385,
           "type": "int",
           "getter": true,
           "setter": false
         },
         {
           "name": "CurrentKey",
-          "docStart": 9967,
-          "docEnd": 10074,
+          "docStart": 10449,
+          "docEnd": 10556,
           "type": "int",
           "getter": true,
           "setter": true
         },
         {
           "name": "Style",
-          "docStart": 10166,
-          "docEnd": 10242,
+          "docStart": 10648,
+          "docEnd": 10724,
           "type": "Handle",
           "getter": true,
           "setter": false
@@ -1147,13 +1147,13 @@
     },
     {
       "name": "Menu",
-      "docStart": 10304,
-      "docEnd": 10360,
+      "docStart": 10786,
+      "docEnd": 10842,
       "methods": [
         {
           "name": "Menu",
-          "docStart": 10391,
-          "docEnd": 10797,
+          "docStart": 10873,
+          "docEnd": 11277,
           "returnType": "Menu",
           "arguments": [
             {
@@ -1170,8 +1170,8 @@
         },
         {
           "name": "Display",
-          "docStart": 10886,
-          "docEnd": 11137,
+          "docStart": 11366,
+          "docEnd": 11617,
           "returnType": "bool",
           "arguments": [
             {
@@ -1188,8 +1188,8 @@
         },
         {
           "name": "DisplayAt",
-          "docStart": 11194,
-          "docEnd": 11541,
+          "docStart": 11674,
+          "docEnd": 12021,
           "returnType": "bool",
           "arguments": [
             {
@@ -1211,8 +1211,8 @@
         },
         {
           "name": "AddItem",
-          "docStart": 11616,
-          "docEnd": 12036,
+          "docStart": 12096,
+          "docEnd": 12515,
           "returnType": "bool",
           "arguments": [
             {
@@ -1234,8 +1234,8 @@
         },
         {
           "name": "InsertItem",
-          "docStart": 12140,
-          "docEnd": 12715,
+          "docStart": 12619,
+          "docEnd": 13193,
           "returnType": "bool",
           "arguments": [
             {
@@ -1262,8 +1262,8 @@
         },
         {
           "name": "RemoveItem",
-          "docStart": 12868,
-          "docEnd": 13069,
+          "docStart": 13346,
+          "docEnd": 13547,
           "returnType": "bool",
           "arguments": [
             {
@@ -1275,15 +1275,15 @@
         },
         {
           "name": "RemoveAllItems",
-          "docStart": 13121,
-          "docEnd": 13154,
+          "docStart": 13599,
+          "docEnd": 13632,
           "returnType": "void",
           "arguments": []
         },
         {
           "name": "GetItem",
-          "docStart": 13198,
-          "docEnd": 13650,
+          "docStart": 13676,
+          "docEnd": 14128,
           "returnType": "bool",
           "arguments": [
             {
@@ -1320,8 +1320,8 @@
         },
         {
           "name": "SetTitle",
-          "docStart": 13794,
-          "docEnd": 13952,
+          "docStart": 14271,
+          "docEnd": 14429,
           "returnType": "void",
           "arguments": [
             {
@@ -1338,8 +1338,8 @@
         },
         {
           "name": "GetTitle",
-          "docStart": 14015,
-          "docEnd": 14214,
+          "docStart": 14492,
+          "docEnd": 14691,
           "returnType": "void",
           "arguments": [
             {
@@ -1356,22 +1356,22 @@
         },
         {
           "name": "ToPanel",
-          "docStart": 14280,
-          "docEnd": 14439,
+          "docStart": 14757,
+          "docEnd": 14916,
           "returnType": "Panel",
           "arguments": []
         },
         {
           "name": "Cancel",
-          "docStart": 14477,
-          "docEnd": 14841,
+          "docStart": 14954,
+          "docEnd": 15318,
           "returnType": "void",
           "arguments": []
         },
         {
           "name": "DisplayVote",
-          "docStart": 14877,
-          "docEnd": 15621,
+          "docStart": 15354,
+          "docEnd": 16096,
           "returnType": "bool",
           "arguments": [
             {
@@ -1398,8 +1398,8 @@
         },
         {
           "name": "DisplayVoteToAll",
-          "docStart": 15714,
-          "docEnd": 16038,
+          "docStart": 16189,
+          "docEnd": 16513,
           "returnType": "bool",
           "arguments": [
             {
@@ -1418,72 +1418,72 @@
       "properties": [
         {
           "name": "Pagination",
-          "docStart": 16354,
-          "docEnd": 16549,
+          "docStart": 16841,
+          "docEnd": 17033,
           "type": "int",
           "getter": true,
           "setter": true
         },
         {
           "name": "OptionFlags",
-          "docStart": 16643,
-          "docEnd": 16764,
+          "docStart": 17127,
+          "docEnd": 17248,
           "type": "int",
           "getter": true,
           "setter": true
         },
         {
           "name": "ExitButton",
-          "docStart": 16859,
-          "docEnd": 16957,
+          "docStart": 17343,
+          "docEnd": 17441,
           "type": "bool",
           "getter": true,
           "setter": true
         },
         {
           "name": "ExitBackButton",
-          "docStart": 17053,
-          "docEnd": 17319,
+          "docStart": 17537,
+          "docEnd": 17798,
           "type": "bool",
           "getter": true,
           "setter": true
         },
         {
           "name": "NoVoteButton",
-          "docStart": 17419,
-          "docEnd": 17537,
+          "docStart": 17898,
+          "docEnd": 18016,
           "type": "bool",
           "getter": false,
           "setter": true
         },
         {
           "name": "VoteResultCallback",
-          "docStart": 17611,
-          "docEnd": 17723,
+          "docStart": 18090,
+          "docEnd": 18202,
           "type": "VoteHandler",
           "getter": false,
           "setter": true
         },
         {
           "name": "ItemCount",
-          "docStart": 17819,
-          "docEnd": 17860,
+          "docStart": 18298,
+          "docEnd": 18339,
           "type": "int",
           "getter": true,
           "setter": false
         },
         {
           "name": "Style",
-          "docStart": 17920,
-          "docEnd": 17989,
+          "docStart": 18399,
+          "docEnd": 18468,
           "type": "Handle",
           "getter": true,
           "setter": false
         },
         {
           "name": "Selection",
-          "docStart": 18048,
-          "docEnd": 18182,
+          "docStart": 18527,
+          "docEnd": 18660,
           "type": "int",
           "getter": true,
           "setter": false
@@ -1494,73 +1494,73 @@
   "enums": [
     {
       "name": "MenuStyle",
-      "docStart": 1653,
-      "docEnd": 1702,
+      "docStart": 1651,
+      "docEnd": 1700,
       "entries": [
         {
           "name": "MenuStyle_Default",
-          "docStart": 1748,
-          "docEnd": 1792
+          "docStart": 1750,
+          "docEnd": 1794
         },
         {
           "name": "MenuStyle_Valve",
-          "docStart": 1817,
-          "docEnd": 1870
+          "docStart": 1825,
+          "docEnd": 1878
         },
         {
           "name": "MenuStyle_Radio",
-          "docStart": 1895,
-          "docEnd": 1947
+          "docStart": 1909,
+          "docEnd": 1961
         }
       ]
     },
     {
       "name": "MenuAction",
-      "docStart": 1955,
-      "docEnd": 2014,
+      "docStart": 1969,
+      "docEnd": 2028,
       "entries": [
         {
           "name": "MenuAction_Start",
-          "docStart": 2065,
-          "docEnd": 2113
+          "docStart": 2083,
+          "docEnd": 2131
         },
         {
           "name": "MenuAction_Display",
-          "docStart": 2145,
-          "docEnd": 2225
+          "docStart": 2166,
+          "docEnd": 2246
         },
         {
           "name": "MenuAction_Select",
-          "docStart": 2257,
-          "docEnd": 2314
+          "docStart": 2281,
+          "docEnd": 2338
         },
         {
           "name": "MenuAction_Cancel",
-          "docStart": 2346,
-          "docEnd": 2407
+          "docStart": 2373,
+          "docEnd": 2434
         },
         {
           "name": "MenuAction_End"
         },
         {
           "name": "MenuAction_VoteEnd",
-          "docStart": 2436,
-          "docEnd": 2634
+          "docStart": 2469,
+          "docEnd": 2714
         },
         {
           "name": "MenuAction_VoteStart",
-          "docStart": 2666,
-          "docEnd": 2821
+          "docStart": 2749,
+          "docEnd": 2933
         },
         {
           "name": "MenuAction_VoteCancel",
-          "docStart": 2956,
-          "docEnd": 3027
+          "docStart": 3068,
+          "docEnd": 3139
         },
         {
           "name": "MenuAction_DrawItem",
-          "docStart": 3060,
-          "docEnd": 3141
+          "docStart": 3174,
+          "docEnd": 3255
         },
         {
           "name": "MenuAction_DisplayItem"
@@ -1569,28 +1569,28 @@
     },
     {
       "name": "MenuSource",
-      "docStart": 6206,
-      "docEnd": 6244,
+      "docStart": 6626,
+      "docEnd": 6664,
       "entries": [
         {
           "name": "MenuSource_None",
-          "docStart": 6290,
-          "docEnd": 6324
+          "docStart": 6719,
+          "docEnd": 6753
         },
         {
           "name": "MenuSource_External",
-          "docStart": 6354,
-          "docEnd": 6375
+          "docStart": 6788,
+          "docEnd": 6809
         },
         {
           "name": "MenuSource_Normal",
-          "docStart": 6403,
-          "docEnd": 6442
+          "docStart": 6844,
+          "docEnd": 6883
         },
         {
           "name": "MenuSource_RawPanel",
-          "docStart": 6471,
-          "docEnd": 6528
+          "docStart": 6918,
+          "docEnd": 6975
         }
       ]
     }
@@ -1598,90 +1598,90 @@
   "constants": [
     {
       "name": "MenuCancel_Disconnected",
-      "docStart": 5134,
-      "docEnd": 5172
+      "docStart": 5477,
+      "docEnd": 5515
     },
     {
       "name": "MenuCancel_Interrupted",
-      "docStart": 5204,
-      "docEnd": 5252
+      "docStart": 5550,
+      "docEnd": 5598
     },
     {
       "name": "MenuCancel_Exit",
-      "docStart": 5279,
-      "docEnd": 5311
+      "docStart": 5633,
+      "docEnd": 5665
     },
     {
       "name": "MenuCancel_NoDisplay",
-      "docStart": 5342,
-      "docEnd": 5391
-    },
-    {
-      "name": "MenuCancel_Timeout",
-      "docStart": 5420,
-      "docEnd": 5442
-    },
-    {
-      "name": "MenuCancel_ExitBack",
-      "docStart": 5472,
-      "docEnd": 5527
-    },
-    {
-      "name": "VoteCancel_Generic",
-      "docStart": 5642,
-      "docEnd": 5681
-    },
-    {
-      "name": "VoteCancel_NoVotes",
-      "docStart": 5710,
+      "docStart": 5700,
       "docEnd": 5749
     },
     {
+      "name": "MenuCancel_Timeout",
+      "docStart": 5784,
+      "docEnd": 5806
+    },
+    {
+      "name": "MenuCancel_ExitBack",
+      "docStart": 5841,
+      "docEnd": 5896
+    },
+    {
+      "name": "VoteCancel_Generic",
+      "docStart": 6017,
+      "docEnd": 6056
+    },
+    {
+      "name": "VoteCancel_NoVotes",
+      "docStart": 6091,
+      "docEnd": 6130
+    },
+    {
       "name": "MenuEnd_Selected",
-      "docStart": 5844,
-      "docEnd": 5874
+      "docStart": 6233,
+      "docEnd": 6263
     },
     {
       "name": "MenuEnd_VotingDone",
-      "docStart": 5903,
-      "docEnd": 5926
+      "docStart": 6298,
+      "docEnd": 6321
     },
     {
       "name": "MenuEnd_VotingCancelled",
-      "docStart": 5959,
-      "docEnd": 5987
+      "docStart": 6356,
+      "docEnd": 6384
     },
     {
       "name": "MenuEnd_Cancelled",
-      "docStart": 6016,
-      "docEnd": 6061
+      "docStart": 6419,
+      "docEnd": 6464
     },
     {
       "name": "MenuEnd_Exit",
-      "docStart": 6086,
-      "docEnd": 6128
+      "docStart": 6499,
+      "docEnd": 6541
     },
     {
       "name": "MenuEnd_ExitBack",
-      "docStart": 6156,
-      "docEnd": 6198
+      "docStart": 6576,
+      "docEnd": 6618
     }
   ],
   "typesets": [
     {
       "name": "VoteHandler",
-      "docStart": 29764,
-      "docEnd": 30234,
+      "docStart": 31127,
+      "docEnd": 31626,
       "types": [
         {
           "type": "function void(Menu menu, int num_votes, int num_clients, const int client_info[][2], int num_items, const int item_info[][2])",
-          "docStart": 30261,
-          "docEnd": 30273
+          "docStart": 31653,
+          "docEnd": 31665
         },
         {
           "type": "function void(Menu menu, int num_votes, int num_clients, const int[][] client_info, int num_items, const int[][] item_info)",
-          "docStart": 30429,
-          "docEnd": 30441
+          "docStart": 31821,
+          "docEnd": 31833
         }
       ]
     }
@@ -1689,8 +1689,8 @@
   "typedefs": [
     {
       "name": "MenuHandler",
-      "docStart": 6536,
-      "docEnd": 6811,
+      "docStart": 6983,
+      "docEnd": 7295,
       "type": "function int(Menu menu, MenuAction action, int param1, int param2)"
     }
   ]

@@ -2,8 +2,8 @@
   "functions": [
     {
       "name": "OnBanClient",
-      "docStart": 1947,
-      "docEnd": 2596,
+      "docStart": 1972,
+      "docEnd": 2700,
       "kind": "forward",
       "returnType": "Action",
       "arguments": [
@@ -46,8 +46,8 @@
     },
     {
       "name": "OnBanIdentity",
-      "docStart": 2808,
-      "docEnd": 3329,
+      "docStart": 2912,
+      "docEnd": 3477,
       "kind": "forward",
       "returnType": "Action",
       "arguments": [
@@ -85,8 +85,8 @@
     },
     {
       "name": "OnRemoveBan",
-      "docStart": 3508,
-      "docEnd": 3899,
+      "docStart": 3656,
+      "docEnd": 4078,
       "kind": "forward",
       "returnType": "Action",
       "arguments": [
@@ -114,8 +114,8 @@
     },
     {
       "name": "BanClient",
-      "docStart": 4030,
-      "docEnd": 4834,
+      "docStart": 4209,
+      "docEnd": 5135,
       "kind": "native",
       "returnType": "bool",
       "arguments": [
@@ -158,8 +158,8 @@
     },
     {
       "name": "BanIdentity",
-      "docStart": 5038,
-      "docEnd": 5647,
+      "docStart": 5339,
+      "docEnd": 6024,
       "kind": "native",
       "returnType": "bool",
       "arguments": [
@@ -197,8 +197,8 @@
     },
     {
       "name": "RemoveBan",
-      "docStart": 5819,
-      "docEnd": 6348,
+      "docStart": 6196,
+      "docEnd": 6788,
       "kind": "native",
       "returnType": "bool",
       "arguments": [

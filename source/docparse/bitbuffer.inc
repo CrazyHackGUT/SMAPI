@@ -3,7 +3,7 @@
     {
       "name": "BfWriteBool",
       "docStart": 7262,
-      "docEnd": 7480,
+      "docEnd": 7508,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -21,8 +21,8 @@
     },
     {
       "name": "BfWriteByte",
-      "docStart": 7532,
-      "docEnd": 7751,
+      "docStart": 7560,
+      "docEnd": 7806,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -40,8 +40,8 @@
     },
     {
       "name": "BfWriteChar",
-      "docStart": 7802,
-      "docEnd": 7993,
+      "docStart": 7857,
+      "docEnd": 8076,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -59,8 +59,8 @@
     },
     {
       "name": "BfWriteShort",
-      "docStart": 8043,
-      "docEnd": 8274,
+      "docStart": 8126,
+      "docEnd": 8385,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -78,8 +78,8 @@
     },
     {
       "name": "BfWriteWord",
-      "docStart": 8325,
-      "docEnd": 8565,
+      "docStart": 8436,
+      "docEnd": 8704,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -97,8 +97,8 @@
     },
     {
       "name": "BfWriteNum",
-      "docStart": 8615,
-      "docEnd": 8847,
+      "docStart": 8754,
+      "docEnd": 9014,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -116,8 +116,8 @@
     },
     {
       "name": "BfWriteFloat",
-      "docStart": 8896,
-      "docEnd": 9101,
+      "docStart": 9063,
+      "docEnd": 9296,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -135,8 +135,8 @@
     },
     {
       "name": "BfWriteString",
-      "docStart": 9154,
-      "docEnd": 9351,
+      "docStart": 9349,
+      "docEnd": 9572,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -154,8 +154,8 @@
     },
     {
       "name": "BfWriteEntity",
-      "docStart": 9415,
-      "docEnd": 9682,
+      "docStart": 9636,
+      "docEnd": 9931,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -173,8 +173,8 @@
     },
     {
       "name": "BfWriteAngle",
-      "docStart": 9734,
-      "docEnd": 9980,
+      "docStart": 9983,
+      "docEnd": 10260,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -197,8 +197,8 @@
     },
     {
       "name": "BfWriteCoord",
-      "docStart": 10050,
-      "docEnd": 10250,
+      "docStart": 10330,
+      "docEnd": 10556,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -216,8 +216,8 @@
     },
     {
       "name": "BfWriteVecCoord",
-      "docStart": 10305,
-      "docEnd": 10525,
+      "docStart": 10611,
+      "docEnd": 10857,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -235,8 +235,8 @@
     },
     {
       "name": "BfWriteVecNormal",
-      "docStart": 10586,
-      "docEnd": 10786,
+      "docStart": 10918,
+      "docEnd": 11146,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -254,8 +254,8 @@
     },
     {
       "name": "BfWriteAngles",
-      "docStart": 10846,
-      "docEnd": 11053,
+      "docStart": 11206,
+      "docEnd": 11439,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -273,8 +273,8 @@
     },
     {
       "name": "BfReadBool",
-      "docStart": 11113,
-      "docEnd": 11305,
+      "docStart": 11499,
+      "docEnd": 11721,
       "kind": "native",
       "returnType": "bool",
       "arguments": [
@@ -287,8 +287,8 @@
     },
     {
       "name": "BfReadByte",
-      "docStart": 11345,
-      "docEnd": 11546,
+      "docStart": 11761,
+      "docEnd": 11992,
       "kind": "native",
       "returnType": "int",
       "arguments": [
@@ -301,8 +301,8 @@
     },
     {
       "name": "BfReadChar",
-      "docStart": 11585,
-      "docEnd": 11781,
+      "docStart": 12031,
+      "docEnd": 12257,
       "kind": "native",
       "returnType": "int",
       "arguments": [
@@ -315,8 +315,8 @@
     },
     {
       "name": "BfReadShort",
-      "docStart": 11820,
-      "docEnd": 12034,
+      "docStart": 12296,
+      "docEnd": 12540,
       "kind": "native",
       "returnType": "int",
       "arguments": [
@@ -329,8 +329,8 @@
     },
     {
       "name": "BfReadWord",
-      "docStart": 12074,
-      "docEnd": 12297,
+      "docStart": 12580,
+      "docEnd": 12833,
       "kind": "native",
       "returnType": "int",
       "arguments": [
@@ -343,8 +343,8 @@
     },
     {
       "name": "BfReadNum",
-      "docStart": 12336,
-      "docEnd": 12549,
+      "docStart": 12872,
+      "docEnd": 13115,
       "kind": "native",
       "returnType": "int",
       "arguments": [
@@ -357,8 +357,8 @@
     },
     {
       "name": "BfReadFloat",
-      "docStart": 12587,
-      "docEnd": 12800,
+      "docStart": 13153,
+      "docEnd": 13396,
       "kind": "native",
       "returnType": "float",
       "arguments": [
@@ -371,8 +371,8 @@
     },
     {
       "name": "BfReadString",
-      "docStart": 12842,
-      "docEnd": 13565,
+      "docStart": 13438,
+      "docEnd": 14271,
       "kind": "native",
       "returnType": "int",
       "arguments": [
@@ -400,8 +400,8 @@
     },
     {
       "name": "BfReadEntity",
-      "docStart": 13653,
-      "docEnd": 13894,
+      "docStart": 14359,
+      "docEnd": 14630,
       "kind": "native",
       "returnType": "int",
       "arguments": [
@@ -414,8 +414,8 @@
     },
     {
       "name": "BfReadAngle",
-      "docStart": 13935,
-      "docEnd": 14173,
+      "docStart": 14671,
+      "docEnd": 14944,
       "kind": "native",
       "returnType": "float",
       "arguments": [
@@ -433,8 +433,8 @@
     },
     {
       "name": "BfReadCoord",
-      "docStart": 14230,
-      "docEnd": 14422,
+      "docStart": 15001,
+      "docEnd": 15223,
       "kind": "native",
       "returnType": "float",
       "arguments": [
@@ -447,8 +447,8 @@
     },
     {
       "name": "BfReadVecCoord",
-      "docStart": 14464,
-      "docEnd": 14687,
+      "docStart": 15265,
+      "docEnd": 15514,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -466,8 +466,8 @@
     },
     {
       "name": "BfReadVecNormal",
-      "docStart": 14747,
-      "docEnd": 14956,
+      "docStart": 15574,
+      "docEnd": 15811,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -485,8 +485,8 @@
     },
     {
       "name": "BfReadAngles",
-      "docStart": 15015,
-      "docEnd": 15225,
+      "docStart": 15870,
+      "docEnd": 16106,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -504,8 +504,8 @@
     },
     {
       "name": "BfGetNumBytesLeft",
-      "docStart": 15284,
-      "docEnd": 15500,
+      "docStart": 16165,
+      "docEnd": 16411,
       "kind": "native",
       "returnType": "int",
       "arguments": [

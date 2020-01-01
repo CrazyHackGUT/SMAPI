@@ -2,8 +2,8 @@
   "functions": [
     {
       "name": "PbReadInt",
-      "docStart": 13041,
-      "docEnd": 13380,
+      "docStart": 13021,
+      "docEnd": 13402,
       "kind": "native",
       "returnType": "int",
       "arguments": [
@@ -26,8 +26,8 @@
     },
     {
       "name": "PbReadFloat",
-      "docStart": 13473,
-      "docEnd": 13780,
+      "docStart": 13495,
+      "docEnd": 13844,
       "kind": "native",
       "returnType": "float",
       "arguments": [
@@ -50,8 +50,8 @@
     },
     {
       "name": "PbReadBool",
-      "docStart": 13877,
-      "docEnd": 14164,
+      "docStart": 13941,
+      "docEnd": 14270,
       "kind": "native",
       "returnType": "bool",
       "arguments": [
@@ -74,8 +74,8 @@
     },
     {
       "name": "PbReadString",
-      "docStart": 14259,
-      "docEnd": 14621,
+      "docStart": 14365,
+      "docEnd": 14768,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -108,8 +108,8 @@
     },
     {
       "name": "PbReadColor",
-      "docStart": 14748,
-      "docEnd": 15058,
+      "docStart": 14895,
+      "docEnd": 15243,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -137,8 +137,8 @@
     },
     {
       "name": "PbReadAngle",
-      "docStart": 15169,
-      "docEnd": 15478,
+      "docStart": 15354,
+      "docEnd": 15701,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -166,8 +166,8 @@
     },
     {
       "name": "PbReadVector",
-      "docStart": 15591,
-      "docEnd": 15902,
+      "docStart": 15814,
+      "docEnd": 16163,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -195,8 +195,8 @@
     },
     {
       "name": "PbReadVector2D",
-      "docStart": 16016,
-      "docEnd": 16326,
+      "docStart": 16277,
+      "docEnd": 16625,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -224,8 +224,8 @@
     },
     {
       "name": "PbGetRepeatedFieldCount",
-      "docStart": 16442,
-      "docEnd": 16729,
+      "docStart": 16741,
+      "docEnd": 17064,
       "kind": "native",
       "returnType": "int",
       "arguments": [
@@ -243,8 +243,8 @@
     },
     {
       "name": "PbSetInt",
-      "docStart": 16801,
-      "docEnd": 17143,
+      "docStart": 17136,
+      "docEnd": 17516,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -272,8 +272,8 @@
     },
     {
       "name": "PbSetFloat",
-      "docStart": 17247,
-      "docEnd": 17546,
+      "docStart": 17620,
+      "docEnd": 17957,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -301,8 +301,8 @@
     },
     {
       "name": "PbSetBool",
-      "docStart": 17654,
-      "docEnd": 17944,
+      "docStart": 18065,
+      "docEnd": 18393,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -330,8 +330,8 @@
     },
     {
       "name": "PbSetString",
-      "docStart": 18050,
-      "docEnd": 18341,
+      "docStart": 18499,
+      "docEnd": 18828,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -359,8 +359,8 @@
     },
     {
       "name": "PbSetColor",
-      "docStart": 18457,
-      "docEnd": 18752,
+      "docStart": 18944,
+      "docEnd": 19277,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -388,8 +388,8 @@
     },
     {
       "name": "PbSetAngle",
-      "docStart": 18867,
-      "docEnd": 19161,
+      "docStart": 19392,
+      "docEnd": 19724,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -417,8 +417,8 @@
     },
     {
       "name": "PbSetVector",
-      "docStart": 19278,
-      "docEnd": 19572,
+      "docStart": 19841,
+      "docEnd": 20175,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -446,8 +446,8 @@
     },
     {
       "name": "PbSetVector2D",
-      "docStart": 19688,
-      "docEnd": 19981,
+      "docStart": 20291,
+      "docEnd": 20624,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -475,8 +475,8 @@
     },
     {
       "name": "PbAddInt",
-      "docStart": 20099,
-      "docEnd": 20409,
+      "docStart": 20742,
+      "docEnd": 21084,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -499,8 +499,8 @@
     },
     {
       "name": "PbAddFloat",
-      "docStart": 20478,
-      "docEnd": 20745,
+      "docStart": 21153,
+      "docEnd": 21452,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -523,8 +523,8 @@
     },
     {
       "name": "PbAddBool",
-      "docStart": 20818,
-      "docEnd": 21076,
+      "docStart": 21525,
+      "docEnd": 21815,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -547,8 +547,8 @@
     },
     {
       "name": "PbAddString",
-      "docStart": 21147,
-      "docEnd": 21406,
+      "docStart": 21886,
+      "docEnd": 22177,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -571,8 +571,8 @@
     },
     {
       "name": "PbAddColor",
-      "docStart": 21487,
-      "docEnd": 21750,
+      "docStart": 22258,
+      "docEnd": 22553,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -595,8 +595,8 @@
     },
     {
       "name": "PbAddAngle",
-      "docStart": 21830,
-      "docEnd": 22092,
+      "docStart": 22633,
+      "docEnd": 22927,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -619,8 +619,8 @@
     },
     {
       "name": "PbAddVector",
-      "docStart": 22174,
-      "docEnd": 22436,
+      "docStart": 23009,
+      "docEnd": 23305,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -643,8 +643,8 @@
     },
     {
       "name": "PbAddVector2D",
-      "docStart": 22517,
-      "docEnd": 22778,
+      "docStart": 23386,
+      "docEnd": 23681,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -667,8 +667,8 @@
     },
     {
       "name": "PbRemoveRepeatedFieldValue",
-      "docStart": 22861,
-      "docEnd": 23140,
+      "docStart": 23764,
+      "docEnd": 24075,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -691,8 +691,8 @@
     },
     {
       "name": "PbReadMessage",
-      "docStart": 23228,
-      "docEnd": 23521,
+      "docStart": 24162,
+      "docEnd": 24491,
       "kind": "native",
       "returnType": "Handle",
       "arguments": [
@@ -710,8 +710,8 @@
     },
     {
       "name": "PbReadRepeatedMessage",
-      "docStart": 23587,
-      "docEnd": 23943,
+      "docStart": 24556,
+      "docEnd": 24954,
       "kind": "native",
       "returnType": "Handle",
       "arguments": [
@@ -734,8 +734,8 @@
     },
     {
       "name": "PbAddMessage",
-      "docStart": 24028,
-      "docEnd": 24327,
+      "docStart": 25038,
+      "docEnd": 25373,
       "kind": "native",
       "returnType": "Handle",
       "arguments": [
@@ -758,8 +758,8 @@
       "methods": [
         {
           "name": "ReadInt",
-          "docStart": 1722,
-          "docEnd": 2016,
+          "docStart": 1721,
+          "docEnd": 2014,
           "returnType": "int",
           "arguments": [
             {
@@ -776,8 +776,8 @@
         },
         {
           "name": "ReadInt64",
-          "docStart": 2106,
-          "docEnd": 2429,
+          "docStart": 2103,
+          "docEnd": 2425,
           "returnType": "void",
           "arguments": [
             {
@@ -799,8 +799,8 @@
         },
         {
           "name": "ReadFloat",
-          "docStart": 2535,
-          "docEnd": 2796,
+          "docStart": 2531,
+          "docEnd": 2792,
           "returnType": "float",
           "arguments": [
             {
@@ -817,8 +817,8 @@
         },
         {
           "name": "ReadBool",
-          "docStart": 2889,
-          "docEnd": 3131,
+          "docStart": 2885,
+          "docEnd": 3126,
           "returnType": "bool",
           "arguments": [
             {
@@ -835,8 +835,8 @@
         },
         {
           "name": "ReadString",
-          "docStart": 3222,
-          "docEnd": 3536,
+          "docStart": 3217,
+          "docEnd": 3530,
           "returnType": "void",
           "arguments": [
             {
@@ -863,8 +863,8 @@
         },
         {
           "name": "ReadColor",
-          "docStart": 3659,
-          "docEnd": 3920,
+          "docStart": 3653,
+          "docEnd": 3913,
           "returnType": "void",
           "arguments": [
             {
@@ -886,8 +886,8 @@
         },
         {
           "name": "ReadAngle",
-          "docStart": 4027,
-          "docEnd": 4286,
+          "docStart": 4020,
+          "docEnd": 4279,
           "returnType": "void",
           "arguments": [
             {
@@ -909,8 +909,8 @@
         },
         {
           "name": "ReadVector",
-          "docStart": 4395,
-          "docEnd": 4697,
+          "docStart": 4388,
+          "docEnd": 4689,
           "returnType": "void",
           "arguments": [
             {
@@ -932,8 +932,8 @@
         },
         {
           "name": "ReadVector2D",
-          "docStart": 4807,
-          "docEnd": 5067,
+          "docStart": 4799,
+          "docEnd": 5059,
           "returnType": "void",
           "arguments": [
             {
@@ -955,8 +955,8 @@
         },
         {
           "name": "GetRepeatedFieldCount",
-          "docStart": 5179,
-          "docEnd": 5414,
+          "docStart": 5171,
+          "docEnd": 5406,
           "returnType": "int",
           "arguments": [
             {
@@ -968,8 +968,8 @@
         },
         {
           "name": "HasField",
-          "docStart": 5483,
-          "docEnd": 5720,
+          "docStart": 5474,
+          "docEnd": 5711,
           "returnType": "bool",
           "arguments": [
             {
@@ -981,8 +981,8 @@
         },
         {
           "name": "SetInt",
-          "docStart": 5776,
-          "docEnd": 6068,
+          "docStart": 5767,
+          "docEnd": 6059,
           "returnType": "void",
           "arguments": [
             {
@@ -1004,8 +1004,8 @@
         },
         {
           "name": "SetInt64",
-          "docStart": 6169,
-          "docEnd": 6479,
+          "docStart": 6159,
+          "docEnd": 6468,
           "returnType": "void",
           "arguments": [
             {
@@ -1027,8 +1027,8 @@
         },
         {
           "name": "SetFloat",
-          "docStart": 6584,
-          "docEnd": 6833,
+          "docStart": 6573,
+          "docEnd": 6822,
           "returnType": "void",
           "arguments": [
             {
@@ -1050,8 +1050,8 @@
         },
         {
           "name": "SetBool",
-          "docStart": 6937,
-          "docEnd": 7178,
+          "docStart": 6926,
+          "docEnd": 7166,
           "returnType": "void",
           "arguments": [
             {
@@ -1073,8 +1073,8 @@
         },
         {
           "name": "SetString",
-          "docStart": 7280,
-          "docEnd": 7521,
+          "docStart": 7268,
+          "docEnd": 7509,
           "returnType": "void",
           "arguments": [
             {
@@ -1096,8 +1096,8 @@
         },
         {
           "name": "SetColor",
-          "docStart": 7633,
-          "docEnd": 7879,
+          "docStart": 7621,
+          "docEnd": 7866,
           "returnType": "void",
           "arguments": [
             {
@@ -1119,8 +1119,8 @@
         },
         {
           "name": "SetAngle",
-          "docStart": 7990,
-          "docEnd": 8235,
+          "docStart": 7977,
+          "docEnd": 8221,
           "returnType": "void",
           "arguments": [
             {
@@ -1142,8 +1142,8 @@
         },
         {
           "name": "SetVector",
-          "docStart": 8348,
-          "docEnd": 8595,
+          "docStart": 8334,
+          "docEnd": 8580,
           "returnType": "void",
           "arguments": [
             {
@@ -1165,8 +1165,8 @@
         },
         {
           "name": "SetVector2D",
-          "docStart": 8707,
-          "docEnd": 8952,
+          "docStart": 8692,
+          "docEnd": 8937,
           "returnType": "void",
           "arguments": [
             {
@@ -1188,8 +1188,8 @@
         },
         {
           "name": "AddInt",
-          "docStart": 9066,
-          "docEnd": 9322,
+          "docStart": 9051,
+          "docEnd": 9307,
           "returnType": "void",
           "arguments": [
             {
@@ -1206,8 +1206,8 @@
         },
         {
           "name": "AddInt64",
-          "docStart": 9388,
-          "docEnd": 9662,
+          "docStart": 9372,
+          "docEnd": 9645,
           "returnType": "void",
           "arguments": [
             {
@@ -1224,8 +1224,8 @@
         },
         {
           "name": "AddFloat",
-          "docStart": 9732,
-          "docEnd": 9946,
+          "docStart": 9715,
+          "docEnd": 9928,
           "returnType": "void",
           "arguments": [
             {
@@ -1242,8 +1242,8 @@
         },
         {
           "name": "AddBool",
-          "docStart": 10015,
-          "docEnd": 10219,
+          "docStart": 9997,
+          "docEnd": 10201,
           "returnType": "void",
           "arguments": [
             {
@@ -1260,8 +1260,8 @@
         },
         {
           "name": "AddString",
-          "docStart": 10286,
-          "docEnd": 10491,
+          "docStart": 10268,
+          "docEnd": 10473,
           "returnType": "void",
           "arguments": [
             {
@@ -1278,8 +1278,8 @@
         },
         {
           "name": "AddColor",
-          "docStart": 10568,
-          "docEnd": 10778,
+          "docStart": 10550,
+          "docEnd": 10759,
           "returnType": "void",
           "arguments": [
             {
@@ -1296,8 +1296,8 @@
         },
         {
           "name": "AddAngle",
-          "docStart": 10854,
-          "docEnd": 11063,
+          "docStart": 10835,
+          "docEnd": 11043,
           "returnType": "void",
           "arguments": [
             {
@@ -1314,8 +1314,8 @@
         },
         {
           "name": "AddVector",
-          "docStart": 11141,
-          "docEnd": 11351,
+          "docStart": 11121,
+          "docEnd": 11331,
           "returnType": "void",
           "arguments": [
             {
@@ -1332,8 +1332,8 @@
         },
         {
           "name": "AddVector2D",
-          "docStart": 11428,
-          "docEnd": 11637,
+          "docStart": 11408,
+          "docEnd": 11617,
           "returnType": "void",
           "arguments": [
             {
@@ -1350,8 +1350,8 @@
         },
         {
           "name": "RemoveRepeatedFieldValue",
-          "docStart": 11716,
-          "docEnd": 11941,
+          "docStart": 11696,
+          "docEnd": 11921,
           "returnType": "void",
           "arguments": [
             {
@@ -1368,8 +1368,8 @@
         },
         {
           "name": "ReadMessage",
-          "docStart": 12024,
-          "docEnd": 12267,
+          "docStart": 12004,
+          "docEnd": 12247,
           "returnType": "Protobuf",
           "arguments": [
             {
@@ -1381,8 +1381,8 @@
         },
         {
           "name": "ReadRepeatedMessage",
-          "docStart": 12330,
-          "docEnd": 12645,
+          "docStart": 12310,
+          "docEnd": 12625,
           "returnType": "Protobuf",
           "arguments": [
             {
@@ -1399,8 +1399,8 @@
         },
         {
           "name": "AddMessage",
-          "docStart": 12727,
-          "docEnd": 12976,
+          "docStart": 12707,
+          "docEnd": 12956,
           "returnType": "Protobuf",
           "arguments": [
             {

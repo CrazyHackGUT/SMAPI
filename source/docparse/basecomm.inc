@@ -3,7 +3,7 @@
     {
       "name": "BaseComm_OnClientMute",
       "docStart": 1643,
-      "docEnd": 1796,
+      "docEnd": 1806,
       "kind": "forward",
       "returnType": "void",
       "arguments": [
@@ -21,8 +21,8 @@
     },
     {
       "name": "BaseComm_OnClientGag",
-      "docStart": 1868,
-      "docEnd": 2022,
+      "docStart": 1877,
+      "docEnd": 2042,
       "kind": "forward",
       "returnType": "void",
       "arguments": [
@@ -40,8 +40,8 @@
     },
     {
       "name": "BaseComm_IsClientGagged",
-      "docStart": 2091,
-      "docEnd": 2240,
+      "docStart": 2110,
+      "docEnd": 2275,
       "kind": "native",
       "returnType": "bool",
       "arguments": [
@@ -54,8 +54,8 @@
     },
     {
       "name": "BaseComm_IsClientMuted",
-      "docStart": 2294,
-      "docEnd": 2441,
+      "docStart": 2329,
+      "docEnd": 2492,
       "kind": "native",
       "returnType": "bool",
       "arguments": [
@@ -68,8 +68,8 @@
     },
     {
       "name": "BaseComm_SetClientGag",
-      "docStart": 2494,
-      "docEnd": 2701,
+      "docStart": 2545,
+      "docEnd": 2772,
       "kind": "native",
       "returnType": "bool",
       "arguments": [
@@ -87,8 +87,8 @@
     },
     {
       "name": "BaseComm_SetClientMute",
-      "docStart": 2768,
-      "docEnd": 2980,
+      "docStart": 2839,
+      "docEnd": 3070,
       "kind": "native",
       "returnType": "bool",
       "arguments": [

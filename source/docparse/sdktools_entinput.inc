@@ -2,8 +2,8 @@
   "functions": [
     {
       "name": "AcceptEntityInput",
-      "docStart": 1661,
-      "docEnd": 2202,
+      "docStart": 1659,
+      "docEnd": 2254,
       "kind": "native",
       "returnType": "bool",
       "arguments": [

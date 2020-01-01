@@ -2,8 +2,8 @@
   "functions": [
     {
       "name": "GetCommandLine",
-      "docStart": 1614,
-      "docEnd": 1934,
+      "docStart": 1613,
+      "docEnd": 1958,
       "kind": "native",
       "returnType": "bool",
       "arguments": [
@@ -21,8 +21,8 @@
     },
     {
       "name": "GetCommandLineParam",
-      "docStart": 1996,
-      "docEnd": 2397,
+      "docStart": 2020,
+      "docEnd": 2459,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -50,8 +50,8 @@
     },
     {
       "name": "GetCommandLineParamInt",
-      "docStart": 2504,
-      "docEnd": 2863,
+      "docStart": 2566,
+      "docEnd": 2960,
       "kind": "native",
       "returnType": "int",
       "arguments": [
@@ -69,8 +69,8 @@
     },
     {
       "name": "GetCommandLineParamFloat",
-      "docStart": 2936,
-      "docEnd": 3302,
+      "docStart": 3033,
+      "docEnd": 3434,
       "kind": "native",
       "returnType": "float",
       "arguments": [
@@ -88,8 +88,8 @@
     },
     {
       "name": "FindCommandLineParam",
-      "docStart": 3383,
-      "docEnd": 3647,
+      "docStart": 3515,
+      "docEnd": 3809,
       "kind": "native",
       "returnType": "bool",
       "arguments": [

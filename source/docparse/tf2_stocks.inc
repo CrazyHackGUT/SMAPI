@@ -2,8 +2,8 @@
   "functions": [
     {
       "name": "TF2_GetClientTeam",
-      "docStart": 9924,
-      "docEnd": 10074,
+      "docStart": 9955,
+      "docEnd": 10132,
       "kind": "stock",
       "returnType": "TFTeam",
       "arguments": [
@@ -16,8 +16,8 @@
     },
     {
       "name": "TF2_ChangeClientTeam",
-      "docStart": 10171,
-      "docEnd": 10345,
+      "docStart": 10229,
+      "docEnd": 10403,
       "kind": "stock",
       "returnType": "void",
       "arguments": [
@@ -35,8 +35,8 @@
     },
     {
       "name": "TF2_GetPlayerClass",
-      "docStart": 10458,
-      "docEnd": 10616,
+      "docStart": 10516,
+      "docEnd": 10701,
       "kind": "stock",
       "returnType": "TFClassType",
       "arguments": [
@@ -49,8 +49,8 @@
     },
     {
       "name": "TF2_SetPlayerClass",
-      "docStart": 10744,
-      "docEnd": 11131,
+      "docStart": 10829,
+      "docEnd": 11244,
       "kind": "stock",
       "returnType": "void",
       "arguments": [
@@ -117,8 +117,8 @@
     },
     {
       "name": "TF2_RemoveWeaponSlot",
-      "docStart": 12985,
-      "docEnd": 13179,
+      "docStart": 13290,
+      "docEnd": 13508,
       "kind": "stock",
       "returnType": "void",
       "arguments": [
@@ -136,8 +136,8 @@
     },
     {
       "name": "TF2_RemoveAllWeapons",
-      "docStart": 13869,
-      "docEnd": 13950,
+      "docStart": 14198,
+      "docEnd": 14285,
       "kind": "stock",
       "returnType": "void",
       "arguments": [
@@ -162,8 +162,8 @@
     },
     {
       "name": "TF2_IsPlayerInCondition",
-      "docStart": 14404,
-      "docEnd": 14579,
+      "docStart": 14816,
+      "docEnd": 15014,
       "kind": "stock",
       "returnType": "bool",
       "arguments": [
@@ -181,8 +181,8 @@
     },
     {
       "name": "TF2_GetObjectType",
-      "docStart": 15715,
-      "docEnd": 15871,
+      "docStart": 16157,
+      "docEnd": 16340,
       "kind": "stock",
       "returnType": "TFObjectType",
       "arguments": [
@@ -195,8 +195,8 @@
     },
     {
       "name": "TF2_GetObjectMode",
-      "docStart": 16128,
-      "docEnd": 16284,
+      "docStart": 16597,
+      "docEnd": 16780,
       "kind": "stock",
       "returnType": "TFObjectMode",
       "arguments": [
@@ -516,6 +516,9 @@
     },
     {
       "name": "TF_CUSTOM_TAUNTATK_GASBLAST"
+    },
+    {
+      "name": "TF_CUSTOM_AXTINGUISHER_BOOSTED"
     },
     {
       "name": "TF_WEAPON_NONE"

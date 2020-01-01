@@ -2,8 +2,8 @@
   "functions": [
     {
       "name": "RegClientCookie",
-      "docStart": 2999,
-      "docEnd": 3533,
+      "docStart": 6468,
+      "docEnd": 7038,
       "kind": "native",
       "returnType": "Handle",
       "arguments": [
@@ -26,8 +26,8 @@
     },
     {
       "name": "FindClientCookie",
-      "docStart": 3635,
-      "docEnd": 3918,
+      "docStart": 7140,
+      "docEnd": 7440,
       "kind": "native",
       "returnType": "Handle",
       "arguments": [
@@ -40,8 +40,8 @@
     },
     {
       "name": "SetClientCookie",
-      "docStart": 3974,
-      "docEnd": 4221,
+      "docStart": 7496,
+      "docEnd": 7772,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -64,8 +64,8 @@
     },
     {
       "name": "GetClientCookie",
-      "docStart": 4302,
-      "docEnd": 4609,
+      "docStart": 7853,
+      "docEnd": 8195,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -93,8 +93,8 @@
     },
     {
       "name": "SetAuthIdCookie",
-      "docStart": 4697,
-      "docEnd": 4971,
+      "docStart": 8283,
+      "docEnd": 8587,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -117,8 +117,8 @@
     },
     {
       "name": "AreClientCookiesCached",
-      "docStart": 5061,
-      "docEnd": 5259,
+      "docStart": 8677,
+      "docEnd": 8901,
       "kind": "native",
       "returnType": "bool",
       "arguments": [
@@ -131,8 +131,8 @@
     },
     {
       "name": "OnClientCookiesCached",
-      "docStart": 5312,
-      "docEnd": 5434,
+      "docStart": 8954,
+      "docEnd": 9082,
       "kind": "forward",
       "returnType": "void",
       "arguments": [
@@ -145,8 +145,8 @@
     },
     {
       "name": "SetCookiePrefabMenu",
-      "docStart": 5883,
-      "docEnd": 6365,
+      "docStart": 9135,
+      "docEnd": 9658,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -179,8 +179,8 @@
     },
     {
       "name": "SetCookieMenuItem",
-      "docStart": 6513,
-      "docEnd": 6870,
+      "docStart": 9806,
+      "docEnd": 10191,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -203,8 +203,8 @@
     },
     {
       "name": "ShowCookieMenu",
-      "docStart": 6965,
-      "docEnd": 7054,
+      "docStart": 10286,
+      "docEnd": 10381,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -217,16 +217,16 @@
     },
     {
       "name": "GetCookieIterator",
-      "docStart": 7099,
-      "docEnd": 7212,
+      "docStart": 10426,
+      "docEnd": 10549,
       "kind": "native",
       "returnType": "Handle",
       "arguments": []
     },
     {
       "name": "ReadCookieIterator",
-      "docStart": 7252,
-      "docEnd": 7658,
+      "docStart": 10589,
+      "docEnd": 11042,
       "kind": "native",
       "returnType": "bool",
       "arguments": [
@@ -264,8 +264,8 @@
     },
     {
       "name": "GetCookieAccess",
-      "docStart": 7844,
-      "docEnd": 8029,
+      "docStart": 11220,
+      "docEnd": 11431,
       "kind": "native",
       "returnType": "CookieAccess",
       "arguments": [
@@ -278,8 +278,8 @@
     },
     {
       "name": "GetClientCookieTime",
-      "docStart": 8086,
-      "docEnd": 8262,
+      "docStart": 11488,
+      "docEnd": 11687,
       "kind": "native",
       "returnType": "int",
       "arguments": [
@@ -302,7 +302,159 @@
       "arguments": []
     }
   ],
-  "methodmaps": [],
+  "methodmaps": [
+    {
+      "name": "Cookie",
+      "methods": [
+        {
+          "name": "Cookie",
+          "docStart": 3504,
+          "docEnd": 4055,
+          "returnType": "Cookie",
+          "arguments": [
+            {
+              "type": "const char[]",
+              "name": "name",
+              "decl": "const char[] name"
+            },
+            {
+              "type": "const char[]",
+              "name": "description",
+              "decl": "const char[] description"
+            },
+            {
+              "type": "CookieAccess",
+              "name": "access",
+              "decl": "CookieAccess access"
+            }
+          ]
+        },
+        {
+          "name": "Find",
+          "docStart": 4150,
+          "docEnd": 4441,
+          "returnType": "Cookie",
+          "arguments": [
+            {
+              "type": "const char[]",
+              "name": "name",
+              "decl": "const char[] name"
+            }
+          ]
+        },
+        {
+          "name": "Set",
+          "docStart": 4501,
+          "docEnd": 4713,
+          "returnType": "void",
+          "arguments": [
+            {
+              "type": "int",
+              "name": "client",
+              "decl": "int client"
+            },
+            {
+              "type": "const char[]",
+              "name": "value",
+              "decl": "const char[] value"
+            }
+          ]
+        },
+        {
+          "name": "Get",
+          "docStart": 4776,
+          "docEnd": 5055,
+          "returnType": "void",
+          "arguments": [
+            {
+              "type": "int",
+              "name": "client",
+              "decl": "int client"
+            },
+            {
+              "type": "char[]",
+              "name": "buffer",
+              "decl": "char[] buffer"
+            },
+            {
+              "type": "int",
+              "name": "maxlen",
+              "decl": "int maxlen"
+            }
+          ]
+        },
+        {
+          "name": "SetByAuthId",
+          "docStart": 5125,
+          "docEnd": 5365,
+          "returnType": "void",
+          "arguments": [
+            {
+              "type": "const char[]",
+              "name": "authID",
+              "decl": "const char[] authID"
+            },
+            {
+              "type": "const char[]",
+              "name": "value",
+              "decl": "const char[] value"
+            }
+          ]
+        },
+        {
+          "name": "SetPrefabMenu",
+          "docStart": 5445,
+          "docEnd": 5908,
+          "returnType": "void",
+          "arguments": [
+            {
+              "type": "CookieMenu",
+              "name": "type",
+              "decl": "CookieMenu type"
+            },
+            {
+              "type": "const char[]",
+              "name": "display",
+              "decl": "const char[] display"
+            },
+            {
+              "type": "function void(int client, CookieMenuAction action, any info, char[] buffer, int maxlen)",
+              "name": "handler",
+              "decl": "function void(int client, CookieMenuAction action, any info, char[] buffer, int maxlen) handler"
+            },
+            {
+              "type": "any",
+              "name": "info",
+              "decl": "any info"
+            }
+          ]
+        },
+        {
+          "name": "GetClientTime",
+          "docStart": 6044,
+          "docEnd": 6196,
+          "returnType": "int",
+          "arguments": [
+            {
+              "type": "int",
+              "name": "client",
+              "decl": "int client"
+            }
+          ]
+        }
+      ],
+      "properties": [
+        {
+          "name": "AccessLevel",
+          "docStart": 6248,
+          "docEnd": 6394,
+          "type": "CookieAccess",
+          "getter": true,
+          "setter": false
+        }
+      ]
+    }
+  ],
   "enums": [
     {
       "name": "CookieAccess",
@@ -311,45 +463,45 @@
       "entries": [
         {
           "name": "CookieAccess_Public",
-          "docStart": 1748,
-          "docEnd": 1787
+          "docStart": 1757,
+          "docEnd": 1796
         },
         {
           "name": "CookieAccess_Protected",
-          "docStart": 1816,
-          "docEnd": 1842
+          "docStart": 1831,
+          "docEnd": 1857
         },
         {
           "name": "CookieAccess_Private",
-          "docStart": 1869,
-          "docEnd": 1901
+          "docStart": 1892,
+          "docEnd": 1924
         }
       ]
     },
     {
       "name": "CookieMenu",
-      "docStart": 1909,
-      "docEnd": 1946,
+      "docStart": 1932,
+      "docEnd": 1969,
       "entries": [
         {
           "name": "CookieMenu_YesNo",
-          "docStart": 1989,
-          "docEnd": 2054
+          "docStart": 2020,
+          "docEnd": 2085
         },
         {
           "name": "CookieMenu_YesNo_Int",
-          "docStart": 2080,
-          "docEnd": 2130
+          "docStart": 2116,
+          "docEnd": 2166
         },
         {
           "name": "CookieMenu_OnOff",
-          "docStart": 2153,
-          "docEnd": 2218
+          "docStart": 2197,
+          "docEnd": 2262
         },
         {
           "name": "CookieMenu_OnOff_Int",
-          "docStart": 2244,
-          "docEnd": 2294
+          "docStart": 2293,
+          "docEnd": 2343
         }
       ]
     },
@@ -358,13 +510,13 @@
       "entries": [
         {
           "name": "CookieMenuAction_DisplayOption",
-          "docStart": 2329,
-          "docEnd": 2490
+          "docStart": 2378,
+          "docEnd": 2539
         },
         {
           "name": "CookieMenuAction_SelectOption",
-          "docStart": 2534,
-          "docEnd": 2639
+          "docStart": 2583,
+          "docEnd": 2688
         }
       ]
     }
@@ -374,8 +526,8 @@
   "typedefs": [
     {
       "name": "CookieMenuHandler",
-      "docStart": 5487,
-      "docEnd": 5742,
+      "docStart": 2732,
+      "docEnd": 3018,
       "type": "function void(int client, CookieMenuAction action, any info, char[] buffer, int maxlen)"
     }
   ]

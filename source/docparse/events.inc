@@ -2,8 +2,8 @@
   "functions": [
     {
       "name": "HookEvent",
-      "docStart": 6848,
-      "docEnd": 7130,
+      "docStart": 6975,
+      "docEnd": 7286,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -26,8 +26,8 @@
     },
     {
       "name": "HookEventEx",
-      "docStart": 7236,
-      "docEnd": 7578,
+      "docStart": 7392,
+      "docEnd": 7773,
       "kind": "native",
       "returnType": "bool",
       "arguments": [
@@ -50,8 +50,8 @@
     },
     {
       "name": "UnhookEvent",
-      "docStart": 7686,
-      "docEnd": 7984,
+      "docStart": 7881,
+      "docEnd": 8208,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -74,8 +74,8 @@
     },
     {
       "name": "CreateEvent",
-      "docStart": 8092,
-      "docEnd": 8619,
+      "docStart": 8316,
+      "docEnd": 8900,
       "kind": "native",
       "returnType": "Event",
       "arguments": [
@@ -93,8 +93,8 @@
     },
     {
       "name": "FireEvent",
-      "docStart": 8687,
-      "docEnd": 8967,
+      "docStart": 8968,
+      "docEnd": 9265,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -112,8 +112,8 @@
     },
     {
       "name": "CancelCreatedEvent",
-      "docStart": 9035,
-      "docEnd": 9198,
+      "docStart": 9333,
+      "docEnd": 9513,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -126,8 +126,8 @@
     },
     {
       "name": "GetEventBool",
-      "docStart": 9249,
-      "docEnd": 9568,
+      "docStart": 9564,
+      "docEnd": 9922,
       "kind": "native",
       "returnType": "bool",
       "arguments": [
@@ -150,8 +150,8 @@
     },
     {
       "name": "SetEventBool",
-      "docStart": 9652,
-      "docEnd": 9869,
+      "docStart": 10006,
+      "docEnd": 10254,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -174,8 +174,8 @@
     },
     {
       "name": "GetEventInt",
-      "docStart": 9944,
-      "docEnd": 10263,
+      "docStart": 10329,
+      "docEnd": 10687,
       "kind": "native",
       "returnType": "int",
       "arguments": [
@@ -198,8 +198,8 @@
     },
     {
       "name": "SetEventInt",
-      "docStart": 10340,
-      "docEnd": 10811,
+      "docStart": 10764,
+      "docEnd": 11266,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -222,8 +222,8 @@
     },
     {
       "name": "GetEventFloat",
-      "docStart": 10884,
-      "docEnd": 11217,
+      "docStart": 11339,
+      "docEnd": 11711,
       "kind": "native",
       "returnType": "float",
       "arguments": [
@@ -246,8 +246,8 @@
     },
     {
       "name": "SetEventFloat",
-      "docStart": 11302,
-      "docEnd": 11533,
+      "docStart": 11796,
+      "docEnd": 12058,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -270,8 +270,8 @@
     },
     {
       "name": "GetEventString",
-      "docStart": 11610,
-      "docEnd": 11997,
+      "docStart": 12135,
+      "docEnd": 12560,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -304,8 +304,8 @@
     },
     {
       "name": "SetEventString",
-      "docStart": 12117,
-      "docEnd": 12332,
+      "docStart": 12680,
+      "docEnd": 12926,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -328,8 +328,8 @@
     },
     {
       "name": "GetEventName",
-      "docStart": 12417,
-      "docEnd": 12667,
+      "docStart": 13011,
+      "docEnd": 13288,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -352,8 +352,8 @@
     },
     {
       "name": "SetEventBroadcast",
-      "docStart": 12740,
-      "docEnd": 13098,
+      "docStart": 13361,
+      "docEnd": 13719,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -376,8 +376,8 @@
       "methods": [
         {
           "name": "Fire",
-          "docStart": 3155,
-          "docEnd": 3348,
+          "docStart": 3276,
+          "docEnd": 3469,
           "returnType": "void",
           "arguments": [
             {
@@ -389,8 +389,8 @@
         },
         {
           "name": "FireToClient",
-          "docStart": 3407,
-          "docEnd": 3592,
+          "docStart": 3528,
+          "docEnd": 3719,
           "returnType": "void",
           "arguments": [
             {
@@ -402,15 +402,15 @@
         },
         {
           "name": "Cancel",
-          "docStart": 3644,
-          "docEnd": 3785,
+          "docStart": 3771,
+          "docEnd": 3912,
           "returnType": "void",
           "arguments": []
         },
         {
           "name": "GetBool",
-          "docStart": 3821,
-          "docEnd": 4072,
+          "docStart": 3948,
+          "docEnd": 4199,
           "returnType": "bool",
           "arguments": [
             {
@@ -427,8 +427,8 @@
         },
         {
           "name": "SetBool",
-          "docStart": 4146,
-          "docEnd": 4287,
+          "docStart": 4273,
+          "docEnd": 4414,
           "returnType": "void",
           "arguments": [
             {
@@ -445,8 +445,8 @@
         },
         {
           "name": "GetInt",
-          "docStart": 4352,
-          "docEnd": 4603,
+          "docStart": 4479,
+          "docEnd": 4730,
           "returnType": "int",
           "arguments": [
             {
@@ -463,8 +463,8 @@
         },
         {
           "name": "SetInt",
-          "docStart": 4670,
-          "docEnd": 5070,
+          "docStart": 4797,
+          "docEnd": 5197,
           "returnType": "void",
           "arguments": [
             {
@@ -481,8 +481,8 @@
         },
         {
           "name": "GetFloat",
-          "docStart": 5133,
-          "docEnd": 5398,
+          "docStart": 5260,
+          "docEnd": 5525,
           "returnType": "float",
           "arguments": [
             {
@@ -499,8 +499,8 @@
         },
         {
           "name": "SetFloat",
-          "docStart": 5473,
-          "docEnd": 5628,
+          "docStart": 5600,
+          "docEnd": 5755,
           "returnType": "void",
           "arguments": [
             {
@@ -517,8 +517,8 @@
         },
         {
           "name": "GetString",
-          "docStart": 5695,
-          "docEnd": 6013,
+          "docStart": 5822,
+          "docEnd": 6140,
           "returnType": "void",
           "arguments": [
             {
@@ -545,8 +545,8 @@
         },
         {
           "name": "SetString",
-          "docStart": 6123,
-          "docEnd": 6262,
+          "docStart": 6250,
+          "docEnd": 6389,
           "returnType": "void",
           "arguments": [
             {
@@ -563,8 +563,8 @@
         },
         {
           "name": "GetName",
-          "docStart": 6337,
-          "docEnd": 6502,
+          "docStart": 6464,
+          "docEnd": 6629,
           "returnType": "void",
           "arguments": [
             {
@@ -583,8 +583,8 @@
       "properties": [
         {
           "name": "BroadcastDisabled",
-          "docStart": 6565,
-          "docEnd": 6735,
+          "docStart": 6692,
+          "docEnd": 6862,
           "type": "bool",
           "getter": true,
           "setter": true
@@ -600,18 +600,18 @@
       "entries": [
         {
           "name": "EventHookMode_Pre",
-          "docStart": 1775,
-          "docEnd": 1823
+          "docStart": 1788,
+          "docEnd": 1836
         },
         {
           "name": "EventHookMode_Post",
-          "docStart": 1850,
-          "docEnd": 1897
+          "docStart": 1875,
+          "docEnd": 1922
         },
         {
           "name": "EventHookMode_PostNoCopy",
-          "docStart": 1927,
-          "docEnd": 2006
+          "docStart": 1961,
+          "docEnd": 2040
         }
       ]
     }
@@ -620,18 +620,18 @@
   "typesets": [
     {
       "name": "EventHook",
-      "docStart": 2014,
-      "docEnd": 2058,
+      "docStart": 2048,
+      "docEnd": 2092,
       "types": [
         {
           "type": "function Action(Event event, const char[] name, bool dontBroadcast)",
-          "docStart": 2083,
-          "docEnd": 2612
+          "docStart": 2117,
+          "docEnd": 2701
         },
         {
           "type": "function void(Event event, const char[] name, bool dontBroadcast)",
-          "docStart": 2687,
-          "docEnd": 3047
+          "docStart": 2779,
+          "docEnd": 3168
         }
       ]
     }

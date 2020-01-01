@@ -2,8 +2,8 @@
   "functions": [
     {
       "name": "ProcessTargetString",
-      "docStart": 2765,
-      "docEnd": 3902,
+      "docStart": 2901,
+      "docEnd": 4138,
       "kind": "native",
       "returnType": "int",
       "arguments": [
@@ -51,8 +51,8 @@
     },
     {
       "name": "ReplyToTargetError",
-      "docStart": 4147,
-      "docEnd": 4412,
+      "docStart": 4390,
+      "docEnd": 4667,
       "kind": "stock",
       "returnType": "void",
       "arguments": [
@@ -70,8 +70,8 @@
     },
     {
       "name": "AddMultiTargetFilter",
-      "docStart": 5746,
-      "docEnd": 6078,
+      "docStart": 6001,
+      "docEnd": 6333,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -99,8 +99,8 @@
     },
     {
       "name": "RemoveMultiTargetFilter",
-      "docStart": 6237,
-      "docEnd": 6422,
+      "docStart": 6492,
+      "docEnd": 6677,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -123,8 +123,8 @@
   "typesets": [
     {
       "name": "MultiTargetFilter",
-      "docStart": 5353,
-      "docEnd": 5595,
+      "docStart": 5608,
+      "docEnd": 5850,
       "types": [
         {
           "type": "function bool(const char[] pattern, Handle clients)"

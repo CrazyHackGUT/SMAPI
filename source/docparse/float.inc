@@ -70,8 +70,8 @@
     },
     {
       "name": "FloatFraction",
-      "docStart": 3394,
-      "docEnd": 3508,
+      "docStart": 3902,
+      "docEnd": 4032,
       "kind": "native",
       "returnType": "float",
       "arguments": [
@@ -84,8 +84,8 @@
     },
     {
       "name": "RoundToZero",
-      "docStart": 3554,
-      "docEnd": 3693,
+      "docStart": 4078,
+      "docEnd": 4233,
       "kind": "native",
       "returnType": "int",
       "arguments": [
@@ -98,8 +98,8 @@
     },
     {
       "name": "RoundToCeil",
-      "docStart": 3735,
-      "docEnd": 3877,
+      "docStart": 4275,
+      "docEnd": 4433,
       "kind": "native",
       "returnType": "int",
       "arguments": [
@@ -112,8 +112,8 @@
     },
     {
       "name": "RoundToFloor",
-      "docStart": 3919,
-      "docEnd": 4060,
+      "docStart": 4475,
+      "docEnd": 4632,
       "kind": "native",
       "returnType": "int",
       "arguments": [
@@ -126,8 +126,8 @@
     },
     {
       "name": "RoundToNearest",
-      "docStart": 4103,
-      "docEnd": 4219,
+      "docStart": 4675,
+      "docEnd": 4807,
       "kind": "native",
       "returnType": "int",
       "arguments": [
@@ -140,8 +140,8 @@
     },
     {
       "name": "FloatCompare",
-      "docStart": 4264,
-      "docEnd": 4607,
+      "docStart": 4852,
+      "docEnd": 5219,
       "kind": "native",
       "returnType": "int",
       "arguments": [
@@ -159,8 +159,8 @@
     },
     {
       "name": "SquareRoot",
-      "docStart": 4661,
-      "docEnd": 4832,
+      "docStart": 5273,
+      "docEnd": 5460,
       "kind": "native",
       "returnType": "float",
       "arguments": [
@@ -173,8 +173,8 @@
     },
     {
       "name": "Pow",
-      "docStart": 4875,
-      "docEnd": 5062,
+      "docStart": 5503,
+      "docEnd": 5710,
       "kind": "native",
       "returnType": "float",
       "arguments": [
@@ -192,8 +192,8 @@
     },
     {
       "name": "Exponential",
-      "docStart": 5114,
-      "docEnd": 5234,
+      "docStart": 5762,
+      "docEnd": 5898,
       "kind": "native",
       "returnType": "float",
       "arguments": [
@@ -206,8 +206,8 @@
     },
     {
       "name": "Logarithm",
-      "docStart": 5278,
-      "docEnd": 5464,
+      "docStart": 5942,
+      "docEnd": 6151,
       "kind": "native",
       "returnType": "float",
       "arguments": [
@@ -225,8 +225,8 @@
     },
     {
       "name": "Sine",
-      "docStart": 5523,
-      "docEnd": 5643,
+      "docStart": 6210,
+      "docEnd": 6346,
       "kind": "native",
       "returnType": "float",
       "arguments": [
@@ -239,8 +239,8 @@
     },
     {
       "name": "Cosine",
-      "docStart": 5680,
-      "docEnd": 5802,
+      "docStart": 6383,
+      "docEnd": 6521,
       "kind": "native",
       "returnType": "float",
       "arguments": [
@@ -253,8 +253,8 @@
     },
     {
       "name": "Tangent",
-      "docStart": 5841,
-      "docEnd": 5964,
+      "docStart": 6560,
+      "docEnd": 6699,
       "kind": "native",
       "returnType": "float",
       "arguments": [
@@ -267,8 +267,8 @@
     },
     {
       "name": "FloatAbs",
-      "docStart": 6004,
-      "docEnd": 6123,
+      "docStart": 6739,
+      "docEnd": 6874,
       "kind": "native",
       "returnType": "float",
       "arguments": [
@@ -281,8 +281,8 @@
     },
     {
       "name": "ArcTangent",
-      "docStart": 6164,
-      "docEnd": 6294,
+      "docStart": 6915,
+      "docEnd": 7061,
       "kind": "native",
       "returnType": "float",
       "arguments": [
@@ -295,8 +295,8 @@
     },
     {
       "name": "ArcCosine",
-      "docStart": 6337,
-      "docEnd": 6466,
+      "docStart": 7104,
+      "docEnd": 7249,
       "kind": "native",
       "returnType": "float",
       "arguments": [
@@ -309,8 +309,8 @@
     },
     {
       "name": "ArcSine",
-      "docStart": 6508,
-      "docEnd": 6635,
+      "docStart": 7291,
+      "docEnd": 7434,
       "kind": "native",
       "returnType": "float",
       "arguments": [
@@ -323,8 +323,8 @@
     },
     {
       "name": "ArcTangent2",
-      "docStart": 6675,
-      "docEnd": 6842,
+      "docStart": 7474,
+      "docEnd": 7669,
       "kind": "native",
       "returnType": "float",
       "arguments": [
@@ -342,8 +342,8 @@
     },
     {
       "name": "RoundFloat",
-      "docStart": 6891,
-      "docEnd": 7085,
+      "docStart": 7718,
+      "docEnd": 7928,
       "kind": "stock",
       "returnType": "int",
       "arguments": [
@@ -356,8 +356,8 @@
     },
     {
       "name": "DegToRad",
-      "docStart": 10766,
-      "docEnd": 10861,
+      "docStart": 11635,
+      "docEnd": 11748,
       "kind": "stock",
       "returnType": "float",
       "arguments": [
@@ -370,8 +370,8 @@
     },
     {
       "name": "RadToDeg",
-      "docStart": 10937,
-      "docEnd": 11032,
+      "docStart": 11824,
+      "docEnd": 11937,
       "kind": "stock",
       "returnType": "float",
       "arguments": [
@@ -384,24 +384,24 @@
     },
     {
       "name": "GetURandomInt",
-      "docStart": 11108,
-      "docEnd": 11286,
+      "docStart": 12013,
+      "docEnd": 12202,
       "kind": "native",
       "returnType": "int",
       "arguments": []
     },
     {
       "name": "GetURandomFloat",
-      "docStart": 11319,
-      "docEnd": 11520,
+      "docStart": 12235,
+      "docEnd": 12447,
       "kind": "native",
       "returnType": "float",
       "arguments": []
     },
     {
       "name": "SetURandomSeed",
-      "docStart": 11557,
-      "docEnd": 11819,
+      "docStart": 12484,
+      "docEnd": 12758,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -419,8 +419,8 @@
     },
     {
       "name": "SetURandomSeedSimple",
-      "docStart": 11885,
-      "docEnd": 12072,
+      "docStart": 12824,
+      "docEnd": 13011,
       "kind": "stock",
       "returnType": "void",
       "arguments": [

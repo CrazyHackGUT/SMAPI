@@ -2,8 +2,8 @@
   "functions": [
     {
       "name": "OnRebuildAdminCache",
-      "docStart": 12712,
-      "docEnd": 12833,
+      "docStart": 13337,
+      "docEnd": 13465,
       "kind": "forward",
       "returnType": "void",
       "arguments": [
@@ -16,8 +16,8 @@
     },
     {
       "name": "DumpAdminCache",
-      "docStart": 12893,
-      "docEnd": 13108,
+      "docStart": 13525,
+      "docEnd": 13752,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -35,8 +35,8 @@
     },
     {
       "name": "AddCommandOverride",
-      "docStart": 13176,
-      "docEnd": 13500,
+      "docStart": 13820,
+      "docEnd": 14165,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -59,8 +59,8 @@
     },
     {
       "name": "GetCommandOverride",
-      "docStart": 13585,
-      "docEnd": 13899,
+      "docStart": 14250,
+      "docEnd": 14595,
       "kind": "native",
       "returnType": "bool",
       "arguments": [
@@ -83,8 +83,8 @@
     },
     {
       "name": "UnsetCommandOverride",
-      "docStart": 13985,
-      "docEnd": 14155,
+      "docStart": 14681,
+      "docEnd": 14866,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -102,8 +102,8 @@
     },
     {
       "name": "CreateAdmGroup",
-      "docStart": 14231,
-      "docEnd": 14413,
+      "docStart": 14942,
+      "docEnd": 15137,
       "kind": "native",
       "returnType": "GroupId",
       "arguments": [
@@ -116,8 +116,8 @@
     },
     {
       "name": "FindAdmGroup",
-      "docStart": 14474,
-      "docEnd": 14630,
+      "docStart": 15198,
+      "docEnd": 15367,
       "kind": "native",
       "returnType": "GroupId",
       "arguments": [
@@ -130,8 +130,8 @@
     },
     {
       "name": "SetAdmGroupAddFlag",
-      "docStart": 14689,
-      "docEnd": 14960,
+      "docStart": 15426,
+      "docEnd": 15718,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -154,8 +154,8 @@
     },
     {
       "name": "GetAdmGroupAddFlag",
-      "docStart": 15039,
-      "docEnd": 15304,
+      "docStart": 15797,
+      "docEnd": 16088,
       "kind": "native",
       "returnType": "bool",
       "arguments": [
@@ -173,8 +173,8 @@
     },
     {
       "name": "GetAdmGroupAddFlags",
-      "docStart": 15369,
-      "docEnd": 15616,
+      "docStart": 16153,
+      "docEnd": 16419,
       "kind": "native",
       "returnType": "int",
       "arguments": [
@@ -226,8 +226,8 @@
     },
     {
       "name": "SetAdmGroupImmuneFrom",
-      "docStart": 16035,
-      "docEnd": 16166,
+      "docStart": 16852,
+      "docEnd": 16996,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -245,8 +245,8 @@
     },
     {
       "name": "GetAdmGroupImmuneCount",
-      "docStart": 16236,
-      "docEnd": 16370,
+      "docStart": 17066,
+      "docEnd": 17219,
       "kind": "native",
       "returnType": "int",
       "arguments": [
@@ -259,8 +259,8 @@
     },
     {
       "name": "GetAdmGroupImmuneFrom",
-      "docStart": 16422,
-      "docEnd": 16681,
+      "docStart": 17271,
+      "docEnd": 17555,
       "kind": "native",
       "returnType": "GroupId",
       "arguments": [
@@ -278,8 +278,8 @@
     },
     {
       "name": "AddAdmGroupCmdOverride",
-      "docStart": 16749,
-      "docEnd": 17003,
+      "docStart": 17622,
+      "docEnd": 17906,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -307,8 +307,8 @@
     },
     {
       "name": "GetAdmGroupCmdOverride",
-      "docStart": 17113,
-      "docEnd": 17452,
+      "docStart": 18016,
+      "docEnd": 18395,
       "kind": "native",
       "returnType": "bool",
       "arguments": [
@@ -336,8 +336,8 @@
     },
     {
       "name": "RegisterAuthIdentType",
-      "docStart": 17563,
-      "docEnd": 17762,
+      "docStart": 18506,
+      "docEnd": 18712,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -350,8 +350,8 @@
     },
     {
       "name": "CreateAdmin",
-      "docStart": 17821,
-      "docEnd": 18015,
+      "docStart": 18771,
+      "docEnd": 19107,
       "kind": "native",
       "returnType": "AdminId",
       "arguments": [
@@ -364,8 +364,8 @@
     },
     {
       "name": "GetAdminUsername",
-      "docStart": 18070,
-      "docEnd": 18413,
+      "docStart": 19162,
+      "docEnd": 19534,
       "kind": "native",
       "returnType": "int",
       "arguments": [
@@ -388,8 +388,8 @@
     },
     {
       "name": "BindAdminIdentity",
-      "docStart": 18487,
-      "docEnd": 18914,
+      "docStart": 19608,
+      "docEnd": 20083,
       "kind": "native",
       "returnType": "bool",
       "arguments": [
@@ -412,8 +412,8 @@
     },
     {
       "name": "SetAdminFlag",
-      "docStart": 19001,
-      "docEnd": 19203,
+      "docStart": 20170,
+      "docEnd": 20393,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -436,8 +436,8 @@
     },
     {
       "name": "GetAdminFlag",
-      "docStart": 19276,
-      "docEnd": 19516,
+      "docStart": 20466,
+      "docEnd": 20739,
       "kind": "native",
       "returnType": "bool",
       "arguments": [
@@ -460,8 +460,8 @@
     },
     {
       "name": "GetAdminFlags",
-      "docStart": 19612,
-      "docEnd": 19824,
+      "docStart": 20835,
+      "docEnd": 21073,
       "kind": "native",
       "returnType": "int",
       "arguments": [
@@ -479,8 +479,8 @@
     },
     {
       "name": "AdminInheritGroup",
-      "docStart": 19887,
-      "docEnd": 20197,
+      "docStart": 21136,
+      "docEnd": 21472,
       "kind": "native",
       "returnType": "bool",
       "arguments": [
@@ -498,8 +498,8 @@
     },
     {
       "name": "GetAdminGroupCount",
-      "docStart": 20258,
-      "docEnd": 20434,
+      "docStart": 21533,
+      "docEnd": 21727,
       "kind": "native",
       "returnType": "int",
       "arguments": [
@@ -512,8 +512,8 @@
     },
     {
       "name": "GetAdminGroup",
-      "docStart": 20482,
-      "docEnd": 20983,
+      "docStart": 21775,
+      "docEnd": 22353,
       "kind": "native",
       "returnType": "GroupId",
       "arguments": [
@@ -541,8 +541,8 @@
     },
     {
       "name": "SetAdminPassword",
-      "docStart": 21069,
-      "docEnd": 21211,
+      "docStart": 22439,
+      "docEnd": 22594,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -560,8 +560,8 @@
     },
     {
       "name": "GetAdminPassword",
-      "docStart": 21281,
-      "docEnd": 21614,
+      "docStart": 22664,
+      "docEnd": 23040,
       "kind": "native",
       "returnType": "bool",
       "arguments": [
@@ -584,8 +584,8 @@
     },
     {
       "name": "FindAdminByIdentity",
-      "docStart": 21696,
-      "docEnd": 21930,
+      "docStart": 23122,
+      "docEnd": 23377,
       "kind": "native",
       "returnType": "AdminId",
       "arguments": [
@@ -603,8 +603,8 @@
     },
     {
       "name": "RemoveAdmin",
-      "docStart": 22013,
-      "docEnd": 22233,
+      "docStart": 23460,
+      "docEnd": 23699,
       "kind": "native",
       "returnType": "bool",
       "arguments": [
@@ -617,8 +617,8 @@
     },
     {
       "name": "FlagBitsToBitArray",
-      "docStart": 22275,
-      "docEnd": 22569,
+      "docStart": 23741,
+      "docEnd": 24063,
       "kind": "native",
       "returnType": "int",
       "arguments": [
@@ -641,8 +641,8 @@
     },
     {
       "name": "FlagBitArrayToBits",
-      "docStart": 22642,
-      "docEnd": 22875,
+      "docStart": 24136,
+      "docEnd": 24390,
       "kind": "native",
       "returnType": "int",
       "arguments": [
@@ -660,8 +660,8 @@
     },
     {
       "name": "FlagArrayToBits",
-      "docStart": 22944,
-      "docEnd": 23164,
+      "docStart": 24459,
+      "docEnd": 24699,
       "kind": "native",
       "returnType": "int",
       "arguments": [
@@ -679,8 +679,8 @@
     },
     {
       "name": "FlagBitsToArray",
-      "docStart": 23236,
-      "docEnd": 23487,
+      "docStart": 24771,
+      "docEnd": 25050,
       "kind": "native",
       "returnType": "int",
       "arguments": [
@@ -703,8 +703,8 @@
     },
     {
       "name": "FindFlagByName",
-      "docStart": 23562,
-      "docEnd": 23767,
+      "docStart": 25125,
+      "docEnd": 25354,
       "kind": "native",
       "returnType": "bool",
       "arguments": [
@@ -722,8 +722,8 @@
     },
     {
       "name": "FindFlagByChar",
-      "docStart": 23836,
-      "docEnd": 24028,
+      "docStart": 25423,
+      "docEnd": 25641,
       "kind": "native",
       "returnType": "bool",
       "arguments": [
@@ -741,8 +741,8 @@
     },
     {
       "name": "FindFlagChar",
-      "docStart": 24085,
-      "docEnd": 24324,
+      "docStart": 25698,
+      "docEnd": 25916,
       "kind": "native",
       "returnType": "bool",
       "arguments": [
@@ -760,8 +760,8 @@
     },
     {
       "name": "ReadFlagString",
-      "docStart": 24379,
-      "docEnd": 24606,
+      "docStart": 25971,
+      "docEnd": 26218,
       "kind": "native",
       "returnType": "int",
       "arguments": [
@@ -779,8 +779,8 @@
     },
     {
       "name": "CanAdminTarget",
-      "docStart": 24675,
-      "docEnd": 25567,
+      "docStart": 26287,
+      "docEnd": 27200,
       "kind": "native",
       "returnType": "bool",
       "arguments": [
@@ -798,8 +798,8 @@
     },
     {
       "name": "CreateAuthMethod",
-      "docStart": 25631,
-      "docEnd": 25851,
+      "docStart": 27264,
+      "docEnd": 27500,
       "kind": "native",
       "returnType": "bool",
       "arguments": [
@@ -812,8 +812,8 @@
     },
     {
       "name": "SetAdmGroupImmunityLevel",
-      "docStart": 25907,
-      "docEnd": 26063,
+      "docStart": 27556,
+      "docEnd": 27736,
       "kind": "native",
       "returnType": "int",
       "arguments": [
@@ -831,8 +831,8 @@
     },
     {
       "name": "GetAdmGroupImmunityLevel",
-      "docStart": 26129,
-      "docEnd": 26256,
+      "docStart": 27802,
+      "docEnd": 27947,
       "kind": "native",
       "returnType": "int",
       "arguments": [
@@ -845,8 +845,8 @@
     },
     {
       "name": "SetAdminImmunityLevel",
-      "docStart": 26311,
-      "docEnd": 26467,
+      "docStart": 28002,
+      "docEnd": 28183,
       "kind": "native",
       "returnType": "int",
       "arguments": [
@@ -864,8 +864,8 @@
     },
     {
       "name": "GetAdminImmunityLevel",
-      "docStart": 26529,
-      "docEnd": 26640,
+      "docStart": 28245,
+      "docEnd": 28375,
       "kind": "native",
       "returnType": "int",
       "arguments": [
@@ -878,8 +878,8 @@
     },
     {
       "name": "FlagToBit",
-      "docStart": 26691,
-      "docEnd": 26825,
+      "docStart": 28426,
+      "docEnd": 28576,
       "kind": "stock",
       "returnType": "int",
       "arguments": [
@@ -892,8 +892,8 @@
     },
     {
       "name": "BitToFlag",
-      "docStart": 26908,
-      "docEnd": 27096,
+      "docStart": 28659,
+      "docEnd": 28872,
       "kind": "stock",
       "returnType": "bool",
       "arguments": [
@@ -916,8 +916,8 @@
       "methods": [
         {
           "name": "GetUsername",
-          "docStart": 6388,
-          "docEnd": 6709,
+          "docStart": 6900,
+          "docEnd": 7221,
           "returnType": "void",
           "arguments": [
             {
@@ -934,8 +934,8 @@
         },
         {
           "name": "BindIdentity",
-          "docStart": 6776,
-          "docEnd": 7199,
+          "docStart": 7288,
+          "docEnd": 7711,
           "returnType": "bool",
           "arguments": [
             {
@@ -952,8 +952,8 @@
         },
         {
           "name": "SetFlag",
-          "docStart": 7284,
-          "docEnd": 7447,
+          "docStart": 7796,
+          "docEnd": 7959,
           "returnType": "void",
           "arguments": [
             {
@@ -970,8 +970,8 @@
         },
         {
           "name": "HasFlag",
-          "docStart": 7512,
-          "docEnd": 7726,
+          "docStart": 8024,
+          "docEnd": 8238,
           "returnType": "bool",
           "arguments": [
             {
@@ -988,8 +988,8 @@
         },
         {
           "name": "GetFlags",
-          "docStart": 7814,
-          "docEnd": 7992,
+          "docStart": 8326,
+          "docEnd": 8504,
           "returnType": "int",
           "arguments": [
             {
@@ -1001,8 +1001,8 @@
         },
         {
           "name": "InheritGroup",
-          "docStart": 8047,
-          "docEnd": 8324,
+          "docStart": 8559,
+          "docEnd": 8836,
           "returnType": "bool",
           "arguments": [
             {
@@ -1014,8 +1014,8 @@
         },
         {
           "name": "GetGroup",
-          "docStart": 8377,
-          "docEnd": 8901,
+          "docStart": 8889,
+          "docEnd": 9413,
           "returnType": "GroupId",
           "arguments": [
             {
@@ -1037,8 +1037,8 @@
         },
         {
           "name": "SetPassword",
-          "docStart": 8979,
-          "docEnd": 9073,
+          "docStart": 9491,
+          "docEnd": 9585,
           "returnType": "void",
           "arguments": [
             {
@@ -1050,8 +1050,8 @@
         },
         {
           "name": "GetPassword",
-          "docStart": 9135,
-          "docEnd": 9453,
+          "docStart": 9647,
+          "docEnd": 9965,
           "returnType": "bool",
           "arguments": [
             {
@@ -1068,8 +1068,8 @@
         },
         {
           "name": "CanTarget",
-          "docStart": 9527,
-          "docEnd": 10366,
+          "docStart": 10039,
+          "docEnd": 10878,
           "returnType": "bool",
           "arguments": [
             {
@@ -1083,16 +1083,16 @@
       "properties": [
         {
           "name": "GroupCount",
-          "docStart": 10418,
-          "docEnd": 10474,
+          "docStart": 10930,
+          "docEnd": 10986,
           "type": "int",
           "getter": true,
           "setter": false
         },
         {
           "name": "ImmunityLevel",
-          "docStart": 10535,
-          "docEnd": 10573,
+          "docStart": 11047,
+          "docEnd": 11085,
           "type": "int",
           "getter": true,
           "setter": true
@@ -1104,8 +1104,8 @@
       "methods": [
         {
           "name": "HasFlag",
-          "docStart": 10694,
-          "docEnd": 10855,
+          "docStart": 11206,
+          "docEnd": 11384,
           "returnType": "bool",
           "arguments": [
             {
@@ -1117,8 +1117,8 @@
         },
         {
           "name": "SetFlag",
-          "docStart": 10906,
-          "docEnd": 11069,
+          "docStart": 11435,
+          "docEnd": 11610,
           "returnType": "void",
           "arguments": [
             {
@@ -1135,15 +1135,15 @@
         },
         {
           "name": "GetFlags",
-          "docStart": 11134,
-          "docEnd": 11258,
+          "docStart": 11675,
+          "docEnd": 11809,
           "returnType": "int",
           "arguments": []
         },
         {
           "name": "GetGroupImmunity",
-          "docStart": 11295,
-          "docEnd": 11517,
+          "docStart": 11846,
+          "docEnd": 12084,
           "returnType": "GroupId",
           "arguments": [
             {
@@ -1155,8 +1155,8 @@
         },
         {
           "name": "AddGroupImmunity",
-          "docStart": 11575,
-          "docEnd": 11670,
+          "docStart": 12142,
+          "docEnd": 12243,
           "returnType": "void",
           "arguments": [
             {
@@ -1168,8 +1168,8 @@
         },
         {
           "name": "GetCommandOverride",
-          "docStart": 11729,
-          "docEnd": 12037,
+          "docStart": 12302,
+          "docEnd": 12641,
           "returnType": "bool",
           "arguments": [
             {
@@ -1191,8 +1191,8 @@
         },
         {
           "name": "AddCommandOverride",
-          "docStart": 12141,
-          "docEnd": 12363,
+          "docStart": 12745,
+          "docEnd": 12988,
           "returnType": "void",
           "arguments": [
             {
@@ -1216,16 +1216,16 @@
       "properties": [
         {
           "name": "GroupImmunitiesCount",
-          "docStart": 12466,
-          "docEnd": 12504,
+          "docStart": 13091,
+          "docEnd": 13129,
           "type": "int",
           "getter": true,
           "setter": false
         },
         {
           "name": "ImmunityLevel",
-          "docStart": 12575,
-          "docEnd": 12613,
+          "docStart": 13200,
+          "docEnd": 13238,
           "type": "int",
           "getter": true,
           "setter": true
@@ -1236,137 +1236,137 @@
   "enums": [
     {
       "name": "AdminFlag",
-      "docStart": 1637,
-      "docEnd": 1683,
+      "docStart": 1635,
+      "docEnd": 1681,
       "entries": [
         {
           "name": "Admin_Reservation",
-          "docStart": 1728,
-          "docEnd": 1749
+          "docStart": 1727,
+          "docEnd": 1748
         },
         {
           "name": "Admin_Generic",
-          "docStart": 1769,
-          "docEnd": 1800
+          "docStart": 1775,
+          "docEnd": 1806
         },
         {
           "name": "Admin_Kick",
-          "docStart": 1818,
-          "docEnd": 1843
+          "docStart": 1833,
+          "docEnd": 1858
         },
         {
           "name": "Admin_Ban",
-          "docStart": 1860,
-          "docEnd": 1884
+          "docStart": 1885,
+          "docEnd": 1909
         },
         {
           "name": "Admin_Unban",
-          "docStart": 1902,
-          "docEnd": 1928
+          "docStart": 1936,
+          "docEnd": 1962
         },
         {
           "name": "Admin_Slay",
-          "docStart": 1946,
-          "docEnd": 1983
-        },
-        {
-          "name": "Admin_Changemap",
-          "docStart": 2004,
+          "docStart": 1989,
           "docEnd": 2026
         },
         {
+          "name": "Admin_Changemap",
+          "docStart": 2053,
+          "docEnd": 2075
+        },
+        {
           "name": "Admin_Convars",
-          "docStart": 2046,
-          "docEnd": 2074
+          "docStart": 2102,
+          "docEnd": 2130
         },
         {
           "name": "Admin_Config",
-          "docStart": 2093,
-          "docEnd": 2121
+          "docStart": 2157,
+          "docEnd": 2185
         },
         {
           "name": "Admin_Chat",
-          "docStart": 2139,
-          "docEnd": 2170
+          "docStart": 2212,
+          "docEnd": 2243
         },
         {
           "name": "Admin_Vote",
-          "docStart": 2188,
-          "docEnd": 2219
+          "docStart": 2270,
+          "docEnd": 2301
         },
         {
           "name": "Admin_Password",
-          "docStart": 2240,
-          "docEnd": 2269
+          "docStart": 2328,
+          "docEnd": 2357
         },
         {
           "name": "Admin_RCON",
-          "docStart": 2287,
-          "docEnd": 2303
+          "docStart": 2384,
+          "docEnd": 2400
         },
         {
           "name": "Admin_Cheats",
-          "docStart": 2322,
-          "docEnd": 2367
+          "docStart": 2427,
+          "docEnd": 2472
         },
         {
           "name": "Admin_Root",
-          "docStart": 2385,
-          "docEnd": 2414
+          "docStart": 2499,
+          "docEnd": 2528
         },
         {
           "name": "Admin_Custom1",
-          "docStart": 2434,
-          "docEnd": 2464
+          "docStart": 2555,
+          "docEnd": 2585
         },
         {
           "name": "Admin_Custom2",
-          "docStart": 2484,
-          "docEnd": 2515
+          "docStart": 2612,
+          "docEnd": 2643
         },
         {
           "name": "Admin_Custom3",
-          "docStart": 2535,
-          "docEnd": 2565
+          "docStart": 2670,
+          "docEnd": 2700
         },
         {
           "name": "Admin_Custom4",
-          "docStart": 2585,
-          "docEnd": 2616
+          "docStart": 2727,
+          "docEnd": 2758
         },
         {
           "name": "Admin_Custom5",
-          "docStart": 2636,
-          "docEnd": 2666
+          "docStart": 2785,
+          "docEnd": 2815
         },
         {
           "name": "Admin_Custom6",
-          "docStart": 2686,
-          "docEnd": 2728
+          "docStart": 2842,
+          "docEnd": 2872
         }
       ]
     },
     {
       "name": "OverrideType",
-      "docStart": 5120,
-      "docEnd": 5155,
+      "docStart": 5595,
+      "docEnd": 5630,
       "entries": [
         {
           "name": "Override_Command",
-          "docStart": 5202,
-          "docEnd": 5217
+          "docStart": 5679,
+          "docEnd": 5694
         },
         {
           "name": "Override_CommandGroup",
-          "docStart": 5243,
-          "docEnd": 5264
+          "docStart": 5721,
+          "docEnd": 5742
         }
       ]
     },
     {
       "name": "OverrideRule",
-      "docStart": 5272,
-      "docEnd": 5307,
+      "docStart": 5750,
+      "docEnd": 5785,
       "entries": [
         {
           "name": "Command_Deny"
@@ -1378,81 +1378,81 @@
     },
     {
       "name": "ImmunityType",
-      "docStart": 5378,
-      "docEnd": 5414,
+      "docStart": 5855,
+      "docEnd": 5891,
       "entries": [
         {
           "name": "Immunity_Default",
-          "docStart": 5461,
-          "docEnd": 5480
+          "docStart": 5940,
+          "docEnd": 5959
         },
         {
           "name": "Immunity_Global",
-          "docStart": 5501,
-          "docEnd": 5520
+          "docStart": 5986,
+          "docEnd": 6005
         }
       ]
     },
     {
       "name": "GroupId",
-      "docStart": 5528,
-      "docEnd": 5623,
+      "docStart": 6013,
+      "docEnd": 6107,
       "entries": [
         {
           "name": "INVALID_GROUP_ID",
-          "docStart": 5666,
-          "docEnd": 5703
+          "docStart": 6151,
+          "docEnd": 6188
         }
       ]
     },
     {
       "name": "AdminId",
-      "docStart": 5711,
-      "docEnd": 5806,
+      "docStart": 6196,
+      "docEnd": 6290,
       "entries": [
         {
           "name": "INVALID_ADMIN_ID",
-          "docStart": 5849,
-          "docEnd": 5886
+          "docStart": 6334,
+          "docEnd": 6371
         }
       ]
     },
     {
       "name": "AdmAccessMode",
-      "docStart": 5894,
-      "docEnd": 5947,
+      "docStart": 6379,
+      "docEnd": 6432,
       "entries": [
         {
           "name": "Access_Real",
-          "docStart": 5987,
-          "docEnd": 6025
+          "docStart": 6478,
+          "docEnd": 6516
         },
         {
           "name": "Access_Effective",
-          "docStart": 6046,
-          "docEnd": 6091
+          "docStart": 6539,
+          "docEnd": 6584
         }
       ]
     },
     {
       "name": "AdminCachePart",
-      "docStart": 6099,
-      "docEnd": 6149,
+      "docStart": 6592,
+      "docEnd": 6642,
       "entries": [
         {
           "name": "AdminCache_Overrides",
-          "docStart": 6203,
-          "docEnd": 6227
+          "docStart": 6701,
+          "docEnd": 6725
         },
         {
           "name": "AdminCache_Groups",
-          "docStart": 6255,
-          "docEnd": 6312
+          "docStart": 6760,
+          "docEnd": 6817
         },
         {
           "name": "AdminCache_Admins",
-          "docStart": 6340,
-          "docEnd": 6358
+          "docStart": 6852,
+          "docEnd": 6870
         }
       ]
     }

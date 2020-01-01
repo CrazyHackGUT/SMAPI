@@ -2,8 +2,8 @@
   "functions": [
     {
       "name": "CreateKeyValues",
-      "docStart": 14267,
-      "docEnd": 14598,
+      "docStart": 14282,
+      "docEnd": 14637,
       "kind": "native",
       "returnType": "KeyValues",
       "arguments": [
@@ -26,8 +26,8 @@
     },
     {
       "name": "KvSetString",
-      "docStart": 14710,
-      "docEnd": 14914,
+      "docStart": 14749,
+      "docEnd": 14986,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -50,8 +50,8 @@
     },
     {
       "name": "KvSetNum",
-      "docStart": 14993,
-      "docEnd": 15199,
+      "docStart": 15065,
+      "docEnd": 15304,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -74,8 +74,8 @@
     },
     {
       "name": "KvSetUInt64",
-      "docStart": 15266,
-      "docEnd": 15509,
+      "docStart": 15371,
+      "docEnd": 15647,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -98,8 +98,8 @@
     },
     {
       "name": "KvSetFloat",
-      "docStart": 15588,
-      "docEnd": 15808,
+      "docStart": 15726,
+      "docEnd": 15979,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -122,8 +122,8 @@
     },
     {
       "name": "KvSetColor",
-      "docStart": 15879,
-      "docEnd": 16170,
+      "docStart": 16050,
+      "docEnd": 16404,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -161,8 +161,8 @@
     },
     {
       "name": "KvSetVector",
-      "docStart": 16258,
-      "docEnd": 16460,
+      "docStart": 16492,
+      "docEnd": 16729,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -185,8 +185,8 @@
     },
     {
       "name": "KvGetString",
-      "docStart": 16539,
-      "docEnd": 16900,
+      "docStart": 16808,
+      "docEnd": 17209,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -219,8 +219,8 @@
     },
     {
       "name": "KvGetNum",
-      "docStart": 17014,
-      "docEnd": 17311,
+      "docStart": 17323,
+      "docEnd": 17661,
       "kind": "native",
       "returnType": "int",
       "arguments": [
@@ -243,8 +243,8 @@
     },
     {
       "name": "KvGetFloat",
-      "docStart": 17382,
-      "docEnd": 17692,
+      "docStart": 17732,
+      "docEnd": 18083,
       "kind": "native",
       "returnType": "float",
       "arguments": [
@@ -267,8 +267,8 @@
     },
     {
       "name": "KvGetColor",
-      "docStart": 17771,
-      "docEnd": 18144,
+      "docStart": 18162,
+      "docEnd": 18595,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -306,8 +306,8 @@
     },
     {
       "name": "KvGetUInt64",
-      "docStart": 18234,
-      "docEnd": 18552,
+      "docStart": 18685,
+      "docEnd": 19040,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -335,8 +335,8 @@
     },
     {
       "name": "KvGetVector",
-      "docStart": 18648,
-      "docEnd": 18961,
+      "docStart": 19136,
+      "docEnd": 19488,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -364,8 +364,8 @@
     },
     {
       "name": "KvJumpToKey",
-      "docStart": 19075,
-      "docEnd": 19382,
+      "docStart": 19602,
+      "docEnd": 19942,
       "kind": "native",
       "returnType": "bool",
       "arguments": [
@@ -388,8 +388,8 @@
     },
     {
       "name": "KvJumpToKeySymbol",
-      "docStart": 19460,
-      "docEnd": 19667,
+      "docStart": 20020,
+      "docEnd": 20255,
       "kind": "native",
       "returnType": "bool",
       "arguments": [
@@ -407,8 +407,8 @@
     },
     {
       "name": "KvGotoFirstSubKey",
-      "docStart": 19722,
-      "docEnd": 20062,
+      "docStart": 20310,
+      "docEnd": 20685,
       "kind": "native",
       "returnType": "bool",
       "arguments": [
@@ -426,8 +426,8 @@
     },
     {
       "name": "KvGotoNextKey",
-      "docStart": 20128,
-      "docEnd": 20555,
+      "docStart": 20751,
+      "docEnd": 21213,
       "kind": "native",
       "returnType": "bool",
       "arguments": [
@@ -445,8 +445,8 @@
     },
     {
       "name": "KvSavePosition",
-      "docStart": 20617,
-      "docEnd": 20894,
+      "docStart": 21275,
+      "docEnd": 21571,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -459,8 +459,8 @@
     },
     {
       "name": "KvDeleteKey",
-      "docStart": 20938,
-      "docEnd": 21161,
+      "docStart": 21615,
+      "docEnd": 21876,
       "kind": "native",
       "returnType": "bool",
       "arguments": [
@@ -478,8 +478,8 @@
     },
     {
       "name": "KvDeleteThis",
-      "docStart": 21220,
-      "docEnd": 21917,
+      "docStart": 21935,
+      "docEnd": 22724,
       "kind": "native",
       "returnType": "int",
       "arguments": [
@@ -492,8 +492,8 @@
     },
     {
       "name": "KvGoBack",
-      "docStart": 21958,
-      "docEnd": 22386,
+      "docStart": 22765,
+      "docEnd": 23223,
       "kind": "native",
       "returnType": "bool",
       "arguments": [
@@ -506,8 +506,8 @@
     },
     {
       "name": "KvRewind",
-      "docStart": 22424,
-      "docEnd": 22686,
+      "docStart": 23261,
+      "docEnd": 23542,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -520,8 +520,8 @@
     },
     {
       "name": "KvGetSectionName",
-      "docStart": 22724,
-      "docEnd": 23002,
+      "docStart": 23580,
+      "docEnd": 23895,
       "kind": "native",
       "returnType": "bool",
       "arguments": [
@@ -544,8 +544,8 @@
     },
     {
       "name": "KvSetSectionName",
-      "docStart": 23079,
-      "docEnd": 23225,
+      "docStart": 23972,
+      "docEnd": 24142,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -563,8 +563,8 @@
     },
     {
       "name": "KvGetDataType",
-      "docStart": 23293,
-      "docEnd": 23476,
+      "docStart": 24210,
+      "docEnd": 24431,
       "kind": "native",
       "returnType": "KvDataTypes",
       "arguments": [
@@ -582,8 +582,8 @@
     },
     {
       "name": "KeyValuesToFile",
-      "docStart": 23544,
-      "docEnd": 23802,
+      "docStart": 24499,
+      "docEnd": 24794,
       "kind": "native",
       "returnType": "bool",
       "arguments": [
@@ -601,8 +601,8 @@
     },
     {
       "name": "FileToKeyValues",
-      "docStart": 23866,
-      "docEnd": 24130,
+      "docStart": 24858,
+      "docEnd": 25159,
       "kind": "native",
       "returnType": "bool",
       "arguments": [
@@ -620,8 +620,8 @@
     },
     {
       "name": "StringToKeyValues",
-      "docStart": 24194,
-      "docEnd": 24585,
+      "docStart": 25223,
+      "docEnd": 25651,
       "kind": "native",
       "returnType": "bool",
       "arguments": [
@@ -644,8 +644,8 @@
     },
     {
       "name": "KvSetEscapeSequences",
-      "docStart": 24700,
-      "docEnd": 25026,
+      "docStart": 25766,
+      "docEnd": 26115,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -663,8 +663,8 @@
     },
     {
       "name": "KvNodesInStack",
-      "docStart": 25093,
-      "docEnd": 25392,
+      "docStart": 26182,
+      "docEnd": 26511,
       "kind": "native",
       "returnType": "int",
       "arguments": [
@@ -677,8 +677,8 @@
     },
     {
       "name": "KvCopySubkeys",
-      "docStart": 25435,
-      "docEnd": 25745,
+      "docStart": 26554,
+      "docEnd": 26888,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -696,8 +696,8 @@
     },
     {
       "name": "KvFindKeyById",
-      "docStart": 25805,
-      "docEnd": 26102,
+      "docStart": 26948,
+      "docEnd": 27294,
       "kind": "native",
       "returnType": "bool",
       "arguments": [
@@ -725,8 +725,8 @@
     },
     {
       "name": "KvGetNameSymbol",
-      "docStart": 26181,
-      "docEnd": 26432,
+      "docStart": 27373,
+      "docEnd": 27671,
       "kind": "native",
       "returnType": "bool",
       "arguments": [
@@ -749,8 +749,8 @@
     },
     {
       "name": "KvGetSectionSymbol",
-      "docStart": 26504,
-      "docEnd": 26712,
+      "docStart": 27743,
+      "docEnd": 27989,
       "kind": "native",
       "returnType": "bool",
       "arguments": [
@@ -773,8 +773,8 @@
       "methods": [
         {
           "name": "KeyValues",
-          "docStart": 2177,
-          "docEnd": 2490,
+          "docStart": 2209,
+          "docEnd": 2521,
           "returnType": "KeyValues",
           "arguments": [
             {
@@ -796,8 +796,8 @@
         },
         {
           "name": "ExportToFile",
-          "docStart": 2595,
-          "docEnd": 2793,
+          "docStart": 2626,
+          "docEnd": 2824,
           "returnType": "bool",
           "arguments": [
             {
@@ -809,8 +809,8 @@
         },
         {
           "name": "ExportToString",
-          "docStart": 2852,
-          "docEnd": 3109,
+          "docStart": 2883,
+          "docEnd": 3143,
           "returnType": "int",
           "arguments": [
             {
@@ -827,8 +827,8 @@
         },
         {
           "name": "ImportFromFile",
-          "docStart": 3303,
-          "docEnd": 3512,
+          "docStart": 3337,
+          "docEnd": 3546,
           "returnType": "bool",
           "arguments": [
             {
@@ -840,8 +840,8 @@
         },
         {
           "name": "ImportFromString",
-          "docStart": 3573,
-          "docEnd": 3913,
+          "docStart": 3607,
+          "docEnd": 3946,
           "returnType": "bool",
           "arguments": [
             {
@@ -858,8 +858,8 @@
         },
         {
           "name": "Import",
-          "docStart": 4025,
-          "docEnd": 4289,
+          "docStart": 4058,
+          "docEnd": 4321,
           "returnType": "void",
           "arguments": [
             {
@@ -871,8 +871,8 @@
         },
         {
           "name": "SetString",
-          "docStart": 4340,
-          "docEnd": 4530,
+          "docStart": 4372,
+          "docEnd": 4562,
           "returnType": "void",
           "arguments": [
             {
@@ -889,8 +889,8 @@
         },
         {
           "name": "SetNum",
-          "docStart": 4605,
-          "docEnd": 4753,
+          "docStart": 4637,
+          "docEnd": 4785,
           "returnType": "void",
           "arguments": [
             {
@@ -907,8 +907,8 @@
         },
         {
           "name": "SetUInt64",
-          "docStart": 4816,
-          "docEnd": 5001,
+          "docStart": 4848,
+          "docEnd": 5033,
           "returnType": "void",
           "arguments": [
             {
@@ -925,8 +925,8 @@
         },
         {
           "name": "SetFloat",
-          "docStart": 5076,
-          "docEnd": 5238,
+          "docStart": 5108,
+          "docEnd": 5270,
           "returnType": "void",
           "arguments": [
             {
@@ -943,8 +943,8 @@
         },
         {
           "name": "SetColor",
-          "docStart": 5305,
-          "docEnd": 5571,
+          "docStart": 5337,
+          "docEnd": 5603,
           "returnType": "void",
           "arguments": [
             {
@@ -976,8 +976,8 @@
         },
         {
           "name": "SetColor4",
-          "docStart": 5655,
-          "docEnd": 5831,
+          "docStart": 5687,
+          "docEnd": 5863,
           "returnType": "void",
           "arguments": [
             {
@@ -994,8 +994,8 @@
         },
         {
           "name": "SetVector",
-          "docStart": 5967,
-          "docEnd": 6114,
+          "docStart": 5999,
+          "docEnd": 6145,
           "returnType": "void",
           "arguments": [
             {
@@ -1012,8 +1012,8 @@
         },
         {
           "name": "GetString",
-          "docStart": 6189,
-          "docEnd": 6502,
+          "docStart": 6220,
+          "docEnd": 6532,
           "returnType": "void",
           "arguments": [
             {
@@ -1040,8 +1040,8 @@
         },
         {
           "name": "GetNum",
-          "docStart": 6612,
-          "docEnd": 6861,
+          "docStart": 6642,
+          "docEnd": 6890,
           "returnType": "int",
           "arguments": [
             {
@@ -1058,8 +1058,8 @@
         },
         {
           "name": "GetFloat",
-          "docStart": 6928,
-          "docEnd": 7189,
+          "docStart": 6957,
+          "docEnd": 7218,
           "returnType": "float",
           "arguments": [
             {
@@ -1076,8 +1076,8 @@
         },
         {
           "name": "GetColor",
-          "docStart": 7264,
-          "docEnd": 7612,
+          "docStart": 7293,
+          "docEnd": 7638,
           "returnType": "void",
           "arguments": [
             {
@@ -1109,8 +1109,8 @@
         },
         {
           "name": "GetColor4",
-          "docStart": 7698,
-          "docEnd": 7882,
+          "docStart": 7724,
+          "docEnd": 7908,
           "returnType": "void",
           "arguments": [
             {
@@ -1127,8 +1127,8 @@
         },
         {
           "name": "GetUInt64",
-          "docStart": 8071,
-          "docEnd": 8336,
+          "docStart": 8097,
+          "docEnd": 8362,
           "returnType": "void",
           "arguments": [
             {
@@ -1150,8 +1150,8 @@
         },
         {
           "name": "GetVector",
-          "docStart": 8428,
-          "docEnd": 8690,
+          "docStart": 8454,
+          "docEnd": 8716,
           "returnType": "void",
           "arguments": [
             {
@@ -1173,8 +1173,8 @@
         },
         {
           "name": "JumpToKey",
-          "docStart": 8800,
-          "docEnd": 9091,
+          "docStart": 8826,
+          "docEnd": 9117,
           "returnType": "bool",
           "arguments": [
             {
@@ -1191,8 +1191,8 @@
         },
         {
           "name": "JumpToKeySymbol",
-          "docStart": 9165,
-          "docEnd": 9350,
+          "docStart": 9191,
+          "docEnd": 9376,
           "returnType": "bool",
           "arguments": [
             {
@@ -1204,8 +1204,8 @@
         },
         {
           "name": "GotoFirstSubKey",
-          "docStart": 9401,
-          "docEnd": 9686,
+          "docStart": 9427,
+          "docEnd": 9712,
           "returnType": "bool",
           "arguments": [
             {
@@ -1217,8 +1217,8 @@
         },
         {
           "name": "GotoNextKey",
-          "docStart": 9748,
-          "docEnd": 10120,
+          "docStart": 9774,
+          "docEnd": 10145,
           "returnType": "bool",
           "arguments": [
             {
@@ -1230,22 +1230,22 @@
         },
         {
           "name": "SavePosition",
-          "docStart": 10178,
-          "docEnd": 10428,
+          "docStart": 10203,
+          "docEnd": 10452,
           "returnType": "void",
           "arguments": []
         },
         {
           "name": "GoBack",
-          "docStart": 10470,
-          "docEnd": 10839,
+          "docStart": 10494,
+          "docEnd": 10863,
           "returnType": "bool",
           "arguments": []
         },
         {
           "name": "DeleteKey",
-          "docStart": 10875,
-          "docEnd": 11045,
+          "docStart": 10899,
+          "docEnd": 11069,
           "returnType": "bool",
           "arguments": [
             {
@@ -1257,22 +1257,22 @@
         },
         {
           "name": "DeleteThis",
-          "docStart": 11100,
-          "docEnd": 11852,
+          "docStart": 11124,
+          "docEnd": 11874,
           "returnType": "int",
           "arguments": []
         },
         {
           "name": "Rewind",
-          "docStart": 11891,
-          "docEnd": 12126,
+          "docStart": 11913,
+          "docEnd": 12147,
           "returnType": "void",
           "arguments": []
         },
         {
           "name": "GetSectionName",
-          "docStart": 12162,
-          "docEnd": 12388,
+          "docStart": 12183,
+          "docEnd": 12408,
           "returnType": "bool",
           "arguments": [
             {
@@ -1289,8 +1289,8 @@
         },
         {
           "name": "SetSectionName",
-          "docStart": 12461,
-          "docEnd": 12540,
+          "docStart": 12481,
+          "docEnd": 12559,
           "returnType": "void",
           "arguments": [
             {
@@ -1302,8 +1302,8 @@
         },
         {
           "name": "GetDataType",
-          "docStart": 12604,
-          "docEnd": 12734,
+          "docStart": 12623,
+          "docEnd": 12753,
           "returnType": "KvDataTypes",
           "arguments": [
             {
@@ -1315,8 +1315,8 @@
         },
         {
           "name": "SetEscapeSequences",
-          "docStart": 12798,
-          "docEnd": 13058,
+          "docStart": 12817,
+          "docEnd": 13076,
           "returnType": "void",
           "arguments": [
             {
@@ -1328,15 +1328,15 @@
         },
         {
           "name": "NodesInStack",
-          "docStart": 13121,
-          "docEnd": 13361,
+          "docStart": 13139,
+          "docEnd": 13378,
           "returnType": "int",
           "arguments": []
         },
         {
           "name": "FindKeyById",
-          "docStart": 13402,
-          "docEnd": 13659,
+          "docStart": 13419,
+          "docEnd": 13676,
           "returnType": "bool",
           "arguments": [
             {
@@ -1358,8 +1358,8 @@
         },
         {
           "name": "GetNameSymbol",
-          "docStart": 13734,
-          "docEnd": 13943,
+          "docStart": 13751,
+          "docEnd": 13959,
           "returnType": "bool",
           "arguments": [
             {
@@ -1376,8 +1376,8 @@
         },
         {
           "name": "GetSectionSymbol",
-          "docStart": 14011,
-          "docEnd": 14211,
+          "docStart": 14027,
+          "docEnd": 14226,
           "returnType": "bool",
           "arguments": [
             {
@@ -1391,8 +1391,8 @@
       "properties": [
         {
           "name": "ExportLength",
-          "docStart": 3180,
-          "docEnd": 3240,
+          "docStart": 3214,
+          "docEnd": 3274,
           "type": "int",
           "getter": true,
           "setter": false
@@ -1403,48 +1403,48 @@
   "enums": [
     {
       "name": "KvDataTypes",
-      "docStart": 1661,
-      "docEnd": 1699,
+      "docStart": 1659,
+      "docEnd": 1697,
       "entries": [
         {
           "name": "KvData_None",
-          "docStart": 1740,
-          "docEnd": 1788
+          "docStart": 1741,
+          "docEnd": 1789
         },
         {
           "name": "KvData_String",
-          "docStart": 1807,
-          "docEnd": 1827
+          "docStart": 1812,
+          "docEnd": 1832
         },
         {
           "name": "KvData_Int",
-          "docStart": 1844,
-          "docEnd": 1865
+          "docStart": 1855,
+          "docEnd": 1876
         },
         {
           "name": "KvData_Float",
-          "docStart": 1883,
-          "docEnd": 1911
+          "docStart": 1899,
+          "docEnd": 1927
         },
         {
           "name": "KvData_Ptr",
-          "docStart": 1928,
-          "docEnd": 1975
+          "docStart": 1950,
+          "docEnd": 1997
         },
         {
           "name": "KvData_WString",
-          "docStart": 1995,
-          "docEnd": 2020
+          "docStart": 2020,
+          "docEnd": 2045
         },
         {
           "name": "KvData_Color",
-          "docStart": 2038,
-          "docEnd": 2057
+          "docStart": 2068,
+          "docEnd": 2087
         },
         {
           "name": "KvData_UInt64",
-          "docStart": 2076,
-          "docEnd": 2115
+          "docStart": 2110,
+          "docEnd": 2149
         },
         {
           "name": "KvData_NUMTYPES"

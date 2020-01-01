@@ -2,16 +2,16 @@
   "functions": [
     {
       "name": "CreateTrie",
-      "docStart": 6569,
-      "docEnd": 7209,
+      "docStart": 6579,
+      "docEnd": 7229,
       "kind": "native",
       "returnType": "StringMap",
       "arguments": []
     },
     {
       "name": "SetTrieValue",
-      "docStart": 7245,
-      "docEnd": 7599,
+      "docStart": 7265,
+      "docEnd": 7673,
       "kind": "native",
       "returnType": "bool",
       "arguments": [
@@ -39,8 +39,8 @@
     },
     {
       "name": "SetTrieArray",
-      "docStart": 7690,
-      "docEnd": 8085,
+      "docStart": 7764,
+      "docEnd": 8217,
       "kind": "native",
       "returnType": "bool",
       "arguments": [
@@ -73,8 +73,8 @@
     },
     {
       "name": "SetTrieString",
-      "docStart": 8199,
-      "docEnd": 8544,
+      "docStart": 8331,
+      "docEnd": 8730,
       "kind": "native",
       "returnType": "bool",
       "arguments": [
@@ -102,8 +102,8 @@
     },
     {
       "name": "GetTrieValue",
-      "docStart": 8645,
-      "docEnd": 8942,
+      "docStart": 8831,
+      "docEnd": 9193,
       "kind": "native",
       "returnType": "bool",
       "arguments": [
@@ -126,8 +126,8 @@
     },
     {
       "name": "GetTrieArray",
-      "docStart": 9015,
-      "docEnd": 9452,
+      "docStart": 9266,
+      "docEnd": 9781,
       "kind": "native",
       "returnType": "bool",
       "arguments": [
@@ -160,8 +160,8 @@
     },
     {
       "name": "GetTrieString",
-      "docStart": 9553,
-      "docEnd": 9987,
+      "docStart": 9882,
+      "docEnd": 10394,
       "kind": "native",
       "returnType": "bool",
       "arguments": [
@@ -194,8 +194,8 @@
     },
     {
       "name": "RemoveFromTrie",
-      "docStart": 10090,
-      "docEnd": 10288,
+      "docStart": 10497,
+      "docEnd": 10736,
       "kind": "native",
       "returnType": "bool",
       "arguments": [
@@ -213,8 +213,8 @@
     },
     {
       "name": "ClearTrie",
-      "docStart": 10351,
-      "docEnd": 10455,
+      "docStart": 10799,
+      "docEnd": 10924,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -227,8 +227,8 @@
     },
     {
       "name": "GetTrieSize",
-      "docStart": 10495,
-      "docEnd": 10657,
+      "docStart": 10964,
+      "docEnd": 11158,
       "kind": "native",
       "returnType": "int",
       "arguments": [
@@ -241,8 +241,8 @@
     },
     {
       "name": "CreateTrieSnapshot",
-      "docStart": 10698,
-      "docEnd": 11009,
+      "docStart": 11199,
+      "docEnd": 11537,
       "kind": "native",
       "returnType": "Handle",
       "arguments": [
@@ -255,8 +255,8 @@
     },
     {
       "name": "TrieSnapshotLength",
-      "docStart": 11060,
-      "docEnd": 11348,
+      "docStart": 11588,
+      "docEnd": 11904,
       "kind": "native",
       "returnType": "int",
       "arguments": [
@@ -269,8 +269,8 @@
     },
     {
       "name": "TrieSnapshotKeyBufferSize",
-      "docStart": 11401,
-      "docEnd": 11721,
+      "docStart": 11957,
+      "docEnd": 12311,
       "kind": "native",
       "returnType": "int",
       "arguments": [
@@ -288,8 +288,8 @@
     },
     {
       "name": "GetTrieSnapshotKey",
-      "docStart": 11792,
-      "docEnd": 12129,
+      "docStart": 12382,
+      "docEnd": 12765,
       "kind": "native",
       "returnType": "int",
       "arguments": [
@@ -519,12 +519,12 @@
     {
       "name": "StringMapSnapshot",
       "docStart": 5529,
-      "docEnd": 5701,
+      "docEnd": 5711,
       "methods": [
         {
           "name": "KeyBufferSize",
-          "docStart": 5852,
-          "docEnd": 6133,
+          "docStart": 5862,
+          "docEnd": 6143,
           "returnType": "int",
           "arguments": [
             {
@@ -536,8 +536,8 @@
         },
         {
           "name": "GetKey",
-          "docStart": 6184,
-          "docEnd": 6492,
+          "docStart": 6194,
+          "docEnd": 6502,
           "returnType": "int",
           "arguments": [
             {
@@ -561,8 +561,8 @@
       "properties": [
         {
           "name": "Length",
-          "docStart": 5745,
-          "docEnd": 5795,
+          "docStart": 5755,
+          "docEnd": 5805,
           "type": "int",
           "getter": true,
           "setter": false

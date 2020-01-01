@@ -2,8 +2,8 @@
   "functions": [
     {
       "name": "LogToGame",
-      "docStart": 5696,
-      "docEnd": 5821,
+      "docStart": 6121,
+      "docEnd": 6260,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -21,8 +21,8 @@
     },
     {
       "name": "SetRandomSeed",
-      "docStart": 5879,
-      "docEnd": 5987,
+      "docStart": 6318,
+      "docEnd": 6432,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -35,8 +35,8 @@
     },
     {
       "name": "GetRandomFloat",
-      "docStart": 6029,
-      "docEnd": 6266,
+      "docStart": 6474,
+      "docEnd": 6735,
       "kind": "native",
       "returnType": "float",
       "arguments": [
@@ -54,8 +54,8 @@
     },
     {
       "name": "GetRandomInt",
-      "docStart": 6332,
-      "docEnd": 6554,
+      "docStart": 6801,
+      "docEnd": 7047,
       "kind": "native",
       "returnType": "int",
       "arguments": [
@@ -73,8 +73,8 @@
     },
     {
       "name": "IsMapValid",
-      "docStart": 6604,
-      "docEnd": 6761,
+      "docStart": 7097,
+      "docEnd": 7270,
       "kind": "native",
       "returnType": "bool",
       "arguments": [
@@ -87,8 +87,8 @@
     },
     {
       "name": "FindMap",
-      "docStart": 6808,
-      "docEnd": 7300,
+      "docStart": 7317,
+      "docEnd": 7867,
       "kind": "native",
       "returnType": "FindMapResult",
       "arguments": [
@@ -111,8 +111,8 @@
     },
     {
       "name": "GetMapDisplayName",
-      "docStart": 7382,
-      "docEnd": 8174,
+      "docStart": 7949,
+      "docEnd": 8858,
       "kind": "native",
       "returnType": "bool",
       "arguments": [
@@ -135,48 +135,48 @@
     },
     {
       "name": "IsDedicatedServer",
-      "docStart": 8260,
-      "docEnd": 8368,
+      "docStart": 8944,
+      "docEnd": 9062,
       "kind": "native",
       "returnType": "bool",
       "arguments": []
     },
     {
       "name": "GetEngineTime",
-      "docStart": 8406,
-      "docEnd": 8528,
+      "docStart": 9100,
+      "docEnd": 9232,
       "kind": "native",
       "returnType": "float",
       "arguments": []
     },
     {
       "name": "GetGameTime",
-      "docStart": 8563,
-      "docEnd": 8657,
+      "docStart": 9267,
+      "docEnd": 9370,
       "kind": "native",
       "returnType": "float",
       "arguments": []
     },
     {
       "name": "GetGameTickCount",
-      "docStart": 8690,
-      "docEnd": 8779,
+      "docStart": 9403,
+      "docEnd": 9501,
       "kind": "native",
       "returnType": "int",
       "arguments": []
     },
     {
       "name": "GetGameFrameTime",
-      "docStart": 8815,
-      "docEnd": 8922,
+      "docStart": 9537,
+      "docEnd": 9653,
       "kind": "native",
       "returnType": "float",
       "arguments": []
     },
     {
       "name": "GetGameDescription",
-      "docStart": 8960,
-      "docEnd": 9311,
+      "docStart": 9691,
+      "docEnd": 10081,
       "kind": "native",
       "returnType": "int",
       "arguments": [
@@ -199,8 +199,8 @@
     },
     {
       "name": "GetGameFolderName",
-      "docStart": 9398,
-      "docEnd": 9628,
+      "docStart": 10168,
+      "docEnd": 10417,
       "kind": "native",
       "returnType": "int",
       "arguments": [
@@ -218,8 +218,8 @@
     },
     {
       "name": "GetCurrentMap",
-      "docStart": 9693,
-      "docEnd": 9885,
+      "docStart": 10482,
+      "docEnd": 10693,
       "kind": "native",
       "returnType": "int",
       "arguments": [
@@ -237,8 +237,8 @@
     },
     {
       "name": "PrecacheModel",
-      "docStart": 9946,
-      "docEnd": 10178,
+      "docStart": 10754,
+      "docEnd": 11007,
       "kind": "native",
       "returnType": "int",
       "arguments": [
@@ -256,8 +256,8 @@
     },
     {
       "name": "PrecacheSentenceFile",
-      "docStart": 10249,
-      "docEnd": 10489,
+      "docStart": 11078,
+      "docEnd": 11340,
       "kind": "native",
       "returnType": "int",
       "arguments": [
@@ -275,8 +275,8 @@
     },
     {
       "name": "PrecacheDecal",
-      "docStart": 10566,
-      "docEnd": 10783,
+      "docStart": 11417,
+      "docEnd": 11655,
       "kind": "native",
       "returnType": "int",
       "arguments": [
@@ -294,8 +294,8 @@
     },
     {
       "name": "PrecacheGeneric",
-      "docStart": 10854,
-      "docEnd": 11093,
+      "docStart": 11726,
+      "docEnd": 11985,
       "kind": "native",
       "returnType": "int",
       "arguments": [
@@ -313,8 +313,8 @@
     },
     {
       "name": "IsModelPrecached",
-      "docStart": 11168,
-      "docEnd": 11321,
+      "docStart": 12060,
+      "docEnd": 12229,
       "kind": "native",
       "returnType": "bool",
       "arguments": [
@@ -327,8 +327,8 @@
     },
     {
       "name": "IsDecalPrecached",
-      "docStart": 11376,
-      "docEnd": 11529,
+      "docStart": 12284,
+      "docEnd": 12453,
       "kind": "native",
       "returnType": "bool",
       "arguments": [
@@ -341,8 +341,8 @@
     },
     {
       "name": "IsGenericPrecached",
-      "docStart": 11584,
-      "docEnd": 11752,
+      "docStart": 12508,
+      "docEnd": 12691,
       "kind": "native",
       "returnType": "bool",
       "arguments": [
@@ -355,8 +355,8 @@
     },
     {
       "name": "PrecacheSound",
-      "docStart": 11811,
-      "docEnd": 12054,
+      "docStart": 12750,
+      "docEnd": 13014,
       "kind": "native",
       "returnType": "bool",
       "arguments": [
@@ -374,8 +374,8 @@
     },
     {
       "name": "IsSoundPrecached",
-      "docStart": 12126,
-      "docEnd": 12279,
+      "docStart": 13086,
+      "docEnd": 13255,
       "kind": "native",
       "returnType": "bool",
       "arguments": [
@@ -388,8 +388,8 @@
     },
     {
       "name": "CreateDialog",
-      "docStart": 12334,
-      "docEnd": 12658,
+      "docStart": 13310,
+      "docEnd": 13667,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -418,16 +418,16 @@
     },
     {
       "name": "GetEngineVersion",
-      "docStart": 13129,
-      "docEnd": 13397,
+      "docStart": 14194,
+      "docEnd": 14472,
       "kind": "native",
       "returnType": "EngineVersion",
       "arguments": []
     },
     {
       "name": "PrintToChat",
-      "docStart": 13443,
-      "docEnd": 13710,
+      "docStart": 14518,
+      "docEnd": 14816,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -450,8 +450,8 @@
     },
     {
       "name": "PrintToChatAll",
-      "docStart": 13782,
-      "docEnd": 13940,
+      "docStart": 14888,
+      "docEnd": 15060,
       "kind": "stock",
       "returnType": "void",
       "arguments": [
@@ -469,8 +469,8 @@
     },
     {
       "name": "PrintCenterText",
-      "docStart": 14225,
-      "docEnd": 14503,
+      "docStart": 15344,
+      "docEnd": 15653,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -493,8 +493,8 @@
     },
     {
       "name": "PrintCenterTextAll",
-      "docStart": 14579,
-      "docEnd": 14748,
+      "docStart": 15729,
+      "docEnd": 15912,
       "kind": "stock",
       "returnType": "void",
       "arguments": [
@@ -512,8 +512,8 @@
     },
     {
       "name": "PrintHintText",
-      "docStart": 15040,
-      "docEnd": 15306,
+      "docStart": 16204,
+      "docEnd": 16501,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -536,8 +536,8 @@
     },
     {
       "name": "PrintHintTextToAll",
-      "docStart": 15380,
-      "docEnd": 15537,
+      "docStart": 16575,
+      "docEnd": 16746,
       "kind": "stock",
       "returnType": "void",
       "arguments": [
@@ -555,8 +555,8 @@
     },
     {
       "name": "ShowVGUIPanel",
-      "docStart": 15828,
-      "docEnd": 16314,
+      "docStart": 17036,
+      "docEnd": 17592,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -584,16 +584,16 @@
     },
     {
       "name": "CreateHudSynchronizer",
-      "docStart": 16419,
-      "docEnd": 18094,
+      "docStart": 17697,
+      "docEnd": 19414,
       "kind": "native",
       "returnType": "Handle",
       "arguments": []
     },
     {
       "name": "SetHudTextParams",
-      "docStart": 18138,
-      "docEnd": 19242,
+      "docStart": 19458,
+      "docEnd": 20653,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -656,8 +656,8 @@
     },
     {
       "name": "SetHudTextParamsEx",
-      "docStart": 19423,
-      "docEnd": 20378,
+      "docStart": 20828,
+      "docEnd": 21851,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -710,8 +710,8 @@
     },
     {
       "name": "ShowSyncHudText",
-      "docStart": 20586,
-      "docEnd": 21105,
+      "docStart": 22057,
+      "docEnd": 22637,
       "kind": "native",
       "returnType": "int",
       "arguments": [
@@ -739,8 +739,8 @@
     },
     {
       "name": "ClearSyncHud",
-      "docStart": 21194,
-      "docEnd": 21815,
+      "docStart": 22726,
+      "docEnd": 23367,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -758,8 +758,8 @@
     },
     {
       "name": "ShowHudText",
-      "docStart": 21871,
-      "docEnd": 22611,
+      "docStart": 23423,
+      "docEnd": 24288,
       "kind": "native",
       "returnType": "int",
       "arguments": [
@@ -787,8 +787,8 @@
     },
     {
       "name": "ShowMOTDPanel",
-      "docStart": 22696,
-      "docEnd": 23192,
+      "docStart": 24373,
+      "docEnd": 24922,
       "kind": "stock",
       "returnType": "void",
       "arguments": [
@@ -816,8 +816,8 @@
     },
     {
       "name": "DisplayAskConnectBox",
-      "docStart": 23544,
-      "docEnd": 23860,
+      "docStart": 25274,
+      "docEnd": 25616,
       "kind": "stock",
       "returnType": "void",
       "arguments": [
@@ -845,8 +845,8 @@
     },
     {
       "name": "EntIndexToEntRef",
-      "docStart": 24239,
-      "docEnd": 24386,
+      "docStart": 25995,
+      "docEnd": 26158,
       "kind": "native",
       "returnType": "int",
       "arguments": [
@@ -859,8 +859,8 @@
     },
     {
       "name": "EntRefToEntIndex",
-      "docStart": 24432,
-      "docEnd": 24557,
+      "docStart": 26204,
+      "docEnd": 26347,
       "kind": "native",
       "returnType": "int",
       "arguments": [
@@ -873,8 +873,8 @@
     },
     {
       "name": "MakeCompatEntRef",
-      "docStart": 24600,
-      "docEnd": 24743,
+      "docStart": 26390,
+      "docEnd": 26551,
       "kind": "native",
       "returnType": "int",
       "arguments": [
@@ -887,15 +887,15 @@
     },
     {
       "name": "GetClientsInRange",
-      "docStart": 24870,
-      "docEnd": 25252,
+      "docStart": 26675,
+      "docEnd": 27088,
       "kind": "native",
       "returnType": "int",
       "arguments": [
         {
-          "type": "float[3]",
+          "type": "const float[3]",
           "name": "origin",
-          "decl": "float origin[3]"
+          "decl": "const float origin[3]"
         },
         {
           "type": "ClientRangeType",
@@ -916,8 +916,8 @@
     },
     {
       "name": "GetServerAuthId",
-      "docStart": 25356,
-      "docEnd": 25830,
+      "docStart": 27198,
+      "docEnd": 27715,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -940,8 +940,8 @@
     },
     {
       "name": "GetServerSteamAccountId",
-      "docStart": 25910,
-      "docEnd": 26020,
+      "docStart": 27795,
+      "docEnd": 27915,
       "kind": "native",
       "returnType": "int",
       "arguments": []
@@ -954,28 +954,28 @@
       "entries": [
         {
           "name": "DialogType_Msg",
-          "docStart": 3314,
-          "docEnd": 3347
+          "docStart": 3514,
+          "docEnd": 3547
         },
         {
           "name": "DialogType_Menu",
-          "docStart": 3369,
-          "docEnd": 3392
+          "docStart": 3574,
+          "docEnd": 3597
         },
         {
           "name": "DialogType_Text",
-          "docStart": 3414,
-          "docEnd": 3439
+          "docStart": 3624,
+          "docEnd": 3649
         },
         {
           "name": "DialogType_Entry",
-          "docStart": 3462,
-          "docEnd": 3482
+          "docStart": 3676,
+          "docEnd": 3696
         },
         {
           "name": "DialogType_AskConnect",
-          "docStart": 3507,
-          "docEnd": 3558
+          "docStart": 3723,
+          "docEnd": 3774
         }
       ]
     },
@@ -984,123 +984,123 @@
       "entries": [
         {
           "name": "Engine_Unknown",
-          "docStart": 3609,
-          "docEnd": 3655
+          "docStart": 3834,
+          "docEnd": 3880
         },
         {
           "name": "Engine_Original",
-          "docStart": 3678,
-          "docEnd": 3727
+          "docStart": 3911,
+          "docEnd": 3960
         },
         {
           "name": "Engine_SourceSDK2006",
-          "docStart": 3753,
-          "docEnd": 3803
+          "docStart": 3991,
+          "docEnd": 4041
         },
         {
           "name": "Engine_SourceSDK2007",
-          "docStart": 3829,
-          "docEnd": 3879
+          "docStart": 4072,
+          "docEnd": 4122
         },
         {
           "name": "Engine_Left4Dead",
-          "docStart": 3902,
-          "docEnd": 3921
+          "docStart": 4153,
+          "docEnd": 4172
         },
         {
           "name": "Engine_DarkMessiah",
-          "docStart": 3946,
-          "docEnd": 4005
+          "docStart": 4203,
+          "docEnd": 4262
         },
         {
           "name": "Engine_Left4Dead2",
-          "docStart": 4032,
-          "docEnd": 4053
+          "docStart": 4293,
+          "docEnd": 4314
         },
         {
           "name": "Engine_AlienSwarm",
-          "docStart": 4077,
-          "docEnd": 4118
+          "docStart": 4345,
+          "docEnd": 4386
         },
         {
           "name": "Engine_BloodyGoodTime",
-          "docStart": 4145,
-          "docEnd": 4169
+          "docStart": 4417,
+          "docEnd": 4441
         },
         {
           "name": "Engine_EYE",
-          "docStart": 4188,
-          "docEnd": 4219
+          "docStart": 4472,
+          "docEnd": 4503
         },
         {
           "name": "Engine_Portal2",
-          "docStart": 4241,
-          "docEnd": 4257
+          "docStart": 4534,
+          "docEnd": 4550
         },
         {
           "name": "Engine_CSGO",
-          "docStart": 4276,
-          "docEnd": 4316
+          "docStart": 4581,
+          "docEnd": 4621
         },
         {
           "name": "Engine_CSS",
-          "docStart": 4335,
-          "docEnd": 4365
+          "docStart": 4652,
+          "docEnd": 4682
         },
         {
           "name": "Engine_DOTA",
-          "docStart": 4384,
-          "docEnd": 4398
+          "docStart": 4713,
+          "docEnd": 4727
         },
         {
           "name": "Engine_HL2DM",
-          "docStart": 4418,
-          "docEnd": 4448
+          "docStart": 4758,
+          "docEnd": 4788
         },
         {
           "name": "Engine_DODS",
-          "docStart": 4467,
-          "docEnd": 4496
+          "docStart": 4819,
+          "docEnd": 4848
         },
         {
           "name": "Engine_TF2",
-          "docStart": 4515,
-          "docEnd": 4538
+          "docStart": 4879,
+          "docEnd": 4902
         },
         {
           "name": "Engine_NuclearDawn",
-          "docStart": 4563,
-          "docEnd": 4583
+          "docStart": 4933,
+          "docEnd": 4953
         },
         {
           "name": "Engine_SDK2013",
-          "docStart": 4605,
-          "docEnd": 4628
+          "docStart": 4984,
+          "docEnd": 5007
         },
         {
           "name": "Engine_Blade",
-          "docStart": 4648,
-          "docEnd": 4670
+          "docStart": 5038,
+          "docEnd": 5060
         },
         {
           "name": "Engine_Insurgency",
-          "docStart": 4694,
-          "docEnd": 4733
+          "docStart": 5091,
+          "docEnd": 5130
         },
         {
           "name": "Engine_Contagion",
-          "docStart": 4756,
-          "docEnd": 4773
+          "docStart": 5161,
+          "docEnd": 5178
         },
         {
           "name": "Engine_BlackMesa",
-          "docStart": 4796,
-          "docEnd": 4826
+          "docStart": 5209,
+          "docEnd": 5239
         },
         {
           "name": "Engine_DOI",
-          "docStart": 4845,
-          "docEnd": 4866
+          "docStart": 5270,
+          "docEnd": 5291
         }
       ]
     },
@@ -1109,28 +1109,28 @@
       "entries": [
         {
           "name": "FindMap_Found",
-          "docStart": 4898,
-          "docEnd": 4939
+          "docStart": 5323,
+          "docEnd": 5364
         },
         {
           "name": "FindMap_NotFound",
-          "docStart": 4959,
-          "docEnd": 5004
-        },
-        {
-          "name": "FindMap_FuzzyMatch",
-          "docStart": 5027,
-          "docEnd": 5226
-        },
-        {
-          "name": "FindMap_NonCanonical",
-          "docStart": 5251,
+          "docStart": 5384,
           "docEnd": 5429
         },
         {
+          "name": "FindMap_FuzzyMatch",
+          "docStart": 5452,
+          "docEnd": 5651
+        },
+        {
+          "name": "FindMap_NonCanonical",
+          "docStart": 5676,
+          "docEnd": 5854
+        },
+        {
           "name": "FindMap_PossiblyAvailable",
-          "docStart": 5456,
-          "docEnd": 5616
+          "docStart": 5881,
+          "docEnd": 6041
         }
       ]
     },

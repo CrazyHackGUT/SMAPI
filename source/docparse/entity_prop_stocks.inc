@@ -2,8 +2,8 @@
   "functions": [
     {
       "name": "GetEntityFlags",
-      "docStart": 8558,
-      "docEnd": 8926,
+      "docStart": 9557,
+      "docEnd": 9955,
       "kind": "native",
       "returnType": "int",
       "arguments": [
@@ -16,8 +16,8 @@
     },
     {
       "name": "SetEntityFlags",
-      "docStart": 8970,
-      "docEnd": 9368,
+      "docStart": 9999,
+      "docEnd": 10423,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -35,8 +35,8 @@
     },
     {
       "name": "GetEntityMoveType",
-      "docStart": 9426,
-      "docEnd": 9603,
+      "docStart": 10481,
+      "docEnd": 10688,
       "kind": "stock",
       "returnType": "MoveType",
       "arguments": [
@@ -49,8 +49,8 @@
     },
     {
       "name": "SetEntityMoveType",
-      "docStart": 10059,
-      "docEnd": 10237,
+      "docStart": 11138,
+      "docEnd": 11345,
       "kind": "stock",
       "returnType": "void",
       "arguments": [
@@ -68,8 +68,8 @@
     },
     {
       "name": "GetEntityRenderMode",
-      "docStart": 10680,
-      "docEnd": 10852,
+      "docStart": 11782,
+      "docEnd": 11984,
       "kind": "stock",
       "returnType": "RenderMode",
       "arguments": [
@@ -82,8 +82,8 @@
     },
     {
       "name": "SetEntityRenderMode",
-      "docStart": 11305,
-      "docEnd": 11480,
+      "docStart": 12431,
+      "docEnd": 12633,
       "kind": "stock",
       "returnType": "void",
       "arguments": [
@@ -101,8 +101,8 @@
     },
     {
       "name": "GetEntityRenderFx",
-      "docStart": 11922,
-      "docEnd": 12090,
+      "docStart": 13069,
+      "docEnd": 13267,
       "kind": "stock",
       "returnType": "RenderFx",
       "arguments": [
@@ -115,8 +115,8 @@
     },
     {
       "name": "SetEntityRenderFx",
-      "docStart": 12533,
-      "docEnd": 12702,
+      "docStart": 13704,
+      "docEnd": 13902,
       "kind": "stock",
       "returnType": "void",
       "arguments": [
@@ -134,8 +134,8 @@
     },
     {
       "name": "GetEntityRenderColor",
-      "docStart": 13132,
-      "docEnd": 13419,
+      "docStart": 14326,
+      "docEnd": 14672,
       "kind": "stock",
       "returnType": "void",
       "arguments": [
@@ -168,8 +168,8 @@
     },
     {
       "name": "SetEntityRenderColor",
-      "docStart": 14132,
-      "docEnd": 14418,
+      "docStart": 15377,
+      "docEnd": 15722,
       "kind": "stock",
       "returnType": "void",
       "arguments": [
@@ -202,8 +202,8 @@
     },
     {
       "name": "GetEntityGravity",
-      "docStart": 15163,
-      "docEnd": 15342,
+      "docStart": 16459,
+      "docEnd": 16661,
       "kind": "stock",
       "returnType": "float",
       "arguments": [
@@ -216,8 +216,8 @@
     },
     {
       "name": "SetEntityGravity",
-      "docStart": 15782,
-      "docEnd": 15994,
+      "docStart": 17095,
+      "docEnd": 17333,
       "kind": "stock",
       "returnType": "void",
       "arguments": [
@@ -235,8 +235,8 @@
     },
     {
       "name": "SetEntityHealth",
-      "docStart": 16448,
-      "docEnd": 16615,
+      "docStart": 17781,
+      "docEnd": 17974,
       "kind": "stock",
       "returnType": "void",
       "arguments": [
@@ -254,8 +254,8 @@
     },
     {
       "name": "GetClientButtons",
-      "docStart": 17584,
-      "docEnd": 17792,
+      "docStart": 18933,
+      "docEnd": 19187,
       "kind": "stock",
       "returnType": "int",
       "arguments": [
@@ -274,63 +274,63 @@
       "entries": [
         {
           "name": "MOVETYPE_NONE",
-          "docStart": 1703,
-          "docEnd": 1722
+          "docStart": 1708,
+          "docEnd": 1727
         },
         {
           "name": "MOVETYPE_ISOMETRIC",
-          "docStart": 1747,
-          "docEnd": 1766
+          "docStart": 1758,
+          "docEnd": 1777
         },
         {
           "name": "MOVETYPE_WALK",
-          "docStart": 1787,
-          "docEnd": 1829
+          "docStart": 1808,
+          "docEnd": 1850
         },
         {
           "name": "MOVETYPE_STEP",
-          "docStart": 1850,
-          "docEnd": 1909
+          "docStart": 1881,
+          "docEnd": 1940
         },
         {
           "name": "MOVETYPE_FLY",
-          "docStart": 1929,
-          "docEnd": 1978
+          "docStart": 1971,
+          "docEnd": 2020
         },
         {
           "name": "MOVETYPE_FLYGRAVITY",
-          "docStart": 2003,
-          "docEnd": 2057
+          "docStart": 2051,
+          "docEnd": 2105
         },
         {
           "name": "MOVETYPE_VPHYSICS",
-          "docStart": 2081,
-          "docEnd": 2117
+          "docStart": 2136,
+          "docEnd": 2172
         },
         {
           "name": "MOVETYPE_PUSH",
-          "docStart": 2138,
-          "docEnd": 2178
+          "docStart": 2203,
+          "docEnd": 2243
         },
         {
           "name": "MOVETYPE_NOCLIP",
-          "docStart": 2200,
-          "docEnd": 2262
+          "docStart": 2274,
+          "docEnd": 2336
         },
         {
           "name": "MOVETYPE_LADDER",
-          "docStart": 2284,
-          "docEnd": 2337
+          "docStart": 2367,
+          "docEnd": 2420
         },
         {
           "name": "MOVETYPE_OBSERVER",
-          "docStart": 2361,
-          "docEnd": 2421
+          "docStart": 2451,
+          "docEnd": 2511
         },
         {
           "name": "MOVETYPE_CUSTOM",
-          "docStart": 2443,
-          "docEnd": 2496
+          "docStart": 2542,
+          "docEnd": 2595
         }
       ]
     },
@@ -339,58 +339,58 @@
       "entries": [
         {
           "name": "RENDER_NORMAL",
-          "docStart": 2543,
-          "docEnd": 2554
+          "docStart": 2652,
+          "docEnd": 2663
         },
         {
           "name": "RENDER_TRANSCOLOR",
-          "docStart": 2577,
-          "docEnd": 2599
+          "docStart": 2694,
+          "docEnd": 2716
         },
         {
           "name": "RENDER_TRANSTEXTURE",
-          "docStart": 2623,
-          "docEnd": 2647
+          "docStart": 2747,
+          "docEnd": 2771
         },
         {
           "name": "RENDER_GLOW",
-          "docStart": 2665,
-          "docEnd": 2735
+          "docStart": 2802,
+          "docEnd": 2872
         },
         {
           "name": "RENDER_TRANSALPHA",
-          "docStart": 2758,
-          "docEnd": 2788
+          "docStart": 2903,
+          "docEnd": 2933
         },
         {
           "name": "RENDER_TRANSADD",
-          "docStart": 2809,
-          "docEnd": 2827
+          "docStart": 2964,
+          "docEnd": 2982
         },
         {
           "name": "RENDER_ENVIRONMENTAL",
-          "docStart": 2852,
-          "docEnd": 2901
+          "docStart": 3013,
+          "docEnd": 3062
         },
         {
           "name": "RENDER_TRANSADDFRAMEBLEND",
-          "docStart": 2931,
-          "docEnd": 3001
+          "docStart": 3093,
+          "docEnd": 3163
         },
         {
           "name": "RENDER_TRANSALPHAADD",
-          "docStart": 3026,
-          "docEnd": 3050
+          "docStart": 3194,
+          "docEnd": 3218
         },
         {
           "name": "RENDER_WORLDGLOW",
-          "docStart": 3072,
-          "docEnd": 3134
+          "docStart": 3249,
+          "docEnd": 3311
         },
         {
           "name": "RENDER_NONE",
-          "docStart": 3152,
-          "docEnd": 3173
+          "docStart": 3342,
+          "docEnd": 3363
         }
       ]
     },
@@ -444,48 +444,48 @@
         },
         {
           "name": "RENDERFX_DISTORT",
-          "docStart": 3602,
-          "docEnd": 3641
+          "docStart": 3782,
+          "docEnd": 3821
         },
         {
           "name": "RENDERFX_HOLOGRAM",
-          "docStart": 3665,
-          "docEnd": 3705
+          "docStart": 3852,
+          "docEnd": 3892
         },
         {
           "name": "RENDERFX_EXPLODE",
-          "docStart": 3728,
-          "docEnd": 3756
+          "docStart": 3923,
+          "docEnd": 3951
         },
         {
           "name": "RENDERFX_GLOWSHELL",
-          "docStart": 3781,
-          "docEnd": 3802
+          "docStart": 3982,
+          "docEnd": 4003
         },
         {
           "name": "RENDERFX_CLAMP_MIN_SCALE",
-          "docStart": 3831,
-          "docEnd": 3895
+          "docStart": 4034,
+          "docEnd": 4098
         },
         {
           "name": "RENDERFX_ENV_RAIN",
-          "docStart": 3919,
-          "docEnd": 3966
+          "docStart": 4129,
+          "docEnd": 4176
         },
         {
           "name": "RENDERFX_ENV_SNOW",
-          "docStart": 3990,
-          "docEnd": 4037
+          "docStart": 4207,
+          "docEnd": 4254
         },
         {
           "name": "RENDERFX_SPOTLIGHT",
-          "docStart": 4062,
-          "docEnd": 4106
+          "docStart": 4285,
+          "docEnd": 4329
         },
         {
           "name": "RENDERFX_RAGDOLL",
-          "docStart": 4129,
-          "docEnd": 4200
+          "docStart": 4360,
+          "docEnd": 4431
         },
         {
           "name": "RENDERFX_PULSE_FAST_WIDER"

@@ -2,8 +2,8 @@
   "functions": [
     {
       "name": "RemovePlayerItem",
-      "docStart": 1663,
-      "docEnd": 1930,
+      "docStart": 1661,
+      "docEnd": 1977,
       "kind": "native",
       "returnType": "bool",
       "arguments": [
@@ -21,8 +21,8 @@
     },
     {
       "name": "GivePlayerItem",
-      "docStart": 1987,
-      "docEnd": 2288,
+      "docStart": 2034,
+      "docEnd": 2373,
       "kind": "native",
       "returnType": "int",
       "arguments": [
@@ -45,8 +45,8 @@
     },
     {
       "name": "GetPlayerWeaponSlot",
-      "docStart": 2367,
-      "docEnd": 2643,
+      "docStart": 2452,
+      "docEnd": 2760,
       "kind": "native",
       "returnType": "int",
       "arguments": [
@@ -64,8 +64,8 @@
     },
     {
       "name": "IgniteEntity",
-      "docStart": 2702,
-      "docEnd": 3004,
+      "docStart": 2819,
+      "docEnd": 3166,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -98,8 +98,8 @@
     },
     {
       "name": "ExtinguishEntity",
-      "docStart": 3109,
-      "docEnd": 3274,
+      "docStart": 3271,
+      "docEnd": 3453,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -112,8 +112,8 @@
     },
     {
       "name": "TeleportEntity",
-      "docStart": 3321,
-      "docEnd": 3654,
+      "docStart": 3500,
+      "docEnd": 3866,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -141,8 +141,8 @@
     },
     {
       "name": "ForcePlayerSuicide",
-      "docStart": 3770,
-      "docEnd": 3930,
+      "docStart": 3982,
+      "docEnd": 4159,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -155,8 +155,8 @@
     },
     {
       "name": "SlapPlayer",
-      "docStart": 3979,
-      "docEnd": 4236,
+      "docStart": 4208,
+      "docEnd": 4494,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -179,8 +179,8 @@
     },
     {
       "name": "FindEntityByClassname",
-      "docStart": 4308,
-      "docEnd": 4631,
+      "docStart": 4566,
+      "docEnd": 4933,
       "kind": "native",
       "returnType": "int",
       "arguments": [
@@ -198,8 +198,8 @@
     },
     {
       "name": "GetClientEyeAngles",
-      "docStart": 4708,
-      "docEnd": 4987,
+      "docStart": 5010,
+      "docEnd": 5324,
       "kind": "native",
       "returnType": "bool",
       "arguments": [
@@ -217,8 +217,8 @@
     },
     {
       "name": "CreateEntityByName",
-      "docStart": 5050,
-      "docEnd": 5570,
+      "docStart": 5387,
+      "docEnd": 5941,
       "kind": "native",
       "returnType": "int",
       "arguments": [
@@ -236,8 +236,8 @@
     },
     {
       "name": "DispatchSpawn",
-      "docStart": 5654,
-      "docEnd": 5861,
+      "docStart": 6025,
+      "docEnd": 6259,
       "kind": "native",
       "returnType": "bool",
       "arguments": [
@@ -250,8 +250,8 @@
     },
     {
       "name": "DispatchKeyValue",
-      "docStart": 5905,
-      "docEnd": 6202,
+      "docStart": 6303,
+      "docEnd": 6638,
       "kind": "native",
       "returnType": "bool",
       "arguments": [
@@ -274,8 +274,8 @@
     },
     {
       "name": "DispatchKeyValueFloat",
-      "docStart": 6291,
-      "docEnd": 6604,
+      "docStart": 6727,
+      "docEnd": 7078,
       "kind": "native",
       "returnType": "bool",
       "arguments": [
@@ -298,8 +298,8 @@
     },
     {
       "name": "DispatchKeyValueVector",
-      "docStart": 6691,
-      "docEnd": 6986,
+      "docStart": 7165,
+      "docEnd": 7500,
       "kind": "native",
       "returnType": "bool",
       "arguments": [
@@ -322,8 +322,8 @@
     },
     {
       "name": "GetClientAimTarget",
-      "docStart": 7081,
-      "docEnd": 7447,
+      "docStart": 7595,
+      "docEnd": 8020,
       "kind": "native",
       "returnType": "int",
       "arguments": [
@@ -341,16 +341,16 @@
     },
     {
       "name": "GetTeamCount",
-      "docStart": 7519,
-      "docEnd": 7680,
+      "docStart": 8092,
+      "docEnd": 8263,
       "kind": "native",
       "returnType": "int",
       "arguments": []
     },
     {
       "name": "GetTeamName",
-      "docStart": 7712,
-      "docEnd": 8005,
+      "docStart": 8295,
+      "docEnd": 8612,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -373,8 +373,8 @@
     },
     {
       "name": "GetTeamScore",
-      "docStart": 8074,
-      "docEnd": 8291,
+      "docStart": 8681,
+      "docEnd": 8924,
       "kind": "native",
       "returnType": "int",
       "arguments": [
@@ -387,8 +387,8 @@
     },
     {
       "name": "SetTeamScore",
-      "docStart": 8332,
-      "docEnd": 8561,
+      "docStart": 8965,
+      "docEnd": 9215,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -406,8 +406,8 @@
     },
     {
       "name": "GetTeamClientCount",
-      "docStart": 8614,
-      "docEnd": 8855,
+      "docStart": 9268,
+      "docEnd": 9535,
       "kind": "native",
       "returnType": "int",
       "arguments": [
@@ -420,8 +420,8 @@
     },
     {
       "name": "GetTeamEntity",
-      "docStart": 8902,
-      "docEnd": 9059,
+      "docStart": 9582,
+      "docEnd": 9763,
       "kind": "native",
       "returnType": "int",
       "arguments": [
@@ -434,8 +434,8 @@
     },
     {
       "name": "SetEntityModel",
-      "docStart": 9105,
-      "docEnd": 9276,
+      "docStart": 9809,
+      "docEnd": 10001,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -453,8 +453,8 @@
     },
     {
       "name": "GetPlayerDecalFile",
-      "docStart": 9341,
-      "docEnd": 9665,
+      "docStart": 10066,
+      "docEnd": 10425,
       "kind": "native",
       "returnType": "bool",
       "arguments": [
@@ -477,8 +477,8 @@
     },
     {
       "name": "GetPlayerJingleFile",
-      "docStart": 9741,
-      "docEnd": 10068,
+      "docStart": 10501,
+      "docEnd": 10863,
       "kind": "native",
       "returnType": "bool",
       "arguments": [
@@ -501,8 +501,8 @@
     },
     {
       "name": "GetServerNetStats",
-      "docStart": 10145,
-      "docEnd": 10342,
+      "docStart": 10940,
+      "docEnd": 11152,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -520,8 +520,8 @@
     },
     {
       "name": "EquipPlayerWeapon",
-      "docStart": 10412,
-      "docEnd": 10634,
+      "docStart": 11222,
+      "docEnd": 11481,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -539,8 +539,8 @@
     },
     {
       "name": "ActivateEntity",
-      "docStart": 10694,
-      "docEnd": 10843,
+      "docStart": 11541,
+      "docEnd": 11707,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -553,8 +553,8 @@
     },
     {
       "name": "SetClientInfo",
-      "docStart": 10888,
-      "docEnd": 11209,
+      "docStart": 11752,
+      "docEnd": 12104,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -577,8 +577,8 @@
     },
     {
       "name": "SetClientName",
-      "docStart": 11291,
-      "docEnd": 11467,
+      "docStart": 12186,
+      "docEnd": 12375,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -596,8 +596,8 @@
     },
     {
       "name": "GivePlayerAmmo",
-      "docStart": 11530,
-      "docEnd": 11967,
+      "docStart": 12438,
+      "docEnd": 12884,
       "kind": "native",
       "returnType": "int",
       "arguments": [

@@ -2,8 +2,8 @@
   "functions": [
     {
       "name": "OnEntityCreated",
-      "docStart": 10476,
-      "docEnd": 10586,
+      "docStart": 11037,
+      "docEnd": 11148,
       "kind": "forward",
       "returnType": "void",
       "arguments": [
@@ -21,8 +21,8 @@
     },
     {
       "name": "OnEntityDestroyed",
-      "docStart": 10654,
-      "docEnd": 10734,
+      "docStart": 11216,
+      "docEnd": 11294,
       "kind": "forward",
       "returnType": "void",
       "arguments": [
@@ -35,8 +35,8 @@
     },
     {
       "name": "OnGetGameDescription",
-      "docStart": 10780,
-      "docEnd": 10985,
+      "docStart": 11340,
+      "docEnd": 11552,
       "kind": "forward",
       "returnType": "Action",
       "arguments": [
@@ -49,8 +49,8 @@
     },
     {
       "name": "OnLevelInit",
-      "docStart": 11043,
-      "docEnd": 11248,
+      "docStart": 11610,
+      "docEnd": 11824,
       "kind": "forward",
       "returnType": "Action",
       "arguments": [
@@ -68,8 +68,8 @@
     },
     {
       "name": "SDKHook",
-      "docStart": 11327,
-      "docEnd": 11495,
+      "docStart": 11903,
+      "docEnd": 12079,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -92,8 +92,8 @@
     },
     {
       "name": "SDKHookEx",
-      "docStart": 11568,
-      "docEnd": 11770,
+      "docStart": 12152,
+      "docEnd": 12368,
       "kind": "native",
       "returnType": "bool",
       "arguments": [
@@ -116,8 +116,8 @@
     },
     {
       "name": "SDKUnhook",
-      "docStart": 11845,
-      "docEnd": 12017,
+      "docStart": 12443,
+      "docEnd": 12599,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -140,8 +140,8 @@
     },
     {
       "name": "SDKHooks_TakeDamage",
-      "docStart": 12092,
-      "docEnd": 12647,
+      "docStart": 12674,
+      "docEnd": 13198,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -189,8 +189,8 @@
     },
     {
       "name": "SDKHooks_DropWeapon",
-      "docStart": 12867,
-      "docEnd": 13241,
+      "docStart": 13418,
+      "docEnd": 13810,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -338,8 +338,8 @@
         },
         {
           "name": "SDKHook_GetMaxHealth",
-          "docStart": 6113,
-          "docEnd": 6135
+          "docStart": 6719,
+          "docEnd": 6741
         },
         {
           "name": "SDKHook_Blocked"
@@ -383,68 +383,68 @@
       "types": [
         {
           "type": "function void(int client)",
-          "docStart": 7469,
-          "docEnd": 7504
+          "docStart": 8050,
+          "docEnd": 8085
         },
         {
           "type": "function Action(int entity)",
-          "docStart": 7537,
-          "docEnd": 7545
+          "docStart": 8117,
+          "docEnd": 8125
         },
         {
           "type": "function void(int entity)",
-          "docStart": 7580,
-          "docEnd": 7652
+          "docStart": 8159,
+          "docEnd": 8231
         },
         {
           "type": "function Action(int entity, int other)",
-          "docStart": 7685,
-          "docEnd": 7733
+          "docStart": 8263,
+          "docEnd": 8311
         },
         {
           "type": "function void(int entity, int other)",
-          "docStart": 7779,
-          "docEnd": 7827
+          "docStart": 8356,
+          "docEnd": 8404
         },
         {
           "type": "function Action(int entity, int client)",
-          "docStart": 7871,
-          "docEnd": 7885
+          "docStart": 8447,
+          "docEnd": 8461
         },
         {
           "type": "function Action(int client, int weapon)",
-          "docStart": 7932,
-          "docEnd": 8017
+          "docStart": 8507,
+          "docEnd": 8592
         },
         {
           "type": "function void(int client, int weapon)",
-          "docStart": 8064,
-          "docEnd": 8169
+          "docStart": 8638,
+          "docEnd": 8743
         },
         {
           "type": "function Action(int entity, int& maxhealth)",
-          "docStart": 8214,
-          "docEnd": 8246
+          "docStart": 8787,
+          "docEnd": 8819
         },
         {
           "type": "function Action(int victim, int& attacker, int& inflictor, float& damage, int& damagetype)",
-          "docStart": 8297,
-          "docEnd": 8496
+          "docStart": 8869,
+          "docEnd": 9068
         },
         {
           "type": "function Action(int victim, int& attacker, int& inflictor, float& damage, int& damagetype, int& weapon, float damageForce[3], float damagePosition[3])",
-          "docStart": 8592,
-          "docEnd": 8608
+          "docStart": 9164,
+          "docEnd": 9180
         },
         {
           "type": "function Action(int victim, int& attacker, int& inflictor, float& damage, int& damagetype, int& weapon, float damageForce[3], float damagePosition[3], int damagecustom)",
-          "docStart": 8764,
-          "docEnd": 8954
+          "docStart": 9336,
+          "docEnd": 9526
         },
         {
           "type": "function void(int victim, int attacker, int inflictor, float damage, int damagetype)",
-          "docStart": 9132,
-          "docEnd": 9177
+          "docStart": 9703,
+          "docEnd": 9748
         },
         {
           "type": "function void(int victim, int attacker, int inflictor, float damage, int damagetype, int weapon, const float damageForce[3], const float damagePosition[3])"
@@ -454,48 +454,48 @@
         },
         {
           "type": "function void(int client, int shots, const char[] weaponname)",
-          "docStart": 9608,
-          "docEnd": 9626
+          "docStart": 10177,
+          "docEnd": 10195
         },
         {
           "type": "function Action(int victim, int& attacker, int& inflictor, float& damage, int& damagetype, int& ammotype, int hitbox, int hitgroup)",
-          "docStart": 9695,
-          "docEnd": 9709
+          "docStart": 10263,
+          "docEnd": 10277
         },
         {
           "type": "function void(int victim, int attacker, int inflictor, float damage, int damagetype, int ammotype, int hitbox, int hitgroup)",
-          "docStart": 9848,
-          "docEnd": 9866
+          "docStart": 10415,
+          "docEnd": 10433
         },
         {
           "type": "function bool(int entity, int collisiongroup, int contentsmask, bool originalResult)",
-          "docStart": 9998,
-          "docEnd": 10014
+          "docStart": 10564,
+          "docEnd": 10580
         },
         {
           "type": "function Action(int entity, int activator, int caller, UseType type, float value)",
-          "docStart": 10106,
-          "docEnd": 10112
+          "docStart": 10671,
+          "docEnd": 10677
         },
         {
           "type": "function void(int entity, int activator, int caller, UseType type, float value)",
-          "docStart": 10201,
-          "docEnd": 10211
+          "docStart": 10765,
+          "docEnd": 10775
         },
         {
           "type": "function Action(int weapon)",
-          "docStart": 10298,
-          "docEnd": 10307
+          "docStart": 10861,
+          "docEnd": 10870
         },
         {
           "type": "function void(int weapon, bool bSuccessful)",
-          "docStart": 10342,
-          "docEnd": 10356
+          "docStart": 10904,
+          "docEnd": 10918
         },
         {
           "type": "function bool(int client, bool origRet)",
-          "docStart": 10407,
-          "docEnd": 10427
+          "docStart": 10968,
+          "docEnd": 10988
         }
       ]
     }

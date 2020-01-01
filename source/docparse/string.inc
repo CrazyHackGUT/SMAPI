@@ -3,7 +3,7 @@
     {
       "name": "strlen",
       "docStart": 1899,
-      "docEnd": 2046,
+      "docEnd": 2064,
       "kind": "native",
       "returnType": "int",
       "arguments": [
@@ -16,8 +16,8 @@
     },
     {
       "name": "StrContains",
-      "docStart": 2088,
-      "docEnd": 2510,
+      "docStart": 2106,
+      "docEnd": 2584,
       "kind": "native",
       "returnType": "int",
       "arguments": [
@@ -40,8 +40,8 @@
     },
     {
       "name": "strcmp",
-      "docStart": 2603,
-      "docEnd": 2948,
+      "docStart": 2677,
+      "docEnd": 3094,
       "kind": "native",
       "returnType": "int",
       "arguments": [
@@ -64,8 +64,8 @@
     },
     {
       "name": "strncmp",
-      "docStart": 3035,
-      "docEnd": 3436,
+      "docStart": 3181,
+      "docEnd": 3662,
       "kind": "native",
       "returnType": "int",
       "arguments": [
@@ -115,8 +115,8 @@
     },
     {
       "name": "StrEqual",
-      "docStart": 3814,
-      "docEnd": 4122,
+      "docStart": 4048,
+      "docEnd": 4395,
       "kind": "stock",
       "returnType": "bool",
       "arguments": [
@@ -139,8 +139,8 @@
     },
     {
       "name": "strcopy",
-      "docStart": 4267,
-      "docEnd": 4666,
+      "docStart": 4540,
+      "docEnd": 4967,
       "kind": "native",
       "returnType": "int",
       "arguments": [
@@ -185,8 +185,8 @@
     },
     {
       "name": "Format",
-      "docStart": 4990,
-      "docEnd": 5324,
+      "docStart": 5298,
+      "docEnd": 5665,
       "kind": "native",
       "returnType": "int",
       "arguments": [
@@ -214,8 +214,8 @@
     },
     {
       "name": "FormatEx",
-      "docStart": 5408,
-      "docEnd": 5949,
+      "docStart": 5749,
+      "docEnd": 6323,
       "kind": "native",
       "returnType": "int",
       "arguments": [
@@ -243,8 +243,8 @@
     },
     {
       "name": "VFormat",
-      "docStart": 6035,
-      "docEnd": 6632,
+      "docStart": 6409,
+      "docEnd": 7052,
       "kind": "native",
       "returnType": "int",
       "arguments": [
@@ -272,8 +272,8 @@
     },
     {
       "name": "StringToInt",
-      "docStart": 6720,
-      "docEnd": 6925,
+      "docStart": 7140,
+      "docEnd": 7369,
       "kind": "native",
       "returnType": "int",
       "arguments": [
@@ -291,8 +291,8 @@
     },
     {
       "name": "StringToIntEx",
-      "docStart": 6986,
-      "docEnd": 7250,
+      "docStart": 7430,
+      "docEnd": 7724,
       "kind": "native",
       "returnType": "int",
       "arguments": [
@@ -315,8 +315,8 @@
     },
     {
       "name": "IntToString",
-      "docStart": 7326,
-      "docEnd": 7561,
+      "docStart": 7800,
+      "docEnd": 8064,
       "kind": "native",
       "returnType": "int",
       "arguments": [
@@ -339,8 +339,8 @@
     },
     {
       "name": "StringToFloat",
-      "docStart": 7626,
-      "docEnd": 7791,
+      "docStart": 8129,
+      "docEnd": 8312,
       "kind": "native",
       "returnType": "float",
       "arguments": [
@@ -353,8 +353,8 @@
     },
     {
       "name": "StringToFloatEx",
-      "docStart": 7842,
-      "docEnd": 8069,
+      "docStart": 8363,
+      "docEnd": 8614,
       "kind": "native",
       "returnType": "int",
       "arguments": [
@@ -372,8 +372,8 @@
     },
     {
       "name": "FloatToString",
-      "docStart": 8135,
-      "docEnd": 8397,
+      "docStart": 8680,
+      "docEnd": 8971,
       "kind": "native",
       "returnType": "int",
       "arguments": [
@@ -396,8 +396,8 @@
     },
     {
       "name": "BreakString",
-      "docStart": 8466,
-      "docEnd": 9008,
+      "docStart": 9040,
+      "docEnd": 9612,
       "kind": "native",
       "returnType": "int",
       "arguments": [
@@ -442,8 +442,8 @@
     },
     {
       "name": "TrimString",
-      "docStart": 9348,
-      "docEnd": 9524,
+      "docStart": 9959,
+      "docEnd": 10153,
       "kind": "native",
       "returnType": "int",
       "arguments": [
@@ -456,8 +456,8 @@
     },
     {
       "name": "SplitString",
-      "docStart": 9564,
-      "docEnd": 10080,
+      "docStart": 10193,
+      "docEnd": 10775,
       "kind": "native",
       "returnType": "int",
       "arguments": [
@@ -485,8 +485,8 @@
     },
     {
       "name": "ReplaceString",
-      "docStart": 10176,
-      "docEnd": 10639,
+      "docStart": 10871,
+      "docEnd": 11365,
       "kind": "native",
       "returnType": "int",
       "arguments": [
@@ -519,8 +519,8 @@
     },
     {
       "name": "ReplaceStringEx",
-      "docStart": 10766,
-      "docEnd": 11580,
+      "docStart": 11492,
+      "docEnd": 12407,
       "kind": "native",
       "returnType": "int",
       "arguments": [
@@ -563,8 +563,8 @@
     },
     {
       "name": "GetCharBytes",
-      "docStart": 11746,
-      "docEnd": 12014,
+      "docStart": 12573,
+      "docEnd": 12857,
       "kind": "native",
       "returnType": "int",
       "arguments": [
@@ -577,8 +577,8 @@
     },
     {
       "name": "IsCharAlpha",
-      "docStart": 12065,
-      "docEnd": 12306,
+      "docStart": 12908,
+      "docEnd": 13167,
       "kind": "native",
       "returnType": "bool",
       "arguments": [
@@ -591,8 +591,8 @@
     },
     {
       "name": "IsCharNumeric",
-      "docStart": 12345,
-      "docEnd": 12561,
+      "docStart": 13206,
+      "docEnd": 13440,
       "kind": "native",
       "returnType": "bool",
       "arguments": [
@@ -605,8 +605,8 @@
     },
     {
       "name": "IsCharSpace",
-      "docStart": 12602,
-      "docEnd": 12824,
+      "docStart": 13481,
+      "docEnd": 13721,
       "kind": "native",
       "returnType": "bool",
       "arguments": [
@@ -619,8 +619,8 @@
     },
     {
       "name": "IsCharMB",
-      "docStart": 12863,
-      "docEnd": 13073,
+      "docStart": 13760,
+      "docEnd": 14004,
       "kind": "native",
       "returnType": "int",
       "arguments": [
@@ -633,8 +633,8 @@
     },
     {
       "name": "IsCharUpper",
-      "docStart": 13108,
-      "docEnd": 13340,
+      "docStart": 14039,
+      "docEnd": 14289,
       "kind": "native",
       "returnType": "bool",
       "arguments": [
@@ -647,8 +647,8 @@
     },
     {
       "name": "IsCharLower",
-      "docStart": 13379,
-      "docEnd": 13611,
+      "docStart": 14328,
+      "docEnd": 14578,
       "kind": "native",
       "returnType": "bool",
       "arguments": [
@@ -661,8 +661,8 @@
     },
     {
       "name": "StripQuotes",
-      "docStart": 13650,
-      "docEnd": 14143,
+      "docStart": 14617,
+      "docEnd": 15143,
       "kind": "native",
       "returnType": "bool",
       "arguments": [
@@ -675,8 +675,8 @@
     },
     {
       "name": "CharToUpper",
-      "docStart": 14186,
-      "docEnd": 14381,
+      "docStart": 15186,
+      "docEnd": 15415,
       "kind": "stock",
       "returnType": "int",
       "arguments": [
@@ -689,8 +689,8 @@
     },
     {
       "name": "CharToLower",
-      "docStart": 14496,
-      "docEnd": 14692,
+      "docStart": 15532,
+      "docEnd": 15762,
       "kind": "stock",
       "returnType": "int",
       "arguments": [
@@ -703,8 +703,8 @@
     },
     {
       "name": "FindCharInString",
-      "docStart": 14806,
-      "docEnd": 15163,
+      "docStart": 15879,
+      "docEnd": 16299,
       "kind": "stock",
       "returnType": "int",
       "arguments": [
@@ -727,8 +727,8 @@
     },
     {
       "name": "StrCat",
-      "docStart": 15482,
-      "docEnd": 15720,
+      "docStart": 16654,
+      "docEnd": 16917,
       "kind": "stock",
       "returnType": "int",
       "arguments": [
@@ -751,8 +751,8 @@
     },
     {
       "name": "ExplodeString",
-      "docStart": 15934,
-      "docEnd": 16487,
+      "docStart": 17131,
+      "docEnd": 17754,
       "kind": "stock",
       "returnType": "int",
       "arguments": [
@@ -790,8 +790,8 @@
     },
     {
       "name": "ImplodeStrings",
-      "docStart": 17122,
-      "docEnd": 17631,
+      "docStart": 18389,
+      "docEnd": 18932,
       "kind": "stock",
       "returnType": "int",
       "arguments": [

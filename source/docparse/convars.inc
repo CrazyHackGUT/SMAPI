@@ -2,8 +2,8 @@
   "functions": [
     {
       "name": "CreateConVar",
-      "docStart": 2572,
-      "docEnd": 3462,
+      "docStart": 2638,
+      "docEnd": 3601,
       "kind": "native",
       "returnType": "ConVar",
       "arguments": [
@@ -51,8 +51,8 @@
     },
     {
       "name": "FindConVar",
-      "docStart": 3655,
-      "docEnd": 3790,
+      "docStart": 3794,
+      "docEnd": 3954,
       "kind": "native",
       "returnType": "ConVar",
       "arguments": [
@@ -65,8 +65,8 @@
     },
     {
       "name": "HookConVarChange",
-      "docStart": 10858,
-      "docEnd": 11100,
+      "docStart": 11022,
+      "docEnd": 11285,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -84,8 +84,8 @@
     },
     {
       "name": "UnhookConVarChange",
-      "docStart": 11171,
-      "docEnd": 11440,
+      "docStart": 11356,
+      "docEnd": 11646,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -103,8 +103,8 @@
     },
     {
       "name": "GetConVarBool",
-      "docStart": 11513,
-      "docEnd": 11702,
+      "docStart": 11719,
+      "docEnd": 11935,
       "kind": "native",
       "returnType": "bool",
       "arguments": [
@@ -117,8 +117,8 @@
     },
     {
       "name": "SetConVarBool",
-      "docStart": 11746,
-      "docEnd": 12475,
+      "docStart": 11979,
+      "docEnd": 12788,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -146,8 +146,8 @@
     },
     {
       "name": "GetConVarInt",
-      "docStart": 12572,
-      "docEnd": 12761,
+      "docStart": 12885,
+      "docEnd": 13101,
       "kind": "native",
       "returnType": "int",
       "arguments": [
@@ -160,8 +160,8 @@
     },
     {
       "name": "SetConVarInt",
-      "docStart": 12803,
-      "docEnd": 13532,
+      "docStart": 13143,
+      "docEnd": 13952,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -189,8 +189,8 @@
     },
     {
       "name": "GetConVarFloat",
-      "docStart": 13627,
-      "docEnd": 13830,
+      "docStart": 14047,
+      "docEnd": 14277,
       "kind": "native",
       "returnType": "float",
       "arguments": [
@@ -203,8 +203,8 @@
     },
     {
       "name": "SetConVarFloat",
-      "docStart": 13876,
-      "docEnd": 14619,
+      "docStart": 14323,
+      "docEnd": 15146,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -232,8 +232,8 @@
     },
     {
       "name": "GetConVarString",
-      "docStart": 14718,
-      "docEnd": 14979,
+      "docStart": 15245,
+      "docEnd": 15532,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -256,8 +256,8 @@
     },
     {
       "name": "SetConVarString",
-      "docStart": 15054,
-      "docEnd": 15781,
+      "docStart": 15607,
+      "docEnd": 16414,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -285,8 +285,8 @@
     },
     {
       "name": "ResetConVar",
-      "docStart": 15888,
-      "docEnd": 16584,
+      "docStart": 16521,
+      "docEnd": 17291,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -309,8 +309,8 @@
     },
     {
       "name": "GetConVarDefault",
-      "docStart": 16667,
-      "docEnd": 17005,
+      "docStart": 17374,
+      "docEnd": 17748,
       "kind": "native",
       "returnType": "int",
       "arguments": [
@@ -333,8 +333,8 @@
     },
     {
       "name": "GetConVarFlags",
-      "docStart": 17080,
-      "docEnd": 17300,
+      "docStart": 17823,
+      "docEnd": 18070,
       "kind": "native",
       "returnType": "int",
       "arguments": [
@@ -347,8 +347,8 @@
     },
     {
       "name": "SetConVarFlags",
-      "docStart": 17344,
-      "docEnd": 17558,
+      "docStart": 18114,
+      "docEnd": 18351,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -366,8 +366,8 @@
     },
     {
       "name": "GetConVarBounds",
-      "docStart": 17614,
-      "docEnd": 18010,
+      "docStart": 18407,
+      "docEnd": 18843,
       "kind": "native",
       "returnType": "bool",
       "arguments": [
@@ -390,8 +390,8 @@
     },
     {
       "name": "SetConVarBounds",
-      "docStart": 18089,
-      "docEnd": 18476,
+      "docStart": 18922,
+      "docEnd": 19347,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -419,8 +419,8 @@
     },
     {
       "name": "GetConVarName",
-      "docStart": 18568,
-      "docEnd": 18819,
+      "docStart": 19439,
+      "docEnd": 19717,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -443,8 +443,8 @@
     },
     {
       "name": "SendConVarValue",
-      "docStart": 18891,
-      "docEnd": 19222,
+      "docStart": 19789,
+      "docEnd": 20158,
       "kind": "native",
       "returnType": "bool",
       "arguments": [
@@ -467,8 +467,8 @@
     },
     {
       "name": "QueryClientConVar",
-      "docStart": 20605,
-      "docEnd": 21055,
+      "docStart": 21625,
+      "docEnd": 22120,
       "kind": "native",
       "returnType": "QueryCookie",
       "arguments": [
@@ -496,8 +496,8 @@
     },
     {
       "name": "IsValidConVarChar",
-      "docStart": 21173,
-      "docEnd": 21345,
+      "docStart": 22238,
+      "docEnd": 22431,
       "kind": "stock",
       "returnType": "bool",
       "arguments": [
@@ -512,13 +512,13 @@
   "methodmaps": [
     {
       "name": "ConVar",
-      "docStart": 3837,
-      "docEnd": 3903,
+      "docStart": 4001,
+      "docEnd": 4067,
       "methods": [
         {
           "name": "SetBool",
-          "docStart": 4488,
-          "docEnd": 5182,
+          "docStart": 4652,
+          "docEnd": 5346,
           "returnType": "void",
           "arguments": [
             {
@@ -540,8 +540,8 @@
         },
         {
           "name": "SetInt",
-          "docStart": 5267,
-          "docEnd": 5961,
+          "docStart": 5431,
+          "docEnd": 6125,
           "returnType": "void",
           "arguments": [
             {
@@ -563,8 +563,8 @@
         },
         {
           "name": "SetFloat",
-          "docStart": 6044,
-          "docEnd": 6752,
+          "docStart": 6208,
+          "docEnd": 6916,
           "returnType": "void",
           "arguments": [
             {
@@ -586,8 +586,8 @@
         },
         {
           "name": "GetString",
-          "docStart": 6839,
-          "docEnd": 7057,
+          "docStart": 7003,
+          "docEnd": 7221,
           "returnType": "void",
           "arguments": [
             {
@@ -604,8 +604,8 @@
         },
         {
           "name": "SetString",
-          "docStart": 7120,
-          "docEnd": 7818,
+          "docStart": 7284,
+          "docEnd": 7982,
           "returnType": "void",
           "arguments": [
             {
@@ -627,8 +627,8 @@
         },
         {
           "name": "RestoreDefault",
-          "docStart": 7913,
-          "docEnd": 8576,
+          "docStart": 8077,
+          "docEnd": 8740,
           "returnType": "void",
           "arguments": [
             {
@@ -645,8 +645,8 @@
         },
         {
           "name": "GetDefault",
-          "docStart": 8656,
-          "docEnd": 8920,
+          "docStart": 8820,
+          "docEnd": 9084,
           "returnType": "int",
           "arguments": [
             {
@@ -663,8 +663,8 @@
         },
         {
           "name": "GetBounds",
-          "docStart": 8983,
-          "docEnd": 9309,
+          "docStart": 9147,
+          "docEnd": 9473,
           "returnType": "bool",
           "arguments": [
             {
@@ -681,8 +681,8 @@
         },
         {
           "name": "SetBounds",
-          "docStart": 9376,
-          "docEnd": 9691,
+          "docStart": 9540,
+          "docEnd": 9855,
           "returnType": "void",
           "arguments": [
             {
@@ -704,8 +704,8 @@
         },
         {
           "name": "GetName",
-          "docStart": 9771,
-          "docEnd": 9936,
+          "docStart": 9935,
+          "docEnd": 10100,
           "returnType": "void",
           "arguments": [
             {
@@ -722,8 +722,8 @@
         },
         {
           "name": "ReplicateToClient",
-          "docStart": 9996,
-          "docEnd": 10312,
+          "docStart": 10160,
+          "docEnd": 10476,
           "returnType": "bool",
           "arguments": [
             {
@@ -740,8 +740,8 @@
         },
         {
           "name": "AddChangeHook",
-          "docStart": 10386,
-          "docEnd": 10513,
+          "docStart": 10550,
+          "docEnd": 10677,
           "returnType": "void",
           "arguments": [
             {
@@ -753,8 +753,8 @@
         },
         {
           "name": "RemoveChangeHook",
-          "docStart": 10575,
-          "docEnd": 10792,
+          "docStart": 10739,
+          "docEnd": 10956,
           "returnType": "void",
           "arguments": [
             {
@@ -768,32 +768,32 @@
       "properties": [
         {
           "name": "BoolValue",
-          "docStart": 3933,
-          "docEnd": 3985,
+          "docStart": 4097,
+          "docEnd": 4149,
           "type": "bool",
           "getter": true,
           "setter": true
         },
         {
           "name": "IntValue",
-          "docStart": 4070,
-          "docEnd": 4123,
+          "docStart": 4234,
+          "docEnd": 4287,
           "type": "int",
           "getter": true,
           "setter": true
         },
         {
           "name": "FloatValue",
-          "docStart": 4209,
-          "docEnd": 4259,
+          "docStart": 4373,
+          "docEnd": 4423,
           "type": "float",
           "getter": true,
           "setter": true
         },
         {
           "name": "Flags",
-          "docStart": 4351,
-          "docEnd": 4405,
+          "docStart": 4515,
+          "docEnd": 4569,
           "type": "int",
           "getter": true,
           "setter": true
@@ -822,23 +822,23 @@
       "entries": [
         {
           "name": "ConVarQuery_Okay",
-          "docStart": 1859,
-          "docEnd": 1914
+          "docStart": 1870,
+          "docEnd": 1925
         },
         {
           "name": "ConVarQuery_NotFound",
-          "docStart": 1941,
-          "docEnd": 1976
+          "docStart": 1963,
+          "docEnd": 1998
         },
         {
           "name": "ConVarQuery_NotValid",
-          "docStart": 2003,
-          "docEnd": 2081
+          "docStart": 2036,
+          "docEnd": 2114
         },
         {
           "name": "ConVarQuery_Protected",
-          "docStart": 2108,
-          "docEnd": 2198
+          "docStart": 2152,
+          "docEnd": 2242
         }
       ]
     }
@@ -850,13 +850,13 @@
       "types": [
         {
           "type": "function void(QueryCookie cookie, int client, ConVarQueryResult result, const char[] cvarName, const char[] cvarValue, any value)",
-          "docStart": 19332,
-          "docEnd": 19869
+          "docStart": 20268,
+          "docEnd": 20850
         },
         {
           "type": "function void(QueryCookie cookie, int client, ConVarQueryResult result, const char[] cvarName, const char[] cvarValue)",
-          "docStart": 20006,
-          "docEnd": 20478
+          "docStart": 20987,
+          "docEnd": 21498
         }
       ]
     }
@@ -864,8 +864,8 @@
   "typedefs": [
     {
       "name": "ConVarChanged",
-      "docStart": 2203,
-      "docEnd": 2469,
+      "docStart": 2247,
+      "docEnd": 2535,
       "type": "function void(ConVar convar, const char[] oldValue, const char[] newValue)"
     }
   ]

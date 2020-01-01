@@ -2,8 +2,8 @@
   "functions": [
     {
       "name": "OnPlayerRunCmd",
-      "docStart": 1732,
-      "docEnd": 2818,
+      "docStart": 1733,
+      "docEnd": 2893,
       "kind": "forward",
       "returnType": "Action",
       "arguments": [
@@ -66,8 +66,8 @@
     },
     {
       "name": "OnPlayerRunCmdPost",
-      "docStart": 3006,
-      "docEnd": 3806,
+      "docStart": 3081,
+      "docEnd": 3955,
       "kind": "forward",
       "returnType": "void",
       "arguments": [
@@ -130,8 +130,8 @@
     },
     {
       "name": "OnFileSend",
-      "docStart": 4007,
-      "docEnd": 4236,
+      "docStart": 4156,
+      "docEnd": 4413,
       "kind": "forward",
       "returnType": "Action",
       "arguments": [
@@ -149,8 +149,8 @@
     },
     {
       "name": "OnFileReceive",
-      "docStart": 4300,
-      "docEnd": 4524,
+      "docStart": 4477,
+      "docEnd": 4729,
       "kind": "forward",
       "returnType": "Action",
       "arguments": [

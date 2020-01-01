@@ -2,8 +2,8 @@
   "functions": [
     {
       "name": "PrefetchSound",
-      "docStart": 4755,
-      "docEnd": 4856,
+      "docStart": 5060,
+      "docEnd": 5169,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -28,8 +28,8 @@
     },
     {
       "name": "EmitAmbientSound",
-      "docStart": 5254,
-      "docEnd": 5639,
+      "docStart": 5636,
+      "docEnd": 6082,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -77,8 +77,8 @@
     },
     {
       "name": "FadeClientVolume",
-      "docStart": 5922,
-      "docEnd": 6264,
+      "docStart": 6365,
+      "docEnd": 6750,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -111,8 +111,8 @@
     },
     {
       "name": "StopSound",
-      "docStart": 6371,
-      "docEnd": 6534,
+      "docStart": 6857,
+      "docEnd": 7041,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -135,8 +135,8 @@
     },
     {
       "name": "EmitSound",
-      "docStart": 6606,
-      "docEnd": 7360,
+      "docStart": 7113,
+      "docEnd": 7955,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -219,8 +219,8 @@
     },
     {
       "name": "EmitSoundEntry",
-      "docStart": 7853,
-      "docEnd": 8835,
+      "docStart": 8448,
+      "docEnd": 9528,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -313,8 +313,8 @@
     },
     {
       "name": "EmitSentence",
-      "docStart": 9384,
-      "docEnd": 10139,
+      "docStart": 10077,
+      "docEnd": 10918,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -397,8 +397,8 @@
     },
     {
       "name": "GetDistGainFromSoundLevel",
-      "docStart": 10613,
-      "docEnd": 11016,
+      "docStart": 11387,
+      "docEnd": 11809,
       "kind": "native",
       "returnType": "float",
       "arguments": [
@@ -416,8 +416,8 @@
     },
     {
       "name": "AddAmbientSoundHook",
-      "docStart": 13698,
-      "docEnd": 13826,
+      "docStart": 14574,
+      "docEnd": 14723,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -430,8 +430,8 @@
     },
     {
       "name": "AddNormalSoundHook",
-      "docStart": 13883,
-      "docEnd": 14010,
+      "docStart": 14780,
+      "docEnd": 14928,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -444,8 +444,8 @@
     },
     {
       "name": "RemoveAmbientSoundHook",
-      "docStart": 14065,
-      "docEnd": 14196,
+      "docStart": 14983,
+      "docEnd": 15135,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -458,8 +458,8 @@
     },
     {
       "name": "RemoveNormalSoundHook",
-      "docStart": 14256,
-      "docEnd": 14386,
+      "docStart": 15195,
+      "docEnd": 15346,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -472,8 +472,8 @@
     },
     {
       "name": "EmitSoundToClient",
-      "docStart": 14449,
-      "docEnd": 15057,
+      "docStart": 15404,
+      "docEnd": 16090,
       "kind": "stock",
       "returnType": "void",
       "arguments": [
@@ -546,8 +546,8 @@
     },
     {
       "name": "EmitSoundToAll",
-      "docStart": 15829,
-      "docEnd": 16405,
+      "docStart": 16861,
+      "docEnd": 17509,
       "kind": "stock",
       "returnType": "void",
       "arguments": [
@@ -615,8 +615,8 @@
     },
     {
       "name": "ATTN_TO_SNDLEVEL",
-      "docStart": 17187,
-      "docEnd": 17362,
+      "docStart": 18276,
+      "docEnd": 18468,
       "kind": "stock",
       "returnType": "int",
       "arguments": [
@@ -629,8 +629,8 @@
     },
     {
       "name": "GetGameSoundParams",
-      "docStart": 17494,
-      "docEnd": 18222,
+      "docStart": 18600,
+      "docEnd": 19395,
       "kind": "native",
       "returnType": "bool",
       "arguments": [
@@ -678,8 +678,8 @@
     },
     {
       "name": "EmitGameSound",
-      "docStart": 18436,
-      "docEnd": 19395,
+      "docStart": 19609,
+      "docEnd": 20468,
       "kind": "stock",
       "returnType": "bool",
       "arguments": [
@@ -737,8 +737,8 @@
     },
     {
       "name": "EmitAmbientGameSound",
-      "docStart": 20124,
-      "docEnd": 20649,
+      "docStart": 21182,
+      "docEnd": 21656,
       "kind": "stock",
       "returnType": "bool",
       "arguments": [
@@ -771,8 +771,8 @@
     },
     {
       "name": "EmitGameSoundToClient",
-      "docStart": 21253,
-      "docEnd": 22046,
+      "docStart": 22245,
+      "docEnd": 22952,
       "kind": "stock",
       "returnType": "bool",
       "arguments": [
@@ -825,8 +825,8 @@
     },
     {
       "name": "EmitGameSoundToAll",
-      "docStart": 22656,
-      "docEnd": 23394,
+      "docStart": 23562,
+      "docEnd": 24229,
       "kind": "stock",
       "returnType": "bool",
       "arguments": [
@@ -874,8 +874,8 @@
     },
     {
       "name": "PrecacheScriptSound",
-      "docStart": 24023,
-      "docEnd": 24670,
+      "docStart": 24853,
+      "docEnd": 25523,
       "kind": "native",
       "returnType": "bool",
       "arguments": [
@@ -892,203 +892,203 @@
   "constants": [
     {
       "name": "SNDCHAN_REPLACE",
-      "docStart": 1974,
-      "docEnd": 1989
+      "docStart": 1988,
+      "docEnd": 2003
     },
     {
       "name": "SNDCHAN_AUTO",
-      "docStart": 2012,
-      "docEnd": 2024
+      "docStart": 2034,
+      "docEnd": 2046
     },
     {
       "name": "SNDCHAN_WEAPON",
-      "docStart": 2049,
-      "docEnd": 2064
+      "docStart": 2077,
+      "docEnd": 2092
     },
     {
       "name": "SNDCHAN_VOICE",
-      "docStart": 2088,
-      "docEnd": 2102
+      "docStart": 2123,
+      "docEnd": 2137
     },
     {
       "name": "SNDCHAN_ITEM",
-      "docStart": 2125,
-      "docEnd": 2138
+      "docStart": 2168,
+      "docEnd": 2181
     },
     {
       "name": "SNDCHAN_BODY",
-      "docStart": 2161,
-      "docEnd": 2176
+      "docStart": 2212,
+      "docEnd": 2227
     },
     {
       "name": "SNDCHAN_STREAM",
-      "docStart": 2201,
-      "docEnd": 2257
+      "docStart": 2258,
+      "docEnd": 2314
     },
     {
       "name": "SNDCHAN_STATIC",
-      "docStart": 2282,
-      "docEnd": 2327
+      "docStart": 2345,
+      "docEnd": 2390
     },
     {
       "name": "SNDCHAN_VOICE_BASE",
-      "docStart": 2355,
-      "docEnd": 2395
+      "docStart": 2421,
+      "docEnd": 2461
     },
     {
       "name": "SNDCHAN_USER_BASE",
-      "docStart": 2423,
-      "docEnd": 2473
+      "docStart": 2492,
+      "docEnd": 2542
     },
     {
       "name": "SND_NOFLAGS",
-      "docStart": 2565,
-      "docEnd": 2580
+      "docStart": 2644,
+      "docEnd": 2659
     },
     {
       "name": "SND_CHANGEVOL",
-      "docStart": 2603,
-      "docEnd": 2630
+      "docStart": 2690,
+      "docEnd": 2717
     },
     {
       "name": "SND_CHANGEPITCH",
-      "docStart": 2654,
-      "docEnd": 2680
+      "docStart": 2748,
+      "docEnd": 2774
     },
     {
       "name": "SND_STOP",
-      "docStart": 2699,
-      "docEnd": 2721
+      "docStart": 2805,
+      "docEnd": 2827
     },
     {
       "name": "SND_SPAWNING",
-      "docStart": 2743,
-      "docEnd": 2782
+      "docStart": 2858,
+      "docEnd": 2897
     },
     {
       "name": "SND_DELAY",
-      "docStart": 2802,
-      "docEnd": 2836
+      "docStart": 2928,
+      "docEnd": 2962
     },
     {
       "name": "SND_STOPLOOPING",
-      "docStart": 2860,
-      "docEnd": 2905
+      "docStart": 2993,
+      "docEnd": 3038
     },
     {
       "name": "SND_SPEAKER",
-      "docStart": 2926,
-      "docEnd": 2973
+      "docStart": 3069,
+      "docEnd": 3116
     },
     {
       "name": "SND_SHOULDPAUSE",
-      "docStart": 2997,
-      "docEnd": 3028
+      "docStart": 3147,
+      "docEnd": 3178
     },
     {
       "name": "SNDLEVEL_NONE",
-      "docStart": 3120,
-      "docEnd": 3132
+      "docStart": 3277,
+      "docEnd": 3289
     },
     {
       "name": "SNDLEVEL_RUSTLE",
-      "docStart": 3158,
-      "docEnd": 3181
+      "docStart": 3320,
+      "docEnd": 3343
     },
     {
       "name": "SNDLEVEL_WHISPER",
-      "docStart": 3208,
-      "docEnd": 3226
+      "docStart": 3374,
+      "docEnd": 3392
     },
     {
       "name": "SNDLEVEL_LIBRARY",
-      "docStart": 3253,
-      "docEnd": 3273
+      "docStart": 3423,
+      "docEnd": 3443
     },
     {
       "name": "SNDLEVEL_FRIDGE",
-      "docStart": 3299,
-      "docEnd": 3319
+      "docStart": 3474,
+      "docEnd": 3494
     },
     {
       "name": "SNDLEVEL_HOME",
-      "docStart": 3344,
-      "docEnd": 3375
+      "docStart": 3525,
+      "docEnd": 3556
     },
     {
       "name": "SNDLEVEL_CONVO",
-      "docStart": 3400,
-      "docEnd": 3438
+      "docStart": 3587,
+      "docEnd": 3625
     },
     {
       "name": "SNDLEVEL_DRYER",
-      "docStart": 3463,
-      "docEnd": 3484
+      "docStart": 3656,
+      "docEnd": 3677
     },
     {
       "name": "SNDLEVEL_DISHWASHER",
-      "docStart": 3513,
-      "docEnd": 3558
+      "docStart": 3708,
+      "docEnd": 3753
     },
     {
       "name": "SNDLEVEL_CAR",
-      "docStart": 3582,
-      "docEnd": 3622
+      "docStart": 3784,
+      "docEnd": 3824
     },
     {
       "name": "SNDLEVEL_NORMAL",
-      "docStart": 3648,
-      "docEnd": 3674
+      "docStart": 3855,
+      "docEnd": 3881
     },
     {
       "name": "SNDLEVEL_TRAFFIC",
-      "docStart": 3701,
-      "docEnd": 3732
+      "docStart": 3912,
+      "docEnd": 3943
     },
     {
       "name": "SNDLEVEL_MINIBIKE",
-      "docStart": 3760,
-      "docEnd": 3801
+      "docStart": 3974,
+      "docEnd": 4015
     },
     {
       "name": "SNDLEVEL_SCREAMING",
-      "docStart": 3829,
-      "docEnd": 3863
+      "docStart": 4046,
+      "docEnd": 4080
     },
     {
       "name": "SNDLEVEL_TRAIN",
-      "docStart": 3889,
-      "docEnd": 3937
+      "docStart": 4111,
+      "docEnd": 4159
     },
     {
       "name": "SNDLEVEL_HELICOPTER",
-      "docStart": 3967,
-      "docEnd": 3985
+      "docStart": 4190,
+      "docEnd": 4208
     },
     {
       "name": "SNDLEVEL_SNOWMOBILE",
-      "docStart": 4015,
-      "docEnd": 4034
+      "docStart": 4239,
+      "docEnd": 4258
     },
     {
       "name": "SNDLEVEL_AIRCRAFT",
-      "docStart": 4062,
-      "docEnd": 4089
+      "docStart": 4289,
+      "docEnd": 4316
     },
     {
       "name": "SNDLEVEL_RAIDSIREN",
-      "docStart": 4118,
-      "docEnd": 4140
+      "docStart": 4347,
+      "docEnd": 4369
     },
     {
       "name": "SNDLEVEL_GUNFIRE",
-      "docStart": 4168,
-      "docEnd": 4207
+      "docStart": 4400,
+      "docEnd": 4439
     },
     {
       "name": "SNDLEVEL_ROCKET",
-      "docStart": 4234,
-      "docEnd": 4269
+      "docStart": 4470,
+      "docEnd": 4505
     }
   ],
   "typesets": [
@@ -1097,18 +1097,18 @@
       "types": [
         {
           "type": "function Action(int clients[], int& numClients, char sample[], int& entity, int& channel, float& volume, int& level, int& pitch, int& flags, char soundEntry[], int& seed)",
-          "docStart": 11986,
-          "docEnd": 12994
+          "docStart": 12865,
+          "docEnd": 13872
         },
         {
           "type": "function Action(int clients[64], int& numClients, char sample[], int& entity, int& channel, float& volume, int& level, int& pitch, int& flags, char soundEntry[], int& seed)",
-          "docStart": 13227,
-          "docEnd": 13262
+          "docStart": 14104,
+          "docEnd": 14139
         },
         {
           "type": "function Action(int clients[64], int& numClients, char sample[], int& entity, int& channel, float& volume, int& level, int& pitch, int& flags)",
-          "docStart": 13487,
-          "docEnd": 13522
+          "docStart": 14363,
+          "docEnd": 14398
         }
       ]
     }
@@ -1116,8 +1116,8 @@
   "typedefs": [
     {
       "name": "AmbientSHook",
-      "docStart": 11093,
-      "docEnd": 11764,
+      "docStart": 11886,
+      "docEnd": 12643,
       "type": "function Action(char sample[], int& entity, float& volume, int& level, int& pitch, float pos[3], int& flags, float& delay)"
     }
   ]

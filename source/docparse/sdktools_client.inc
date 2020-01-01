@@ -2,8 +2,8 @@
   "functions": [
     {
       "name": "InactivateClient",
-      "docStart": 1657,
-      "docEnd": 1768,
+      "docStart": 1656,
+      "docEnd": 1773,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -16,8 +16,8 @@
     },
     {
       "name": "ReconnectClient",
-      "docStart": 1815,
-      "docEnd": 1918,
+      "docStart": 1820,
+      "docEnd": 1929,
       "kind": "native",
       "returnType": "void",
       "arguments": [

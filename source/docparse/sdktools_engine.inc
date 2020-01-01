@@ -2,8 +2,8 @@
   "functions": [
     {
       "name": "SetClientViewEntity",
-      "docStart": 1689,
-      "docEnd": 1899,
+      "docStart": 1686,
+      "docEnd": 1935,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -21,8 +21,8 @@
     },
     {
       "name": "SetLightStyle",
-      "docStart": 1961,
-      "docEnd": 2179,
+      "docStart": 1997,
+      "docEnd": 2238,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -40,8 +40,8 @@
     },
     {
       "name": "GetClientEyePosition",
-      "docStart": 2242,
-      "docEnd": 2475,
+      "docStart": 2301,
+      "docEnd": 2559,
       "kind": "native",
       "returnType": "void",
       "arguments": [

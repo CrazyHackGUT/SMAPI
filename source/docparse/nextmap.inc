@@ -2,8 +2,8 @@
   "functions": [
     {
       "name": "SetNextMap",
-      "docStart": 1643,
-      "docEnd": 1869,
+      "docStart": 1641,
+      "docEnd": 1886,
       "kind": "native",
       "returnType": "bool",
       "arguments": [
@@ -16,8 +16,8 @@
     },
     {
       "name": "GetNextMap",
-      "docStart": 1916,
-      "docEnd": 2174,
+      "docStart": 1933,
+      "docEnd": 2218,
       "kind": "native",
       "returnType": "bool",
       "arguments": [
@@ -35,8 +35,8 @@
     },
     {
       "name": "ForceChangeLevel",
-      "docStart": 2227,
-      "docEnd": 2392,
+      "docStart": 2271,
+      "docEnd": 2452,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -54,16 +54,16 @@
     },
     {
       "name": "GetMapHistorySize",
-      "docStart": 2466,
-      "docEnd": 2563,
+      "docStart": 2526,
+      "docEnd": 2634,
       "kind": "native",
       "returnType": "int",
       "arguments": []
     },
     {
       "name": "GetMapHistory",
-      "docStart": 2600,
-      "docEnd": 3020,
+      "docStart": 2671,
+      "docEnd": 3133,
       "kind": "native",
       "returnType": "void",
       "arguments": [

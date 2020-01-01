@@ -2,8 +2,8 @@
   "functions": [
     {
       "name": "GetFunctionByName",
-      "docStart": 5386,
-      "docEnd": 5727,
+      "docStart": 9096,
+      "docEnd": 9482,
       "kind": "native",
       "returnType": "function",
       "arguments": [
@@ -21,10 +21,10 @@
     },
     {
       "name": "CreateGlobalForward",
-      "docStart": 5801,
-      "docEnd": 6385,
+      "docStart": 9556,
+      "docEnd": 10177,
       "kind": "native",
-      "returnType": "Handle",
+      "returnType": "GlobalForward",
       "arguments": [
         {
           "type": "const char[]",
@@ -45,10 +45,10 @@
     },
     {
       "name": "CreateForward",
-      "docStart": 6474,
-      "docEnd": 6899,
+      "docStart": 10273,
+      "docEnd": 10729,
       "kind": "native",
-      "returnType": "Handle",
+      "returnType": "PrivateForward",
       "arguments": [
         {
           "type": "ExecType",
@@ -64,8 +64,8 @@
     },
     {
       "name": "GetForwardFunctionCount",
-      "docStart": 6963,
-      "docEnd": 7208,
+      "docStart": 10801,
+      "docEnd": 11072,
       "kind": "native",
       "returnType": "int",
       "arguments": [
@@ -78,8 +78,8 @@
     },
     {
       "name": "AddToForward",
-      "docStart": 7261,
-      "docEnd": 7768,
+      "docStart": 11125,
+      "docEnd": 11684,
       "kind": "native",
       "returnType": "bool",
       "arguments": [
@@ -102,8 +102,8 @@
     },
     {
       "name": "RemoveFromForward",
-      "docStart": 7841,
-      "docEnd": 8429,
+      "docStart": 11757,
+      "docEnd": 12397,
       "kind": "native",
       "returnType": "bool",
       "arguments": [
@@ -126,8 +126,8 @@
     },
     {
       "name": "RemoveAllFromForward",
-      "docStart": 8507,
-      "docEnd": 9006,
+      "docStart": 12475,
+      "docEnd": 13020,
       "kind": "native",
       "returnType": "int",
       "arguments": [
@@ -145,8 +145,8 @@
     },
     {
       "name": "Call_StartForward",
-      "docStart": 9071,
-      "docEnd": 9345,
+      "docStart": 13085,
+      "docEnd": 13376,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -159,8 +159,8 @@
     },
     {
       "name": "Call_StartFunction",
-      "docStart": 9393,
-      "docEnd": 9773,
+      "docStart": 13424,
+      "docEnd": 13840,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -178,8 +178,8 @@
     },
     {
       "name": "Call_PushCell",
-      "docStart": 9840,
-      "docEnd": 10048,
+      "docStart": 13907,
+      "docEnd": 14130,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -192,8 +192,8 @@
     },
     {
       "name": "Call_PushCellRef",
-      "docStart": 10091,
-      "docEnd": 10316,
+      "docStart": 14173,
+      "docEnd": 14413,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -206,8 +206,8 @@
     },
     {
       "name": "Call_PushFloat",
-      "docStart": 10363,
-      "docEnd": 10582,
+      "docStart": 14460,
+      "docEnd": 14694,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -220,8 +220,8 @@
     },
     {
       "name": "Call_PushFloatRef",
-      "docStart": 10628,
-      "docEnd": 10864,
+      "docStart": 14740,
+      "docEnd": 14991,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -234,8 +234,8 @@
     },
     {
       "name": "Call_PushArray",
-      "docStart": 10914,
-      "docEnd": 11241,
+      "docStart": 15041,
+      "docEnd": 15389,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -253,8 +253,8 @@
     },
     {
       "name": "Call_PushArrayEx",
-      "docStart": 11303,
-      "docEnd": 11676,
+      "docStart": 15451,
+      "docEnd": 15864,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -277,16 +277,16 @@
     },
     {
       "name": "Call_PushNullVector",
-      "docStart": 11747,
-      "docEnd": 11946,
+      "docStart": 15935,
+      "docEnd": 16144,
       "kind": "native",
       "returnType": "void",
       "arguments": []
     },
     {
       "name": "Call_PushString",
-      "docStart": 11986,
-      "docEnd": 12282,
+      "docStart": 16184,
+      "docEnd": 16495,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -299,8 +299,8 @@
     },
     {
       "name": "Call_PushStringEx",
-      "docStart": 12336,
-      "docEnd": 12891,
+      "docStart": 16549,
+      "docEnd": 17175,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -328,16 +328,16 @@
     },
     {
       "name": "Call_PushNullString",
-      "docStart": 12979,
-      "docEnd": 13178,
+      "docStart": 17263,
+      "docEnd": 17472,
       "kind": "native",
       "returnType": "void",
       "arguments": []
     },
     {
       "name": "Call_Finish",
-      "docStart": 13218,
-      "docEnd": 13547,
+      "docStart": 17512,
+      "docEnd": 17863,
       "kind": "native",
       "returnType": "int",
       "arguments": [
@@ -350,16 +350,16 @@
     },
     {
       "name": "Call_Cancel",
-      "docStart": 13591,
-      "docEnd": 13777,
+      "docStart": 17907,
+      "docEnd": 18101,
       "kind": "native",
       "returnType": "void",
       "arguments": []
     },
     {
       "name": "CreateNative",
-      "docStart": 14503,
-      "docEnd": 14839,
+      "docStart": 18858,
+      "docEnd": 19220,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -377,8 +377,8 @@
     },
     {
       "name": "ThrowNativeError",
-      "docStart": 14906,
-      "docEnd": 15116,
+      "docStart": 19287,
+      "docEnd": 19516,
       "kind": "native",
       "returnType": "int",
       "arguments": [
@@ -401,8 +401,8 @@
     },
     {
       "name": "GetNativeStringLength",
-      "docStart": 15188,
-      "docEnd": 15669,
+      "docStart": 19588,
+      "docEnd": 20105,
       "kind": "native",
       "returnType": "int",
       "arguments": [
@@ -420,8 +420,8 @@
     },
     {
       "name": "GetNativeString",
-      "docStart": 15732,
-      "docEnd": 16222,
+      "docStart": 20168,
+      "docEnd": 20698,
       "kind": "native",
       "returnType": "int",
       "arguments": [
@@ -449,8 +449,8 @@
     },
     {
       "name": "SetNativeString",
-      "docStart": 16310,
-      "docEnd": 16872,
+      "docStart": 20786,
+      "docEnd": 21409,
       "kind": "native",
       "returnType": "int",
       "arguments": [
@@ -483,8 +483,8 @@
     },
     {
       "name": "GetNativeCell",
-      "docStart": 16982,
-      "docEnd": 17221,
+      "docStart": 21519,
+      "docEnd": 21782,
       "kind": "native",
       "returnType": "any",
       "arguments": [
@@ -497,8 +497,8 @@
     },
     {
       "name": "GetNativeFunction",
-      "docStart": 17263,
-      "docEnd": 17563,
+      "docStart": 21824,
+      "docEnd": 22124,
       "kind": "native",
       "returnType": "function",
       "arguments": [
@@ -511,8 +511,8 @@
     },
     {
       "name": "GetNativeCellRef",
-      "docStart": 17614,
-      "docEnd": 17867,
+      "docStart": 22175,
+      "docEnd": 22452,
       "kind": "native",
       "returnType": "any",
       "arguments": [
@@ -525,8 +525,8 @@
     },
     {
       "name": "SetNativeCellRef",
-      "docStart": 17912,
-      "docEnd": 18189,
+      "docStart": 22497,
+      "docEnd": 22794,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -544,8 +544,8 @@
     },
     {
       "name": "GetNativeArray",
-      "docStart": 18246,
-      "docEnd": 18619,
+      "docStart": 22851,
+      "docEnd": 23259,
       "kind": "native",
       "returnType": "int",
       "arguments": [
@@ -568,8 +568,8 @@
     },
     {
       "name": "SetNativeArray",
-      "docStart": 18685,
-      "docEnd": 19076,
+      "docStart": 23325,
+      "docEnd": 23750,
       "kind": "native",
       "returnType": "int",
       "arguments": [
@@ -592,8 +592,8 @@
     },
     {
       "name": "IsNativeParamNullVector",
-      "docStart": 19148,
-      "docEnd": 19324,
+      "docStart": 23822,
+      "docEnd": 24011,
       "kind": "native",
       "returnType": "bool",
       "arguments": [
@@ -606,8 +606,8 @@
     },
     {
       "name": "IsNativeParamNullString",
-      "docStart": 19377,
-      "docEnd": 19553,
+      "docStart": 24064,
+      "docEnd": 24253,
       "kind": "native",
       "returnType": "bool",
       "arguments": [
@@ -620,8 +620,8 @@
     },
     {
       "name": "FormatNativeString",
-      "docStart": 19606,
-      "docEnd": 20413,
+      "docStart": 24306,
+      "docEnd": 25143,
       "kind": "native",
       "returnType": "int",
       "arguments": [
@@ -664,15 +664,15 @@
     },
     {
       "name": "RequestFrame",
-      "docStart": 20802,
-      "docEnd": 20984,
+      "docStart": 25561,
+      "docEnd": 25755,
       "kind": "native",
       "returnType": "void",
       "arguments": [
         {
-          "type": "function void(any data)",
+          "type": "RequestFrameCallback",
           "name": "Function",
-          "decl": "function void(any data) Function"
+          "decl": "RequestFrameCallback Function"
         },
         {
           "type": "any",
@@ -682,79 +682,191 @@
       ]
     }
   ],
-  "methodmaps": [],
+  "methodmaps": [
+    {
+      "name": "GlobalForward",
+      "methods": [
+        {
+          "name": "GlobalForward",
+          "docStart": 5871,
+          "docEnd": 6513,
+          "returnType": "GlobalForward",
+          "arguments": [
+            {
+              "type": "const char[]",
+              "name": "name",
+              "decl": "const char[] name"
+            },
+            {
+              "type": "ExecType",
+              "name": "type",
+              "decl": "ExecType type"
+            },
+            {
+              "type": "ParamType...",
+              "name": "...",
+              "decl": "ParamType... ..."
+            }
+          ]
+        }
+      ],
+      "properties": [
+        {
+          "name": "FunctionCount",
+          "docStart": 6598,
+          "docEnd": 6676,
+          "type": "int",
+          "getter": true,
+          "setter": false
+        }
+      ]
+    },
+    {
+      "name": "PrivateForward",
+      "methods": [
+        {
+          "name": "PrivateForward",
+          "docStart": 6788,
+          "docEnd": 7243,
+          "returnType": "PrivateForward",
+          "arguments": [
+            {
+              "type": "ExecType",
+              "name": "type",
+              "decl": "ExecType type"
+            },
+            {
+              "type": "ParamType...",
+              "name": "...",
+              "decl": "ParamType... ..."
+            }
+          ]
+        },
+        {
+          "name": "AddFunction",
+          "docStart": 7310,
+          "docEnd": 7815,
+          "returnType": "bool",
+          "arguments": [
+            {
+              "type": "Handle",
+              "name": "plugin",
+              "decl": "Handle plugin"
+            },
+            {
+              "type": "function",
+              "name": "func",
+              "decl": "function func"
+            }
+          ]
+        },
+        {
+          "name": "RemoveFunction",
+          "docStart": 7884,
+          "docEnd": 8471,
+          "returnType": "bool",
+          "arguments": [
+            {
+              "type": "Handle",
+              "name": "plugin",
+              "decl": "Handle plugin"
+            },
+            {
+              "type": "function",
+              "name": "func",
+              "decl": "function func"
+            }
+          ]
+        },
+        {
+          "name": "RemoveAllFunctions",
+          "docStart": 8543,
+          "docEnd": 9033,
+          "returnType": "int",
+          "arguments": [
+            {
+              "type": "Handle",
+              "name": "plugin",
+              "decl": "Handle plugin"
+            }
+          ]
+        }
+      ],
+      "properties": []
+    }
+  ],
   "enums": [
     {
       "name": "ParamType",
-      "docStart": 1710,
-      "docEnd": 1794,
+      "docStart": 1709,
+      "docEnd": 1793,
       "entries": [
         {
           "name": "Param_Any",
-          "docStart": 1839,
-          "docEnd": 1874
+          "docStart": 1867,
+          "docEnd": 1902
         },
         {
           "name": "Param_Cell",
-          "docStart": 1905,
-          "docEnd": 1943
+          "docStart": 1957,
+          "docEnd": 1995
         },
         {
           "name": "Param_Float",
-          "docStart": 1975,
-          "docEnd": 2008
+          "docStart": 2050,
+          "docEnd": 2083
         },
         {
           "name": "Param_String",
-          "docStart": 2054,
-          "docEnd": 2088
+          "docStart": 2138,
+          "docEnd": 2172
         },
         {
           "name": "Param_Array",
-          "docStart": 2134,
-          "docEnd": 2167
+          "docStart": 2227,
+          "docEnd": 2260
         },
         {
           "name": "Param_VarArgs",
-          "docStart": 2200,
-          "docEnd": 2285
+          "docStart": 2315,
+          "docEnd": 2400
         },
         {
           "name": "Param_CellByRef",
-          "docStart": 2334,
-          "docEnd": 2380
+          "docStart": 2455,
+          "docEnd": 2501
         },
         {
           "name": "Param_FloatByRef",
-          "docStart": 2429,
-          "docEnd": 2476
+          "docStart": 2556,
+          "docEnd": 2603
         }
       ]
     },
     {
       "name": "ExecType",
-      "docStart": 2484,
-      "docEnd": 2553,
+      "docStart": 2611,
+      "docEnd": 2680,
       "entries": [
         {
           "name": "ET_Ignore",
-          "docStart": 2589,
-          "docEnd": 2631
+          "docStart": 2721,
+          "docEnd": 2763
         },
         {
           "name": "ET_Single",
-          "docStart": 2649,
-          "docEnd": 2701
+          "docStart": 2786,
+          "docEnd": 2838
         },
         {
           "name": "ET_Event",
-          "docStart": 2718,
-          "docEnd": 2818
+          "docStart": 2861,
+          "docEnd": 2961
         },
         {
           "name": "ET_Hook",
-          "docStart": 2835,
-          "docEnd": 2930
+          "docStart": 2984,
+          "docEnd": 3079
         }
       ]
     }
@@ -766,23 +878,29 @@
       "types": [
         {
           "type": "function int(Handle plugin, int numParams)",
-          "docStart": 13833,
-          "docEnd": 14115
+          "docStart": 18157,
+          "docEnd": 18453
         },
         {
           "type": "function any(Handle plugin, int numParams)",
-          "docStart": 14167,
-          "docEnd": 14449
+          "docStart": 18505,
+          "docEnd": 18804
+        }
+      ]
+    },
+    {
+      "name": "RequestFrameCallback",
+      "docStart": 25360,
+      "docEnd": 25474,
+      "types": [
+        {
+          "type": "function void()"
+        },
+        {
+          "type": "function void(any data)"
         }
       ]
     }
   ],
-  "typedefs": [
-    {
-      "name": "RequestFrameCallback",
-      "docStart": 20633,
-      "docEnd": 20740,
-      "type": "function void(any data)"
-    }
-  ]
+  "typedefs": []
 }

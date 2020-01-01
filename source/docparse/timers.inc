@@ -2,8 +2,8 @@
   "functions": [
     {
       "name": "CreateTimer",
-      "docStart": 3084,
-      "docEnd": 3668,
+      "docStart": 3200,
+      "docEnd": 3828,
       "kind": "native",
       "returnType": "Handle",
       "arguments": [
@@ -31,8 +31,8 @@
     },
     {
       "name": "KillTimer",
-      "docStart": 3766,
-      "docEnd": 4127,
+      "docStart": 3926,
+      "docEnd": 4320,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -50,8 +50,8 @@
     },
     {
       "name": "TriggerTimer",
-      "docStart": 4191,
-      "docEnd": 4430,
+      "docStart": 4384,
+      "docEnd": 4648,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -69,16 +69,16 @@
     },
     {
       "name": "GetTickedTime",
-      "docStart": 4493,
-      "docEnd": 4938,
+      "docStart": 4711,
+      "docEnd": 5159,
       "kind": "native",
       "returnType": "float",
       "arguments": []
     },
     {
       "name": "GetMapTimeLeft",
-      "docStart": 4973,
-      "docEnd": 5401,
+      "docStart": 5194,
+      "docEnd": 5646,
       "kind": "native",
       "returnType": "bool",
       "arguments": [
@@ -91,8 +91,8 @@
     },
     {
       "name": "GetMapTimeLimit",
-      "docStart": 5449,
-      "docEnd": 5845,
+      "docStart": 5694,
+      "docEnd": 6117,
       "kind": "native",
       "returnType": "bool",
       "arguments": [
@@ -105,8 +105,8 @@
     },
     {
       "name": "ExtendMapTimeLimit",
-      "docStart": 5890,
-      "docEnd": 6232,
+      "docStart": 6162,
+      "docEnd": 6549,
       "kind": "native",
       "returnType": "bool",
       "arguments": [
@@ -119,32 +119,32 @@
     },
     {
       "name": "GetTickInterval",
-      "docStart": 6279,
-      "docEnd": 6458,
+      "docStart": 6596,
+      "docEnd": 6784,
       "kind": "native",
       "returnType": "float",
       "arguments": []
     },
     {
       "name": "OnMapTimeLeftChanged",
-      "docStart": 6495,
-      "docEnd": 7121,
+      "docStart": 6821,
+      "docEnd": 7442,
       "kind": "forward",
       "returnType": "void",
       "arguments": []
     },
     {
       "name": "IsServerProcessing",
-      "docStart": 7163,
-      "docEnd": 7507,
+      "docStart": 7484,
+      "docEnd": 7832,
       "kind": "native",
       "returnType": "bool",
       "arguments": []
     },
     {
       "name": "CreateDataTimer",
-      "docStart": 7546,
-      "docEnd": 8209,
+      "docStart": 7871,
+      "docEnd": 8574,
       "kind": "stock",
       "returnType": "Handle",
       "arguments": [
@@ -177,23 +177,23 @@
   "typesets": [
     {
       "name": "Timer",
-      "docStart": 2034,
-      "docEnd": 2110,
+      "docStart": 2065,
+      "docEnd": 2141,
       "types": [
         {
           "type": "function Action(Handle timer, Handle hndl)",
-          "docStart": 2131,
-          "docEnd": 2427
+          "docStart": 2162,
+          "docEnd": 2489
         },
         {
           "type": "function Action(Handle timer, any data)",
-          "docStart": 2479,
-          "docEnd": 2773
+          "docStart": 2540,
+          "docEnd": 2865
         },
         {
           "type": "function Action(Handle timer)",
-          "docStart": 2822,
-          "docEnd": 3043
+          "docStart": 2913,
+          "docEnd": 3159
         }
       ]
     }

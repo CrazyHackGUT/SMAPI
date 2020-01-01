@@ -2,8 +2,8 @@
   "functions": [
     {
       "name": "BuildPath",
-      "docStart": 9690,
-      "docEnd": 10184,
+      "docStart": 9994,
+      "docEnd": 10528,
       "kind": "native",
       "returnType": "int",
       "arguments": [
@@ -36,8 +36,8 @@
     },
     {
       "name": "OpenDirectory",
-      "docStart": 10283,
-      "docEnd": 11003,
+      "docStart": 10627,
+      "docEnd": 11364,
       "kind": "native",
       "returnType": "DirectoryListing",
       "arguments": [
@@ -60,8 +60,8 @@
     },
     {
       "name": "ReadDirEntry",
-      "docStart": 11126,
-      "docEnd": 11724,
+      "docStart": 11487,
+      "docEnd": 12128,
       "kind": "native",
       "returnType": "bool",
       "arguments": [
@@ -89,8 +89,8 @@
     },
     {
       "name": "OpenFile",
-      "docStart": 11830,
-      "docEnd": 13634,
+      "docStart": 12234,
+      "docEnd": 14094,
       "kind": "native",
       "returnType": "File",
       "arguments": [
@@ -118,8 +118,8 @@
     },
     {
       "name": "DeleteFile",
-      "docStart": 13759,
-      "docEnd": 14293,
+      "docStart": 14219,
+      "docEnd": 14786,
       "kind": "native",
       "returnType": "bool",
       "arguments": [
@@ -142,8 +142,8 @@
     },
     {
       "name": "ReadFileLine",
-      "docStart": 14415,
-      "docEnd": 14654,
+      "docStart": 14908,
+      "docEnd": 15172,
       "kind": "native",
       "returnType": "bool",
       "arguments": [
@@ -166,8 +166,8 @@
     },
     {
       "name": "ReadFile",
-      "docStart": 14728,
-      "docEnd": 15082,
+      "docStart": 15246,
+      "docEnd": 15647,
       "kind": "native",
       "returnType": "int",
       "arguments": [
@@ -195,8 +195,8 @@
     },
     {
       "name": "ReadFileString",
-      "docStart": 15159,
-      "docEnd": 15837,
+      "docStart": 15724,
+      "docEnd": 16518,
       "kind": "native",
       "returnType": "int",
       "arguments": [
@@ -224,8 +224,8 @@
     },
     {
       "name": "WriteFile",
-      "docStart": 15930,
-      "docEnd": 16499,
+      "docStart": 16611,
+      "docEnd": 17283,
       "kind": "native",
       "returnType": "bool",
       "arguments": [
@@ -253,8 +253,8 @@
     },
     {
       "name": "WriteFileString",
-      "docStart": 16584,
-      "docEnd": 16852,
+      "docStart": 17368,
+      "docEnd": 17677,
       "kind": "native",
       "returnType": "bool",
       "arguments": [
@@ -277,8 +277,8 @@
     },
     {
       "name": "WriteFileLine",
-      "docStart": 16931,
-      "docEnd": 17232,
+      "docStart": 17756,
+      "docEnd": 18099,
       "kind": "native",
       "returnType": "bool",
       "arguments": [
@@ -301,8 +301,8 @@
     },
     {
       "name": "ReadFileCell",
-      "docStart": 17307,
-      "docEnd": 17644,
+      "docStart": 18174,
+      "docEnd": 18568,
       "kind": "stock",
       "returnType": "int",
       "arguments": [
@@ -325,8 +325,8 @@
     },
     {
       "name": "WriteFileCell",
-      "docStart": 17830,
-      "docEnd": 18295,
+      "docStart": 18760,
+      "docEnd": 19327,
       "kind": "stock",
       "returnType": "bool",
       "arguments": [
@@ -349,8 +349,8 @@
     },
     {
       "name": "IsEndOfFile",
-      "docStart": 18445,
-      "docEnd": 18642,
+      "docStart": 19475,
+      "docEnd": 19700,
       "kind": "native",
       "returnType": "bool",
       "arguments": [
@@ -363,8 +363,8 @@
     },
     {
       "name": "FileSeek",
-      "docStart": 18685,
-      "docEnd": 18985,
+      "docStart": 19743,
+      "docEnd": 20081,
       "kind": "native",
       "returnType": "bool",
       "arguments": [
@@ -387,8 +387,8 @@
     },
     {
       "name": "FilePosition",
-      "docStart": 19050,
-      "docEnd": 19222,
+      "docStart": 20146,
+      "docEnd": 20346,
       "kind": "native",
       "returnType": "int",
       "arguments": [
@@ -401,8 +401,8 @@
     },
     {
       "name": "FileExists",
-      "docStart": 19265,
-      "docEnd": 19744,
+      "docStart": 20389,
+      "docEnd": 20933,
       "kind": "native",
       "returnType": "bool",
       "arguments": [
@@ -425,8 +425,8 @@
     },
     {
       "name": "RenameFile",
-      "docStart": 19852,
-      "docEnd": 20387,
+      "docStart": 21041,
+      "docEnd": 21596,
       "kind": "native",
       "returnType": "bool",
       "arguments": [
@@ -454,8 +454,8 @@
     },
     {
       "name": "DirExists",
-      "docStart": 20534,
-      "docEnd": 21076,
+      "docStart": 21743,
+      "docEnd": 22302,
       "kind": "native",
       "returnType": "bool",
       "arguments": [
@@ -478,8 +478,8 @@
     },
     {
       "name": "FileSize",
-      "docStart": 21183,
-      "docEnd": 21665,
+      "docStart": 22409,
+      "docEnd": 22956,
       "kind": "native",
       "returnType": "int",
       "arguments": [
@@ -502,8 +502,8 @@
     },
     {
       "name": "FlushFile",
-      "docStart": 21770,
-      "docEnd": 22043,
+      "docStart": 23061,
+      "docEnd": 23351,
       "kind": "native",
       "returnType": "bool",
       "arguments": [
@@ -516,8 +516,8 @@
     },
     {
       "name": "RemoveDir",
-      "docStart": 22084,
-      "docEnd": 22304,
+      "docStart": 23392,
+      "docEnd": 23629,
       "kind": "native",
       "returnType": "bool",
       "arguments": [
@@ -530,8 +530,8 @@
     },
     {
       "name": "CreateDirectory",
-      "docStart": 22827,
-      "docEnd": 23497,
+      "docStart": 24212,
+      "docEnd": 24922,
       "kind": "native",
       "returnType": "bool",
       "arguments": [
@@ -559,8 +559,8 @@
     },
     {
       "name": "SetFilePermissions",
-      "docStart": 23634,
-      "docEnd": 23816,
+      "docStart": 25059,
+      "docEnd": 25265,
       "kind": "native",
       "returnType": "bool",
       "arguments": [
@@ -578,8 +578,8 @@
     },
     {
       "name": "GetFileTime",
-      "docStart": 23882,
-      "docEnd": 24048,
+      "docStart": 25331,
+      "docEnd": 25520,
       "kind": "native",
       "returnType": "int",
       "arguments": [
@@ -597,8 +597,8 @@
     },
     {
       "name": "LogToOpenFile",
-      "docStart": 24116,
-      "docEnd": 24388,
+      "docStart": 25588,
+      "docEnd": 25890,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -621,8 +621,8 @@
     },
     {
       "name": "LogToOpenFileEx",
-      "docStart": 24464,
-      "docEnd": 24738,
+      "docStart": 25966,
+      "docEnd": 26270,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -647,13 +647,13 @@
   "methodmaps": [
     {
       "name": "DirectoryListing",
-      "docStart": 3086,
-      "docEnd": 3213,
+      "docStart": 3138,
+      "docEnd": 3265,
       "methods": [
         {
           "name": "GetNext",
-          "docStart": 3256,
-          "docEnd": 3721,
+          "docStart": 3308,
+          "docEnd": 3771,
           "returnType": "bool",
           "arguments": [
             {
@@ -678,20 +678,20 @@
     },
     {
       "name": "File",
-      "docStart": 3822,
-      "docEnd": 4026,
+      "docStart": 3872,
+      "docEnd": 4076,
       "methods": [
         {
           "name": "Close",
-          "docStart": 4057,
-          "docEnd": 4133,
+          "docStart": 4107,
+          "docEnd": 4183,
           "returnType": "void",
           "arguments": []
         },
         {
           "name": "ReadLine",
-          "docStart": 4188,
-          "docEnd": 4415,
+          "docStart": 4238,
+          "docEnd": 4460,
           "returnType": "bool",
           "arguments": [
             {
@@ -708,8 +708,8 @@
         },
         {
           "name": "Read",
-          "docStart": 4481,
-          "docEnd": 4846,
+          "docStart": 4526,
+          "docEnd": 4888,
           "returnType": "int",
           "arguments": [
             {
@@ -731,8 +731,8 @@
         },
         {
           "name": "ReadString",
-          "docStart": 4915,
-          "docEnd": 5672,
+          "docStart": 4957,
+          "docEnd": 5708,
           "returnType": "int",
           "arguments": [
             {
@@ -754,8 +754,8 @@
         },
         {
           "name": "Write",
-          "docStart": 5757,
-          "docEnd": 6363,
+          "docStart": 5793,
+          "docEnd": 6394,
           "returnType": "bool",
           "arguments": [
             {
@@ -777,8 +777,8 @@
         },
         {
           "name": "WriteString",
-          "docStart": 6440,
-          "docEnd": 6664,
+          "docStart": 6471,
+          "docEnd": 6694,
           "returnType": "bool",
           "arguments": [
             {
@@ -795,8 +795,8 @@
         },
         {
           "name": "WriteLine",
-          "docStart": 6735,
-          "docEnd": 7041,
+          "docStart": 6765,
+          "docEnd": 7070,
           "returnType": "bool",
           "arguments": [
             {
@@ -813,8 +813,8 @@
         },
         {
           "name": "ReadInt8",
-          "docStart": 7108,
-          "docEnd": 7334,
+          "docStart": 7137,
+          "docEnd": 7363,
           "returnType": "bool",
           "arguments": [
             {
@@ -826,8 +826,8 @@
         },
         {
           "name": "ReadUint8",
-          "docStart": 7381,
-          "docEnd": 7616,
+          "docStart": 7410,
+          "docEnd": 7645,
           "returnType": "bool",
           "arguments": [
             {
@@ -839,8 +839,8 @@
         },
         {
           "name": "ReadInt16",
-          "docStart": 7664,
-          "docEnd": 7882,
+          "docStart": 7693,
+          "docEnd": 7911,
           "returnType": "bool",
           "arguments": [
             {
@@ -852,8 +852,8 @@
         },
         {
           "name": "ReadUint16",
-          "docStart": 7930,
-          "docEnd": 8158,
+          "docStart": 7959,
+          "docEnd": 8187,
           "returnType": "bool",
           "arguments": [
             {
@@ -865,8 +865,8 @@
         },
         {
           "name": "ReadInt32",
-          "docStart": 8207,
-          "docEnd": 8383,
+          "docStart": 8236,
+          "docEnd": 8412,
           "returnType": "bool",
           "arguments": [
             {
@@ -878,8 +878,8 @@
         },
         {
           "name": "WriteInt8",
-          "docStart": 8431,
-          "docEnd": 8606,
+          "docStart": 8460,
+          "docEnd": 8635,
           "returnType": "bool",
           "arguments": [
             {
@@ -891,8 +891,8 @@
         },
         {
           "name": "WriteInt16",
-          "docStart": 8653,
-          "docEnd": 8831,
+          "docStart": 8682,
+          "docEnd": 8860,
           "returnType": "bool",
           "arguments": [
             {
@@ -904,8 +904,8 @@
         },
         {
           "name": "WriteInt32",
-          "docStart": 8879,
-          "docEnd": 9036,
+          "docStart": 8908,
+          "docEnd": 9065,
           "returnType": "bool",
           "arguments": [
             {
@@ -917,15 +917,15 @@
         },
         {
           "name": "EndOfFile",
-          "docStart": 9084,
-          "docEnd": 9218,
+          "docStart": 9113,
+          "docEnd": 9246,
           "returnType": "bool",
           "arguments": []
         },
         {
           "name": "Seek",
-          "docStart": 9257,
-          "docEnd": 9509,
+          "docStart": 9285,
+          "docEnd": 9537,
           "returnType": "bool",
           "arguments": [
             {
@@ -939,13 +939,20 @@
               "decl": "int where"
             }
           ]
+        },
+        {
+          "name": "Flush",
+          "docStart": 9594,
+          "docEnd": 9834,
+          "returnType": "bool",
+          "arguments": []
         }
       ],
       "properties": [
         {
           "name": "Position",
-          "docStart": 9566,
-          "docEnd": 9629,
+          "docStart": 9870,
+          "docEnd": 9933,
           "type": "int",
           "getter": true,
           "setter": false
@@ -956,18 +963,18 @@
   "enums": [
     {
       "name": "FileType",
-      "docStart": 2303,
-      "docEnd": 2333,
+      "docStart": 2297,
+      "docEnd": 2327,
       "entries": [
         {
           "name": "FileType_Unknown",
-          "docStart": 2376,
-          "docEnd": 2415
+          "docStart": 2372,
+          "docEnd": 2411
         },
         {
           "name": "FileType_Directory",
-          "docStart": 2442,
-          "docEnd": 2467
+          "docStart": 2438,
+          "docEnd": 2463
         },
         {
           "name": "FileType_File",
@@ -983,30 +990,30 @@
       "entries": [
         {
           "name": "FileTime_LastAccess",
-          "docStart": 2597,
-          "docEnd": 2637
+          "docStart": 2600,
+          "docEnd": 2640
         },
         {
           "name": "FileTime_Created",
-          "docStart": 2663,
-          "docEnd": 2700
+          "docStart": 2671,
+          "docEnd": 2708
         },
         {
           "name": "FileTime_LastChange",
-          "docStart": 2728,
-          "docEnd": 2751
+          "docStart": 2739,
+          "docEnd": 2762
         }
       ]
     },
     {
       "name": "PathType",
-      "docStart": 2993,
-      "docEnd": 3017,
+      "docStart": 3028,
+      "docEnd": 3052,
       "entries": [
         {
           "name": "Path_SM",
-          "docStart": 3048,
-          "docEnd": 3077
+          "docStart": 3101,
+          "docEnd": 3130
         }
       ]
     }
