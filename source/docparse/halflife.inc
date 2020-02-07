@@ -374,8 +374,6 @@
     },
     {
       "name": "IsSoundPrecached",
-      "docStart": 13086,
-      "docEnd": 13255,
       "kind": "native",
       "returnType": "bool",
       "arguments": [
@@ -388,8 +386,8 @@
     },
     {
       "name": "CreateDialog",
-      "docStart": 13310,
-      "docEnd": 13667,
+      "docStart": 13445,
+      "docEnd": 13802,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -418,16 +416,16 @@
     },
     {
       "name": "GetEngineVersion",
-      "docStart": 14194,
-      "docEnd": 14472,
+      "docStart": 14329,
+      "docEnd": 14607,
       "kind": "native",
       "returnType": "EngineVersion",
       "arguments": []
     },
     {
       "name": "PrintToChat",
-      "docStart": 14518,
-      "docEnd": 14816,
+      "docStart": 14653,
+      "docEnd": 14951,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -450,8 +448,8 @@
     },
     {
       "name": "PrintToChatAll",
-      "docStart": 14888,
-      "docEnd": 15060,
+      "docStart": 15023,
+      "docEnd": 15195,
       "kind": "stock",
       "returnType": "void",
       "arguments": [
@@ -469,8 +467,8 @@
     },
     {
       "name": "PrintCenterText",
-      "docStart": 15344,
-      "docEnd": 15653,
+      "docStart": 15479,
+      "docEnd": 15788,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -493,8 +491,8 @@
     },
     {
       "name": "PrintCenterTextAll",
-      "docStart": 15729,
-      "docEnd": 15912,
+      "docStart": 15864,
+      "docEnd": 16047,
       "kind": "stock",
       "returnType": "void",
       "arguments": [
@@ -512,8 +510,8 @@
     },
     {
       "name": "PrintHintText",
-      "docStart": 16204,
-      "docEnd": 16501,
+      "docStart": 16339,
+      "docEnd": 16636,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -536,8 +534,8 @@
     },
     {
       "name": "PrintHintTextToAll",
-      "docStart": 16575,
-      "docEnd": 16746,
+      "docStart": 16710,
+      "docEnd": 16881,
       "kind": "stock",
       "returnType": "void",
       "arguments": [
@@ -555,8 +553,8 @@
     },
     {
       "name": "ShowVGUIPanel",
-      "docStart": 17036,
-      "docEnd": 17592,
+      "docStart": 17171,
+      "docEnd": 17727,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -584,16 +582,16 @@
     },
     {
       "name": "CreateHudSynchronizer",
-      "docStart": 17697,
-      "docEnd": 19414,
+      "docStart": 17832,
+      "docEnd": 19549,
       "kind": "native",
       "returnType": "Handle",
       "arguments": []
     },
     {
       "name": "SetHudTextParams",
-      "docStart": 19458,
-      "docEnd": 20653,
+      "docStart": 19593,
+      "docEnd": 20788,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -656,8 +654,8 @@
     },
     {
       "name": "SetHudTextParamsEx",
-      "docStart": 20828,
-      "docEnd": 21851,
+      "docStart": 20963,
+      "docEnd": 21986,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -710,8 +708,8 @@
     },
     {
       "name": "ShowSyncHudText",
-      "docStart": 22057,
-      "docEnd": 22637,
+      "docStart": 22192,
+      "docEnd": 22772,
       "kind": "native",
       "returnType": "int",
       "arguments": [
@@ -739,8 +737,8 @@
     },
     {
       "name": "ClearSyncHud",
-      "docStart": 22726,
-      "docEnd": 23367,
+      "docStart": 22861,
+      "docEnd": 23502,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -758,8 +756,8 @@
     },
     {
       "name": "ShowHudText",
-      "docStart": 23423,
-      "docEnd": 24288,
+      "docStart": 23558,
+      "docEnd": 24423,
       "kind": "native",
       "returnType": "int",
       "arguments": [
@@ -787,8 +785,8 @@
     },
     {
       "name": "ShowMOTDPanel",
-      "docStart": 24373,
-      "docEnd": 24922,
+      "docStart": 24508,
+      "docEnd": 25057,
       "kind": "stock",
       "returnType": "void",
       "arguments": [
@@ -816,8 +814,8 @@
     },
     {
       "name": "DisplayAskConnectBox",
-      "docStart": 25274,
-      "docEnd": 25616,
+      "docStart": 25409,
+      "docEnd": 25751,
       "kind": "stock",
       "returnType": "void",
       "arguments": [
@@ -845,8 +843,8 @@
     },
     {
       "name": "EntIndexToEntRef",
-      "docStart": 25995,
-      "docEnd": 26158,
+      "docStart": 26130,
+      "docEnd": 26293,
       "kind": "native",
       "returnType": "int",
       "arguments": [
@@ -859,8 +857,8 @@
     },
     {
       "name": "EntRefToEntIndex",
-      "docStart": 26204,
-      "docEnd": 26347,
+      "docStart": 26339,
+      "docEnd": 26482,
       "kind": "native",
       "returnType": "int",
       "arguments": [
@@ -873,8 +871,8 @@
     },
     {
       "name": "MakeCompatEntRef",
-      "docStart": 26390,
-      "docEnd": 26551,
+      "docStart": 26525,
+      "docEnd": 26686,
       "kind": "native",
       "returnType": "int",
       "arguments": [
@@ -887,8 +885,8 @@
     },
     {
       "name": "GetClientsInRange",
-      "docStart": 26675,
-      "docEnd": 27088,
+      "docStart": 26810,
+      "docEnd": 27223,
       "kind": "native",
       "returnType": "int",
       "arguments": [
@@ -916,8 +914,8 @@
     },
     {
       "name": "GetServerAuthId",
-      "docStart": 27198,
-      "docEnd": 27715,
+      "docStart": 27333,
+      "docEnd": 27850,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -940,8 +938,8 @@
     },
     {
       "name": "GetServerSteamAccountId",
-      "docStart": 27795,
-      "docEnd": 27915,
+      "docStart": 27930,
+      "docEnd": 28050,
       "kind": "native",
       "returnType": "int",
       "arguments": []

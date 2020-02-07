@@ -2,16 +2,16 @@
   "functions": [
     {
       "name": "CreateDataPack",
-      "docStart": 4105,
-      "docEnd": 4234,
+      "docStart": 4078,
+      "docEnd": 4207,
       "kind": "native",
       "returnType": "DataPack",
       "arguments": []
     },
     {
       "name": "WritePackCell",
-      "docStart": 4273,
-      "docEnd": 4456,
+      "docStart": 4246,
+      "docEnd": 4429,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -29,8 +29,8 @@
     },
     {
       "name": "WritePackFloat",
-      "docStart": 4511,
-      "docEnd": 4689,
+      "docStart": 4484,
+      "docEnd": 4662,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -48,8 +48,8 @@
     },
     {
       "name": "WritePackString",
-      "docStart": 4746,
-      "docEnd": 4926,
+      "docStart": 4719,
+      "docEnd": 4899,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -67,8 +67,8 @@
     },
     {
       "name": "WritePackFunction",
-      "docStart": 4991,
-      "docEnd": 5191,
+      "docStart": 4964,
+      "docEnd": 5164,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -86,8 +86,8 @@
     },
     {
       "name": "ReadPackCell",
-      "docStart": 5257,
-      "docEnd": 5449,
+      "docStart": 5230,
+      "docEnd": 5422,
       "kind": "native",
       "returnType": "any",
       "arguments": [
@@ -100,8 +100,8 @@
     },
     {
       "name": "ReadPackFloat",
-      "docStart": 5492,
-      "docEnd": 5686,
+      "docStart": 5465,
+      "docEnd": 5659,
       "kind": "native",
       "returnType": "float",
       "arguments": [
@@ -114,8 +114,8 @@
     },
     {
       "name": "ReadPackString",
-      "docStart": 5732,
-      "docEnd": 6006,
+      "docStart": 5705,
+      "docEnd": 5979,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -138,8 +138,8 @@
     },
     {
       "name": "ReadPackFunction",
-      "docStart": 6079,
-      "docEnd": 6289,
+      "docStart": 6052,
+      "docEnd": 6262,
       "kind": "native",
       "returnType": "function",
       "arguments": [
@@ -152,8 +152,8 @@
     },
     {
       "name": "ResetPack",
-      "docStart": 6341,
-      "docEnd": 6545,
+      "docStart": 6314,
+      "docEnd": 6518,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -171,8 +171,8 @@
     },
     {
       "name": "GetPackPosition",
-      "docStart": 6604,
-      "docEnd": 6857,
+      "docStart": 6577,
+      "docEnd": 6830,
       "kind": "native",
       "returnType": "DataPackPos",
       "arguments": [
@@ -185,8 +185,8 @@
     },
     {
       "name": "SetPackPosition",
-      "docStart": 6911,
-      "docEnd": 7216,
+      "docStart": 6884,
+      "docEnd": 7189,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -204,8 +204,8 @@
     },
     {
       "name": "IsPackReadable",
-      "docStart": 7285,
-      "docEnd": 7624,
+      "docStart": 7258,
+      "docEnd": 7597,
       "kind": "native",
       "returnType": "bool",
       "arguments": [
@@ -310,21 +310,21 @@
         {
           "name": "ReadCell",
           "docStart": 2925,
-          "docEnd": 3014,
+          "docEnd": 3001,
           "returnType": "any",
           "arguments": []
         },
         {
           "name": "ReadFloat",
-          "docStart": 3051,
-          "docEnd": 3141,
+          "docStart": 3038,
+          "docEnd": 3114,
           "returnType": "float",
           "arguments": []
         },
         {
           "name": "ReadString",
-          "docStart": 3181,
-          "docEnd": 3340,
+          "docStart": 3154,
+          "docEnd": 3313,
           "returnType": "void",
           "arguments": [
             {
@@ -341,15 +341,15 @@
         },
         {
           "name": "ReadFunction",
-          "docStart": 3405,
-          "docEnd": 3499,
+          "docStart": 3378,
+          "docEnd": 3472,
           "returnType": "function",
           "arguments": []
         },
         {
           "name": "Reset",
-          "docStart": 3545,
-          "docEnd": 3650,
+          "docStart": 3518,
+          "docEnd": 3623,
           "returnType": "void",
           "arguments": [
             {
@@ -361,8 +361,8 @@
         },
         {
           "name": "IsReadable",
-          "docStart": 3701,
-          "docEnd": 3896,
+          "docStart": 3674,
+          "docEnd": 3869,
           "returnType": "bool",
           "arguments": [
             {
@@ -376,8 +376,8 @@
       "properties": [
         {
           "name": "Position",
-          "docStart": 3951,
-          "docEnd": 3996,
+          "docStart": 3924,
+          "docEnd": 3969,
           "type": "DataPackPos",
           "getter": true,
           "setter": true
