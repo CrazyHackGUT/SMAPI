@@ -2,8 +2,8 @@
   "functions": [
     {
       "name": "CS_OnBuyCommand",
-      "docStart": 6511,
-      "docEnd": 6756,
+      "docStart": 6635,
+      "docEnd": 6880,
       "kind": "forward",
       "returnType": "Action",
       "arguments": [
@@ -21,8 +21,8 @@
     },
     {
       "name": "CS_OnCSWeaponDrop",
-      "docStart": 6826,
-      "docEnd": 7038,
+      "docStart": 6950,
+      "docEnd": 7162,
       "kind": "forward",
       "returnType": "Action",
       "arguments": [
@@ -40,8 +40,8 @@
     },
     {
       "name": "CS_OnGetWeaponPrice",
-      "docStart": 7106,
-      "docEnd": 7606,
+      "docStart": 7230,
+      "docEnd": 7730,
       "kind": "forward",
       "returnType": "Action",
       "arguments": [
@@ -64,8 +64,8 @@
     },
     {
       "name": "CS_OnTerminateRound",
-      "docStart": 7692,
-      "docEnd": 8054,
+      "docStart": 7816,
+      "docEnd": 8178,
       "kind": "forward",
       "returnType": "Action",
       "arguments": [
@@ -83,8 +83,8 @@
     },
     {
       "name": "CS_RespawnPlayer",
-      "docStart": 8135,
-      "docEnd": 8278,
+      "docStart": 8259,
+      "docEnd": 8402,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -97,8 +97,8 @@
     },
     {
       "name": "CS_SwitchTeam",
-      "docStart": 8325,
-      "docEnd": 8514,
+      "docStart": 8449,
+      "docEnd": 8638,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -116,8 +116,8 @@
     },
     {
       "name": "CS_DropWeapon",
-      "docStart": 8568,
-      "docEnd": 8983,
+      "docStart": 8692,
+      "docEnd": 9107,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -145,8 +145,8 @@
     },
     {
       "name": "CS_TerminateRound",
-      "docStart": 9079,
-      "docEnd": 9393,
+      "docStart": 9203,
+      "docEnd": 9517,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -169,8 +169,8 @@
     },
     {
       "name": "CS_GetTranslatedWeaponAlias",
-      "docStart": 9492,
-      "docEnd": 9822,
+      "docStart": 9616,
+      "docEnd": 9946,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -193,8 +193,8 @@
     },
     {
       "name": "CS_GetWeaponPrice",
-      "docStart": 9914,
-      "docEnd": 10427,
+      "docStart": 10038,
+      "docEnd": 10551,
       "kind": "native",
       "returnType": "int",
       "arguments": [
@@ -217,8 +217,8 @@
     },
     {
       "name": "CS_GetClientClanTag",
-      "docStart": 10517,
-      "docEnd": 10823,
+      "docStart": 10641,
+      "docEnd": 10947,
       "kind": "native",
       "returnType": "int",
       "arguments": [
@@ -241,8 +241,8 @@
     },
     {
       "name": "CS_SetClientClanTag",
-      "docStart": 10897,
-      "docEnd": 11094,
+      "docStart": 11021,
+      "docEnd": 11218,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -260,8 +260,8 @@
     },
     {
       "name": "CS_GetTeamScore",
-      "docStart": 11162,
-      "docEnd": 11355,
+      "docStart": 11286,
+      "docEnd": 11479,
       "kind": "native",
       "returnType": "int",
       "arguments": [
@@ -274,8 +274,8 @@
     },
     {
       "name": "CS_SetTeamScore",
-      "docStart": 11398,
-      "docEnd": 11785,
+      "docStart": 11522,
+      "docEnd": 11909,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -293,8 +293,8 @@
     },
     {
       "name": "CS_GetMVPCount",
-      "docStart": 11840,
-      "docEnd": 12048,
+      "docStart": 11964,
+      "docEnd": 12172,
       "kind": "native",
       "returnType": "int",
       "arguments": [
@@ -307,8 +307,8 @@
     },
     {
       "name": "CS_SetMVPCount",
-      "docStart": 12092,
-      "docEnd": 12296,
+      "docStart": 12216,
+      "docEnd": 12420,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -326,8 +326,8 @@
     },
     {
       "name": "CS_GetClientContributionScore",
-      "docStart": 12352,
-      "docEnd": 12565,
+      "docStart": 12476,
+      "docEnd": 12689,
       "kind": "native",
       "returnType": "int",
       "arguments": [
@@ -340,8 +340,8 @@
     },
     {
       "name": "CS_SetClientContributionScore",
-      "docStart": 12624,
-      "docEnd": 12842,
+      "docStart": 12748,
+      "docEnd": 12966,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -359,8 +359,8 @@
     },
     {
       "name": "CS_GetClientAssists",
-      "docStart": 12913,
-      "docEnd": 13119,
+      "docStart": 13037,
+      "docEnd": 13243,
       "kind": "native",
       "returnType": "int",
       "arguments": [
@@ -373,8 +373,8 @@
     },
     {
       "name": "CS_SetClientAssists",
-      "docStart": 13168,
-      "docEnd": 13379,
+      "docStart": 13292,
+      "docEnd": 13503,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -392,8 +392,8 @@
     },
     {
       "name": "CS_AliasToWeaponID",
-      "docStart": 13440,
-      "docEnd": 13730,
+      "docStart": 13564,
+      "docEnd": 13854,
       "kind": "native",
       "returnType": "CSWeaponID",
       "arguments": [
@@ -406,8 +406,8 @@
     },
     {
       "name": "CS_WeaponIDToAlias",
-      "docStart": 13793,
-      "docEnd": 14076,
+      "docStart": 13917,
+      "docEnd": 14200,
       "kind": "native",
       "returnType": "int",
       "arguments": [
@@ -430,8 +430,8 @@
     },
     {
       "name": "CS_IsValidWeaponID",
-      "docStart": 14162,
-      "docEnd": 14513,
+      "docStart": 14286,
+      "docEnd": 14637,
       "kind": "native",
       "returnType": "bool",
       "arguments": [
@@ -444,8 +444,8 @@
     },
     {
       "name": "CS_UpdateClientModel",
-      "docStart": 14565,
-      "docEnd": 14740,
+      "docStart": 14689,
+      "docEnd": 14864,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -458,8 +458,8 @@
     },
     {
       "name": "CS_ItemDefIndexToID",
-      "docStart": 14791,
-      "docEnd": 15169,
+      "docStart": 14915,
+      "docEnd": 15293,
       "kind": "native",
       "returnType": "CSWeaponID",
       "arguments": [
@@ -472,8 +472,8 @@
     },
     {
       "name": "CS_WeaponIDToItemDefIndex",
-      "docStart": 15228,
-      "docEnd": 15595,
+      "docStart": 15352,
+      "docEnd": 15719,
       "kind": "native",
       "returnType": "int",
       "arguments": [
@@ -875,10 +875,19 @@
           "name": "CSWeapon_KNIFE_PUSH"
         },
         {
+          "name": "CSWeapon_KNIFE_CORD"
+        },
+        {
+          "name": "CSWeapon_KNIFE_CANIS"
+        },
+        {
           "name": "CSWeapon_KNIFE_URSUS"
         },
         {
           "name": "CSWeapon_KNIFE_GYPSY_JACKKNIFE"
+        },
+        {
+          "name": "CSWeapon_KNIFE_OUTDOOR"
         },
         {
           "name": "CSWeapon_KNIFE_STILETTO"
@@ -887,9 +896,12 @@
           "name": "CSWeapon_KNIFE_WIDOWMAKER"
         },
         {
+          "name": "CSWeapon_KNIFE_SKELETON"
+        },
+        {
           "name": "CSWeapon_MAX_WEAPONS",
-          "docStart": 6407,
-          "docEnd": 6503
+          "docStart": 6531,
+          "docEnd": 6627
         }
       ]
     }
