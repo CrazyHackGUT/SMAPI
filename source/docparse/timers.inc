@@ -136,15 +136,15 @@
     {
       "name": "IsServerProcessing",
       "docStart": 7484,
-      "docEnd": 7832,
+      "docEnd": 7882,
       "kind": "native",
       "returnType": "bool",
       "arguments": []
     },
     {
       "name": "CreateDataTimer",
-      "docStart": 7871,
-      "docEnd": 8574,
+      "docStart": 7921,
+      "docEnd": 8624,
       "kind": "stock",
       "returnType": "Handle",
       "arguments": [

@@ -37,7 +37,7 @@
     {
       "name": "MatchRegex",
       "docStart": 9218,
-      "docEnd": 9640,
+      "docEnd": 9711,
       "kind": "native",
       "returnType": "int",
       "arguments": [
@@ -55,13 +55,18 @@
           "type": "RegexError&",
           "name": "ret",
           "decl": "RegexError& ret"
+        },
+        {
+          "type": "int",
+          "name": "offset",
+          "decl": "int offset"
         }
       ]
     },
     {
       "name": "GetRegexSubString",
-      "docStart": 9736,
-      "docEnd": 10387,
+      "docStart": 9823,
+      "docEnd": 10474,
       "kind": "native",
       "returnType": "bool",
       "arguments": [
@@ -89,8 +94,8 @@
     },
     {
       "name": "SimpleRegexMatch",
-      "docStart": 10476,
-      "docEnd": 11121,
+      "docStart": 10563,
+      "docEnd": 11208,
       "kind": "stock",
       "returnType": "int",
       "arguments": [

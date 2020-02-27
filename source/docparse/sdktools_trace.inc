@@ -185,9 +185,106 @@
       ]
     },
     {
-      "name": "TR_TraceRayFilter",
+      "name": "TR_EnumerateEntitiesSphere",
       "docStart": 15098,
-      "docEnd": 15792,
+      "docEnd": 15550,
+      "kind": "native",
+      "returnType": "void",
+      "arguments": [
+        {
+          "type": "const float[3]",
+          "name": "pos",
+          "decl": "const float pos[3]"
+        },
+        {
+          "type": "float",
+          "name": "radius",
+          "decl": "float radius"
+        },
+        {
+          "type": "int",
+          "name": "mask",
+          "decl": "int mask"
+        },
+        {
+          "type": "TraceEntityEnumerator",
+          "name": "enumerator",
+          "decl": "TraceEntityEnumerator enumerator"
+        },
+        {
+          "type": "any",
+          "name": "data",
+          "decl": "any data"
+        }
+      ]
+    },
+    {
+      "name": "TR_EnumerateEntitiesBox",
+      "docStart": 15869,
+      "docEnd": 16305,
+      "kind": "native",
+      "returnType": "void",
+      "arguments": [
+        {
+          "type": "const float[3]",
+          "name": "mins",
+          "decl": "const float mins[3]"
+        },
+        {
+          "type": "const float[3]",
+          "name": "maxs",
+          "decl": "const float maxs[3]"
+        },
+        {
+          "type": "int",
+          "name": "mask",
+          "decl": "int mask"
+        },
+        {
+          "type": "TraceEntityEnumerator",
+          "name": "enumerator",
+          "decl": "TraceEntityEnumerator enumerator"
+        },
+        {
+          "type": "any",
+          "name": "data",
+          "decl": "any data"
+        }
+      ]
+    },
+    {
+      "name": "TR_EnumerateEntitiesPoint",
+      "docStart": 16601,
+      "docEnd": 17001,
+      "kind": "native",
+      "returnType": "void",
+      "arguments": [
+        {
+          "type": "const float[3]",
+          "name": "pos",
+          "decl": "const float pos[3]"
+        },
+        {
+          "type": "int",
+          "name": "mask",
+          "decl": "int mask"
+        },
+        {
+          "type": "TraceEntityEnumerator",
+          "name": "enumerator",
+          "decl": "TraceEntityEnumerator enumerator"
+        },
+        {
+          "type": "any",
+          "name": "data",
+          "decl": "any data"
+        }
+      ]
+    },
+    {
+      "name": "TR_TraceRayFilter",
+      "docStart": 17240,
+      "docEnd": 17934,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -225,8 +322,8 @@
     },
     {
       "name": "TR_TraceHullFilter",
-      "docStart": 16087,
-      "docEnd": 16726,
+      "docStart": 18229,
+      "docEnd": 18868,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -269,8 +366,8 @@
     },
     {
       "name": "TR_ClipRayToEntity",
-      "docStart": 17086,
-      "docEnd": 17472,
+      "docStart": 19228,
+      "docEnd": 19614,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -303,8 +400,8 @@
     },
     {
       "name": "TR_ClipRayHullToEntity",
-      "docStart": 17715,
-      "docEnd": 18050,
+      "docStart": 19857,
+      "docEnd": 20192,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -342,8 +439,8 @@
     },
     {
       "name": "TR_ClipCurrentRayToEntity",
-      "docStart": 18376,
-      "docEnd": 18537,
+      "docStart": 20518,
+      "docEnd": 20679,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -361,8 +458,8 @@
     },
     {
       "name": "TR_TraceRayEx",
-      "docStart": 18604,
-      "docEnd": 19045,
+      "docStart": 20746,
+      "docEnd": 21187,
       "kind": "native",
       "returnType": "Handle",
       "arguments": [
@@ -390,8 +487,8 @@
     },
     {
       "name": "TR_TraceHullEx",
-      "docStart": 19232,
-      "docEnd": 19618,
+      "docStart": 21374,
+      "docEnd": 21760,
       "kind": "native",
       "returnType": "Handle",
       "arguments": [
@@ -424,8 +521,8 @@
     },
     {
       "name": "TR_TraceRayFilterEx",
-      "docStart": 19866,
-      "docEnd": 20612,
+      "docStart": 22008,
+      "docEnd": 22754,
       "kind": "native",
       "returnType": "Handle",
       "arguments": [
@@ -463,8 +560,8 @@
     },
     {
       "name": "TR_TraceHullFilterEx",
-      "docStart": 20931,
-      "docEnd": 21625,
+      "docStart": 23073,
+      "docEnd": 23767,
       "kind": "native",
       "returnType": "Handle",
       "arguments": [
@@ -507,8 +604,8 @@
     },
     {
       "name": "TR_ClipRayToEntityEx",
-      "docStart": 22013,
-      "docEnd": 22482,
+      "docStart": 24155,
+      "docEnd": 24624,
       "kind": "native",
       "returnType": "Handle",
       "arguments": [
@@ -541,8 +638,8 @@
     },
     {
       "name": "TR_ClipRayHullToEntityEx",
-      "docStart": 22745,
-      "docEnd": 23163,
+      "docStart": 24887,
+      "docEnd": 25305,
       "kind": "native",
       "returnType": "Handle",
       "arguments": [
@@ -580,8 +677,8 @@
     },
     {
       "name": "TR_ClipCurrentRayToEntityEx",
-      "docStart": 23513,
-      "docEnd": 23757,
+      "docStart": 25655,
+      "docEnd": 25899,
       "kind": "native",
       "returnType": "Handle",
       "arguments": [
@@ -599,8 +696,8 @@
     },
     {
       "name": "TR_GetFraction",
-      "docStart": 23828,
-      "docEnd": 24105,
+      "docStart": 25970,
+      "docEnd": 26247,
       "kind": "native",
       "returnType": "float",
       "arguments": [
@@ -613,8 +710,8 @@
     },
     {
       "name": "TR_GetFractionLeftSolid",
-      "docStart": 24167,
-      "docEnd": 24492,
+      "docStart": 26309,
+      "docEnd": 26634,
       "kind": "native",
       "returnType": "float",
       "arguments": [
@@ -627,8 +724,8 @@
     },
     {
       "name": "TR_GetStartPosition",
-      "docStart": 24563,
-      "docEnd": 24808,
+      "docStart": 26705,
+      "docEnd": 26950,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -646,8 +743,8 @@
     },
     {
       "name": "TR_GetEndPosition",
-      "docStart": 24873,
-      "docEnd": 25126,
+      "docStart": 27015,
+      "docEnd": 27268,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -665,8 +762,8 @@
     },
     {
       "name": "TR_GetEntityIndex",
-      "docStart": 25204,
-      "docEnd": 25467,
+      "docStart": 27346,
+      "docEnd": 27609,
       "kind": "native",
       "returnType": "int",
       "arguments": [
@@ -679,8 +776,8 @@
     },
     {
       "name": "TR_GetDisplacementFlags",
-      "docStart": 25530,
-      "docEnd": 25803,
+      "docStart": 27672,
+      "docEnd": 27945,
       "kind": "native",
       "returnType": "int",
       "arguments": [
@@ -693,8 +790,8 @@
     },
     {
       "name": "TR_GetSurfaceName",
-      "docStart": 25872,
-      "docEnd": 26178,
+      "docStart": 28014,
+      "docEnd": 28320,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -717,8 +814,8 @@
     },
     {
       "name": "TR_GetSurfaceProps",
-      "docStart": 26254,
-      "docEnd": 26506,
+      "docStart": 28396,
+      "docEnd": 28648,
       "kind": "native",
       "returnType": "int",
       "arguments": [
@@ -731,8 +828,8 @@
     },
     {
       "name": "TR_GetSurfaceFlags",
-      "docStart": 26570,
-      "docEnd": 26795,
+      "docStart": 28712,
+      "docEnd": 28937,
       "kind": "native",
       "returnType": "int",
       "arguments": [
@@ -745,8 +842,8 @@
     },
     {
       "name": "TR_GetPhysicsBone",
-      "docStart": 26859,
-      "docEnd": 27102,
+      "docStart": 29001,
+      "docEnd": 29244,
       "kind": "native",
       "returnType": "int",
       "arguments": [
@@ -759,8 +856,8 @@
     },
     {
       "name": "TR_AllSolid",
-      "docStart": 27165,
-      "docEnd": 27449,
+      "docStart": 29307,
+      "docEnd": 29591,
       "kind": "native",
       "returnType": "bool",
       "arguments": [
@@ -773,8 +870,8 @@
     },
     {
       "name": "TR_StartSolid",
-      "docStart": 27507,
-      "docEnd": 27793,
+      "docStart": 29649,
+      "docEnd": 29935,
       "kind": "native",
       "returnType": "bool",
       "arguments": [
@@ -787,8 +884,8 @@
     },
     {
       "name": "TR_DidHit",
-      "docStart": 27853,
-      "docEnd": 28134,
+      "docStart": 29995,
+      "docEnd": 30276,
       "kind": "native",
       "returnType": "bool",
       "arguments": [
@@ -801,8 +898,8 @@
     },
     {
       "name": "TR_GetHitGroup",
-      "docStart": 28190,
-      "docEnd": 28436,
+      "docStart": 30332,
+      "docEnd": 30578,
       "kind": "native",
       "returnType": "int",
       "arguments": [
@@ -815,8 +912,8 @@
     },
     {
       "name": "TR_GetHitBoxIndex",
-      "docStart": 28496,
-      "docEnd": 28914,
+      "docStart": 30638,
+      "docEnd": 31056,
       "kind": "native",
       "returnType": "int",
       "arguments": [
@@ -829,8 +926,8 @@
     },
     {
       "name": "TR_GetPlaneNormal",
-      "docStart": 28977,
-      "docEnd": 29269,
+      "docStart": 31119,
+      "docEnd": 31411,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -848,8 +945,8 @@
     },
     {
       "name": "TR_PointOutsideWorld",
-      "docStart": 29335,
-      "docEnd": 29528,
+      "docStart": 31477,
+      "docEnd": 31670,
       "kind": "native",
       "returnType": "bool",
       "arguments": [
