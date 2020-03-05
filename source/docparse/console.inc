@@ -523,9 +523,42 @@
       ]
     },
     {
-      "name": "GetCmdArgString",
+      "name": "GetCmdArgInt",
       "docStart": 18954,
-      "docEnd": 19255,
+      "docEnd": 19279,
+      "kind": "stock",
+      "returnType": "int",
+      "arguments": [
+        {
+          "type": "int",
+          "name": "argnum",
+          "decl": "int argnum"
+        }
+      ]
+    },
+    {
+      "name": "GetCmdArgIntEx",
+      "docStart": 19417,
+      "docEnd": 19797,
+      "kind": "stock",
+      "returnType": "bool",
+      "arguments": [
+        {
+          "type": "int",
+          "name": "argnum",
+          "decl": "int argnum"
+        },
+        {
+          "type": "int&",
+          "name": "value",
+          "decl": "int& value"
+        }
+      ]
+    },
+    {
+      "name": "GetCmdArgString",
+      "docStart": 19987,
+      "docEnd": 20288,
       "kind": "native",
       "returnType": "int",
       "arguments": [
@@ -543,16 +576,16 @@
     },
     {
       "name": "GetCommandIterator",
-      "docStart": 20751,
-      "docEnd": 20876,
+      "docStart": 21784,
+      "docEnd": 21909,
       "kind": "native",
       "returnType": "Handle",
       "arguments": []
     },
     {
       "name": "ReadCommandIterator",
-      "docStart": 20917,
-      "docEnd": 21436,
+      "docStart": 21950,
+      "docEnd": 22469,
       "kind": "native",
       "returnType": "bool",
       "arguments": [
@@ -590,8 +623,8 @@
     },
     {
       "name": "CheckCommandAccess",
-      "docStart": 21609,
-      "docEnd": 22540,
+      "docStart": 22642,
+      "docEnd": 23573,
       "kind": "native",
       "returnType": "bool",
       "arguments": [
@@ -619,8 +652,8 @@
     },
     {
       "name": "CheckAccess",
-      "docStart": 22682,
-      "docEnd": 23619,
+      "docStart": 23715,
+      "docEnd": 24652,
       "kind": "native",
       "returnType": "bool",
       "arguments": [
@@ -648,8 +681,8 @@
     },
     {
       "name": "GetCommandFlags",
-      "docStart": 23754,
-      "docEnd": 24015,
+      "docStart": 24787,
+      "docEnd": 25048,
       "kind": "native",
       "returnType": "int",
       "arguments": [
@@ -662,8 +695,8 @@
     },
     {
       "name": "SetCommandFlags",
-      "docStart": 24067,
-      "docEnd": 24307,
+      "docStart": 25100,
+      "docEnd": 25340,
       "kind": "native",
       "returnType": "bool",
       "arguments": [
@@ -681,8 +714,8 @@
     },
     {
       "name": "FindFirstConCommand",
-      "docStart": 24371,
-      "docEnd": 25546,
+      "docStart": 25404,
+      "docEnd": 26579,
       "kind": "native",
       "returnType": "Handle",
       "arguments": [
@@ -720,8 +753,8 @@
     },
     {
       "name": "FindNextConCommand",
-      "docStart": 25690,
-      "docEnd": 26562,
+      "docStart": 26723,
+      "docEnd": 27595,
       "kind": "native",
       "returnType": "bool",
       "arguments": [
@@ -764,8 +797,8 @@
     },
     {
       "name": "AddServerTag",
-      "docStart": 26718,
-      "docEnd": 27048,
+      "docStart": 27751,
+      "docEnd": 28081,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -778,8 +811,8 @@
     },
     {
       "name": "RemoveServerTag",
-      "docStart": 27097,
-      "docEnd": 27214,
+      "docStart": 28130,
+      "docEnd": 28247,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -792,8 +825,8 @@
     },
     {
       "name": "AddCommandListener",
-      "docStart": 28551,
-      "docEnd": 29329,
+      "docStart": 29584,
+      "docEnd": 30362,
       "kind": "native",
       "returnType": "bool",
       "arguments": [
@@ -811,8 +844,8 @@
     },
     {
       "name": "RemoveCommandListener",
-      "docStart": 29417,
-      "docEnd": 29737,
+      "docStart": 30450,
+      "docEnd": 30770,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -830,8 +863,8 @@
     },
     {
       "name": "CommandExists",
-      "docStart": 29828,
-      "docEnd": 29999,
+      "docStart": 30861,
+      "docEnd": 31032,
       "kind": "stock",
       "returnType": "bool",
       "arguments": [
@@ -844,8 +877,8 @@
     },
     {
       "name": "OnClientSayCommand",
-      "docStart": 30115,
-      "docEnd": 30500,
+      "docStart": 31148,
+      "docEnd": 31533,
       "kind": "forward",
       "returnType": "Action",
       "arguments": [
@@ -868,8 +901,8 @@
     },
     {
       "name": "OnClientSayCommand_Post",
-      "docStart": 30594,
-      "docEnd": 30779,
+      "docStart": 31627,
+      "docEnd": 31812,
       "kind": "forward",
       "returnType": "void",
       "arguments": [
@@ -897,22 +930,22 @@
       "methods": [
         {
           "name": "CommandIterator",
-          "docStart": 19357,
-          "docEnd": 19665,
+          "docStart": 20390,
+          "docEnd": 20698,
           "returnType": "CommandIterator",
           "arguments": []
         },
         {
           "name": "Next",
-          "docStart": 19705,
-          "docEnd": 19871,
+          "docStart": 20738,
+          "docEnd": 20904,
           "returnType": "bool",
           "arguments": []
         },
         {
           "name": "GetDescription",
-          "docStart": 19905,
-          "docEnd": 20101,
+          "docStart": 20938,
+          "docEnd": 21134,
           "returnType": "void",
           "arguments": [
             {
@@ -929,8 +962,8 @@
         },
         {
           "name": "GetName",
-          "docStart": 20170,
-          "docEnd": 20359,
+          "docStart": 21203,
+          "docEnd": 21392,
           "returnType": "void",
           "arguments": [
             {
@@ -949,16 +982,16 @@
       "properties": [
         {
           "name": "Plugin",
-          "docStart": 20421,
-          "docEnd": 20534,
+          "docStart": 21454,
+          "docEnd": 21567,
           "type": "Handle",
           "getter": true,
           "setter": false
         },
         {
           "name": "Flags",
-          "docStart": 20594,
-          "docEnd": 20693,
+          "docStart": 21627,
+          "docEnd": 21726,
           "type": "int",
           "getter": true,
           "setter": false
@@ -1008,8 +1041,8 @@
     },
     {
       "name": "CommandListener",
-      "docStart": 27266,
-      "docEnd": 28400,
+      "docStart": 28299,
+      "docEnd": 29433,
       "type": "function Action(int client, const char[] command, int argc)"
     }
   ]
