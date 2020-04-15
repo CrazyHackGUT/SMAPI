@@ -144,7 +144,7 @@
     {
       "name": "GetStringTableData",
       "docStart": 4597,
-      "docEnd": 5072,
+      "docEnd": 5102,
       "kind": "native",
       "returnType": "int",
       "arguments": [
@@ -172,10 +172,10 @@
     },
     {
       "name": "SetStringTableData",
-      "docStart": 5169,
-      "docEnd": 5630,
+      "docStart": 5199,
+      "docEnd": 5583,
       "kind": "native",
-      "returnType": "int",
+      "returnType": "void",
       "arguments": [
         {
           "type": "int",
@@ -201,8 +201,8 @@
     },
     {
       "name": "AddToStringTable",
-      "docStart": 5730,
-      "docEnd": 6183,
+      "docStart": 5684,
+      "docEnd": 6137,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -230,8 +230,8 @@
     },
     {
       "name": "LockStringTables",
-      "docStart": 6291,
-      "docEnd": 6580,
+      "docStart": 6245,
+      "docEnd": 6534,
       "kind": "native",
       "returnType": "bool",
       "arguments": [
@@ -244,8 +244,8 @@
     },
     {
       "name": "AddFileToDownloadsTable",
-      "docStart": 6626,
-      "docEnd": 6848,
+      "docStart": 6580,
+      "docEnd": 6802,
       "kind": "stock",
       "returnType": "void",
       "arguments": [
