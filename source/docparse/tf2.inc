@@ -2,8 +2,8 @@
   "functions": [
     {
       "name": "TF2_IgnitePlayer",
-      "docStart": 13574,
-      "docEnd": 13892,
+      "docStart": 13617,
+      "docEnd": 13935,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -26,8 +26,8 @@
     },
     {
       "name": "TF2_RespawnPlayer",
-      "docStart": 13974,
-      "docEnd": 14135,
+      "docStart": 14017,
+      "docEnd": 14178,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -40,8 +40,8 @@
     },
     {
       "name": "TF2_RegeneratePlayer",
-      "docStart": 14183,
-      "docEnd": 14371,
+      "docStart": 14226,
+      "docEnd": 14414,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -54,8 +54,8 @@
     },
     {
       "name": "TF2_AddCondition",
-      "docStart": 14422,
-      "docEnd": 14906,
+      "docStart": 14465,
+      "docEnd": 14949,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -83,8 +83,8 @@
     },
     {
       "name": "TF2_RemoveCondition",
-      "docStart": 15028,
-      "docEnd": 15273,
+      "docStart": 15071,
+      "docEnd": 15316,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -102,8 +102,8 @@
     },
     {
       "name": "TF2_SetPlayerPowerPlay",
-      "docStart": 15341,
-      "docEnd": 15604,
+      "docStart": 15384,
+      "docEnd": 15647,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -121,8 +121,8 @@
     },
     {
       "name": "TF2_DisguisePlayer",
-      "docStart": 15671,
-      "docEnd": 16245,
+      "docStart": 15714,
+      "docEnd": 16288,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -150,8 +150,8 @@
     },
     {
       "name": "TF2_RemovePlayerDisguise",
-      "docStart": 16344,
-      "docEnd": 16560,
+      "docStart": 16387,
+      "docEnd": 16603,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -164,8 +164,8 @@
     },
     {
       "name": "TF2_StunPlayer",
-      "docStart": 16615,
-      "docEnd": 16970,
+      "docStart": 16658,
+      "docEnd": 17013,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -198,8 +198,8 @@
     },
     {
       "name": "TF2_MakeBleed",
-      "docStart": 17082,
-      "docEnd": 17279,
+      "docStart": 17125,
+      "docEnd": 17322,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -228,8 +228,8 @@
     },
     {
       "name": "TF2_GetClass",
-      "docStart": 17644,
-      "docEnd": 17829,
+      "docStart": 17687,
+      "docEnd": 17872,
       "kind": "native",
       "returnType": "TFClassType",
       "arguments": [
@@ -242,8 +242,8 @@
     },
     {
       "name": "TF2_CalcIsAttackCritical",
-      "docStart": 17891,
-      "docEnd": 18643,
+      "docStart": 17934,
+      "docEnd": 18686,
       "kind": "forward",
       "returnType": "Action",
       "arguments": [
@@ -283,8 +283,8 @@
     },
     {
       "name": "TF2_OnIsHolidayActive",
-      "docStart": 18947,
-      "docEnd": 19403,
+      "docStart": 18990,
+      "docEnd": 19446,
       "kind": "forward",
       "returnType": "Action",
       "arguments": [
@@ -302,8 +302,8 @@
     },
     {
       "name": "TF2_IsHolidayActive",
-      "docStart": 19479,
-      "docEnd": 19660,
+      "docStart": 19522,
+      "docEnd": 19703,
       "kind": "native",
       "returnType": "bool",
       "arguments": [
@@ -316,8 +316,8 @@
     },
     {
       "name": "TF2_IsPlayerInDuel",
-      "docStart": 19717,
-      "docEnd": 19904,
+      "docStart": 19760,
+      "docEnd": 19947,
       "kind": "native",
       "returnType": "bool",
       "arguments": [
@@ -330,8 +330,8 @@
     },
     {
       "name": "TF2_RemoveWearable",
-      "docStart": 19953,
-      "docEnd": 20273,
+      "docStart": 19996,
+      "docEnd": 20316,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -349,8 +349,8 @@
     },
     {
       "name": "TF2_OnConditionAdded",
-      "docStart": 20336,
-      "docEnd": 20538,
+      "docStart": 20379,
+      "docEnd": 20581,
       "kind": "forward",
       "returnType": "void",
       "arguments": [
@@ -368,8 +368,8 @@
     },
     {
       "name": "TF2_OnConditionRemoved",
-      "docStart": 20608,
-      "docEnd": 20818,
+      "docStart": 20651,
+      "docEnd": 20861,
       "kind": "forward",
       "returnType": "void",
       "arguments": [
@@ -387,24 +387,24 @@
     },
     {
       "name": "TF2_OnWaitingForPlayersStart",
-      "docStart": 20890,
-      "docEnd": 20968,
+      "docStart": 20933,
+      "docEnd": 21011,
       "kind": "forward",
       "returnType": "void",
       "arguments": []
     },
     {
       "name": "TF2_OnWaitingForPlayersEnd",
-      "docStart": 21018,
-      "docEnd": 21095,
+      "docStart": 21061,
+      "docEnd": 21138,
       "kind": "forward",
       "returnType": "void",
       "arguments": []
     },
     {
       "name": "TF2_OnPlayerTeleport",
-      "docStart": 21143,
-      "docEnd": 21767,
+      "docStart": 21186,
+      "docEnd": 21810,
       "kind": "forward",
       "returnType": "Action",
       "arguments": [
