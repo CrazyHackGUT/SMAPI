@@ -22,7 +22,7 @@
     {
       "name": "OnEntityDestroyed",
       "docStart": 11536,
-      "docEnd": 11614,
+      "docEnd": 11634,
       "kind": "forward",
       "returnType": "void",
       "arguments": [
@@ -35,8 +35,8 @@
     },
     {
       "name": "OnGetGameDescription",
-      "docStart": 11660,
-      "docEnd": 11872,
+      "docStart": 11680,
+      "docEnd": 11892,
       "kind": "forward",
       "returnType": "Action",
       "arguments": [
@@ -49,8 +49,8 @@
     },
     {
       "name": "OnLevelInit",
-      "docStart": 11930,
-      "docEnd": 12144,
+      "docStart": 11950,
+      "docEnd": 12164,
       "kind": "forward",
       "returnType": "Action",
       "arguments": [
@@ -68,8 +68,8 @@
     },
     {
       "name": "SDKHook",
-      "docStart": 12223,
-      "docEnd": 12399,
+      "docStart": 12243,
+      "docEnd": 12419,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -92,8 +92,8 @@
     },
     {
       "name": "SDKHookEx",
-      "docStart": 12472,
-      "docEnd": 12688,
+      "docStart": 12492,
+      "docEnd": 12708,
       "kind": "native",
       "returnType": "bool",
       "arguments": [
@@ -116,8 +116,8 @@
     },
     {
       "name": "SDKUnhook",
-      "docStart": 12763,
-      "docEnd": 12919,
+      "docStart": 12783,
+      "docEnd": 12939,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -140,8 +140,8 @@
     },
     {
       "name": "SDKHooks_TakeDamage",
-      "docStart": 12994,
-      "docEnd": 13518,
+      "docStart": 13014,
+      "docEnd": 13538,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -189,8 +189,8 @@
     },
     {
       "name": "SDKHooks_DropWeapon",
-      "docStart": 13738,
-      "docEnd": 14130,
+      "docStart": 13758,
+      "docEnd": 14150,
       "kind": "native",
       "returnType": "void",
       "arguments": [

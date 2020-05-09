@@ -712,9 +712,9 @@
     {
       "name": "LoadFromAddress",
       "docStart": 25727,
-      "docEnd": 25963,
+      "docEnd": 26045,
       "kind": "native",
-      "returnType": "int",
+      "returnType": "any",
       "arguments": [
         {
           "type": "Address",
@@ -730,8 +730,8 @@
     },
     {
       "name": "StoreToAddress",
-      "docStart": 26027,
-      "docEnd": 26254,
+      "docStart": 26109,
+      "docEnd": 26418,
       "kind": "native",
       "returnType": "void",
       "arguments": [
@@ -741,9 +741,9 @@
           "decl": "Address addr"
         },
         {
-          "type": "int",
+          "type": "any",
           "name": "data",
-          "decl": "int data"
+          "decl": "any data"
         },
         {
           "type": "NumberType",
@@ -827,29 +827,29 @@
       "methods": [
         {
           "name": "FrameIterator",
-          "docStart": 26365,
-          "docEnd": 26487,
+          "docStart": 26529,
+          "docEnd": 26651,
           "returnType": "FrameIterator",
           "arguments": []
         },
         {
           "name": "Next",
-          "docStart": 26525,
-          "docEnd": 26722,
+          "docStart": 26689,
+          "docEnd": 26886,
           "returnType": "bool",
           "arguments": []
         },
         {
           "name": "Reset",
-          "docStart": 26756,
-          "docEnd": 26810,
+          "docStart": 26920,
+          "docEnd": 26974,
           "returnType": "void",
           "arguments": []
         },
         {
           "name": "GetFunctionName",
-          "docStart": 26962,
-          "docEnd": 27107,
+          "docStart": 27126,
+          "docEnd": 27271,
           "returnType": "void",
           "arguments": [
             {
@@ -866,8 +866,8 @@
         },
         {
           "name": "GetFilePath",
-          "docStart": 27177,
-          "docEnd": 27323,
+          "docStart": 27341,
+          "docEnd": 27487,
           "returnType": "void",
           "arguments": [
             {
@@ -886,8 +886,8 @@
       "properties": [
         {
           "name": "LineNumber",
-          "docStart": 26845,
-          "docEnd": 26901,
+          "docStart": 27009,
+          "docEnd": 27065,
           "type": "int",
           "getter": true,
           "setter": false
