@@ -2,8 +2,8 @@
   "functions": [
     {
       "name": "TF2_GetClientTeam",
-      "docStart": 9955,
-      "docEnd": 10132,
+      "docStart": 9941,
+      "docEnd": 10118,
       "kind": "stock",
       "returnType": "TFTeam",
       "arguments": [
@@ -16,8 +16,8 @@
     },
     {
       "name": "TF2_ChangeClientTeam",
-      "docStart": 10229,
-      "docEnd": 10403,
+      "docStart": 10215,
+      "docEnd": 10389,
       "kind": "stock",
       "returnType": "void",
       "arguments": [
@@ -35,8 +35,8 @@
     },
     {
       "name": "TF2_GetPlayerClass",
-      "docStart": 10516,
-      "docEnd": 10701,
+      "docStart": 10502,
+      "docEnd": 10687,
       "kind": "stock",
       "returnType": "TFClassType",
       "arguments": [
@@ -49,8 +49,8 @@
     },
     {
       "name": "TF2_SetPlayerClass",
-      "docStart": 10829,
-      "docEnd": 11244,
+      "docStart": 10815,
+      "docEnd": 11230,
       "kind": "stock",
       "returnType": "void",
       "arguments": [
@@ -117,8 +117,8 @@
     },
     {
       "name": "TF2_RemoveWeaponSlot",
-      "docStart": 13290,
-      "docEnd": 13508,
+      "docStart": 13276,
+      "docEnd": 13494,
       "kind": "stock",
       "returnType": "void",
       "arguments": [
@@ -136,8 +136,8 @@
     },
     {
       "name": "TF2_RemoveAllWeapons",
-      "docStart": 14198,
-      "docEnd": 14285,
+      "docStart": 14184,
+      "docEnd": 14271,
       "kind": "stock",
       "returnType": "void",
       "arguments": [
@@ -162,8 +162,8 @@
     },
     {
       "name": "TF2_IsPlayerInCondition",
-      "docStart": 14816,
-      "docEnd": 15014,
+      "docStart": 14802,
+      "docEnd": 15000,
       "kind": "stock",
       "returnType": "bool",
       "arguments": [
@@ -181,8 +181,8 @@
     },
     {
       "name": "TF2_GetObjectType",
-      "docStart": 16157,
-      "docEnd": 16340,
+      "docStart": 16143,
+      "docEnd": 16326,
       "kind": "stock",
       "returnType": "TFObjectType",
       "arguments": [
@@ -195,8 +195,8 @@
     },
     {
       "name": "TF2_GetObjectMode",
-      "docStart": 16597,
-      "docEnd": 16780,
+      "docStart": 16583,
+      "docEnd": 16766,
       "kind": "stock",
       "returnType": "TFObjectMode",
       "arguments": [
